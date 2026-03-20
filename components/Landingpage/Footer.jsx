@@ -20,7 +20,7 @@ const Footer = () => {
 
       {/* Watermark */}
       <span className="hidden md:flex absolute animate-pulse inset-0 items-center justify-center text-[7rem] font-extrabold tracking-widest text-white/10 select-none">
-        VANDS ENGINEERING
+        VANDS ENGINEERING 
       </span>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-16 grid grid-cols-1 md:grid-cols-5 gap-10">
@@ -148,9 +148,9 @@ const Footer = () => {
           </div>
 
           {isModalOpen && (
-            <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50">
+            <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-100">
               <button
-                className="absolute top-6 right-6 text-white text-2xl"
+                className="absolute top-6 right-6 text-white text-2xl "
                 onClick={() => setIsModalOpen(false)}
               >
                 ✕
@@ -158,7 +158,7 @@ const Footer = () => {
               <img
                 src="/cert.webp"
                 alt="Full Certificate"
-                className="max-w-[90vw] max-h-[90vh] rounded-xl"
+                className="max-w-[90vw] max-h-[90vh] rounded-xl "
               />
             </div>
           )}
