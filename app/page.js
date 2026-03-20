@@ -23,10 +23,11 @@ export default function Home() {
     <>
       {/* <Popup></Popup> */}
       <Hero />
-      <About />
+        <Whychoose /> 
+      
       <Categories />
 
-      <Whychoose /> 
+    <About />
        <Bestseller></Bestseller>
          <Cta />
 
