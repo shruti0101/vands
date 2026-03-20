@@ -56,7 +56,7 @@ export default function Navbar() {
             <Image
               src="/vands-logo.webp"
               alt="Vands"
-              width={150}
+              width={170}
               height={60}
               priority
             />

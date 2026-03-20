@@ -6,7 +6,7 @@ const Whoweare = () => {
     <>
     
     <section
-      className="relative bg-cover bg-center h-[70vh] flex items-center justify-center text-center"
+      className="relative bg-cover bg-center h-[67vh] flex items-center justify-center text-center"
       style={{ backgroundImage: "url(/bgform.png)" }}
     >
       {/* Overlay */}

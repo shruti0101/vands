@@ -13,6 +13,8 @@ import Formsection from "@/components/Landingpage/Formsection";
 import Popup from "@/components/Popup";
 import CityPage from "../components/City";
 import ApplicationsSection from "@/components/Landingpage/Application";
+import Youtube from "@/components/Landingpage/Youtube";
+
 
 export default function Home() {
   return (
@@ -27,6 +29,9 @@ export default function Home() {
          <Cta />
 
          <ApplicationsSection></ApplicationsSection>
+         <Youtube>
+
+         </Youtube>
       {/* <Countup />
      
 
