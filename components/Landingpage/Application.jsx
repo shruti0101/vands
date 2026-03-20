@@ -38,7 +38,7 @@ const applications = [
 export default function ApplicationsSection() {
   return (
     <section className="py-20 bg-[#FDF4E8]">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="w-full  mx-auto px-6 md:px-23">
 
         {/* Heading */}
         <div className="text-center mb-14">

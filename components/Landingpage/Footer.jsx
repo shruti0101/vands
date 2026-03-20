@@ -13,259 +13,167 @@ const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <footer className="relative bg-gradient-to-r from-[#001f3f] to-[#002d63] text-white">
+    <footer className="relative bg-[#0B1C2C] text-white overflow-hidden">
+
+      {/* Gradient Glow */}
+      <div className="absolute inset-0 bg-gradient-to-tr from-red-600/10 via-transparent to-orange-400/10 pointer-events-none"></div>
+
       {/* Watermark */}
-      <span className="hidden md:flex absolute inset-0 flex items-center justify-center md:text-[8rem] font-extrabold tracking-wide text-white/10 select-none pointer-events-none z-0">
-        SBS MACHINERY
+      <span className="hidden md:flex absolute animate-pulse inset-0 items-center justify-center text-[7rem] font-extrabold tracking-widest text-white/10 select-none">
+        VANDS ENGINEERING
       </span>
 
-      {/* Main Footer */}
-      <div className="container mx-auto px-5 md:px-4 py-12 grid grid-cols-1 md:grid-cols-5 gap-3">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-16 grid grid-cols-1 md:grid-cols-5 gap-10">
+
         {/* About */}
         <div>
-          <h3 className="text-xl font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
+          <h3 className="text-lg font-semibold mb-5 border-l-2 border-red-500 pl-3">
             About Us
           </h3>
-          <p className="text-md leading-relaxed">
-            SBS Machinery Pvt Ltd Is A Delhi Based Reputed Firm Engaged In
-            Manufacturing, Importing And Exporting A Comprehensive Range Of{" "}
-            <span className="text-cyan-400">
-              Paper Cup Making Machine, Bio-degradable Bag Making Machine, Die
-              Cutting Machine, Flexo Printing Machine, Non Woven Bag Making
-              Machine, Offset Bag Printing Machine, Paper Plate Making Machine
-            </span>{" "}
-            Etc.
+
+          <p className="text-sm text-gray-300 leading-relaxed">
+            Vands Engineering Solutions is a trusted manufacturer of high-performance
+            industrial machines including{" "}
+            <span className="text-red-400 font-medium">
+              Airless Painting Machines, Blasting Equipment & Surface Solutions
+            </span>
+            . We deliver durability, efficiency, and precision for modern industries.
           </p>
         </div>
 
-        {/* Contact Us */}
+        {/* Contact */}
         <div>
-          <h3 className="text-xl font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
-            Contact us
+          <h3 className="text-lg font-semibold mb-5 border-l-2 border-red-500 pl-3">
+            Contact
           </h3>
-          <p className="text-md flex items-start gap-2 mb-3">
-            <FaMapMarkerAlt className="mt-1 text-cyan-400" />
-            Plot Number 1A 31/19/1 Gali no- 4 Gemini Park Najafgarh Delhi Pin
-            Code 110043 Near by:- Metro Station Nangli Sakrawati Exit Gate
-            Number 1
+
+          <p className="flex gap-2 text-sm text-gray-300 mb-3">
+            <FaMapMarkerAlt className="text-red-400 mt-1" />
+            Delhi, India – Industrial Equipment Supplier
           </p>
-          <p className="text-sm flex items-center gap-2 mb-2">
-            <FaPhoneAlt className="text-cyan-400" /> +91-7042039777
+
+          <p className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
+            <FaPhoneAlt className="text-red-400" /> +91-8826544443
           </p>
-          <p className="text-sm flex items-center gap-2 mb-2">
-            <FaPhoneAlt className="text-cyan-400" /> +91-8810570771
+
+          <p className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
+            <FaPhoneAlt className="text-red-400" /> +91-9654243444
           </p>
-          <p className="text-sm flex items-center gap-2 mb-4">
-            <FaEnvelope className="text-cyan-400" /> machinerysbs@gmail.com
+
+          <p className="flex items-center gap-2 text-sm mb-4 hover:text-red-400 transition">
+            <FaEnvelope className="text-red-400" /> info@vands.com
           </p>
-          {/* Social Icons */}
+
+          {/* Social */}
           <div className="flex gap-3">
-            <a
-              href="https://www.youtube.com/@smallbusinesssolution"
-              className="p-2 bg-black rounded-full hover:bg-cyan-500 transition"
-            >
-              <FaYoutube />
-            </a>
-            <a
-              href="https://www.facebook.com/SBS.COMPANY777?mibextid=ZbWKwL"
-              className="p-2 bg-black rounded-full hover:bg-cyan-500 transition"
-            >
-              <FaFacebookF />
-            </a>
-            <a
-              href="https://www.instagram.com/sbs_manufacturers/?igsh=MTRjNDE4NmVhdmwydQ%3D%3D#"
-              className="p-2 bg-black rounded-full hover:bg-cyan-500 transition"
-            >
-              <FaInstagram />
-            </a>
+            {[FaYoutube, FaFacebookF, FaInstagram].map((Icon, i) => (
+              <div
+                key={i}
+                className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer"
+              >
+                <Icon className="text-sm" />
+              </div>
+            ))}
           </div>
         </div>
 
-        {/* Main Links */}
+        {/* Menu */}
         <div>
-          <h3 className="text-xl sm:ml-8 font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
-            Main Menu
+          <h3 className="text-lg font-semibold mb-5 border-l-2 border-red-500 pl-3">
+            Quick Links
           </h3>
-          <ul className="space-y-2 text-md sm:ml-8">
-            <li>
-              <a href="/about" className="hover:text-cyan-400">
-                About us
-              </a>
-            </li>
-            <li>
-              <a href="/products" className="hover:text-cyan-400">
-                Our Products
-              </a>
-            </li>
-            <li>
-              <a href="/our-blogs" className="hover:text-cyan-400">
-                Our Blog
-              </a>
-            </li>
-            <li>
-              <a href="/contact" className="hover:text-cyan-400">
-                Contact us
-              </a>
-            </li>
-            <li>
-              <a href="/termsandcondition" className="hover:text-cyan-400">
-                Terms & Conditions
-              </a>
-            </li>
-            <li>
-              <a href="/privacy-policy" className="hover:text-cyan-400">
-                Privacy Policy
-              </a>
-            </li>
+
+          <ul className="space-y-3 text-sm text-gray-300">
+            {[
+              "About Us",
+              "Products",
+              "Blogs",
+              "Contact",
+              "Privacy Policy",
+            ].map((item, i) => (
+              <li key={i}>
+                <a
+                  href="#"
+                  className="hover:text-red-400 transition flex items-center gap-2"
+                >
+                  <span className="w-1 h-1 bg-red-400 rounded-full"></span>
+                  {item}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
 
-        {/* More Info */}
+        {/* Products */}
         <div>
-          <h3 className="text-xl font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
-            More Information
+          <h3 className="text-lg font-semibold mb-5 border-l-2 border-red-500 pl-3">
+            Our Products
           </h3>
-          <ul className="space-y-2 text-md cursor-pointer">
-            <li>
-              <a
-                href="/categories/paper-cup-making-machine"
-                className="hover:text-cyan-400"
-              >
-                Paper Cup Making Machine
-              </a>
-            </li>
-            <li>
-              <a
-                href="/categories/paper-die-cutting-machine"
-                className="hover:text-cyan-400"
-              >
-                Paper Die Cutting Machine
-              </a>
-            </li>
-            <li>
-              <a
-                href="/categories/bio-degradable-bag-making-machine"
-                className="hover:text-cyan-400"
-              >
-                Bio-degradable Bag Making Machine
-              </a>
-            </li>
-            <li>
-              <a
-                href="/categories/flexo-printing-machine"
-                className="hover:text-cyan-400"
-              >
-                Flexo Printing Machine
-              </a>
-            </li>
-            <li>
-              <a
-                href="/categories/non-woven-bag-making-machines"
-                className="hover:text-cyan-400"
-              >
-                Non Woven Bag Making Machine
-              </a>
-            </li>
 
-            <li>
-              <a
-                href="/categories/paper-plate-making-machine"
-                className="hover:text-cyan-400"
-              >
-                Paper Plate Making Machine
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="/categories/offset-printing-machine"
-                className="hover:text-cyan-400"
-              >
-                Offset Bag Printing Machine
-              </a>
-            </li>
-            <li>
-              <a
-                href="/categories/momo-making-machine"
-                className="hover:text-cyan-400"
-              >
-                Momo Making Machine
-              </a>
-            </li>
-            <li>
-              <a
-                href="/categories/noodle-making-machine"
-                className="hover:text-cyan-400"
-              >
-                Noodle Making Machine
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="/categories/sbs-nail-art-machine"
-                className="hover:text-cyan-400"
-              >
-                Nail Art Machine
-              </a>
-            </li>
+          <ul className="space-y-3 text-sm text-gray-300">
+            {[
+              "Airless Painting Machines",
+              "Shot Blasting Machines",
+              "Sand Blasting Machines",
+              "Metalizing Equipment",
+              "Industrial Coating Solutions",
+            ].map((item, i) => (
+              <li key={i}>
+                <a href="#" className="hover:text-red-400 transition">
+                  {item}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
 
-        {/* Trust Elite Section */}
-        <div className="px-6 items-center md:pb-8">
-          <div>
-            <h3 className="text-xl font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
-              Trust Elite Certificate
-            </h3>
-            <p className="text-sm leading-relaxed">
-              We are proud to present the Trust Elite Certificate of Excellence
-              to SBS Machinery Pvt Ltd, recognizing their commitment to
-              exceptional customer service, outstanding business practices, and
-              a dedication to building trust with their customers.
-            </p>
-          </div>
-          <div className="flex justify-center md:justify-end">
+        {/* Certificate */}
+        <div>
+          <h3 className="text-lg font-semibold mb-5 border-l-2 border-red-500 pl-3">
+            Certification
+          </h3>
+
+          <p className="text-sm text-gray-300 mb-4">
+            Recognized for excellence in manufacturing, service quality, and
+            customer satisfaction.
+          </p>
+
+          <div className="flex justify-start">
             <img
               src="/TRUST-ELITE.webp"
-              alt="Trust Elite"
-              className="w-28 h-28 object-contain cursor-pointer hover:scale-105 transition"
+              alt="Certificate"
+              className="w-28 h-28 object-contain cursor-pointer hover:scale-110 transition duration-300"
               onClick={() => setIsModalOpen(true)}
             />
-
-            {/* Modal */}
-            {isModalOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
-                <div className="relative">
-                  <button
-                    className="absolute top-2 right-2 text-white text-2xl font-bold"
-                    onClick={() => setIsModalOpen(false)}
-                  >
-                    ✕
-                  </button>
-                  <img
-                    src="/cert.webp"
-                    alt="Trust Elite Full"
-                    className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-lg"
-                  />
-                </div>
-              </div>
-            )}
           </div>
+
+          {isModalOpen && (
+            <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50">
+              <button
+                className="absolute top-6 right-6 text-white text-2xl"
+                onClick={() => setIsModalOpen(false)}
+              >
+                ✕
+              </button>
+              <img
+                src="/cert.webp"
+                alt="Full Certificate"
+                className="max-w-[90vw] max-h-[90vh] rounded-xl"
+              />
+            </div>
+          )}
         </div>
       </div>
 
-      {/* Bottom Bar */}
-      <div className="bg-black text-gray-300 text-center text-sm py-3 px-4 flex flex-col md:flex-row justify-between items-center">
-        <p>Copyrights © 2024-25 SBS Machinery Pvt Ltd. All Right Reserved.</p>
-        <p>
-             Website Designed  By Promozione Branding Pvt. Ltd.{" "}
-          <a
-            href="https://promozionebranding.com/"
-            className="hover:text-cyan-400 underline"
-          >
-           Website Designing Company.
-          </a>
+      {/* Bottom */}
+      <div className="border-t border-white/10 text-gray-400 text-sm py-4 px-6 flex flex-col md:flex-row justify-between items-center">
+        <p>© 2026 Vands Engineering Solutions. All Rights Reserved.</p>
+
+        <p className="mt-2 md:mt-0">
+          Designed by{" "}
+          <span className="text-red-400 font-medium">
+            Promozione Branding Pvt. Ltd.
+          </span>
         </p>
       </div>
     </footer>

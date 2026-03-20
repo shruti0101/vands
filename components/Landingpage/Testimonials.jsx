@@ -1,133 +1,90 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import { Quote } from "lucide-react";
+
+import "swiper/css";
 
 const testimonials = [
   {
-    text: "I appreciate their commitment to sustainability by offering eco-friendly food-grade cup lids. As a company striving to reduce our environmental footprint, partnering with them aligns with our values. Their eco-friendly lids not only meet our packaging needs but also contribute to our efforts to promote sustainability.",
-    name: "Usha Sirotha",
-    img: "/test1.webp", // 👉 put your image in public folder
-  },
-  {
-    text: "Their machines are highly reliable and efficient. We’ve seen a significant improvement in productivity after working with them.",
     name: "Rajesh Kumar",
-    img: "/test2.webp",
+    role: "Construction Contractor",
+    text: "We purchased Airless Painting Machines from Vands Engineering Solutions for our infrastructure projects, and the results have been outstanding.",
   },
   {
-    text: "Excellent customer service and timely support. We are very happy with their professionalism and quality standards.",
-    name: "Anita Sharma",
-    img: "/test3.webp",
+    name: "Sunita Verma",
+    role: "Furniture Manufacturer",
+    text: "Vands’ Airless Paint Sprayers have completely transformed our finishing process. Smooth, consistent, and time-saving.",
+  },
+  {
+    name: "Arjun Mehta",
+    role: "Industrial Fabricator",
+    text: "The Shot Blasting and Metalizing equipment is top-notch. Durable, precise, and extremely effective.",
+  },
+  {
+    name: "Priya Sharma",
+    role: "Automotive Workshop Owner",
+    text: "Flawless, professional coating every time. Their team helped us choose the right machine easily.",
+  },
+  {
+    name: "Rohit Singh",
+    role: "Construction & Steel Fabrication",
+    text: "Reliable partner for industrial projects. High-quality machines with excellent after-sales support.",
   },
 ];
 
 export default function TestimonialSlider() {
-  const [index, setIndex] = useState(0);
-
-  // Auto-slide every 5s
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setIndex((prev) => (prev + 1) % testimonials.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
-
-  const prevSlide = () => {
-    setIndex(index === 0 ? testimonials.length - 1 : index - 1);
-  };
-
-  const nextSlide = () => {
-    setIndex((index + 1) % testimonials.length);
-  };
-
-  const current = testimonials[index];
-
   return (
+    <section className="py-24 bg-gradient-to-b from-[#FFFAF1] to-[#FDF4E8]">
 
-    <>
-    
-    <section className="relative h-full w-full  bg-[url('/testimonialbg.webp')] bg-cover bg-fixed  bg-center py-16 text-white">
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="max-w-7xl mx-auto px-6 md:px-20">
 
-      <div className="relative max-w-5xl mx-auto text-center px-6">
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold mb-12">
-          <span className="text-white">Our </span>
-          <span className="text-green-400">Testimonial</span>
-        </h2>
-
-        {/* Testimonial Content */}
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -50 }}
-            transition={{ duration: 0.6 }}
-            className="space-y-6"
-          >
-            <p className="italic text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
-              {current.text}
-            </p>
-
-            {/* Profile */}
-            <div className="flex flex-col items-center">
-              <img
-                src={current.img}
-                alt={current.name}
-                className="w-16 h-16 rounded-full border-4 border-[#176BB0] shadow-md mb-2"
-              />
-              <h4 className="text-lg font-semibold">{current.name}</h4>
-            </div>
-          </motion.div>
-        </AnimatePresence>
-
-        {/* Controls */}
-        <div className="absolute top-1/2 left-6 -translate-y-1/2">
-          <button
-            onClick={prevSlide}
-            className="bg-white/20 hover:bg-white/40 p-3 rounded-full transition"
-          >
-            <ChevronLeft className="w-6 h-6 text-blue-500" />
-          </button>
-        </div>
-        <div className="absolute top-1/2 right-6 -translate-y-1/2">
-          <button
-            onClick={nextSlide}
-            className="bg-white/20 hover:bg-white/40 p-3 rounded-full transition"
-          >
-            <ChevronRight className="w-6 h-6 text-blue-500" />
-          </button>
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-5xl font-semibold text-gray-900">
+            Why Clients Choose Us
+          </h2>
         </div>
 
-        {/* Dots */}
-        <div className="flex justify-center mt-6 space-x-2">
-          {testimonials.map((_, i) => (
-            <div
-              key={i}
-              className={`w-3 h-3 rounded-full transition ${
-                i === index ? "bg-[#176BB0]" : "bg-gray-400"
-              }`}
-            ></div>
+        {/* Slider */}
+        <Swiper
+          modules={[Autoplay]}
+          spaceBetween={30}
+          loop={true}
+          autoplay={{ delay: 2500, disableOnInteraction: false }}
+          breakpoints={{
+            0: { slidesPerView: 1 },
+            640: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+        >
+          {testimonials.map((item, i) => (
+            <SwiperSlide key={i}>
+              <div className="group bg-white/80 backdrop-blur-lg p-8 rounded-3xl border border-white/40 shadow-[0_10px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_20px_60px_rgba(0,0,0,0.12)] transition-all duration-500 h-full">
+
+                {/* Quote */}
+                <Quote className="w-8 h-8 text-red-500 mb-4 opacity-70" />
+
+                {/* Text */}
+                <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                  "{item.text}"
+                </p>
+
+                {/* Name */}
+                <h4 className="font-semibold text-gray-900">
+                  {item.name}
+                </h4>
+                <p className="text-xs text-gray-500 mt-1">
+                  {item.role}
+                </p>
+
+              </div>
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
+
       </div>
     </section>
-
-<section className="w-full h-auto md:h-[300px] relative">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d301208.02472141205!2d77.005206!3d28.617205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0f0063ca2143%3A0x983944fd10dfb00e!2sSBS%20Machinery%20Private%20Limited%20%E2%80%93%20Paper%20Cup%20%26%20Paper%20Plate%20Making%20Machine%20Manufacturer%20in%20Delhi%20NCR!5e1!3m2!1sen!2sus!4v1758178730140!5m2!1sen!2sus"
-    width="100%"
-    height="100%"
-    style={{ border: 0 }}
-    allowFullScreen=""
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-    className=" w-full"
-  ></iframe>
-</section>
-
-    </>
   );
 }

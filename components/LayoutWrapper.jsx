@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import Navbar from "@/components/Landingpage/Navbar";
-// import Footer from "@/components/Landingpage/Footer";
+import Footer from "@/components/Landingpage/Footer";
 
 export default function LayoutWrapper({ children }) {
   const pathname = usePathname();
@@ -14,7 +14,7 @@ export default function LayoutWrapper({ children }) {
     <>
       {!hideLayout && <Navbar />}
       {children}
-      {/* {!hideLayout && <Footer />} */}
+      {!hideLayout && <Footer />}
     </>
   );
 }

@@ -134,7 +134,7 @@ const Productcategory = () => {
                       }`}
                     />
 
-                    {/* 👁 OVERLAY */}
+                    {/*  OVERLAY */}
                     <div className="absolute inset-0 bg-black/3 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                       <button
                         onClick={(e) => {

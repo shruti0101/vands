@@ -49,6 +49,11 @@ export default function ProductVideos() {
       title: "7 LPM C 451 Corrosion Preventive Coating Machine",
       youtube: "https://youtu.be/ryluwieHUNI?si=CiX1t17uI7XC9jic",
     },
+       {
+      id: "video6",
+      title: "7 LPM C 451 Corrosion Preventive Coating Machine",
+      youtube: "https://youtu.be/H7MwuAsTeME?si=G5vsp5dnb7DbaQcm",
+    },
   ].map((v) => {
     const data = getVideoData(v.youtube)
     return { ...v, url: data.embed, thumb: data.thumb }
@@ -129,20 +134,22 @@ export default function ProductVideos() {
                   </div>
 
                   {/* Title */}
-                  <p className="text-xs mt-2 text-gray-700 font-medium leading-snug line-clamp-2 group-hover:text-red-600 transition">
+                  <p className="text-xs mt-2 text-black font-medium leading-snug line-clamp-2 group-hover:text-red-600 transition">
                     {video.title}
                   </p>
                 </div>
               )
             })}
-
-            {/* Watch More */}
-            <a href="https://www.youtube.com/@vandsengg/videos"
-            className="flex items-center justify-center rounded-xl bg-white/70 backdrop-blur-md border border-red-400 hover:bg-white transition cursor-pointer">
-              <span className="text-sm font-semibold text-gray-700 hover:text-red-600">
-                Watch More →
-              </span>
-            </a>
+<div className="col-span-3 flex justify-center mt-2">
+  <a
+    href="https://www.youtube.com/@vandsengg/videos"
+    className="py-3 px-5 rounded-xl bg-red-500 backdrop-blur-md border border-white transition cursor-pointer"
+  >
+    <span className="text-md font-semibold text-white">
+      Watch More →
+    </span>
+  </a>
+</div>
 
           </div>
         </div>

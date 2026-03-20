@@ -76,7 +76,7 @@ export default function WhyChooseUs() {
             Your Trusted Partner for Airless Painting & Surface Preparation Solutions
             </h2>
 
-            <p className="mt-5 text-gray-600 text-lg leading-relaxed">
+            <p className="mt-5 text-black text-lg leading-relaxed">
 With over a decade of experience, Vands Engineering Solutions has developed strong expertise in manufacturing and supplying Airless Painting Machines and surface preparation equipment. Our in-depth industry knowledge helps us understand customer requirements accurately and deliver the most suitable solutions for different industrial applications.            </p>
           </div>
         </div>
@@ -87,7 +87,7 @@ With over a decade of experience, Vands Engineering Solutions has developed stro
           {features.map((item, i) => (
             <div
               key={i}
-              className="group p-7 rounded-2xl bg-red-100 border border-black shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+              className="group p-6 rounded-2xl bg-red-100 border border-black shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
             >
               <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-red-50 text-red-500 mb-5 group-hover:bg-red-500 group-hover:text-white transition">
                 {item.icon}
@@ -97,7 +97,7 @@ With over a decade of experience, Vands Engineering Solutions has developed stro
                 {item.title}
               </h4>
 
-              <p className="text-gray-600 text-sm leading-relaxed">
+              <p className="text-black text-md leading-relaxed">
                 {item.desc}
               </p>
             </div>

@@ -130,11 +130,11 @@ With over a decade of experience, Vands Engineering Solutions has developed stro
 
                 {/* CONTENT */}
                 <div className="p-6 flex flex-col justify-center">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                  <h3 className="text-2xl font-semibold text-black mb-3">
                     {product.name}
                   </h3>
 
-                  <ul className="space-y-2 text-gray-600 text-sm">
+                  <ul className="space-y-2 text-black text-md">
                     {product.specs.map((spec, idx) => (
                       <li key={idx}>• {spec}</li>
                     ))}

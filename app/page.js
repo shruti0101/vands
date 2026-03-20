@@ -15,6 +15,8 @@ import CityPage from "../components/City";
 import ApplicationsSection from "@/components/Landingpage/Application";
 import Youtube from "@/components/Landingpage/Youtube";
 
+import Dedicated from "@/components/Landingpage/Dedicated";
+
 
 export default function Home() {
   return (
@@ -29,18 +31,21 @@ export default function Home() {
          <Cta />
 
          <ApplicationsSection></ApplicationsSection>
-         <Youtube>
-
-         </Youtube>
+         <Youtube/>
+          
+ <Formsection></Formsection>
+      <Dedicated></Dedicated>
+            <TestimonialSlider></TestimonialSlider>
+<Faq></Faq>
       {/* <Countup />
      
 
     
       */}
       {/* <Product></Product> */}
-      {/* <Faq></Faq>
-      <TestimonialSlider></TestimonialSlider>
-      <Formsection></Formsection>
+      {/* 
+
+     
       <CityPage /> */}
     </>
   );

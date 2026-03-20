@@ -28,18 +28,17 @@ const Cta = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     setLoading(true);
     setStatus("Sending...");
 
     try {
       const formData = {
-        platform: "Shree Shakti Infratech Website",
+        platform: "vands engineering Website enquiry form",
         platformEmail: "shreeshaktiinfratech@gmail.com",
         name,
         phone,
         email,
-            place:"N/A",
+        place: "N/A",
         product: requirement,
         message,
       };
@@ -57,7 +56,6 @@ const Cta = () => {
 Product: ${requirement}
 Phone: ${phone}
 Email: ${email}
-Place: ${place}
 
 Message:
 ${message}`;
@@ -66,9 +64,7 @@ ${message}`;
           whatsappText
         )}`;
 
-        setTimeout(() => {
-          window.open(waUrl, "_blank");
-        }, 1000);
+        setTimeout(() => window.open(waUrl, "_blank"), 1000);
 
         setName("");
         setPhone("");
@@ -88,131 +84,163 @@ ${message}`;
   };
 
   return (
-    <section className="relative bg-white py-3 md:py-10 px-4 md:px-12">
+    <section className="relative py-6  px-6 md:px-20 bg-red-100 overflow-hidden">
+
+      {/* SPLASH BG */}
       <Image
-        src="/home/ctagif.gif"
-        alt="CTA Animation"
-        width={300}
-        height={200}
-        className="hidden md:block absolute -left-20 top-0"
-        unoptimized
+        src="/splash2.png"
+        alt="bg"
+        width={400}
+        height={300}
+        className="absolute left-0 top-0  pointer-events-none"
       />
 
-      <div className="flex items-center justify-center text-center mb-8">
-        <p className="max-w-4xl font-semibold text-lg md:text-3xl leading-snug">
-          Apne Construction Projects ko Upgrade karein – High-Quality Bar
-          Bending Machine aur Construction Equipment ke saath!
-          <br />
-          <span className="text-[#FAAC18]">
-            Aaj hi Contact karein aur Best Deals paayein
+      {/* HEADING */}
+      <div className="relative z-10 text-center ">
+        <h2 className="text-2xl md:text-5xl font-semibold leading-snug text-gray-900 max-w-4xl mx-auto">
+          Upgrade Your Construction Projects with High-Quality Equipment
+        </h2>
+
+        <p className="mt-3 text-xl text-black">
+          <span className="text-black font-medium">
+            Get the Best Deals Today
           </span>
         </p>
       </div>
 
-      <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div className="absolute -bottom-23 -left-5 md:relative">
+      {/* GRID */}
+      <div className="relative z-10 grid md:grid-cols-2 gap-12 items-center">
+
+        {/* LEFT IMAGE */}
+        <div className="hidden md:block">
           <Image
-            src="/home/ctaimg1.webp"
-            alt="Construction Equipment"
-            width={500}
-            height={400}
-            className="hidden md:block object-contain"
+            src="/cat/2.png"
+            alt="machine"
+            width={1000}
+            height={900}
+            className="object-cover  drop-shadow-[0_20px_40px_rgba(0,0,0,0.2)]"
           />
         </div>
 
-        <div className="bg-white shadow-md border border-gray-200 rounded-lg p-3 md:p-6">
-          <form onSubmit={handleSubmit} className="space-y-3">
-            <div className="grid md:grid-cols-2 gap-4">
-              <input
-                type="text"
-                placeholder="Name"
-                required
-                disabled={loading}
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="border rounded-md p-3"
-              />
-              <input
-                type="tel"
-                placeholder="Phone No."
-                required
-                disabled={loading}
-                value={phone}
-                maxLength={10}
-                onChange={(e) => setPhone(e.target.value)}
-                className="border rounded-md p-3"
-              />
-            </div>
+        {/* FORM */}
+       <div className="bg-white rounded-3xl p-8 shadow-[0_25px_80px_rgba(0,0,0,0.08)] border border-gray-100">
 
-            <div className="grid md:grid-cols-2 gap-4">
-              <input
-                type="text"
-                placeholder="City / Location"
-                required
-                disabled={loading}
-                value={place}
-                onChange={(e) => setPlace(e.target.value)}
-                className="border rounded-md p-3"
-              />
-              <select
-                value={requirement}
-                required
-                disabled={loading}
-                onChange={(e) => setRequirement(e.target.value)}
-                className="bg-[#FAAC18] rounded-md p-3"
-              >
-                <option value="">Select Product</option>
-                {categories.map((cat) => (
-                  <option key={cat.id} value={cat.name}>
-                    {cat.name}
-                  </option>
-                ))}
-              </select>
-            </div>
+  
 
-            <input
-              type="email"
-              placeholder="Email Address"
-              required
-              disabled={loading}
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="border rounded-md p-3 w-full"
-            />
+  <form onSubmit={handleSubmit} className="space-y-5">
 
-            <textarea
-              rows={4}
-              placeholder="Message for us.."
-              disabled={loading}
-              required
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-              className="border rounded-md p-3 w-full"
-            />
+    {/* Name + Phone */}
+    <div className="grid md:grid-cols-2 gap-5">
+      <div className="flex flex-col">
+        <label className="text-sm font-medium text-gray-700 mb-1">Name</label>
+        <input
+          type="text"
+          required
+          disabled={loading}
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
+        />
+      </div>
 
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full bg-[#FAAC18] text-white font-semibold py-3 rounded-md hover:bg-yellow-500 transition"
-            >
-              {loading ? "Submitting..." : "Get Free Consultation Today!"}
-            </button>
+      <div className="flex flex-col">
+        <label className="text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+        <input
+          type="tel"
+          required
+          disabled={loading}
+          value={phone}
+          maxLength={10}
+          onChange={(e) => setPhone(e.target.value)}
+          className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
+        />
+      </div>
+    </div>
 
-            {status && (
-              <p
-                className={`text-center mt-3 text-sm font-medium p-3 rounded ${
-                  status.startsWith("✅")
-                    ? "bg-green-100 text-green-800"
-                    : status.startsWith("❌")
-                    ? "bg-red-100 text-red-800"
-                    : "bg-yellow-100 text-yellow-800"
-                }`}
-              >
-                {status}
-              </p>
-            )}
-          </form>
-        </div>
+    {/* Location + Product */}
+    <div className="grid md:grid-cols-2 gap-5">
+      <div className="flex flex-col">
+        <label className="text-sm font-medium text-gray-700 mb-1">City / Location</label>
+        <input
+          type="text"
+          required
+          disabled={loading}
+          value={place}
+          onChange={(e) => setPlace(e.target.value)}
+          className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
+        />
+      </div>
+
+      <div className="flex flex-col">
+        <label className="text-sm font-medium text-gray-700 mb-1">Select Product</label>
+        <select
+          value={requirement}
+          required
+          disabled={loading}
+          onChange={(e) => setRequirement(e.target.value)}
+          className="border border-gray-200 rounded-lg px-4 py-3 bg-white focus:ring-2 focus:ring-[#FAAC18] outline-none"
+        >
+          <option value="">Choose Product</option>
+          {categories.map((cat) => (
+            <option key={cat.id} value={cat.name}>
+              {cat.name}
+            </option>
+          ))}
+        </select>
+      </div>
+    </div>
+
+    {/* Email */}
+    <div className="flex flex-col">
+      <label className="text-sm font-medium text-gray-700 mb-1">Email Address</label>
+      <input
+        type="email"
+        required
+        disabled={loading}
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
+      />
+    </div>
+
+    {/* Message */}
+    <div className="flex flex-col">
+      <label className="text-sm font-medium text-gray-700 mb-1">Message</label>
+      <textarea
+        rows={4}
+        required
+        disabled={loading}
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition resize-none"
+      />
+    </div>
+
+    {/* Button */}
+    <button
+      type="submit"
+      disabled={loading}
+      className="w-full bg-gradient-to-r from-[#FAAC18] to-[#f59e0b] text-white font-semibold py-3 rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all"
+    >
+      {loading ? "Submitting..." : "Get Free Consultation"}
+    </button>
+
+    {/* Status */}
+    {status && (
+      <p
+        className={`text-center text-sm font-medium p-3 rounded ${
+          status.startsWith("✅")
+            ? "bg-green-50 text-green-700"
+            : status.startsWith("❌")
+            ? "bg-red-50 text-red-700"
+            : "bg-yellow-50 text-yellow-700"
+        }`}
+      >
+        {status}
+      </p>
+    )}
+  </form>
+</div>
       </div>
     </section>
   );
