@@ -65,7 +65,7 @@ export default function BestSellerSlider() {
           </p>
           <h2 className="text-xl font-medium leading-relaxed text-black mt-4">
        
-At Shree Shakti Infratech, we take pride in offering top-quality construction machinery that delivers durability, precision, and value for money. As a trusted Bar Bending Machine Supplier, our featured range is carefully selected to meet the demanding needs of modern construction projects.
+With over a decade of experience, Vands Engineering Solutions has developed strong expertise in manufacturing and supplying Airless Painting Machines and surface preparation equipment. Our in-depth industry knowledge helps us understand customer requirements accurately and deliver the most suitable solutions for different industrial applications.
           </h2>
         </div>
 
