@@ -121,12 +121,12 @@ export default function Navbar() {
               <div className="absolute left-0 top-full hidden group-hover:block bg-white text-black min-w-[230px] shadow-lg">
                 <ul className="flex flex-col text-[15px] uppercase">
                   {[
-                    "Paper Cup Machine",
-                    "Paper Plate Machine",
-                    "Paper Bowl Machine",
-                    "Automatic Cup Machine",
+                    "airless spray Machine",
+                    "wall putty spray Machine",
+                    "airless painting Machine",
+                  
                   ].map((item, i) => (
-                    <li key={i} className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                    <li key={i} className="px-4 py-2 capitalize hover:bg-gray-100 cursor-pointer">
                       {item}
                     </li>
                   ))}
