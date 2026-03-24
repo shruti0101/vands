@@ -169,9 +169,9 @@ const AirlessSprayMachine = () => {
         </div>
 
         {/* for mobile only  */}
-        <div className="my-5 flex justify-between lg:hidden">
+        <div className="my-5 flex justify-center gap-5 lg:hidden">
           <button className="bg-[#90081A] text-white font-bold px-4 py-3">
-            Get a Quote
+            Get a Quote 
           </button>
           <button className="border text-[#90081A] font-bold px-4 py-3">
             Download Brochure
@@ -258,12 +258,12 @@ const AirlessSprayMachine = () => {
 
         <div className="bg-white px-5 py-8">
           <div>
-            <p className="text-2xl font-medium font-oswald">
+            <p className="text-2xl font-medium font-oswald text-center">
               Associated Accessories
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
               {productAccessories.map((item) => (
-                <div className="mt-8">
+                <div className="mt-8 flex flex-col items-center">
                   <div className="border-1 flex items-center justify-center h-32 w-32 mt-3">
                     <Image
                       src={item?.img}
@@ -276,9 +276,9 @@ const AirlessSprayMachine = () => {
                   <p className="text-xl font-bold uppercase font-oswald">
                     {item?.title}
                   </p>
-                  <button className="text-lg font-bold text-red-700">
+                  {/* <button className="text-lg font-bold text-red-700">
                     Learn more
-                  </button>
+                  </button> */}
                 </div>
               ))}
             </div>
