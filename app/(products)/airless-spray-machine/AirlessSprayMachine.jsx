@@ -83,7 +83,7 @@ const AirlessSprayMachine = () => {
   };
 
   return (
-    <div className="mt-34 ">
+    <div className="lg:mt-34 mt-14">
       <section className="px-2 py-5 md:mx-20 lg:flex lg:flex-row-reverse lg:justify-between lg:gap-10 lg:h-[140vh]">
         <div className="lg:w-1/2">
           <p className="text-3xl font-oswald font-bold uppercase lg:text-5xl">

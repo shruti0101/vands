@@ -14,6 +14,8 @@ import {
   Instagram,
   Youtube,
   Linkedin,
+  Menu,
+  X,
 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
@@ -21,6 +23,7 @@ import Link from "next/link";
 export default function Navbar() {
   const [showTopBar, setShowTopBar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,7 +48,7 @@ export default function Navbar() {
     <header className="w-full fixed top-0 left-0 z-50 font-semibold">
       {/* TOP RED BAR */}
       <div
-        className={`bg-[#c8102e] font-oswald text-white transition-all duration-500 overflow-hidden ${
+        className={`hidden lg:block bg-[#c8102e] font-oswald text-white transition-all duration-500 overflow-hidden ${
           showTopBar ? "h-[67px]" : "h-0"
         }`}
       >
@@ -102,9 +105,14 @@ export default function Navbar() {
 
       {/* MAIN BLACK NAV */}
       <div className="bg-black text-white sticky top-0 z-50 shadow-md">
-        <div className="max-w-[1400px] mx-auto flex items-center justify-between px-10 h-[58px]">
+        <div className="max-w-[1400px] mx-auto flex items-center justify-between px-4 lg:px-10 h-[58px]">
+          {/* MOBILE LOGO */}
+          <div className="lg:hidden">
+            <Image src="/vands-logo.webp" alt="Vands" width={120} height={40} />
+          </div>
+
           {/* NAV LINKS */}
-          <nav className="flex font-oswald items-center gap-10 text-[17px] uppercase tracking-wide">
+          <nav className="hidden lg:flex font-oswald items-center gap-10 text-[17px] uppercase tracking-wide">
             {["HOME", "ABOUT US", "BLOGS", "CONTACT US"].map((item, i) => (
               <button key={i} className="relative group hover:text-gray-300">
                 <span className="before:absolute before:-top-4 before:left-0 before:h-[3px] before:w-0 before:bg-white before:transition-all before:duration-300 group-hover:before:w-full">
@@ -150,7 +158,7 @@ export default function Navbar() {
           </nav>
 
           {/* SEARCH + WHATSAPP */}
-          <div className="flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-8">
             <div className="relative">
               <input
                 type="text"
@@ -171,7 +179,58 @@ export default function Navbar() {
               <FaWhatsapp size={22} className="text-white" />
             </a>
           </div>
+
+          {/* MOBILE MENU TOGGLE */}
+          <button
+            className="lg:hidden text-white"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
         </div>
+
+        {/* MOBILE MENU OVERLAY */}
+        {isMobileMenuOpen && (
+          <div className="lg:hidden bg-black fixed top-[58px] left-0 w-full h-[calc(100vh-58px)] p-6 overflow-y-auto z-40 border-t border-gray-800">
+            <div className="flex flex-col gap-6 font-oswald uppercase text-lg">
+              {["HOME", "ABOUT US", "BLOGS", "CONTACT US"].map((item, i) => (
+                <button
+                  key={i}
+                  className="text-left border-b border-gray-800 pb-2"
+                >
+                  {item}
+                </button>
+              ))}
+
+              <div className="flex flex-col gap-3 mt-2">
+                <p className="text-red-500 font-bold">Our Products</p>
+                {[
+                  {
+                    title: "Airless Spray Machine",
+                    link: "/airless-spray-machine",
+                  },
+                  {
+                    title: "Wall Putty Spray Machine",
+                    link: "/wall-putty-spray-machine",
+                  },
+                  {
+                    title: "Airless Painting Machine",
+                    link: "/airless-painting-machine",
+                  },
+                ].map((item, i) => (
+                  <Link
+                    key={i}
+                    href={item.link}
+                    className="text-gray-400 hover:text-white capitalize text-base pl-4"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.title}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </header>
   );
