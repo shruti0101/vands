@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+"use client";
 
-## Getting Started
+import { Bell, ShoppingCart, Star } from "lucide-react";
+import Image from "next/image";
 
-First, run the development server:
+const AirlessSprayMachine = () => {
+  return (
+    <div className="mt-32 px-5">
+      {/* hero section  */}
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+      <section>
+        {/* image div  */}
+        <div>
+          <Image
+            src={"/prod1.png"}
+            width={1000}
+            height={1000}
+            alt="productpage"
+          />
+        </div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+        {/* content div  */}
+        <div>
+          {/* stars  */}
+          <div>
+            <div className="flex gap-1 my-1">
+              <Star color="#FFC563" fill="#FFC563" />
+              <Star color="#FFC563" fill="#FFC563" />
+              <Star color="#FFC563" fill="#FFC563" />
+              <Star color="#FFC563" fill="#FFC563" />
+              <Star color="#FFC563" fill="#FFC563" />
+            </div>
+            <div className="font-poppins text-sm">5.0 RATING / 128 REVIEWS</div>
+          </div>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+          {/* main title  */}
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+          <h1 className="font-bold text-3xl my-5">Airless Spray Machine</h1>
 
-## Learn More
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+            optio accusamus nulla similique assumenda dignissimos a consequatur
+            iure nemo. Alias, delectus. Nobis, quibusdam nesciunt? Quas nemo
+            quos molestiae perferendis.
+          </p>
 
-To learn more about Next.js, take a look at the following resources:
+          <div className="flex gap-3 items-end my-5">
+            <p className="text-3xl font-bold">₹ 8990.99</p>
+            <p className="line-through text-sm">₹10000.00</p>
+          </div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+          <div>
+            <div className="flex gap-5 my-3">
+              <button className="flex gap-5 items-center font-oswald bg-[#FFC563] px-5 py-6">
+                <ShoppingCart /> ADD TO CART
+              </button>
+              <button className="flex gap-5 items-center font-oswald border-2 border-[#FFC563] text-[#ffb431] px-5 py-6">
+                <Bell /> NOTIFY ME
+              </button>
+            </div>
+            <p className="text-sm  my-2">Global shipping available • 3-Year limited warranty</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+export default AirlessSprayMachine;
