@@ -4,9 +4,9 @@ import About from "@/components/Landingpage/About";
 import Categories from "@/components/Landingpage/Categories";
 
 import Bestseller from "@/components/Landingpage/Bestseller";
-import Cta from "@/components/Landingpage/Cta"
+import Cta from "@/components/Landingpage/Cta";
 import Whychoose from "@/components/Landingpage/Whychoose";
-import Product from "@/components/Landingpage/Product"
+import Product from "@/components/Landingpage/Product";
 import Faq from "@/components/Landingpage/Faq";
 import TestimonialSlider from "@/components/Landingpage/Testimonials";
 import Formsection from "@/components/Landingpage/Formsection";
@@ -17,27 +17,26 @@ import Youtube from "@/components/Landingpage/Youtube";
 
 import Dedicated from "@/components/Landingpage/Dedicated";
 
-
 export default function Home() {
   return (
     <>
       {/* <Popup></Popup> */}
       <Hero />
-        <Whychoose /> 
-      
+      <Whychoose />
+
       <Categories />
 
-    <About />
-       <Bestseller></Bestseller>
-         <Cta />
+      <About />
+      <Bestseller></Bestseller>
+      <Cta />
 
-         <ApplicationsSection></ApplicationsSection>
-         <Youtube/>
-          
- <Formsection></Formsection>
+      <ApplicationsSection></ApplicationsSection>
+      <Youtube />
+
+      <Formsection></Formsection>
       <Dedicated></Dedicated>
-            <TestimonialSlider></TestimonialSlider>
-<Faq></Faq>
+      <TestimonialSlider></TestimonialSlider>
+      <Faq></Faq>
       {/* <Countup />
      
 

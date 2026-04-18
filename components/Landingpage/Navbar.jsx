@@ -19,6 +19,8 @@ import {
 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
+import {categories} from "@/Data"
+import { div } from "framer-motion/client";
 
 export default function Navbar() {
   const [showTopBar, setShowTopBar] = useState(true);
@@ -43,6 +45,10 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
+
+  let category=categories.map((cat)=>cat);
+  // console.log(category)
+  
 
   return (
     <header className="w-full fixed top-0 left-0 z-50 font-semibold">
@@ -129,27 +135,13 @@ export default function Navbar() {
 
               <div className="absolute left-0 top-full hidden group-hover:block bg-white text-black min-w-[230px] shadow-lg">
                 <ul className="flex flex-col text-[15px] uppercase">
-                  {[
-                    {
-                      title: "airless spray Machine",
-                      link: "/airless-spray-machine",
-                    },
-                    {
-                      title: "wall putty spray Machine",
-                      link: "/wall-putty-spray-machine",
-                    },
-                    {
-                      title: "airless painting Machine",
-                      link: "/airless-painting-machine",
-                    },
-                    ,
-                  ].map((item, i) => (
+                  {category.map((item, i) => (
                     <Link
-                      href={item?.link}
+                      href={`/categories/${item.id}`}
                       key={i}
                       className="px-4 py-2 capitalize hover:bg-gray-100 cursor-pointer"
                     >
-                      {item?.title}
+                      {item.name}
                     </Link>
                   ))}
                 </ul>
@@ -192,46 +184,54 @@ export default function Navbar() {
         {/* MOBILE MENU OVERLAY */}
         {isMobileMenuOpen && (
           <div className="lg:hidden bg-black fixed top-[58px] left-0 w-full h-[calc(100vh-58px)] p-6 overflow-y-auto z-40 border-t border-gray-800">
-            <div className="flex flex-col gap-6 font-oswald uppercase text-lg">
-              {["HOME", "ABOUT US", "BLOGS", "CONTACT US"].map((item, i) => (
-                <button
-                  key={i}
-                  className="text-left border-b border-gray-800 pb-2"
-                >
-                  {item}
-                </button>
-              ))}
+    
+    <div className="flex flex-col gap-6 font-oswald uppercase text-lg ">
+      
+      <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
+        HOME
+      </Link>
 
-              <div className="flex flex-col gap-3 mt-2">
-                <p className="text-red-500 font-bold">Our Products</p>
-                {[
-                  {
-                    title: "Airless Spray Machine",
-                    link: "/airless-spray-machine",
-                  },
-                  {
-                    title: "Wall Putty Spray Machine",
-                    link: "/wall-putty-spray-machine",
-                  },
-                  {
-                    title: "Airless Painting Machine",
-                    link: "/airless-painting-machine",
-                  },
-                ].map((item, i) => (
-                  <Link
-                    key={i}
-                    href={item.link}
-                    className="text-gray-400 hover:text-white capitalize text-base pl-4"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    {item.title}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
+      <Link href="/about" onClick={() => setIsMobileMenuOpen(false)}>
+        ABOUT US
+      </Link>
+
+      <Link href="/blogs" onClick={() => setIsMobileMenuOpen(false)}>
+        BLOGS
+      </Link>
+
+      <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
+        CONTACT US
+      </Link>
+
+      {/* PRODUCTS */}
+      <div className="relative group">
+  {/* BUTTON */}
+  <button className="flex items-center gap-1 hover:text-gray-300">
+    OUR PRODUCTS <ChevronDown size={15} />
+  </button>
+
+  {/* DROPDOWN */}
+  <div className="absolute left-0 top-full mt-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 bg-white text-black min-w-[230px] shadow-lg z-50">
+    
+    <ul className="flex flex-col text-[15px] uppercase">
+      {category.map((item) => (
+        <Link
+          key={item.id}
+          href={`/categories/${item.id}`}
+          className="px-4 py-2 capitalize hover:bg-gray-100"
+        >
+          {item.name}
+        </Link>
+      ))}
+    </ul>
+
+  </div>
+</div>
+    </div>
+  </div>
         )}
       </div>
     </header>
+    
   );
 }

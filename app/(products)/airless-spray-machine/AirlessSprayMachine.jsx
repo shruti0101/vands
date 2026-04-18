@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { div } from "framer-motion/m";
+import {categories} from "@/Data"
 
 const images = ["/prod1.png", "/prod2.webp"];
 
@@ -27,32 +27,8 @@ const variants = {
   },
 };
 
-const specs = [
-  { label: "Model", value: "Eco Pro Plus" },
-  { label: "Rate Voltage", value: "220V" },
-  { label: "Power", value: "1800W" },
-  { label: "Pressure", value: "227bar/3200PSI" },
-  { label: "Max Nozzle", value: "0.035in" },
-  { label: "Flow", value: "4.5L/min" },
-  { label: "Motor", value: "Brushless Motor" },
-  { label: "Hose", value: "15Mtr" },
-  { label: "Hydraulic Oil", value: "Anti-wear" },
-  {
-    label: "Pipe and TIP",
-    value: "15 Mtrs, LX 80 Gun Set and RAC 517 Standard Tip",
-  },
-  { label: "Net weight/Gross weight", value: "19.5KG/27KG" },
-  { label: "Pump type", value: "Stainless steel Short HD" },
-];
 
-const productAccessories = [
-  { img: "/accesseres/PAINT HOSE.webp", title: "PAINT HOSE", link: "" },
-  { img: "/accesseres/PAINTING GUNS.webp", title: "PAINTING GUNS", link: "" },
-  { img: "/accesseres/REPAIR KITS.webp", title: "REPAIR KITS", link: "" },
-  { img: "/accesseres/TIP GUARD.webp", title: "TIP GUARD", link: "" },
-  { img: "/accesseres/TIP SEAL.webp", title: "TIP SEAL", link: "" },
-  { img: "/accesseres/TIPS.webp", title: "TIPS", link: "" },
-];
+
 
 const AirlessSprayMachine = () => {
   const [[page, direction], setPage] = useState([0, 0]);
@@ -262,9 +238,9 @@ const AirlessSprayMachine = () => {
               Associated Accessories
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-              {productAccessories.map((item) => (
-                <div className="mt-8 flex flex-col items-center">
-                  <div className="border-1 flex items-center justify-center h-32 w-32 mt-3">
+              {productAccessories.map((item,index) => (
+                <div key={index} className="mt-8 flex flex-col items-center">
+                  <div  className="border-1 flex items-center justify-center h-32 w-32 mt-3">
                     <Image
                       src={item?.img}
                       width={1000}
