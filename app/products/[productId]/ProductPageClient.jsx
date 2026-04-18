@@ -78,7 +78,7 @@ const product = {
  const ytArray = [
     {
       title: "MARUTI MACHINE",
-      link: "https://www.youtube.com/watch?v=NMFgzaD8JH0",
+      link: "https://www.youtube.com/embed/NMFgzaD8JH0",
     },
     {
       title: "PAINTING SPRAY MACHINE",
@@ -95,11 +95,11 @@ const product = {
   ];
 
 const ProductPageClient = ({productId}) => {
-  // const { productId } =  params;
+  
   const allProducts = categories.flatMap((c) => c.products);
-    console.log(allProducts)
+   
     const product = allProducts.find((p) => p.id === productId);
-    console.log(product);
+    
 
   console.log(productId); 
   const [[page, direction], setPage] = useState([0, 0]);
