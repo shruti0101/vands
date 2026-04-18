@@ -2,9 +2,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import {categories} from "@/Data"
-
-
+import { categories } from "@/Data";
+import Inquiryform from "./Inquiryform"
 
 const variants = {
   enter: (direction) => {
@@ -27,111 +26,128 @@ const variants = {
   },
 };
 
-
-
-
 const product = {
-    id: "e-junior-395",
-    name: "E-Junior 395",
-    metaTitle: "E-Junior 395 Airless Painting Machine",
-    metaDescription:
-      "High-performance airless painting machine for smooth and professional results.",
-    description: [
-      { type: "h2", text: "Overview" },
-      {
-        type: "p",
-        text: "The E-Junior 395 Airless Painting Machine is a high-performance spraying solution designed for fast, smooth, and professional-grade painting results.",
-      },
-      { type: "h2", text: "Features & Benefits:" },
-      {
-        type: "ul",
-        items: [
-          "Smooth and even paint application",
-          "Professional finish without brush marks",
-          "Fast coverage for large areas",
-          "Durable and reliable build",
-        ],
-      },
-    ],
-    
-    specs: [
-      { label: "Motor Type", value: "Carbon Brush Electric Motor" },
-      { label: "Power", value: "1.8 kW" },
-      { label: "Maximum Pressure", value: "227 Bar / 3300 PSI" },
-      { label: "Flow Rate", value: "2.1 L/min" },
-      { label: "Weight", value: "14 kg" },
-    ],
-    ytArray:
-     {
-      title: "ECO PRO PLUS",
-      link: "https://www.youtube.com/watch?v=ZZSfibTJlOE",
-    }
-  ,
-    image: [
-      {
-        src: "/cat/Products/airless-painting-machine/Picture1.webp",
-        alt: "E-Junior 395",
-      },
-    ],
-  };
+  id: "e-junior-395",
+  name: "E-Junior 395",
+  metaTitle: "E-Junior 395 Airless Painting Machine",
+  metaDescription:
+    "High-performance airless painting machine for smooth and professional results.",
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The E-Junior 395 Airless Painting Machine is a high-performance spraying solution designed for fast, smooth, and professional-grade painting results.",
+    },
+    { type: "h2", text: "Features & Benefits:" },
+    {
+      type: "ul",
+      items: [
+        "Smooth and even paint application",
+        "Professional finish without brush marks",
+        "Fast coverage for large areas",
+        "Durable and reliable build",
+      ],
+    },
+  ],
 
- const ytArray = [
+  specs: [
+    { label: "Motor Type", value: "Carbon Brush Electric Motor" },
+    { label: "Power", value: "1.8 kW" },
+    { label: "Maximum Pressure", value: "227 Bar / 3300 PSI" },
+    { label: "Flow Rate", value: "2.1 L/min" },
+    { label: "Weight", value: "14 kg" },
+  ],
+  ytArray: {
+    title: "ECO PRO PLUS",
+    link: "https://www.youtube.com/watch?v=ZZSfibTJlOE",
+  },
+  image: [
     {
-      title: "MARUTI MACHINE",
-      link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+      src: "/cat/Products/airless-painting-machine/Picture1.webp",
+      alt: "E-Junior 395",
     },
-    {
-      title: "PAINTING SPRAY MACHINE",
-      link: "https://www.youtube.com/embed/H7MwuAsTeME?si=ZzuoGLUuN2AsuQgs",
-    },
-    {
-      title: "Airless Painting Machine Maruti Model",
-      link: "https://www.youtube.com/embed/9Y0z1dhXRPk?si=wMi9JrF5WASUQJRc",
-    },
-    {
-      title: "Paint and Putty Machine ",
-      link: "https://www.youtube.com/embed/Y3VKHwNDo8Y?si=W9Sjzt2TynPKvXpS",
-    },
-  ];
+  ],
+};
 
-const ProductPageClient = ({productId}) => {
-  
-  const allProducts = categories.flatMap((c) => c.products);
-   
-    const product = allProducts.find((p) => p.id === productId);
-    
+const ytArray = [
+  {
+    title: "MARUTI MACHINE",
+    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+  },
+  {
+    title: "PAINTING SPRAY MACHINE",
+    link: "https://www.youtube.com/embed/H7MwuAsTeME?si=ZzuoGLUuN2AsuQgs",
+  },
+  {
+    title: "Airless Painting Machine Maruti Model",
+    link: "https://www.youtube.com/embed/9Y0z1dhXRPk?si=wMi9JrF5WASUQJRc",
+  },
+  {
+    title: "Paint and Putty Machine ",
+    link: "https://www.youtube.com/embed/Y3VKHwNDo8Y?si=W9Sjzt2TynPKvXpS",
+  },
+];
 
-  console.log(productId); 
+const ProductPageClient = ({ productId }) => {
+
+  const [open ,setOpen]=useState(false);
+
+  const allProducts = categories.flatMap((c) =>
+    c.products.map((p) => ({
+      ...p,
+      categoryName: c.name,
+    })),
+  );
+
+  const product = allProducts.find((p) => p.id === productId);
+
+  console.log(productId);
   const [[page, direction], setPage] = useState([0, 0]);
 
- 
-  const images =product?.image || [];
-  console.log(images)
+  const images = product?.image || [];
+
   const imageIndex = Math.abs(page % images.length);
 
   const paginate = (newDirection) => {
     setPage([page + newDirection, newDirection]);
   };
+  console.log(open);
 
   return (
     <div className="lg:mt-34 mt-14">
+
+     {open && (<Inquiryform setOpen={setOpen}></Inquiryform>)}
+
       <section className="px-2 py-5 md:mx-20 lg:flex lg:flex-row-reverse lg:justify-between lg:gap-10 lg:h-[140vh]">
         <div className="lg:w-1/2">
           <p className="text-3xl font-oswald font-bold uppercase lg:text-5xl">
-            Airless Spray machine
+            {product.name}
           </p>
           <p className="font-oswald text-xl font-medium my-3 lg:text-2xl">
             Making an impact on Every Job
           </p>
 
-          <div className="my-5 gap-10 hidden lg:flex">
-            <button className="bg-[#90081A] text-white font-bold px-4 py-3 text-xl">
-              Get a Quote
-            </button>
-            <button className="border text-[#90081A] font-bold px-4 py-3 text-xl">
-              Download Brochure
-            </button>
-          </div>
+          <div className="my-5 gap-6 hidden lg:flex items-center">
+  
+  <button onClick={()=>{setOpen(true),console.log(open);}} className="w-fit sm:w-auto text-center bg-[#90081A] text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105">
+    Get a Quote
+  </button>
+
+  {/* WhatsApp Button */}
+  <a
+    href={`https://wa.me/918826544443?text=I%20want%20to%20enquiry%20about%20${product.name}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-fit sm:w-auto text-center bg-green-500 text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105"
+  >
+    WhatsApp
+  </a>
+
+<button className=" border border-2 border-[#90081A] w-fit sm:w-auto text-center text-[#90081A] bg-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105">
+    Download Brochure
+  </button>
+
+</div>
 
           {/* specification table for desktio */}
           <section className="px-2 py-5 hidden lg:block">
@@ -196,14 +212,22 @@ const ProductPageClient = ({productId}) => {
             onClick={() => paginate(1)}
           >
             →
-          </button>
+          </button> 
         </div>
 
         {/* for mobile only  */}
         <div className="my-5 flex justify-center gap-5 lg:hidden">
-          <button className="bg-[#90081A] text-white font-bold px-4 py-3">
-            Get a Quote 
+          <button onClick={()=>{setOpen(true)}} className="bg-[#90081A] text-white font-bold px-4 py-3">
+            Get a Quote
           </button>
+          <a
+    href="https://wa.me/918826544443"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-fit sm:w-auto text-center  bg-green-500 text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105"
+  >
+    WhatsApp
+  </a>
           <button className="border text-[#90081A] font-bold px-4 py-3">
             Download Brochure
           </button>
@@ -239,80 +263,78 @@ const ProductPageClient = ({productId}) => {
       {/* section section  */}
       <section className="md:mx-20 mx-5 lg:flex lg:flex-row-reverse lg:my-10">
         <div className="flex justify-center items-center mx-auto bg-gray-50 flex-col text-[#90081A] lg:w-1/2 overflow-hidden">
-  
-  {product?.ytArray?.link && (
-    <iframe
-      className="w-full aspect-video rounded-lg"
-      src={`${product.ytArray.link}`}
-      title={product?.ytArray?.title || "YouTube video"}
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerPolicy="strict-origin-when-cross-origin"
-      allowFullScreen
-    />
-  )}
+          {product?.ytArray?.link && (
+            <iframe
+              className="w-full aspect-video rounded-lg"
+              src={`${product.ytArray.link}`}
+              title={product?.ytArray?.title || "YouTube video"}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          )}
 
-  {product?.ytArray?.title && (
-    <p className="font-bold text-xl my-5 text-center px-2">
-      {product.ytArray.title}
-    </p>
-  )}
-
-</div>
+          {product?.ytArray?.title && (
+            <p className="font-bold text-xl my-5 text-center px-2">
+              {product.ytArray.title}
+            </p>
+          )}
+        </div>
 
         {/* product descrtion  */}
         <div className="px-2 lg:w-1/2">
           <p className="text-3xl font-oswald font-bold uppercase mb-6">
             Product Description
           </p>
-          <p className="text-lg font-bold my-3">
-            Airless Paint Spray Machine: For Butter Flow Paint Finish
-          </p>
-          <p>
-            {product?.description[1]?.text}
-          </p>
+          <p className="text-lg font-bold my-3">{product.name}</p>
+          <p>{product?.description[1]?.text}</p>
         </div>
       </section>
 
       {/* go a step further third section  */}
-      {product?.associatedAccessories ?(<section className="bg-gray-100 px-5 py-5 md:px-20 my-5 md:my-10 lg:py-14">
-        <p className="text-3xl font-oswald font-bold uppercase ">
-          Go a Step Further
-        </p>
-        <p className="font-semibold mb-5">
-          Quality and reliability services to provide a solution to your
-          project, we do it all and fast​
-        </p>
+      {product?.associatedAccessories ? (
+        <section className="bg-gray-100 px-5 py-5 md:px-20 my-5 md:my-10 lg:py-14">
+          <p className="text-3xl font-oswald font-bold uppercase ">
+            Go a Step Further
+          </p>
+          <p className="font-semibold mb-5">
+            Quality and reliability services to provide a solution to your
+            project, we do it all and fast​
+          </p>
 
-        <div className="bg-white px-5 py-8">
-          <div>
-            <p className="text-2xl font-medium font-oswald text-center">
-              Associated Accessories
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-              {product?.productAccessories?.map((item,index) => (
-                <div key={index} className="mt-8 flex flex-col items-center">
-                  <div  className="border-1 flex items-center justify-center h-32 w-32 mt-3">
-                    <Image
-                      src={item?.img}
-                      width={1000}
-                      height={1000}
-                      alt="product image"
-                      className="h-28 w-28 "
-                    />
-                  </div>
-                  <p className="text-xl font-bold uppercase font-oswald">
-                    {item?.title}
-                  </p>
-                  {/* <button className="text-lg font-bold text-red-700">
+          <div className="bg-white px-5 py-8">
+            <div>
+              <p className="text-2xl font-medium font-oswald text-center">
+                Associated Accessories
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+                {product?.productAccessories?.map((item, index) => (
+                  <div key={index} className="mt-8 flex flex-col items-center">
+                    <div className="border-1 flex items-center justify-center h-32 w-32 mt-3">
+                      <Image
+                        src={item?.img}
+                        width={1000}
+                        height={1000}
+                        alt="product image"
+                        className="h-28 w-28 "
+                      />
+                    </div>
+                    <p className="text-xl font-bold uppercase font-oswald">
+                      {item?.title}
+                    </p>
+                    {/* <button className="text-lg font-bold text-red-700">
                     Learn more
                   </button> */}
-                </div>
-              ))}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </section>):(<div></div>)}
+        </section>
+      ) : (
+        <div></div>
+      )}
 
       {/* Owner resourse section  */}
       <section className="py-8 px-2 bg-gray-50 md:px-20">

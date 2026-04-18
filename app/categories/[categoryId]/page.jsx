@@ -61,7 +61,7 @@ export default function CategoryPage({ params }) {
                   alt={product.image[0]?.alt || product.name}
                   title={product.name}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                   unoptimized
                 />
               </div>

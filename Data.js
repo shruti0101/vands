@@ -2585,9 +2585,9 @@ export const categories = [
   {
     id: "airless-painting-machine",
     name: "Airless Painting Machine",
-    metaTitle: "** Paper Cup Making Machine manufacturer ",
+    metaTitle: "** airless painting machine ",
     metaDescription:
-      "** Discover high-quality paper Cup making machines from a leading manufacturer. Boost your production efficiency with our innovative and reliable solutions. ",
+      "** airless machine . ",
 
     products: [
       // product 1 E junior 395
@@ -3648,7 +3648,518 @@ export const categories = [
     ],
   },
 
-  //catorgy 2
+  //catorgy 2 [blasting machine]
+  {
+    id: "blasting-machine",
+    name: "Blasting Machine",
+    metaTitle: "** blasting Machine manufacturer ",
+    metaDescription:
+      "** blasting machine. ",
+
+    products: [
+
+      //product 1 [tumblast] ->no yt link
+      {
+  id: "vtb-1625",
+  name: "Airless Tumblast Shot Blasting Machine (VTB 1625 Series)",
+  metaTitle:
+    "** Airless Tumblast Shot Blasting Machine | VTB 1625 Series Industrial Blaster",
+  metaDescription:
+    "** Vands Engineering Solution Airless Tumblast Shot Blasting Machine (VTB 1625 Series) designed for efficient rust, scale, and surface cleaning of metal components with high-performance tumblast system and multiple capacity options.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The Airless Tumblast Type Shot Blasting Machine (VTB 1625 Series) by Vands Engineering Solution is a high-performance industrial surface preparation system designed for efficient cleaning, finishing, and strengthening of metal components. It effectively removes rust, scale, and contaminants from small to medium-sized workpieces with consistent precision. Built with a robust tumblast mechanism, the machine ensures uniform blasting on all surfaces, delivering high-quality finishing results. Available in multiple capacity configurations from 1 CFT to 10 CFT, it is suitable for diverse industrial production requirements and continuous heavy-duty operations."
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "Available in 1, 2, 5, and 10 CFT capacity models for flexible production needs",
+        "High-performance turbine options ranging from 5 HP to 15 HP for powerful blasting",
+        "Advanced dust collection system ensures clean working environment and improved visibility",
+        "Automatic air purging system for smooth, uninterrupted machine operation",
+        "Heavy-duty tumblast design ensures uniform surface finishing on all components",
+        "Engineered for continuous industrial use with long operational life and durability"
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Surface cleaning of castings, forgings, and fabricated metal parts",
+        "Rust and scale removal in automotive and engineering industries",
+        "Shot blasting of small to medium-sized metal components",
+        "Used in fabrication workshops and manufacturing units",
+        "Surface preparation before painting, coating, or powder coating",
+        "Metal strengthening and finishing for industrial applications"
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Trusted manufacturer of high-performance industrial blasting machines",
+        "Strong engineering design focused on durability and efficiency",
+        "Multiple machine configurations for varied industrial needs",
+        "Advanced dust collection and turbine systems for safer operation",
+        "Reliable after-sales support including installation and maintenance assistance"
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Machine Type", value: "Airless Tumblast Shot Blasting Machine" },
+    { label: "Series", value: "VTB 1625" },
+    { label: "Capacity Range", value: "1 CFT to 10 CFT" },
+    { label: "Turbine Power", value: "5 HP to 15 HP" },
+    { label: "Dust Collection System", value: "800 to 3000 (equivalent capacity)" },
+    { label: "Operation System", value: "Automatic Tumblast with Air Purging" },
+    { label: "Application", value: "Surface Cleaning, Rust Removal, Finishing" },
+    { label: "Material Handling", value: "Small to Medium Metal Components" },
+    { label: "Build", value: "Heavy-Duty Industrial Steel Construction" },
+  ],
+
+  ytArray: {
+    title: "Airless Tumblast Shot Blasting Machine (VTB 1625 Series)",
+    link: ""
+  },
+
+  image: [
+    {
+      src: "/cat/Products/blasting-machine/tomblast.webp",
+      alt: "Airless Tumblast Shot Blasting Machine VTB 1625 Series",
+    },
+  ],
+},
+
+      //product 2  [Sand Blasting]
+      {
+  id: "sand-blasting-machine",
+  name: "Sand Blasting Machine (P-300 / P-600 / P-1000 Series)",
+  metaTitle:
+    "** Portable Sand Blasting Machine | P-300 P-600 P-1000 Series Industrial Blaster",
+  metaDescription:
+    "** Vands Engineering Solution Portable Pressure Sand Blasting Machine designed for efficient rust removal, surface cleaning, and preparation with high-performance blasting and multiple capacity options.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The Portable Pressure Sand Blasting Machine Series (P-300, P-600, P-1000) by Vands Engineering Solution is designed for efficient surface cleaning, rust removal, and preparation of metal components. Built for industrial-grade performance, it effectively removes rust, paint, scale, and contaminants to deliver a smooth and uniform surface finish. Available in 3 CFT, 6 CFT, and 10 CFT capacities, this series is suitable for small, medium, and heavy-duty blasting applications across multiple industries."
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "Available in P-300 (3 CFT), P-600 (6 CFT), and P-1000 (10 CFT) models",
+        "High blasting efficiency from 4.7 to 20 Sq. Mtr./Hr depending on model",
+        "Optimized nozzle sizes (5.0 mm to 9.5 mm) for precise blasting",
+        "Heavy-duty blasting hose ensures smooth abrasive flow and durability",
+        "Air consumption range from 70 to 240 CFM at 80 PSI for powerful operation",
+        "Compressor compatibility from 10 HP to 40 HP based on model",
+        "Compatible with abrasive grit sizes from 12 to 80 mesh",
+        "Portable and compact design with weight range of 80 kg to 200 kg"
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Rust and paint removal from steel structures and fabricated parts",
+        "Surface preparation before painting or coating",
+        "Cleaning of pipelines, tanks, and industrial equipment",
+        "Shipyard, construction, and fabrication workshop maintenance",
+        "Automotive and heavy engineering industries",
+        "Surface roughening for better coating adhesion"
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Trusted manufacturer of industrial surface preparation machines",
+        "High-performance blasting systems with reduced downtime",
+        "Multiple capacity options for different industrial needs",
+        "Strong and durable build for long operational life",
+        "Reliable after-sales support and technical assistance"
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Models", value: "P-300 / P-600 / P-1000" },
+    { label: "Capacity", value: "3 CFT / 6 CFT / 10 CFT" },
+    { label: "Production Capacity", value: "4.7 – 20 Sq. Mtr./Hr" },
+    { label: "Nozzle Size", value: "5.0 mm – 9.5 mm" },
+    { label: "Air Consumption", value: "70 – 240 CFM @ 80 PSI" },
+    { label: "Compressor Requirement", value: "10 HP – 40 HP" },
+    { label: "Abrasive Range", value: "12 – 80 Mesh" },
+    { label: "Machine Weight", value: "80 kg – 200 kg" },
+    { label: "Type", value: "Portable Pressure Sand Blasting Machine" },
+  ],
+
+  ytArray: {
+    title: "Portable Sand Blasting Machine Demo",
+    link: "https://www.youtube.com/embed/XUSR6pDHJl4"
+  },
+
+  image: [
+    {
+      src: "/cat/Products/blasting-machine/sand-blasting.webp",
+      alt: "Portable Pressure Sand Blasting Machine",
+    },
+  ],
+}
+
+,
+
+
+
+
+
+
+    ]
+  },
+
+  //category 3 [Others]
+  {
+     id: "other-products",
+    name: "Other Products",
+    metaTitle: "** others Machine manufacturer ",
+    metaDescription:
+      "** others machine. ",
+
+    products: [
+      //product 1 [almen gauge]
+      {
+  id: "almen-gauge-mssd-digital",
+  name: "Almen Gauge Model MSSD Digital",
+  metaTitle:
+    "** Almen Gauge MSSD Digital | High Precision Shot Peening Measurement Tool",
+  metaDescription:
+    "** Vands Engineering Solution Almen Gauge Model MSSD Digital for precise measurement of shot peening intensity and arc height using Almen strips with advanced digital accuracy and industrial reliability.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The Almen Gauge Model MSSD Digital by Vands Engineering Solution is a high-precision measurement instrument designed for accurate determination of shot peening intensity using Almen strips. It ensures precise arc height measurement, which is essential for maintaining strict quality control in surface treatment processes. Built with advanced digital sensing technology, the MSSD model delivers fast, repeatable, and highly accurate readings, making it ideal for aerospace, automotive, and heavy engineering industries where surface stress control is critical. Its compact and durable design allows reliable performance in both workshop and laboratory environments."
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "High-precision digital system for accurate Almen strip deflection measurement",
+        "Clear digital display for quick and easy reading of results",
+        "Ensures consistent and repeatable measurement accuracy",
+        "Compatible with standard Almen strips used in shot peening",
+        "Compact and ergonomic design for easy handling and portability",
+        "Robust industrial-grade construction for workshop and lab use",
+        "Fast response time for efficient inspection and testing workflow",
+        "Low maintenance design with long operational life"
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Shot peening process control and validation",
+        "Aerospace component quality inspection",
+        "Automotive and defense surface treatment monitoring",
+        "Spring, gear, and turbine blade testing",
+        "Quality assurance in metal finishing and heat treatment plants",
+        "Laboratory research in material engineering"
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Precision-engineered industrial inspection instruments",
+        "Focus on accuracy, durability, and reliability",
+        "Suitable for critical quality control applications",
+        "User-friendly design requiring minimal training",
+        "Strong technical support and dependable after-sales service"
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Model", value: "MSSD Digital" },
+    { label: "Type", value: "Digital Almen Gauge" },
+    { label: "Measurement", value: "Almen Strip Arc Height" },
+    { label: "Display", value: "Digital LCD Display" },
+    { label: "Application", value: "Shot Peening Intensity Measurement" },
+    { label: "Usage", value: "Industrial / Laboratory / Quality Control" },
+    { label: "Build", value: "Heavy Duty Industrial Grade Construction" },
+  ],
+
+  ytArray: {
+    title: "Almen Gauge Model MSSD Digital",
+    link: "https://www.youtube.com/embed/bwGROtv6KSc"
+  },
+
+  image: [
+    {
+      src: "/cat/Products/others/almen-gauage.webp",
+      alt: "Almen Gauge Model MSSD Digital",
+    },
+  ],
+}
+,
+      //product 2 [dft gauge]
+{
+  id: "dry-film-thickness-gauge",
+  name: "Dry Film Thickness Gauge",
+  metaTitle:
+    "** Dry Film Thickness (DFT) Gauge | Coating Thickness Measurement Instrument",
+  metaDescription:
+    "** Vands Engineering Solution Dry Film Thickness (DFT) Gauge for accurate, non-destructive measurement of paint and coating thickness on metal and non-metal surfaces with digital and analog options.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The Dry Film Thickness (DFT) Gauge by Vands Engineering Solution is a precision instrument designed for accurate measurement of coating thickness on metal and non-metal surfaces. It is widely used in industrial quality control applications to ensure proper thickness of paint, powder coating, and protective layers. This helps maintain coating standards, durability, and compliance with industrial specifications. Available in both digital and analog models, the DFT gauge is suitable for a wide range of field and laboratory applications. Its non-destructive testing method ensures surface integrity while delivering fast and reliable results."
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "High-accuracy measurement of coating thickness on ferrous and non-ferrous materials",
+        "Available in digital and analog models for flexible usage",
+        "Non-destructive testing ensures no damage to coated surfaces",
+        "Portable and lightweight design for easy field and workshop use",
+        "Fast response time for efficient quality inspection",
+        "Works on rough, smooth, painted, and coated surfaces",
+        "Durable construction suitable for industrial environments"
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Paint and coating thickness measurement in fabrication industries",
+        "Quality control in automotive and engineering sectors",
+        "Inspection of pipelines, tanks, and structural coatings",
+        "Powder coating thickness verification in manufacturing units",
+        "Shipbuilding and heavy equipment surface inspection",
+        "Laboratory and field inspection applications"
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Trusted provider of precision inspection instruments",
+        "Focus on accuracy, durability, and ease of operation",
+        "Suitable for strict industrial quality control standards",
+        "Available in multiple model configurations",
+        "Strong technical support and reliable after-sales service"
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Instrument Type", value: "Dry Film Thickness (DFT) Gauge" },
+    { label: "Measurement Type", value: "Coating Thickness Measurement" },
+    { label: "Models Available", value: "Digital / Analog" },
+    { label: "Surface Compatibility", value: "Ferrous & Non-Ferrous" },
+    { label: "Testing Method", value: "Non-Destructive" },
+    { label: "Application", value: "Paint & Coating Inspection" },
+    { label: "Usage", value: "Industrial / Field / Laboratory" },
+  ],
+
+  ytArray: {
+    title: "Dry Film Thickness (DFT) Gauge Overview",
+    link: "https://www.youtube.com/embed/V8pNgQkSRkg"
+  },
+
+  image: [
+    {
+      src: "/cat/Products/others/dft-gauge.webp",
+      alt: "Dry Film Thickness Gauge",
+    },
+  ],
+},
+
+{
+  id: "wet-film-thickness-gauge",
+  name: "Wet Film Thickness Gauge",
+  metaTitle:
+    "** WFT Gauge | Wet Film Thickness Measurement Tool for Paint & Coating",
+  metaDescription:
+    "** Vands Engineering Solution WFT (Wet Film Thickness) Gauge for accurate measurement of wet paint and coating thickness, ensuring uniform application and quality control in industrial coating processes.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The WFT (Wet Film Thickness) Gauge by Vands Engineering Solution is a precision instrument designed for accurate measurement of wet film thickness of coatings such as paint, varnish, lacquer, and other protective finishes. It ensures proper coating thickness during application, helping industries maintain consistent quality, improve durability, and reduce material wastage. Widely used in painting and coating inspection processes, this gauge is essential for industrial quality control applications. Manufactured from high-quality corrosion-resistant material, it delivers long service life and reliable performance even in harsh working environments."
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "Accurate measurement of wet film thickness during coating application",
+        "Available in multiple measurement ranges for different industrial needs",
+        "Made from corrosion-resistant stainless steel for durability",
+        "Simple dip-and-read design for quick and easy operation",
+        "Ensures uniform coating thickness and reduces material wastage",
+        "Compact and portable design for field and workshop use",
+        "Suitable for repeated use in industrial quality control"
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Paint and coating thickness measurement in industrial applications",
+        "Quality control in automotive, marine, and fabrication industries",
+        "Inspection of protective coatings on pipelines and steel structures",
+        "Used in liquid and powder coating processes",
+        "Essential tool for contractors, inspectors, and coating professionals",
+        "Ensures compliance with coating standards and specifications"
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Precision-engineered instruments for accurate measurement",
+        "Durable and corrosion-resistant industrial-grade construction",
+        "Easy-to-use design for field and laboratory applications",
+        "Supports strict quality assurance in coating processes",
+        "Trusted supplier of inspection and surface preparation equipment"
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Instrument Type", value: "Wet Film Thickness (WFT) Gauge" },
+    { label: "Measurement Type", value: "Wet Coating Thickness" },
+    { label: "Material", value: "Stainless Steel (Corrosion Resistant)" },
+    { label: "Design", value: "Dip & Read Type" },
+    { label: "Usage", value: "Industrial / Field / Laboratory" },
+    { label: "Application", value: "Paint & Coating Inspection" },
+  ],
+
+  ytArray: {
+    title: "WFT (Wet Film Thickness) Gauge Overview",
+    link: "https://www.youtube.com/embed/MFBOnbOr5ys"
+  },
+
+  image: [
+    {
+      src: "/cat/Products/others/wft-gauge.webp",
+      alt: "Wet Film Thickness Gauge",
+    },
+  ],
+}
+,
+{
+  id: "flame-spray-gun-metalizing-gun",
+  name: "Flame Spray Gun (Metalizing Gun)",
+  metaTitle:
+    "** Flame Spray Gun | Metalizing Gun for Corrosion Protection & Thermal Spray Coating",
+  metaDescription:
+    "** Vands Engineering Solution Flame Spray Gun (Metalizing Gun) for high-performance thermal spraying, corrosion protection, and metal restoration with durable industrial coating applications.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The Flame Spray Gun (Metalizing Gun) by Vands Engineering Solution is a high-performance thermal spray system designed for surface coating, corrosion protection, and metal restoration applications. It works by melting coating materials using a controlled flame and spraying them onto prepared surfaces to form a strong, durable protective layer. This process is widely used for restoring worn-out components, improving wear resistance, and providing anti-corrosion protection for industrial parts. Built for continuous industrial use, it ensures stable flame control, consistent spray output, and excellent coating adhesion for demanding maintenance and production environments."
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "High-efficiency flame spraying system for uniform metal coating",
+        "Compatible with zinc, aluminum, and alloy coating wires",
+        "Ergonomic and lightweight design for operator comfort",
+        "Adjustable flame control for precise coating thickness",
+        "Durable industrial-grade construction for long service life",
+        "Consistent spray output with minimal material wastage",
+        "Suitable for both field and workshop applications"
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Corrosion protection for steel structures, bridges, and pipelines",
+        "Restoration of worn mechanical and industrial components",
+        "Surface protection of machinery and heavy equipment",
+        "Marine industry rust prevention applications",
+        "Thermal spray coating for automotive parts",
+        "Maintenance and repair of industrial components"
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Trusted manufacturer of industrial coating and blasting equipment",
+        "Precision-engineered tools for durability and performance",
+        "Suitable for both small and heavy-duty applications",
+        "Focus on safety, efficiency, and long operational life",
+        "Strong technical support and after-sales service"
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Machine Type", value: "Flame Spray Gun (Metalizing Gun)" },
+    { label: "Process Type", value: "Thermal Flame Spray Coating" },
+    { label: "Coating Materials", value: "Zinc, Aluminum, Alloy Wires" },
+    { label: "Operation", value: "Manual / Industrial Spray System" },
+    { label: "Usage", value: "Corrosion Protection & Metal Restoration" },
+    { label: "Application", value: "Industrial Surface Coating" },
+    { label: "Build", value: "Heavy Duty Industrial Grade" },
+  ],
+
+  ytArray: {
+    title: "Flame Spray Gun (Metalizing Gun)",
+    link: "https://www.youtube.com/embed/LfWbejGP8So"
+  },
+
+  image: [
+    {
+      src: "/cat/Products/others/flame-gun.webp",
+      alt: "Flame Spray Gun Metalizing Gun",
+    },
+  ],
+}
+
+
+
+
+
+    ]
+
+  }
   
 ];
 

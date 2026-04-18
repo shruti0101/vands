@@ -50,7 +50,7 @@ const Hero = () => {
               fill
               priority
               sizes="100vw"
-              className="object-cover"
+              className="object-contain"
             />
           </motion.div>
         </AnimatePresence>
@@ -77,7 +77,7 @@ const Hero = () => {
               height={1200}
               priority
               // sizes="100vw"
-              className="object-cover "
+              className="object-contain "
             />
           </motion.div>
         </AnimatePresence>

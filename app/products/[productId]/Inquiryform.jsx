@@ -1,26 +1,21 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import axios from "axios";
 import { categories } from "@/Data";
+import React, { useState } from "react";
 
-export default function ContactForm() {
-   const products=categories.flatMap((c)=>c.products)
-  const [isOpen, setIsOpen] = useState(false);
+const Inquiryform = ({ setOpen }) => {
+
+
+  const products=categories.flatMap((c)=>c.products)
+
   const [submitted, setSubmitted] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setIsOpen(true), 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (!isOpen) return null;
-
-  const handleClose = () => setIsOpen(false);
+  const handleClose = () => setOpen(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     const form = e.target;
 
     const name = form.name.value;
@@ -33,50 +28,20 @@ export default function ContactForm() {
     setSuccessMessage("Sending...");
 
     try {
-      const { data } = await axios.post(
-        "https://brandbnalo.com/api/form/add",
-        {
-          platform: "SBS Machinery Popup Form",
-          platformEmail: "machinerysbs@gmail.com",
-          name,
-          phone,
-          email,
-          place: "N/A",
-          product,
-          message,
-        }
-      );
+      
+      console.log({ name, phone, email, product, message });
 
-      if (data?.success) {
-        setSubmitted(true);
-        setSuccessMessage("✅ Your enquiry has been submitted successfully!");
+      setSubmitted(true);
+      setSuccessMessage("✅ Your enquiry has been submitted successfully!");
 
-        const whatsappText = `Hi, I am ${name}.
-Email: ${email}
-Product: ${product}
-Message: ${message}
-Contact: ${phone}`;
+      form.reset();
 
-        setTimeout(() => {
-          window.open(
-            `https://wa.me/917042039777?text=${encodeURIComponent(
-              whatsappText
-            )}`,
-            "_blank"
-          );
-        }, 1000);
-
-        form.reset();
-
-        setTimeout(() => {
-          setSubmitted(false);
-          setIsOpen(false);
-        }, 4000);
-      } else {
-        setSuccessMessage("❌ Failed to send. Please try again.");
-      }
+      setTimeout(() => {
+        setSubmitted(false);
+        setOpen(false);
+      }, 3000);
     } catch (error) {
-      console.error(error);
+      console.log(error);
       setSuccessMessage("❌ Server error. Try again later.");
     } finally {
       setLoading(false);
@@ -178,4 +143,6 @@ Contact: ${phone}`;
   </div>
 </div>
   );
-}
+};
+
+export default Inquiryform;
