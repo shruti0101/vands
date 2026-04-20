@@ -11,7 +11,7 @@ export default function AboutPage() {
       {/* HERO SECTION */}
       <section className="bg-red-600 text-white py-16 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          About Us – Vandas Engineering
+          About Us – Vands Engineering Solutions
         </h1>
         <p className="max-w-3xl mx-auto text-lg">
           Airless Painting Machine Manufacturer & Industrial Equipment Supplier
