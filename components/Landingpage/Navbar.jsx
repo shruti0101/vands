@@ -77,7 +77,11 @@ const allProducts = categories.flatMap((cat) => cat.products || []);
         }`}
       >
         <div className="max-w-[1400px] mx-auto flex items-center justify-between h-[70px] px-6">
+
+          <Link href="/" >
+          
           <Image src="/vands-logo.webp" alt="Vands" width={170} height={60} />
+          </Link>
 
           <div className="flex items-center gap-8 text-[13px] uppercase">
             <span className="flex items-center gap-2">
