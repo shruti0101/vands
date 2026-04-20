@@ -9,6 +9,7 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 import { createPortal } from "react-dom";
+import Link from "next/link";
 
 const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -53,28 +54,37 @@ const Footer = () => {
             Delhi, India – Industrial Equipment Supplier
           </p>
 
-          <p className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
+          <a href="tel:+918826544443" className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
             <FaPhoneAlt className="text-red-400" /> +91-8826544443
-          </p>
+          </a>
 
-          <p className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
+          <a href="tel:+919654243444" className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
             <FaPhoneAlt className="text-red-400" /> +91-9654243444
-          </p>
+          </a>
 
-          <p className="flex items-center gap-2 text-sm mb-4 hover:text-red-400 transition">
+          <a href="mailto:info@vands.com" className="flex items-center gap-2 text-sm mb-4 hover:text-red-400 transition">
             <FaEnvelope className="text-red-400" /> info@vands.com
-          </p>
+          </a>
 
           {/* Social */}
           <div className="flex gap-3">
-            {[FaYoutube, FaFacebookF, FaInstagram].map((Icon, i) => (
-              <div
-                key={i}
-                className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer"
-              >
-                <Icon className="text-sm" />
+            <a href="https://youtube.com" target="_blank">
+              <div className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer">
+                <FaYoutube className="text-sm" />
               </div>
-            ))}
+            </a>
+
+            <a href="https://facebook.com" target="_blank">
+              <div className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer">
+                <FaFacebookF className="text-sm" />
+              </div>
+            </a>
+
+            <a href="https://instagram.com" target="_blank">
+              <div className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer">
+                <FaInstagram className="text-sm" />
+              </div>
+            </a>
           </div>
         </div>
 
@@ -85,46 +95,53 @@ const Footer = () => {
           </h3>
 
           <ul className="space-y-3 text-sm text-gray-300">
-            {[
-              "About Us",
-              "Products",
-              "Blogs",
-              "Contact",
-              "Privacy Policy",
-            ].map((item, i) => (
-              <li key={i}>
-                <a
-                  href="#"
-                  className="hover:text-red-400 transition flex items-center gap-2"
-                >
-                  <span className="w-1 h-1 bg-red-400 rounded-full"></span>
-                  {item}
-                </a>
-              </li>
-            ))}
+
+  <li>
+              <Link href="/" className="hover:text-red-400 transition flex items-center gap-2">
+                <span className="w-1 h-1 bg-red-400 rounded-full"></span>
+               Home
+              </Link>
+            </li>
+
+
+            <li>
+              <Link href="/about" className="hover:text-red-400 transition flex items-center gap-2">
+                <span className="w-1 h-1 bg-red-400 rounded-full"></span>
+                About Us
+              </Link>
+            </li>
+
+         
+
+            <li>
+              <Link href="/blogs" className="hover:text-red-400 transition flex items-center gap-2">
+                <span className="w-1 h-1 bg-red-400 rounded-full"></span>
+                Blogs
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/contact" className="hover:text-red-400 transition flex items-center gap-2">
+                <span className="w-1 h-1 bg-red-400 rounded-full"></span>
+                Contact
+              </Link>
+            </li>
+
+      
           </ul>
         </div>
 
         {/* Products */}
         <div>
           <h3 className="text-lg font-semibold mb-5 border-l-2 border-red-500 pl-3">
-            Our Products
+            Our Categories
           </h3>
 
           <ul className="space-y-3 text-sm text-gray-300">
-            {[
-              "Airless Painting Machines",
-              "Shot Blasting Machines",
-              "Sand Blasting Machines",
-              "Metalizing Equipment",
-              "Industrial Coating Solutions",
-            ].map((item, i) => (
-              <li key={i}>
-                <a href="#" className="hover:text-red-400 transition">
-                  {item}
-                </a>
-              </li>
-            ))}
+            <li><Link href="/categories/airless-painting-machine" className="hover:text-red-400 transition">Airless Painting Machines</Link></li>
+            <li><Link href="/categories/blasting-machine" className="hover:text-red-400 transition"> Blasting Machines</Link></li>
+            <li><Link href="/categories/other-products" className="hover:text-red-400 transition">Other Machines</Link></li>
+        
           </ul>
         </div>
 
@@ -148,24 +165,24 @@ const Footer = () => {
             />
           </div>
 
-  {isModalOpen &&
-  createPortal(
-    <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-[9999]">
-      <button
-        className="absolute top-6 right-6 text-white text-2xl"
-        onClick={() => setIsModalOpen(false)}
-      >
-        ✕
-      </button>
+          {isModalOpen &&
+            createPortal(
+              <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-[9999]">
+                <button
+                  className="absolute top-6 right-6 text-white text-2xl"
+                  onClick={() => setIsModalOpen(false)}
+                >
+                  ✕
+                </button>
 
-      <img
-        src="/cert.webp"
-        alt="Full Certificate"
-        className="max-w-[90vw] max-h-[90vh] rounded-xl"
-      />
-    </div>,
-    document.body
-  )}
+                <img
+                  src="/cert.webp"
+                  alt="Full Certificate"
+                  className="max-w-[90vw] max-h-[90vh] rounded-xl"
+                />
+              </div>,
+              document.body
+            )}
         </div>
       </div>
 
@@ -175,9 +192,9 @@ const Footer = () => {
 
         <p className="mt-2 md:mt-0">
           Designed by{" "}
-          <span className="text-red-400 font-medium">
+          <a href="https://promozionebranding.com" target="_blank" className="text-red-400 font-medium">
             Promozione Branding Pvt. Ltd.
-          </span>
+          </a>
         </p>
       </div>
     </footer>

@@ -84,15 +84,11 @@ Contact: ${phone}`;
   const products = categories.flatMap((c) => c.products || []);
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black/60 backdrop-blur-md z-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-black/40  z-50">
       
       <div
         className="relative rounded-3xl shadow-[0_25px_80px_rgba(0,0,0,0.5)] p-10 max-w-sm md:max-w-2xl w-[95%] text-white overflow-hidden border border-white/20"
-        style={{
-          backgroundImage: "url(/prod3.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
+      
       >
         {/* DARK OVERLAY */}
         <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
@@ -110,7 +106,7 @@ Contact: ${phone}`;
           <h2 className="text-center text-white text-2xl md:text-3xl font-bold tracking-wide">
             Get In Touch With Us
           </h2>
-          <div className="w-28 h-[4px] bg-gradient-to-r from-blue-500 to-cyan-400 mx-auto mt-3 mb-8 rounded-full"></div>
+          <div className="w-28 h-[4px] bg-gradient-to-r from-red-500 to-red-400 mx-auto mt-3 mb-8 rounded-full"></div>
 
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="flex gap-3">
@@ -182,7 +178,7 @@ Contact: ${phone}`;
 
             <button
               type="submit"
-              className="w-full py-3 bg-gradient-to-r from-blue-600 to-cyan-500 hover:scale-[1.02] transition-all duration-300 rounded-lg font-semibold text-white text-sm shadow-lg"
+              className="w-full py-3 bg-gradient-to-r from-red-600 to-red-500 hover:scale-[1.02] transition-all duration-300 rounded-lg font-semibold text-white text-sm shadow-lg"
               disabled={loading}
             >
               {loading ? "Sending..." : "Send Message"}
