@@ -75,7 +75,7 @@ ${message}`;
   };
 
   return (
-    <section className="relative py-6  px-6 md:px-20 bg-[#FFFAF1] overflow-hidden">
+    <section className="hidden lg:block relative py-6  px-6 md:px-20 bg-[#FFFAF1] overflow-hidden">
 
       {/* SPLASH BG */}
       <Image

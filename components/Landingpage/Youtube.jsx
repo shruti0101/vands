@@ -62,17 +62,17 @@ export default function ProductVideos() {
   const [activeVideo, setActiveVideo] = useState(videos[0])
 
   return (
-    <section className="py-20 bg-white">
+    <section className=" py-7 md:py-20 bg-white">
 
       <div className="w-full mx-auto px-6 md:px-20">
 
         {/* Heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-gray-900">
+        <div className="text-center mb-5 md:mb-16">
+          <h2 className="text-2xl md:text-5xl font-semibold tracking-tight text-gray-900">
             Product Video Showcase
           </h2>
 
-          <p className="mt-4 text-gray-600 max-w-xl mx-auto text-lg">
+          <p className="mt-2 text-gray-600 max-w-xl mx-auto text-lg">
             Explore real-time performance and applications of our machines.
           </p>
         </div>

@@ -114,7 +114,7 @@ Contact: ${phone}`;
                 type="text"
                 placeholder="Your Name"
                 name="name"
-                className="w-1/2 p-3 rounded-lg text-white text-sm bg-white/10 border border-white/30 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
+                className="w-1/2 p-3 rounded-lg text-white text-sm bg-white/10 border border-white/30 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-red-400 transition"
                 required
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -124,7 +124,7 @@ Contact: ${phone}`;
               <select
                 name="products"
                 required
-                className="w-1/2 p-3 rounded-lg text-white text-sm bg-white/10 border border-white/30 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                className="w-1/2 p-3 rounded-lg text-white text-sm bg-white/10 border border-white/30 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-red-400"
               >
                 <option value="" className="text-black">Select Product</option>
                 {products.map((p) => (
@@ -135,7 +135,7 @@ Contact: ${phone}`;
               </select>
             </div>
 
-            <div className="flex items-center bg-white/10 backdrop-blur-md rounded-lg border border-white/30 overflow-hidden focus-within:ring-2 focus-within:ring-blue-400">
+            <div className="flex items-center bg-white/10 backdrop-blur-md rounded-lg border border-white/30 overflow-hidden focus-within:ring-2 focus-within:ring-red-400">
               <img
                 src="/flag.webp"
                 alt="flag"
@@ -159,7 +159,7 @@ Contact: ${phone}`;
               type="email"
               name="email"
               placeholder="Email"
-              className="w-full p-3 rounded-lg text-white text-sm bg-white/10 border border-white/30 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full p-3 rounded-lg text-white text-sm bg-white/10 border border-white/30 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-red-400"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -169,7 +169,7 @@ Contact: ${phone}`;
             <textarea
               name="message"
               placeholder="Message"
-              className="w-full bg-white/10 backdrop-blur-md p-3 rounded-lg text-white text-sm border border-white/30 focus:outline-none focus:ring-2 focus:ring-blue-400 h-28 resize-none"
+              className="w-full bg-white/10 backdrop-blur-md p-3 rounded-lg text-white text-sm border border-white/30 focus:outline-none focus:ring-2 focus:ring-red-400 h-28 resize-none"
               required
               value={message}
               onChange={(e) => setMessage(e.target.value)}

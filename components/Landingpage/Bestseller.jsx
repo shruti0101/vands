@@ -86,15 +86,15 @@ const products = [
 
 export default function BestSellerSlider() {
   return (
-    <section style={{backgroundImage:"url(/bestsellbg.jpg)"}} className="py-18 bg-center bg-cover">
-      <div className="w-full mx-auto px-6 md:px-23">
+    <section style={{backgroundImage:"url(/bestsellbg.jpg)"}} className="py-5 md:py-18 bg-center bg-cover">
+      <div className="w-full mx-auto  md:px-23">
 
         {/* Heading */}
-        <div className="text-center mb-15">
+        <div className="text-center mb-8 md:mb-15">
           <p className="text-md md:text-4xl font-oswald text-red-500 font-bold uppercase tracking-wide">
             Our Featured Products
           </p>
-          <h2 className="text-xl font-medium leading-relaxed text-black mt-4">
+          <h2 className="text-xs md:text-xl font-medium leading-relaxed text-black mt-4">
        
 With over a decade of experience, Vands Engineering Solutions has developed strong expertise in manufacturing and supplying Airless Painting Machines and surface preparation equipment. Our in-depth industry knowledge helps us understand customer requirements accurately and deliver the most suitable solutions for different industrial applications.
           </h2>

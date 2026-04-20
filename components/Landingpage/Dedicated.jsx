@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ManufacturerSection() {
   return (
-    <section className="py-15  relative overflow-hidden">
+    <section className="pb-3 md:py-15  relative overflow-hidden">
 <div className="absolute -left-50 top-0 h-full w-[40%] -z-10 pointer-events-none">
   <Image
     src="/bgshape.png"
@@ -34,12 +34,12 @@ export default function ManufacturerSection() {
           <div>
 
             {/* H1 */}
-            <h1 className="text-3xl md:text-5xl font-semibold leading-tight text-black">
+            <h1 className="text-2xl md:text-5xl font-semibold leading-tight text-black">
               Airless Painting Machine Manufacturer
             </h1>
 
             {/* Subheading */}
-            <h2 className="mt-4 text-xl md:text-2xl font-medium text-red-600">
+            <h2 className="mt-4 text-md md:text-2xl font-medium text-red-600">
               High-Performance Airless Painting Machines for Industrial Applications
             </h2>
 

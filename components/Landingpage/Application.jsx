@@ -37,15 +37,15 @@ const applications = [
 
 export default function ApplicationsSection() {
   return (
-    <section className="py-20 bg-[#FDF4E8]">
+    <section className=" py-8 md:py-20 bg-[#FDF4E8]">
       <div className="w-full  mx-auto px-6 md:px-23">
 
         {/* Heading */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-8 md:mb-14">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-800">
             Applications of Our Equipment
           </h2>
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">
+          <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-md md:text-lg">
             Discover how our advanced airless painting and surface preparation machines
             deliver performance across industries.
           </p>

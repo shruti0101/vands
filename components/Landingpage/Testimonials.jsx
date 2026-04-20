@@ -36,12 +36,12 @@ const testimonials = [
 
 export default function TestimonialSlider() {
   return (
-    <section className="py-24 bg-gradient-to-b from-[#FFFAF1] to-[#FDF4E8]">
+    <section className="py-8 md:py-24 bg-gradient-to-b from-[#FFFAF1] to-[#FDF4E8]">
 
       <div className="max-w-7xl mx-auto px-6 md:px-20">
 
         {/* Heading */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-5 md:mb-16">
           <h2 className="text-3xl md:text-5xl font-semibold text-gray-900">
             Why Clients Choose Us
           </h2>

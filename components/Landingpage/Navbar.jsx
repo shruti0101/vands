@@ -221,16 +221,55 @@ const allProducts = categories.flatMap((cat) => cat.products || []);
         </div>
 
         {/* MOBILE MENU */}
-        {isMobileMenuOpen && (
-          <div className="lg:hidden bg-black fixed top-[58px] left-0 w-full h-[calc(100vh-58px)] p-6 z-40">
-            <div className="flex flex-col gap-6 text-lg">
-              <Link href="/" onClick={closeMenu}>HOME</Link>
-              <Link href="/about" onClick={closeMenu}>ABOUT US</Link>
-              <Link href="/blogs" onClick={closeMenu}>BLOGS</Link>
-              <Link href="/contact" onClick={closeMenu}>CONTACT US</Link>
-            </div>
+{isMobileMenuOpen && (
+  <div className="lg:hidden bg-black fixed top-[58px] left-0 w-full h-[calc(100vh-58px)] p-6 z-50 overflow-y-auto">
+    <div className="flex flex-col gap-6 text-lg">
+
+      <Link href="/" onClick={closeMenu}>
+        HOME
+      </Link>
+
+      {/* DROPDOWN */}
+      <div>
+        <button
+          onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+          className="w-full text-left flex justify-between items-center"
+        >
+          <span>PRODUCTS</span>
+          <span>{isDropdownOpen ? "−" : "+"}</span>
+        </button>
+
+        {isDropdownOpen && (
+          <div className="mt-3 ml-4 flex flex-col gap-3">
+            {categories.map((item) => (
+              <Link
+                key={item.id}
+                href={`/categories/${item.id}`}
+                onClick={closeMenu}
+                className="block px-4 py-2 text-sm hover:bg-gray-100"
+              >
+                {item.name}
+              </Link>
+            ))}
           </div>
         )}
+      </div>
+
+      <Link href="/about" onClick={closeMenu}>
+        ABOUT US
+      </Link>
+
+      <Link href="/blogs" onClick={closeMenu}>
+        BLOGS
+      </Link>
+
+      <Link href="/contact" onClick={closeMenu}>
+        CONTACT US
+      </Link>
+
+    </div>
+  </div>
+)}
       </div>
     </header>
   );

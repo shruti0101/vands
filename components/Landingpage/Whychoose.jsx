@@ -72,7 +72,7 @@ export default function WhyChooseUs() {
            Why Choose Our Airless Painting Machines
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+            <h2 className="text-2xl md:text-5xl font-bold text-gray-900 leading-tight">
             Your Trusted Partner for Airless Painting & Surface Preparation Solutions
             </h2>
 

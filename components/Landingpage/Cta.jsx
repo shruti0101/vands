@@ -44,7 +44,7 @@ const Whoweare = () => {
       </div>
     </section>
 
-<section className="relative w-full h-screen">
+<section className="hidden md:block relative w-full h-screen">
   <Image
     src="/Airless-Spraying.gif"
     alt="Airless Painting Machine Demo"

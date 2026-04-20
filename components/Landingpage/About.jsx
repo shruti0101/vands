@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section className="relative py-15 px-6 md:px-23 overflow-hidden">
+    <section className="relative py-10 px-6 md:px-23 overflow-hidden">
          <div className="absolute w-[120%] top-0 h-[100%] -z-10">
             <Image
               src="/bgshape.png" // <-- replace with your generated soft red image
               alt="background shape"
               fill
-              className="object-cover "
+              className="object-cover hidden md:block"
             />
           </div>
       {/* Grid Layout */}
