@@ -116,7 +116,7 @@ export default function Navbar() {
               { name: "HOME", href: "/" },
               { name: "ABOUT US", href: "#" },
               { name: "BLOGS", href: "/blogs" },
-              { name: "CONTACT US", href: "/contact" },
+              { name: "CONTACT US", href: "#" },
             ].map((item, i) => (
               <button key={i} className="relative group hover:text-gray-300">
                 <Link href={item.href}>{item.name}</Link>
