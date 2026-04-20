@@ -18,42 +18,42 @@ const Productcategory = () => {
       products: 30,
       img: "/cat/airlesspainting.png",
       hoverImg: "/cat/1.png",
-      link: "/productsg",
+      link: "/categories/airless-painting-machine",
     },
     {
       name: "Wall Putty Spray Machine",
       products: 24,
       img: "/cat/wallputty-removebg-preview.png",
       hoverImg: "/cat/airless-wall-putty-sprayer-machine-500x500.webp",
-      link: "/productsr",
+      link: "/categories/airless-painting-machine",
     },
     {
       name: "Airless Spray Painting Machine",
       products: 21,
       img: "/cat/airlessspray-removebg-preview.png",
       hoverImg: "/cat/3.png",
-      link: "/productst",
+      link: "/categories/airless-painting-machine",
     },
     {
       name: "Airless Paint Spray Machine",
       products: 26,
       img: "/cat/airlesspaintspray-removebg-preview.png",
       hoverImg: "/cat/6.png",
-      link: "/productst",
+      link: "/categories/airless-painting-machine",
     },
     {
       name: "Kerb Painting Machine",
       products: 37,
       img: "/cat/kerb-removebg-preview.png",
       hoverImg: "/cat/2.png",
-      link: "/productst",
+      link: "/categories/airless-painting-machine",
     },
     {
       name: "Wall Painting Machine",
       products: 17,
       img: "/cat/wallpainting-removebg-preview.png",
       hoverImg: "/cat/5.png",
-      link: "/productst",
+      link: "/categories/airless-painting-machine",
     },
   ];
 
@@ -80,7 +80,7 @@ const Productcategory = () => {
             </div>
 
             <Link
-              href="/products"
+              href="/categories/airless-painting-machine"
               className="bg-red-600 hover:bg-red-700 text-white px-5 py-2.5 md:px-6 md:py-3 rounded-lg font-semibold shadow-md transition text-sm md:text-base w-fit"
             >
               Explore All Products

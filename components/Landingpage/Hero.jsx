@@ -6,7 +6,7 @@ import Image from "next/image";
 
 //  Separate images
 const desktopImages = ["/banner1.webp","/banner2.webp","banner3.jpeg"];
-const mobileImages = ["/mobile3.webp","/mobile2.webp","/mobile1.webp","/mobile4.webp"];
+const mobileImages = ["/mob1.webp","/mob2.webp","/mob3.webp"];
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -33,7 +33,7 @@ const Hero = () => {
   return (
     <>
       {/* ✅ Desktop Hero */}
-      <section className="relative mt-26 hidden md:flex justify-end w-full h-[90vh] overflow-hidden">
+      <section className="relative mt-18 hidden md:flex  justify-end w-full  h-[100vh] overflow-hidden">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
             key={`desktop-${currentIndex}`}
@@ -47,10 +47,12 @@ const Hero = () => {
             <Image
               src={desktopImages[currentIndex]}
               alt={`Desktop banner ${currentIndex + 1}`}
-              fill
+              width={1500}
+              height={900}
+
               priority
-              sizes="100vw"
-              className="object-cover"
+           
+              className="max-w-full h-auto object-cover"
             />
           </motion.div>
         </AnimatePresence>
@@ -59,7 +61,7 @@ const Hero = () => {
       </section>
 
       {/* ✅ Mobile Hero */}
-      <section className="relative block md:hidden w-full mt-24 h-[50vh]  overflow-hidden">
+      <section className="relative mt-10 block md:hidden w-full  h-[60vh]  overflow-hidden">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
             key={`mobile-${currentIndex}`}

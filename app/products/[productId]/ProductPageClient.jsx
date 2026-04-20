@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { categories } from "@/Data";
-import Inquiryform from "./Inquiryform"
+import Enquiry from "@/components/Enquiry";
 
 const variants = {
   enter: (direction) => {
@@ -26,48 +26,12 @@ const variants = {
   },
 };
 
-const product = {
-  id: "e-junior-395",
-  name: "E-Junior 395",
-  metaTitle: "E-Junior 395 Airless Painting Machine",
-  metaDescription:
-    "High-performance airless painting machine for smooth and professional results.",
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The E-Junior 395 Airless Painting Machine is a high-performance spraying solution designed for fast, smooth, and professional-grade painting results.",
-    },
-    { type: "h2", text: "Features & Benefits:" },
-    {
-      type: "ul",
-      items: [
-        "Smooth and even paint application",
-        "Professional finish without brush marks",
-        "Fast coverage for large areas",
-        "Durable and reliable build",
-      ],
-    },
-  ],
 
-  specs: [
-    { label: "Motor Type", value: "Carbon Brush Electric Motor" },
-    { label: "Power", value: "1.8 kW" },
-    { label: "Maximum Pressure", value: "227 Bar / 3300 PSI" },
-    { label: "Flow Rate", value: "2.1 L/min" },
-    { label: "Weight", value: "14 kg" },
-  ],
-  ytArray: {
-    title: "ECO PRO PLUS",
-    link: "https://www.youtube.com/watch?v=ZZSfibTJlOE",
-  },
-  image: [
-    {
-      src: "/cat/Products/airless-painting-machine/Picture1.webp",
-      alt: "E-Junior 395",
-    },
-  ],
-};
+
+
+const ProductPageClient = ({ productId }) => {
+
+
 
 const ytArray = [
   {
@@ -88,8 +52,7 @@ const ytArray = [
   },
 ];
 
-const ProductPageClient = ({ productId }) => {
-
+  const [isFormOpen, setIsFormOpen] = useState(false)
   const [open ,setOpen]=useState(false);
 
   const allProducts = categories.flatMap((c) =>
@@ -129,13 +92,13 @@ const ProductPageClient = ({ productId }) => {
 
           <div className="my-5 gap-6 hidden lg:flex items-center">
   
-  <button onClick={()=>{setOpen(true),console.log(open);}} className="w-fit sm:w-auto text-center bg-[#90081A] text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105">
+  <button   onClick={() => setIsFormOpen(true)} className="w-fit sm:w-auto text-center bg-[#90081A] text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105">
     Get a Quote
   </button>
 
   {/* WhatsApp Button */}
   <a
-    href={`https://wa.me/918826544443?text=I%20want%20to%20enquiry%20about%20${product.name}`}
+    href={`https://wa.me/919990730939?text=I%20want%20to%20enquiry%20about%20${product.name}`}
     target="_blank"
     rel="noopener noreferrer"
     className="w-fit sm:w-auto text-center bg-green-500 text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105"
@@ -221,7 +184,7 @@ const ProductPageClient = ({ productId }) => {
             Get a Quote
           </button>
           <a
-    href="https://wa.me/918826544443"
+    href="https://wa.me/919990730939"
     target="_blank"
     rel="noopener noreferrer"
     className="w-fit sm:w-auto text-center  bg-green-500 text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105"
@@ -374,6 +337,11 @@ const ProductPageClient = ({ productId }) => {
           })}
         </div>
       </section>
+
+         {/* Pass isOpen + onClose to ContactForm */}
+      {isFormOpen && (
+        <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+      )}
     </div>
   );
 };

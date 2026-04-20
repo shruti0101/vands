@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-
+import Link from "next/link";
 export default function ManufacturerSection() {
   return (
     <section className="pb-3 md:py-15  relative overflow-hidden">
@@ -61,13 +61,11 @@ export default function ManufacturerSection() {
 
             {/* CTA */}
             <div className="mt-8 flex flex-wrap gap-4">
-              <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold shadow-md transition">
-                Get a Quote
-              </button>
+            
 
-              <button className="border border-gray-900 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition">
+              <Link href="/categories/airless-painting-machine" className="border border-gray-900 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition">
                 Explore Products
-              </button>
+              </Link>
             </div>
 
           </div>

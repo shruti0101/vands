@@ -68,6 +68,16 @@ useEffect(() => {
 
 const allProducts = categories.flatMap((cat) => cat.products || []);
 
+
+
+const socialLinks = [
+  { Icon: Facebook, link: "https://www.facebook.com/vandsengineeringsolutions" },
+ 
+  { Icon: Instagram, link: "https://www.instagram.com/vandsengineering/" },
+  { Icon: Youtube, link: "https://www.youtube.com/channel/UCo1-UbYjtlOwRUlfTD04-mA" },
+  { Icon: Linkedin, link: "https://www.linkedin.com/company/vands-engineering-solutions/" },
+];
+
   return (
     <header className="w-full fixed top-0 left-0 z-50 font-semibold">
       {/* TOP BAR */}
@@ -83,32 +93,34 @@ const allProducts = categories.flatMap((cat) => cat.products || []);
           <Image src="/vands-logo.webp" alt="Vands" width={170} height={60} />
           </Link>
 
-          <div className="flex items-center gap-8 text-[13px] uppercase">
-            <span className="flex items-center gap-2">
-              <Phone size={14} /> +91-88820-57687
-            </span>
-            <span className="flex items-center gap-2">
-              <Mail size={14} /> vandsengg@gmail.com
-            </span>
-            <span className="flex items-center gap-2">
-              <MapPin size={14} /> New Delhi - India
-            </span>
-            <span className="flex items-center gap-2">
-              <MessageCircle size={15} /> CONTACT US
+          <div className="flex items-center gap-5 text-[13px] uppercase">
+
+   <span className="flex items-center gap-2 text-lg animate-pulse">
+          GST NO.   07ALLPC1925A1ZP
             </span>
 
-    <div className="flex items-center gap-3 ml-4">
-              {[Facebook, Twitter, Instagram, Youtube, Linkedin].map(
-                (Icon, i) => (
-                  <div
-                    key={i}
-                    className="p-2 rounded-full bg-white/30 hover:bg-white/50 transition cursor-pointer"
-                  >
-                    <Icon size={15} />
-                  </div>
-                )
-              )}
-            </div>
+            <a href= "tel:+919990730939" className="flex items-center gap-2">
+              <Phone size={14} /> +91-99907 30939
+            </a>
+            <a href="mailto:vandsengg@gmail.com" className="flex items-center gap-2">
+              <Mail size={14} /> vandsengg@gmail.com
+            </a>
+         
+         
+
+  <div className="flex items-center gap-3 ml-4">
+  {socialLinks.map(({ Icon, link }, i) => (
+    <a
+      key={i}
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-2 rounded-full bg-white/30 hover:bg-white/50 transition cursor-pointer"
+    >
+      <Icon size={15} />
+    </a>
+  ))}
+</div>
 
           </div>
         </div>
@@ -207,7 +219,7 @@ const allProducts = categories.flatMap((cat) => cat.products || []);
 
             {/* WHATSAPP */}
             <a
-              href="https://wa.me/918882057687"
+              href="https://wa.me/919990730939"
               target="_blank"
               className="bg-green-500 hover:bg-green-600 p-2 rounded-md"
             >

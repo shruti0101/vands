@@ -100,24 +100,22 @@ Contact: ${phone}`;
           <div className="bg-white p-6 rounded-2xl shadow-xl text-center hover:scale-105 transition">
             <Phone className="mx-auto text-[#C8102E] mb-3" size={32} />
             <h3 className="font-semibold text-lg mb-2">Phone Number</h3>
-            <p>+91-7042039777</p>
-            <p>+91-9953547117</p>
-            <p>+91-8527877798</p>
+            <p>+91-9990730939</p>
+           
           </div>
 
           <div className="bg-white p-6 rounded-2xl shadow-xl text-center hover:scale-105 transition">
             <Mail className="mx-auto text-[#C8102E] mb-3" size={32} />
             <h3 className="font-semibold text-lg mb-2">Email Address</h3>
-            <p>machinerysbs@gmail.com</p>
+            <p>vandsengg@gmail.com</p>
           </div>
 
           <div className="bg-white p-6 rounded-2xl shadow-xl text-center hover:scale-105 transition">
             <MapPin className="mx-auto text-[#C8102E] mb-3" size={32} />
             <h3 className="font-semibold text-lg mb-2">Address</h3>
             <p className="text-sm text-gray-600">
-              Plot number 1A 31/19/1 Gali no- 4 gemini park najafgarh delhi pin code 110043
-              <br />Near by:- metro station Nangli Sakrawati exit gate number 1
-              <br />Dwarka, New Delhi – 110059
+               First Floor, C-13, Mukhram Garden, Tilak Nagar <br />
+          New Delhi - 110018, Delhi, India
             </p>
           </div>
 
@@ -170,13 +168,10 @@ Contact: ${phone}`;
                   disabled={loading}
                 >
                   <option value="">Select Machine</option>
-                  <option>Paper Cup Making Machine</option>
-                  <option>Paper Die Cutting Machine</option>
-                  <option>Paper Plate Making Machine</option>
-                  <option>Bio-degradable Bag Making Machine</option>
-                  <option>Flexoprinting Machine</option>
-                  <option>Non Woven Bag Making Machines</option>
-                  <option>Offset Bag Printing Machine</option>
+                  <option>Airless Painting Machine</option>
+                  <option>Blasting Machine</option>
+                  <option>Others</option>
+              
                 </select>
               </div>
 
@@ -218,11 +213,8 @@ Contact: ${phone}`;
 
           {/* MAP */}
           <div className="rounded-2xl overflow-hidden shadow-xl">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d301208.02472141205!2d77.005206!3d28.617205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0f0063ca2143%3A0x983944fd10dfb00e!2sSBS%20Machinery%20Private%20Limited%20%E2%80%93%20Paper%20Cup%20%26%20Paper%20Plate%20Making%20Machine%20Manufacturer%20in%20Delhi%20NCR!5e1!3m2!1sen!2sus!4v1758178730140!5m2!1sen!2sus"
-              className="w-full h-full min-h-[500px] border-0"
-              loading="lazy"
-            ></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.358504221931!2d77.02360519999999!3d28.6789206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05a383a54ac1%3A0x57915af3caf410f0!2sVands%20engineering%20solutions!5e0!3m2!1sen!2sin!4v1776684171431!5m2!1sen!2sin"   allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"  className="w-full h-full min-h-[500px] border-0"
+             ></iframe>
           </div>
 
         </div>

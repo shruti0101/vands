@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-
+import Link from "next/link";
 export default function AboutSection() {
   return (
     <section className="relative py-10 px-6 md:px-23 overflow-hidden">
@@ -37,11 +37,13 @@ export default function AboutSection() {
           <p className="text-black text-lg leading-relaxed">
             Our advanced Airless Painting Machines are engineered to provide smooth, uniform coating with high transfer efficiency, reducing paint wastage and ensuring a professional finish every time.
           </p>
+<div className="mt-4 flex flex-wrap gap-4">
 
           {/* CTA */}
-          <button className="mt-6 px-6 py-3 bg-red-500 hover:bg-red-600 text-white rounded-full shadow-md transition cursor-pointer">
+          <Link href="/about" className=" px-6 py-3 bg-red-500 hover:bg-red-600 text-white rounded-full shadow-md transition cursor-pointer">
             Explore Products
-          </button>
+          </Link>
+</div>
         </div>
 
         {/* RIGHT IMAGE + BACKGROUND */}

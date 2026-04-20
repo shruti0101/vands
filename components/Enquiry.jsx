@@ -30,7 +30,7 @@ export default function Enquiry({ isOpen, onClose }) {
         "https://brandbnalo.com/api/form/add",
         {
           platform: "vands engineering inquiry Form",
-          platformEmail: "machinerysbs@gmail.com",
+          platformEmail: "vandsengg@gmail.com",
           name,
           phone,
           email,

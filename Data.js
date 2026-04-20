@@ -1065,7 +1065,7 @@ export const categories = [
 
   image: [
     {
-      src: "/cat/Products/airless-painting-machine/PNEUMATIC70_1.webp",
+      src: "/pnumatic.jpeg",
       alt: "Pneumatic 70:1 Airless Paint Sprayer",
     },
   ],

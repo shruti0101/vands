@@ -25,7 +25,7 @@ const Cta = () => {
     try {
       const formData = {
         platform: "vands engineering Website enquiry form",
-        platformEmail: "shreeshaktiinfratech@gmail.com",
+        platformEmail: "vandsengg@gmail.com",
         name,
         phone,
         email,
@@ -51,7 +51,7 @@ Email: ${email}
 Message:
 ${message}`;
 
-        const waUrl = `https://wa.me/918826544443?text=${encodeURIComponent(
+        const waUrl = `https://wa.me/919990730939?text=${encodeURIComponent(
           whatsappText
         )}`;
 

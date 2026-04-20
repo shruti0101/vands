@@ -39,14 +39,14 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-17 bg-white overflow-hidden">
+    <section className=" pb-7 md:py-17 bg-white overflow-hidden">
       <div className="w-full mx-auto px-6 md:px-23">
 
         {/* TOP */}
         <div className="grid lg:grid-cols-2 gap-14 items-center mb-5">
 
           {/* VIDEO */}
-          <div className="relative h-[580px] rounded-3xl overflow-hidden ">
+          <div className="relative h-[300px] md:h-[580px] rounded-3xl overflow-hidden ">
             <video
               ref={videoRef}
               src="/Vands.mp4"

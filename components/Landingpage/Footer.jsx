@@ -21,9 +21,9 @@ const Footer = () => {
       <div className="absolute inset-0 bg-gradient-to-tr from-red-600/10 via-transparent to-orange-400/10 pointer-events-none"></div>
 
       {/* Watermark */}
-      <span className="hidden md:flex absolute animate-pulse inset-0 items-center justify-center text-[7rem] font-extrabold tracking-widest text-white/10 select-none">
-        VANDS ENGINEERING 
-      </span>
+    <span className="hidden md:flex absolute animate-pulse inset-0 items-center justify-center text-[7rem] font-extrabold tracking-widest text-white/10 select-none pointer-events-none">
+  VANDS ENGINEERING 
+</span>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-16 grid grid-cols-1 md:grid-cols-5 gap-10">
 
@@ -33,7 +33,7 @@ const Footer = () => {
             About Us
           </h3>
 
-          <p className="text-sm text-gray-300 leading-relaxed">
+          <p className="text-sm text-white leading-relaxed">
             Vands Engineering Solutions is a trusted manufacturer of high-performance
             industrial machines including{" "}
             <span className="text-red-400 font-medium">
@@ -49,38 +49,37 @@ const Footer = () => {
             Contact
           </h3>
 
-          <p className="flex gap-2 text-sm text-gray-300 mb-3">
+          <p className="flex gap-2 text-sm text-white mb-3">
             <FaMapMarkerAlt className="text-red-400 mt-1" />
-            Delhi, India – Industrial Equipment Supplier
+          First Floor, C-13, Mukhram Garden, Tilak Nagar <br />
+          New Delhi - 110018, Delhi, India
           </p>
 
-          <a href="tel:+918826544443" className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
-            <FaPhoneAlt className="text-red-400" /> +91-8826544443
+      
+
+          <a href="tel:+919990730939" className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
+            <FaPhoneAlt className="text-red-400" /> +91-9990730939
           </a>
 
-          <a href="tel:+919654243444" className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
-            <FaPhoneAlt className="text-red-400" /> +91-9654243444
-          </a>
-
-          <a href="mailto:info@vands.com" className="flex items-center gap-2 text-sm mb-4 hover:text-red-400 transition">
-            <FaEnvelope className="text-red-400" /> info@vands.com
+          <a href="mailto:vandsengg@gmail.com" className="flex items-center gap-2 text-sm mb-4 hover:text-red-400 transition">
+            <FaEnvelope className="text-red-400" /> vandsengg@gmail.com
           </a>
 
           {/* Social */}
           <div className="flex gap-3">
-            <a href="https://youtube.com" target="_blank">
+            <a href="https://www.youtube.com/channel/UCo1-UbYjtlOwRUlfTD04-mA" target="_blank">
               <div className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer">
                 <FaYoutube className="text-sm" />
               </div>
             </a>
 
-            <a href="https://facebook.com" target="_blank">
+            <a href="https://www.facebook.com/vandsengineeringsolutions" target="_blank">
               <div className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer">
                 <FaFacebookF className="text-sm" />
               </div>
             </a>
 
-            <a href="https://instagram.com" target="_blank">
+            <a href="https://www.instagram.com/vandsengineering/" target="_blank">
               <div className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer">
                 <FaInstagram className="text-sm" />
               </div>
@@ -94,7 +93,7 @@ const Footer = () => {
             Quick Links
           </h3>
 
-          <ul className="space-y-3 text-sm text-gray-300">
+          <ul className="space-y-3 text-sm text-white">
 
   <li>
               <Link href="/" className="hover:text-red-400 transition flex items-center gap-2">
@@ -137,7 +136,7 @@ const Footer = () => {
             Our Categories
           </h3>
 
-          <ul className="space-y-3 text-sm text-gray-300">
+          <ul className="space-y-3 text-sm text-white">
             <li><Link href="/categories/airless-painting-machine" className="hover:text-red-400 transition">Airless Painting Machines</Link></li>
             <li><Link href="/categories/blasting-machine" className="hover:text-red-400 transition"> Blasting Machines</Link></li>
             <li><Link href="/categories/other-products" className="hover:text-red-400 transition">Other Machines</Link></li>
@@ -151,9 +150,8 @@ const Footer = () => {
             Certification
           </h3>
 
-          <p className="text-sm text-gray-300 mb-4">
-            Recognized for excellence in manufacturing, service quality, and
-            customer satisfaction.
+          <p className="text-sm text-white mb-4">
+           We are proud to present the TrustElite Certificate of Excellence to Vands Engineering Solutions, recognizing their commitment to exceptional customer service, outstanding business practices, and a dedication to building trust with their customers.
           </p>
 
           <div className="flex justify-start">
@@ -191,10 +189,15 @@ const Footer = () => {
         <p>© 2026 Vands Engineering Solutions. All Rights Reserved.</p>
 
         <p className="mt-2 md:mt-0">
-          Designed by{" "}
-          <a href="https://promozionebranding.com" target="_blank" className="text-red-400 font-medium">
-            Promozione Branding Pvt. Ltd.
-          </a>
+         Website Designed By Promozione Branding Pvt. Ltd {" "}
+        <a 
+  href="https://promozionebranding.com" 
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-red-400 font-medium"
+>
+  Website Designing Company.
+</a>
         </p>
       </div>
     </footer>

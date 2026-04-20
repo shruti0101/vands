@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Autoplay } from "swiper/modules";
 import Image from "next/image";
+import Link from "next/link";
 
 const products = [
   {
@@ -146,9 +147,13 @@ With over a decade of experience, Vands Engineering Solutions has developed stro
                     </span>
                   </div>
 
+
+<Link href="/categories/airless-painting-machine    ">
                   <button className="mt-4 w-fit bg-orange-500 text-white px-5 py-2 rounded-md hover:bg-orange-600 transition">
                     View Product
                   </button>
+
+</Link> 
                 </div>
 
               </div>
