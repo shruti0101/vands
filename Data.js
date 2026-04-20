@@ -2666,7 +2666,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Prods/junior.webp",
+            src: "/Prods/ejunior.webp",
             alt: "E-Junior",
           },
         ],
