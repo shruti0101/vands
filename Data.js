@@ -2666,7 +2666,7 @@ export const categories = [
 
         image: [
           {
-            src: "/cat/Products/airless-painting-machine/Picture1.webp",
+            src: "/Prods/E-JUNIOR.webp",
             alt: "E-Junior",
           },
         ],
@@ -2744,7 +2744,7 @@ export const categories = [
 
         image: [
           {
-            src: "/cat/Products/airless-painting-machine/Picture2.webp",
+            src: "/prods/DIGICOAT 495.webp",
             alt: "Digicot 495",
           },
         ],
@@ -2828,7 +2828,7 @@ export const categories = [
 
         image: [
           {
-            src: "/cat/Products/airless-painting-machine/Picture3.webp",
+            src: "/prods/ECO PRO+.webp",
             alt: "Eco Pro Plus",
           },
         ],
@@ -2904,7 +2904,7 @@ export const categories = [
 
   image: [
     {
-      src: "/cat/Products/airless-painting-machine/Picture4.webp",
+      src: "/prods/Vands 7951.webp",
       alt: "Vands 7951",
     },
   ],
@@ -2984,7 +2984,7 @@ export const categories = [
 
         image: [
           {
-            src: "/cat/Products/airless-painting-machine/Picture5.webp",
+            src: "/prods/MAXCOAT.webp",
             alt: "Maxcot",
           },
         ],
@@ -3071,7 +3071,7 @@ export const categories = [
 
         image: [
           {
-            src: "/cat/Products/airless-painting-machine/MARUTI.webp",
+            src: "/prods/MARUTI.webp",
             alt: "Maruti Airless Painting Machine",
           },
         ],
@@ -3732,7 +3732,7 @@ export const categories = [
 
   image: [
     {
-      src: "/cat/Products/blasting-machine/tomblast.webp",
+      src: "/prods/Airless Tumblast Shot Blasting Machine.webp",
       alt: "Airless Tumblast Shot Blasting Machine VTB 1625 Series",
     },
   ],
@@ -3814,7 +3814,7 @@ export const categories = [
 
   image: [
     {
-      src: "/cat/Products/blasting-machine/sand-blasting.webp",
+      src: "/prods/Sand Blasting Machine.webp",
       alt: "Portable Pressure Sand Blasting Machine",
     },
   ],
@@ -3913,7 +3913,7 @@ export const categories = [
 
   image: [
     {
-      src: "/cat/Products/others/almen-gauage.webp",
+      src: "/prods/Almen Gauge Model MSSD Digital.webp",
       alt: "Almen Gauge Model MSSD Digital",
     },
   ],
@@ -3992,7 +3992,7 @@ export const categories = [
 
   image: [
     {
-      src: "/cat/Products/others/dft-gauge.webp",
+      src: "/prods/Dry Film Thickness Gauge.webp",
       alt: "Dry Film Thickness Gauge",
     },
   ],
@@ -4069,7 +4069,7 @@ export const categories = [
 
   image: [
     {
-      src: "/cat/Products/others/wft-gauge.webp",
+      src: "/prods/Wet Film Thickness Gauge.png",
       alt: "Wet Film Thickness Gauge",
     },
   ],
@@ -4147,7 +4147,7 @@ export const categories = [
 
   image: [
     {
-      src: "/cat/Products/others/flame-gun.webp",
+      src: "/prods/Flame Spray Gun (Metalizing Gun).webp",
       alt: "Flame Spray Gun Metalizing Gun",
     },
   ],
