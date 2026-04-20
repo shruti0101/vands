@@ -79,7 +79,7 @@ const ytArray = [
   return (
     <div className="lg:mt-34 mt-14">
 
-     {open && (<Inquiryform setOpen={setOpen}></Inquiryform>)}
+
 
       <section className="px-2 py-5 md:mx-20 lg:flex lg:flex-row-reverse lg:justify-between lg:gap-10 lg:h-[140vh]">
         <div className="lg:w-1/2">
@@ -90,27 +90,30 @@ const ytArray = [
             Making an impact on Every Job
           </p>
 
-          <div className="my-5 gap-6 hidden lg:flex items-center">
-  
-  <button   onClick={() => setIsFormOpen(true)} className="w-fit sm:w-auto text-center bg-[#90081A] text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105">
-    Get a Quote
-  </button>
+       {/* Buttons */}
+    <div className="flex flex-col sm:flex-row gap-4 pt-2 my-4">
 
-  {/* WhatsApp Button */}
-  <a
-    href={`https://wa.me/919990730939?text=I%20want%20to%20enquiry%20about%20${product.name}`}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="w-fit sm:w-auto text-center bg-green-500 text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105"
-  >
-    WhatsApp
-  </a>
+      <button
+        onClick={() => setIsFormOpen(true)}
+        className="w-full sm:w-auto bg-[#90081A] text-white font-semibold px-6 py-3 rounded-md text-sm md:text-base transition-all duration-200 hover:scale-105 hover:shadow-lg"
+      >
+        Get a Quote
+      </button>
 
-<button className=" border border-2 border-[#90081A] w-fit sm:w-auto text-center text-[#90081A] bg-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105">
-    Download Brochure
-  </button>
+      <a
+        href={`https://wa.me/919990730939?text=I%20want%20to%20enquiry%20about%20${product.name}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-full sm:w-auto bg-green-500 text-white font-semibold px-6 py-3 rounded-md text-sm md:text-base text-center transition-all duration-200 hover:scale-105 hover:shadow-lg"
+      >
+        WhatsApp Us
+      </a>
 
-</div>
+      <button className="hidden md:block w-full sm:w-auto border-2 border-[#90081A] text-[#90081A] bg-white font-semibold px-6 py-3 rounded-md text-sm md:text-base transition-all duration-200 hover:scale-105 hover:shadow-lg">
+        Download Brochure
+      </button>
+
+    </div>
 
           {/* specification table for desktio */}
           <section className="px-2 py-5 hidden lg:block">
@@ -178,23 +181,6 @@ const ytArray = [
           </button> 
         </div>
 
-        {/* for mobile only  */}
-        <div className="my-5 flex justify-center gap-5 lg:hidden">
-          <button onClick={()=>{setOpen(true)}} className="bg-[#90081A] text-white font-bold px-4 py-3">
-            Get a Quote
-          </button>
-          <a
-    href="https://wa.me/919990730939"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="w-fit sm:w-auto text-center  bg-green-500 text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105"
-  >
-    WhatsApp
-  </a>
-          <button className="border text-[#90081A] font-bold px-4 py-3">
-            Download Brochure
-          </button>
-        </div>
       </section>
 
       {/* specification table for mobile */}
