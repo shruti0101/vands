@@ -5,7 +5,7 @@ import LayoutWrapper from "@/components/LayoutWrapper";
 import Stickybutton from "@/components/Landingpage/Stickybutton";
 import Script from "next/script";
 import WhatsAppSticky from "@/components/Landingpage/WhatsAppSticky";
-
+import Popup from "@/components/Popup";
 // Roboto
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
 
       <body className={`${roboto.variable} ${poppins.variable} ${oswald.variable} antialiased`}>
         <LayoutWrapper>
-          {/* <Social /> */}
+         <Popup/>
           <Stickybutton />
           <WhatsAppSticky/>
           {children}

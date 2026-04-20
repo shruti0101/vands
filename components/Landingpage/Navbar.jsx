@@ -27,6 +27,25 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProductsOpen, setIsProductsOpen] = useState(false);
 
+  // ✅ SEARCH STATE
+  const [searchQuery, setSearchQuery] = useState("");
+  const [results, setResults] = useState([]);
+
+  // LIVE SEARCH LOGIC
+useEffect(() => {
+  if (!searchQuery.trim()) {
+    setResults([]);
+    return;
+  }
+
+  const filtered = allProducts.filter((item) =>
+    item.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  setResults(filtered);
+}, [searchQuery]);
+
+  // ✅ SCROLL LOGIC
   useEffect(() => {
     const handleScroll = () => {
       const currentScroll = window.scrollY;
@@ -42,51 +61,39 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
-  // Close everything
   const closeMenu = () => {
     setIsMobileMenuOpen(false);
     setIsProductsOpen(false);
   };
 
-  let category = categories.map((cat) => cat);
+const allProducts = categories.flatMap((cat) => cat.products || []);
 
   return (
     <header className="w-full fixed top-0 left-0 z-50 font-semibold">
-      {/* TOP RED BAR */}
+      {/* TOP BAR */}
       <div
-        className={`hidden lg:block bg-[#c8102e] font-oswald text-white transition-all duration-500 overflow-hidden ${
+        className={`hidden lg:block bg-[#c8102e] text-white transition-all duration-500 overflow-hidden ${
           showTopBar ? "h-[67px]" : "h-0"
         }`}
       >
         <div className="max-w-[1400px] mx-auto flex items-center justify-between h-[70px] px-6">
-          <div className="flex items-center gap-3">
-            <Image
-              src="/vands-logo.webp"
-              alt="Vands"
-              width={170}
-              height={60}
-              priority
-            />
-          </div>
+          <Image src="/vands-logo.webp" alt="Vands" width={170} height={60} />
 
-          <div className="flex font-[var(--font-oswald)] items-center gap-8 text-[13px] uppercase tracking-wide">
-            <span className="flex items-center gap-2 opacity-90 hover:opacity-100 cursor-pointer">
-              <Phone size={14} />
-              +91-88820-57687
+          <div className="flex items-center gap-8 text-[13px] uppercase">
+            <span className="flex items-center gap-2">
+              <Phone size={14} /> +91-88820-57687
             </span>
-            <span className="flex items-center gap-2 opacity-90 hover:opacity-100 cursor-pointer">
-              <Mail size={14} />
-              vandsengg@gmail.com
+            <span className="flex items-center gap-2">
+              <Mail size={14} /> vandsengg@gmail.com
             </span>
-            <span className="flex items-center gap-2 opacity-90 hover:opacity-100 cursor-pointer">
-              <MapPin size={14} />
-              New Delhi - India
+            <span className="flex items-center gap-2">
+              <MapPin size={14} /> New Delhi - India
             </span>
-            <span className="flex items-center gap-2 opacity-90 hover:opacity-100 cursor-pointer">
-              <MessageCircle size={15} />
-              CONTACT US
+            <span className="flex items-center gap-2">
+              <MessageCircle size={15} /> CONTACT US
             </span>
-            <div className="flex items-center gap-3 ml-4">
+
+    <div className="flex items-center gap-3 ml-4">
               {[Facebook, Twitter, Instagram, Youtube, Linkedin].map(
                 (Icon, i) => (
                   <div
@@ -98,128 +105,129 @@ export default function Navbar() {
                 )
               )}
             </div>
+
           </div>
         </div>
       </div>
 
-      {/* MAIN BLACK NAV */}
+      {/* MAIN NAV */}
       <div className="bg-black text-white sticky top-0 z-50 shadow-md">
         <div className="max-w-[1400px] mx-auto flex items-center justify-between px-4 lg:px-10 h-[58px]">
-          {/* MOBILE LOGO */}
+
+          {/* LOGO */}
           <div className="lg:hidden">
             <Image src="/vands-logo.webp" alt="Vands" width={120} height={40} />
           </div>
 
-          {/* DESKTOP NAV LINKS */}
-          <nav className="hidden lg:flex font-oswald items-center gap-10 text-[17px] uppercase tracking-wide">
-            {[
-              { name: "HOME", href: "/" },
-              { name: "ABOUT US", href: "#" },
-              { name: "BLOGS", href: "/blogs" },
-              { name: "CONTACT US", href: "#" },
-            ].map((item, i) => (
-              <button key={i} className="relative group hover:text-gray-300">
-                <Link href={item.href}>{item.name}</Link>
-              </button>
-            ))}
+          {/* NAV LINKS */}
+          <nav className="hidden lg:flex items-center gap-10 text-[17px] uppercase">
+            <Link href="/">HOME</Link>
+            <Link href="/about">ABOUT US</Link>
+            <Link href="/blogs">BLOGS</Link>
+            <Link href="/contact">CONTACT US</Link>
 
-            {/* DESKTOP DROPDOWN */}
+            {/* PRODUCTS */}
             <div className="relative group">
-              <button className="flex items-center gap-1 hover:text-gray-300">
+              <button className="flex items-center gap-1">
                 OUR PRODUCTS <ChevronDown size={15} />
               </button>
-              <div className="absolute left-0 top-full rounded-md hidden group-hover:block z-50 bg-white text-black min-w-[230px] shadow-lg">
-                <ul className="flex flex-col text-[15px] uppercase  ">
-                  {category.map((item, i) => (
-                    <Link
-                      href={`/categories/${item.id}`}
-                      key={i}
-                      className="px-4 py-2 capitalize hover:bg-gray-100 w-full cursor-pointer"
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </ul>
+
+              <div className="absolute left-0 top-full hidden group-hover:block bg-white text-black min-w-[230px] shadow-lg z-50">
+                {categories.map((item) => (
+                  <Link
+                    key={item.id}
+                    href={`/categories/${item.id}`}
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
               </div>
             </div>
           </nav>
 
-          {/* SEARCH + WHATSAPP */}
+          {/* SEARCH */}
           <div className="hidden lg:flex items-center gap-8">
-            <div className="relative z-5">
+            <div className="relative">
+
+              {/* INPUT */}
               <input
                 type="text"
-                placeholder="Search"
-                className="w-[240px] bg-[#e6e6e6] text-black text-sm px-4 py-2 pr-10 outline-none rounded-md"
+                placeholder="Search products..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-[240px] bg-[#e6e6e6] text-black text-sm px-4 py-2 pr-10 rounded-md outline-none"
               />
+
+              {/* ICON */}
               <Search
                 size={18}
                 className="absolute right-3 top-1/2 -translate-y-1/2 text-red-500"
               />
+
+              {/* ✅ RESULTS DROPDOWN */}
+           {searchQuery && (
+  <div className="absolute top-full left-0 w-full bg-white text-black mt-1 rounded-md shadow-lg z-[9999] max-h-[300px] overflow-y-auto">
+
+    {results.length > 0 ? (
+      results.map((item) => (
+        <Link
+          key={item.id}
+          href={`/products/${item.id}`}
+          className="flex items-center gap-3 px-4 py-2 hover:bg-gray-100 text-sm"
+          onClick={() => {
+            setSearchQuery("");
+            setResults([]);
+          }}
+        >
+          {/* IMAGE */}
+          <img
+            src={item.image?.[0]?.src}
+            alt={item.name}
+            className="w-10 h-10 object-cover rounded"
+          />
+
+          {/* NAME */}
+          <span>{item.name}</span>
+        </Link>
+      ))
+    ) : (
+      <div className="px-4 py-2 text-sm text-gray-500">
+        No products found
+      </div>
+    )}
+
+  </div>
+)}
             </div>
-            
-             <a href="https://wa.me/918882057687"
+
+            {/* WHATSAPP */}
+            <a
+              href="https://wa.me/918882057687"
               target="_blank"
-              className="bg-green-500 hover:bg-green-600 p-2 rounded-md flex items-center justify-center transition"
+              className="bg-green-500 hover:bg-green-600 p-2 rounded-md"
             >
               <FaWhatsapp size={22} className="text-white" />
             </a>
           </div>
 
-          {/* MOBILE MENU TOGGLE */}
+          {/* MOBILE MENU BUTTON */}
           <button
-            className="lg:hidden text-white"
+            className="lg:hidden"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
 
-        {/* MOBILE MENU OVERLAY */}
+        {/* MOBILE MENU */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden bg-black fixed top-[58px] left-0 w-full h-[calc(100vh-58px)] p-6 overflow-y-auto z-40 border-t border-gray-800">
-            <div className="flex flex-col gap-6 font-oswald uppercase text-lg">
-
+          <div className="lg:hidden bg-black fixed top-[58px] left-0 w-full h-[calc(100vh-58px)] p-6 z-40">
+            <div className="flex flex-col gap-6 text-lg">
               <Link href="/" onClick={closeMenu}>HOME</Link>
-
               <Link href="/about" onClick={closeMenu}>ABOUT US</Link>
-
               <Link href="/blogs" onClick={closeMenu}>BLOGS</Link>
-
               <Link href="/contact" onClick={closeMenu}>CONTACT US</Link>
-
-              {/* MOBILE PRODUCTS ACCORDION */}
-              <div className="flex flex-col gap-2">
-                <button
-                  className="flex items-center gap-1 hover:text-gray-300 w-fit"
-                  onClick={() => setIsProductsOpen(!isProductsOpen)}
-                >
-                  OUR PRODUCTS
-                  <ChevronDown
-                    size={15}
-                    className={`relative group transition-transform duration-300 ${
-                      isProductsOpen ? "rotate-180" : ""
-                    }`}
-                  />
-                </button>
-
-                {/* ACCORDION DROPDOWN */}
-                {isProductsOpen && (
-                  <div className="flex flex-col group-hover:block bg-white text-black rounded-md overflow-hidden ml-2">
-                    {category.map((item) => (
-                      <Link
-                        key={item.id}
-                        href={`/categories/${item.id}`}
-                        className="px-4 py-2 capitalize text-[15px] hover:bg-gray-100 border-b border-gray-200 last:border-none"
-                        onClick={closeMenu}
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
-
             </div>
           </div>
         )}
