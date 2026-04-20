@@ -22,8 +22,8 @@ export default function Page() {
 
     try {
       const formData = {
-        platform: "SBS Machinery Contact Form",
-        platformEmail: "machinerysbs@gmail.com",
+        platform: "Vands Engineering  Contact Form",
+        platformEmail: "vandsengg@gmail.com",
         name,
         phone,
         email,
@@ -50,7 +50,7 @@ Contact: ${phone}`;
 
         setTimeout(() => {
           window.open(
-            `https://wa.me/917042039777?text=${encodeURIComponent(
+            `https://wa.me/919990730939?text=${encodeURIComponent(
               whatsappText
             )}`,
             "_blank"
@@ -80,7 +80,7 @@ Contact: ${phone}`;
       {/* HERO */}
       <section
         style={{ backgroundImage: "url('/contactbg.jpg')" }}
-        className="w-full h-[60vh] mt-30 relative bg-cover bg-center flex items-center justify-center"
+        className="w-full h-[60vh] mt-10 md:mt-30 relative bg-cover bg-center flex items-center justify-center"
       >
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative text-center text-white px-6">
