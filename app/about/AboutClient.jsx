@@ -78,8 +78,8 @@ export default function AboutPage() {
               img: "/prods/GALAXY PLUS.webp",
             },
             {
-              name: "Airless Painting Machine",
-              img: "/cat/products/airless-painting-machine/ECO-PRO.webp",
+              name: "Pnuematic Airless Painting Machine",
+              img: "/pnumatic.jpeg",
             },
             {
               name: "Airless Tumblast Shot Blasting Machine",
