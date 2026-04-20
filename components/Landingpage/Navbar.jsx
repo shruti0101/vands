@@ -114,7 +114,7 @@ export default function Navbar() {
           <nav className="hidden lg:flex font-oswald items-center gap-10 text-[17px] uppercase tracking-wide">
             {[
               { name: "HOME", href: "/" },
-              { name: "ABOUT US", href: "/about" },
+              { name: "ABOUT US", href: "#" },
               { name: "BLOGS", href: "/blogs" },
               { name: "CONTACT US", href: "/contact" },
             ].map((item, i) => (

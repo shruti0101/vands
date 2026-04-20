@@ -20,6 +20,7 @@ const Productcategory = () => {
       hoverImg: "/cat/1.png",
       link: "/productsg",
     },
+
     {
       name: "Wall Putty Spray Machine",
       products: 24,
@@ -27,6 +28,7 @@ const Productcategory = () => {
       hoverImg: "/cat/airless-wall-putty-sprayer-machine-500x500.webp",
       link: "/productsr",
     },
+
     {
       name: "Airless Spray Painting Machine",
       products: 21,
@@ -34,6 +36,7 @@ const Productcategory = () => {
       hoverImg: "/cat/3.png",
       link: "/productst",
     },
+
     {
       name: "Airless Paint Spray Machine",
       products: 26,
@@ -41,6 +44,7 @@ const Productcategory = () => {
       hoverImg: "/cat/6.png",
       link: "/productst",
     },
+    
     {
       name: "Kerb Painting Machine",
       products: 37,
