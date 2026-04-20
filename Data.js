@@ -2666,7 +2666,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Prods/E-JUNIOR.webp",
+            src: "/Prods/junior.webp",
             alt: "E-Junior",
           },
         ],
@@ -2828,7 +2828,7 @@ export const categories = [
 
         image: [
           {
-            src: "/prods/ECO PRO+.webp",
+            src: "/prods/ecopro+.webp",
             alt: "Eco Pro Plus",
           },
         ],
