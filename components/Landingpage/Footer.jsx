@@ -8,6 +8,7 @@ import {
   FaYoutube,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import { createPortal } from "react-dom";
 
 const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -147,21 +148,24 @@ const Footer = () => {
             />
           </div>
 
-          {isModalOpen && (
-            <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-100">
-              <button
-                className="absolute top-6 right-6 text-white text-2xl "
-                onClick={() => setIsModalOpen(false)}
-              >
-                ✕
-              </button>
-              <img
-                src="/cert.webp"
-                alt="Full Certificate"
-                className="max-w-[90vw] max-h-[90vh] rounded-xl "
-              />
-            </div>
-          )}
+  {isModalOpen &&
+  createPortal(
+    <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-[9999]">
+      <button
+        className="absolute top-6 right-6 text-white text-2xl"
+        onClick={() => setIsModalOpen(false)}
+      >
+        ✕
+      </button>
+
+      <img
+        src="/cert.webp"
+        alt="Full Certificate"
+        className="max-w-[90vw] max-h-[90vh] rounded-xl"
+      />
+    </div>,
+    document.body
+  )}
         </div>
       </div>
 
