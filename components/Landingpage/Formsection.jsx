@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import axios from "axios";
+import { categories } from "@/Data";
 
 const Cta = () => {
   const [status, setStatus] = useState("");
@@ -14,17 +15,7 @@ const Cta = () => {
   const [message, setMessage] = useState("");
   const [requirement, setRequirement] = useState("");
 
-  const categories = [
-    { id: "bar-processing-machines", name: "Bar Processing Machines" },
-    { id: "concrete-mixers", name: "Concrete Mixers" },
-    { id: "anti-fog-cannon-machine", name: "Anti-Fog Cannon Machine" },
-    { id: "lab-testing-equipment", name: "Lab Testing Equipment" },
-    { id: "material-lifting-equipment", name: "Material Lifting Equipment" },
-    { id: "safety-instrument", name: "Safety Instruments" },
-    { id: "ride-on-roller-plate-compactor", name: "RIDE ON ROLLER / PLATE COMPACTOR" },
-    { id: "surveying-instrument", name: "Surveying Instruments" },
-    { id: "trolley-vibrator", name: "Trolley Vibrator" },
-  ];
+  const Allproducts = categories.flatMap((c)=>c.products)
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -181,7 +172,7 @@ ${message}`;
           className="border border-gray-200 rounded-lg px-4 py-3 bg-white focus:ring-2 focus:ring-[#FAAC18] outline-none"
         >
           <option value="">Choose Product</option>
-          {categories.map((cat) => (
+          {Allproducts.map((cat) => (
             <option key={cat.id} value={cat.name}>
               {cat.name}
             </option>

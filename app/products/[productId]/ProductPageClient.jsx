@@ -1,193 +1,381 @@
 "use client";
-import React, { useState } from "react";
-import { categories } from "@/Data";
+import { useState } from "react";
 import Image from "next/image";
-import Head from "next/head";
-import Enquiry from "@/components/Enquiry"
+import { motion, AnimatePresence } from "framer-motion";
+import { categories } from "@/Data";
+import Inquiryform from "./Inquiryform"
 
+const variants = {
+  enter: (direction) => {
+    return {
+      x: direction > 0 ? 1000 : -1000,
+      opacity: 0,
+    };
+  },
+  center: {
+    zIndex: 1,
+    x: 0,
+    opacity: 1,
+  },
+  exit: (direction) => {
+    return {
+      zIndex: 0,
+      x: direction < 0 ? 1000 : -1000,
+      opacity: 0,
+    };
+  },
+};
 
-export default function ProductPage({ params }) {
-  const { productId } = React.use(params);
-    const [isFormOpen, setIsFormOpen] = useState(false)
+const product = {
+  id: "e-junior-395",
+  name: "E-Junior 395",
+  metaTitle: "E-Junior 395 Airless Painting Machine",
+  metaDescription:
+    "High-performance airless painting machine for smooth and professional results.",
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The E-Junior 395 Airless Painting Machine is a high-performance spraying solution designed for fast, smooth, and professional-grade painting results.",
+    },
+    { type: "h2", text: "Features & Benefits:" },
+    {
+      type: "ul",
+      items: [
+        "Smooth and even paint application",
+        "Professional finish without brush marks",
+        "Fast coverage for large areas",
+        "Durable and reliable build",
+      ],
+    },
+  ],
 
-  const allProducts = categories.flatMap((c) => c.products);
+  specs: [
+    { label: "Motor Type", value: "Carbon Brush Electric Motor" },
+    { label: "Power", value: "1.8 kW" },
+    { label: "Maximum Pressure", value: "227 Bar / 3300 PSI" },
+    { label: "Flow Rate", value: "2.1 L/min" },
+    { label: "Weight", value: "14 kg" },
+  ],
+  ytArray: {
+    title: "ECO PRO PLUS",
+    link: "https://www.youtube.com/watch?v=ZZSfibTJlOE",
+  },
+  image: [
+    {
+      src: "/cat/Products/airless-painting-machine/Picture1.webp",
+      alt: "E-Junior 395",
+    },
+  ],
+};
+
+const ytArray = [
+  {
+    title: "MARUTI MACHINE",
+    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+  },
+  {
+    title: "PAINTING SPRAY MACHINE",
+    link: "https://www.youtube.com/embed/H7MwuAsTeME?si=ZzuoGLUuN2AsuQgs",
+  },
+  {
+    title: "Airless Painting Machine Maruti Model",
+    link: "https://www.youtube.com/embed/9Y0z1dhXRPk?si=wMi9JrF5WASUQJRc",
+  },
+  {
+    title: "Paint and Putty Machine ",
+    link: "https://www.youtube.com/embed/Y3VKHwNDo8Y?si=W9Sjzt2TynPKvXpS",
+  },
+];
+
+const ProductPageClient = ({ productId }) => {
+
+  const [open ,setOpen]=useState(false);
+
+  const allProducts = categories.flatMap((c) =>
+    c.products.map((p) => ({
+      ...p,
+      categoryName: c.name,
+    })),
+  );
+
   const product = allProducts.find((p) => p.id === productId);
 
-  if (!product) {
-    return <h2 className="text-center text-red-500 mt-10">Product not found</h2>;
-  }
+  console.log(productId);
+  const [[page, direction], setPage] = useState([0, 0]);
 
-  // ✅ Active image for zoom and main display
-  const [activeImage, setActiveImage] = useState(product.image[0]);
-  const [isZoomed, setIsZoomed] = useState(false);
-  const [origin, setOrigin] = useState("50% 50%");
+  const images = product?.image || [];
 
-  const handleMouseMove = (e) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width) * 100;
-    const y = ((e.clientY - rect.top) / rect.height) * 100;
-    setOrigin(`${x}% ${y}%`);
+  const imageIndex = Math.abs(page % images.length);
+
+  const paginate = (newDirection) => {
+    setPage([page + newDirection, newDirection]);
   };
+  console.log(open);
 
   return (
-    <>
-      <Head>
-        <title>{product.metaTitle || product.name}</title>
-        <meta name="description" content={product.metaDescription || product.name} />
-        <meta property="og:title" content={product.metaTitle || product.name} />
-        <meta property="og:description" content={product.metaDescription || product.name} />
-        <meta property="og:image" content={activeImage.src} />
-      </Head>
+    <div className="lg:mt-34 mt-14">
 
-      {/* Hero Banner */}
-          <section
-        style={{ backgroundImage: "url('/bg.webp')" }}
-        className="w-full bg-cover bg-center h-[50vh]  md:h-[90vh] relative"
-      >
-        <div className="absolute inset-0 bg-black opacity-10"></div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="max-w-4xl text-center rounded-md text-cyan-600 bg-white  text-2xl p-2 md:text-5xl font-bold z-10">{product.name} </h2>
-        </div>
-      </section>
+     {open && (<Inquiryform setOpen={setOpen}></Inquiryform>)}
 
-      {/* Product Section */}
-      <section className="px-4 md:px-6 py-10 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 items-start">
-          {/* Product Preview */}
-          <div className="sticky md:top-0 md:px-6">
-            <div className="w-full md:w-[450px] h-[350px] md:h-[450px] rounded-xl shadow-lg border bg-white overflow-hidden">
-              <div
-                className="relative w-full h-full overflow-hidden cursor-zoom-in"
-                onMouseEnter={() => setIsZoomed(true)}
-                onMouseLeave={() => setIsZoomed(false)}
-                onMouseMove={handleMouseMove}
-              >
-                <Image
-                  src={activeImage.src}
-                  alt={activeImage.alt}
-                  title={product.name}
-                  width={600}
-                  height={400}
-                  unoptimized
-                  className="object-contain w-full h-full transition-transform duration-100 ease-linear"
-                  style={{
-                    transformOrigin: origin,
-                    transform: isZoomed ? "scale(1.5)" : "scale(1)",
-                  }}
-                />
-              </div>
-            </div>
+      <section className="px-2 py-5 md:mx-20 lg:flex lg:flex-row-reverse lg:justify-between lg:gap-10 lg:h-[140vh]">
+        <div className="lg:w-1/2">
+          <p className="text-3xl font-oswald font-bold uppercase lg:text-5xl">
+            {product.name}
+          </p>
+          <p className="font-oswald text-xl font-medium my-3 lg:text-2xl">
+            Making an impact on Every Job
+          </p>
 
-            {/* Thumbnails */}
-            <div className="flex gap-3 mt-4 overflow-x-auto pb-2">
-              {product.image.map((img, i) => (
-                <button
-                  key={i}
-                  onClick={() => setActiveImage(img)}
-                  className={`w-16 h-16 md:w-20 md:h-20 rounded-lg border shadow-sm overflow-hidden flex-shrink-0 ${
-                    activeImage === img ? "ring-2 ring-yellow-500" : "hover:ring-1 hover:ring-gray-400"
-                  }`}
-                >
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    width={100}
-                    height={100}
-                    unoptimized
-                    className="object-contain w-full h-full"
-                  />
-                </button>
-              ))}
-            </div>
-          </div>
+          <div className="my-5 gap-6 hidden lg:flex items-center">
+  
+  <button onClick={()=>{setOpen(true),console.log(open);}} className="w-fit sm:w-auto text-center bg-[#90081A] text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105">
+    Get a Quote
+  </button>
 
-          {/* Specifications */}
-          <div className="bg-white border border-gray-200 rounded-xl shadow-lg p-4 md:p-6">
-            <h2 className="text-xl md:text-2xl font-semibold mb-4 text-white bg-[#1FB79C] p-3 rounded-lg shadow">
-              Specifications
-            </h2>
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse text-sm md:text-base">
+  {/* WhatsApp Button */}
+  <a
+    href={`https://wa.me/918826544443?text=I%20want%20to%20enquiry%20about%20${product.name}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-fit sm:w-auto text-center bg-green-500 text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105"
+  >
+    WhatsApp
+  </a>
+
+<button className=" border border-2 border-[#90081A] w-fit sm:w-auto text-center text-[#90081A] bg-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105">
+    Download Brochure
+  </button>
+
+</div>
+
+          {/* specification table for desktio */}
+          <section className="px-2 py-5 hidden lg:block">
+            <div className="w-full">
+              <h2 className="text-3xl font-oswald font-bold uppercase mb-6">
+                Specifications
+              </h2>
+              <table className="w-full text-left border-collapse border border-gray-300">
                 <tbody>
-                  {product.specs?.map((spec, i) => (
-                    <tr key={i} className={`${i % 2 === 0 ? "bg-gray-50" : "bg-white"} border-b`}>
-                      <td className="p-2 md:p-3 font-medium text-gray-800 w-1/3 text-sm md:text-lg">
+                  {product.specs.map((spec, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-100" : "bg-white"}
+                    >
+                      <td className="border border-gray-300 px-4 py-2 font-semibold text-gray-700 w-1/3 md:w-1/4">
                         {spec.label}
                       </td>
-                      <td className="p-2 md:p-3 text-gray-600 text-sm md:text-lg">{spec.value}</td>
+                      <td className="border border-gray-300 px-4 py-2 text-gray-600">
+                        {spec.value}
+                      </td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
+          </section>
+        </div>
 
-            <p className="mt-2 text-gray-600 text-sm md:text-base">
-              For more information about the product, please contact us.
+        {/* product image  */}
+        <div className="border relative w-full h-[60vh] flex justify-center items-center overflow-hidden bg-gray-50 rounded-lg lg:w-1/2 lg:sticky lg:top-30">
+          <AnimatePresence initial={false} custom={direction}>
+            <motion.div
+              key={page}
+              custom={direction}
+              variants={variants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{
+                x: { type: "spring", stiffness: 300, damping: 30 },
+                opacity: { duration: 0.2 },
+              }}
+              className=" w-full h-full flex justify-center items-center "
+            >
+              <Image
+                src={images[imageIndex]?.src}
+                width={1000}
+                height={1000}
+                alt={images[imageIndex]?.alt}
+                className="object-contain h-full w-full p-4 "
+              />
+            </motion.div>
+          </AnimatePresence>
+          <button
+            className="absolute left-4 z-10 p-3 bg-white/80 rounded-full shadow-md hover:bg-white transition-colors"
+            onClick={() => paginate(-1)}
+          >
+            ←
+          </button>
+          <button
+            className="absolute right-4 z-10 p-3 bg-white/80 rounded-full shadow-md hover:bg-white transition-colors"
+            onClick={() => paginate(1)}
+          >
+            →
+          </button> 
+        </div>
+
+        {/* for mobile only  */}
+        <div className="my-5 flex justify-center gap-5 lg:hidden">
+          <button onClick={()=>{setOpen(true)}} className="bg-[#90081A] text-white font-bold px-4 py-3">
+            Get a Quote
+          </button>
+          <a
+    href="https://wa.me/918826544443"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-fit sm:w-auto text-center  bg-green-500 text-white font-semibold px-2 py-3 text-sm md:text-base lg:text-base  transition-all duration-200 hover:scale-105"
+  >
+    WhatsApp
+  </a>
+          <button className="border text-[#90081A] font-bold px-4 py-3">
+            Download Brochure
+          </button>
+        </div>
+      </section>
+
+      {/* specification table for mobile */}
+      <section className="px-2 py-5 md:mx-20 lg:hidden">
+        <div className="w-full">
+          <h2 className="text-3xl font-oswald font-bold uppercase mb-6">
+            Specifications
+          </h2>
+          <table className="w-full text-left border-collapse border border-gray-300">
+            <tbody>
+              {product.specs.map((spec, index) => (
+                <tr
+                  key={index}
+                  className={index % 2 === 0 ? "bg-gray-100" : "bg-white"}
+                >
+                  <td className="border border-gray-300 px-4 py-2 font-semibold text-gray-700 w-1/3 md:w-1/4">
+                    {spec.label}
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 text-gray-600">
+                    {spec.value}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* section section  */}
+      <section className="md:mx-20 mx-5 lg:flex lg:flex-row-reverse lg:my-10">
+        <div className="flex justify-center items-center mx-auto bg-gray-50 flex-col text-[#90081A] lg:w-1/2 overflow-hidden">
+          {product?.ytArray?.link && (
+            <iframe
+              className="w-full aspect-video rounded-lg"
+              src={`${product.ytArray.link}`}
+              title={product?.ytArray?.title || "YouTube video"}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          )}
+
+          {product?.ytArray?.title && (
+            <p className="font-bold text-xl my-5 text-center px-2">
+              {product.ytArray.title}
             </p>
+          )}
+        </div>
 
-            {/* Buttons */}
-            <div className="flex flex-col md:flex-row gap-4 mt-6">
-              <button  onClick={() => setIsFormOpen(true)} className="flex-1 cursor-pointer text-center px-4 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg shadow hover:from-blue-600 hover:to-cyan-700 transition font-semibold">
-                Enquire Now
-              </button>
-              <a
-                href={`https://wa.me/+917042039777?text=Hello, I am interested in ${encodeURIComponent(
-                  product.name
-                )} (Model: ${product.model}). Please provide more details.`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 text-center px-4 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-lg shadow hover:from-green-600 hover:to-green-700 transition font-semibold"
-              >
-                WhatsApp Now
-              </a>
-              <a
-                href="/brochure.pdf"
-                download
-                className="flex-1 cursor-pointer text-center px-4 py-3 bg-[#1FB79C] text-white rounded-lg shadow hover:from-yellow-600 hover:to-yellow-700 transition font-semibold"
-              >
-                Download Brochure
-              </a>
+        {/* product descrtion  */}
+        <div className="px-2 lg:w-1/2">
+          <p className="text-3xl font-oswald font-bold uppercase mb-6">
+            Product Description
+          </p>
+          <p className="text-lg font-bold my-3">{product.name}</p>
+          <p>{product?.description[1]?.text}</p>
+        </div>
+      </section>
+
+      {/* go a step further third section  */}
+      {product?.associatedAccessories ? (
+        <section className="bg-gray-100 px-5 py-5 md:px-20 my-5 md:my-10 lg:py-14">
+          <p className="text-3xl font-oswald font-bold uppercase ">
+            Go a Step Further
+          </p>
+          <p className="font-semibold mb-5">
+            Quality and reliability services to provide a solution to your
+            project, we do it all and fast​
+          </p>
+
+          <div className="bg-white px-5 py-8">
+            <div>
+              <p className="text-2xl font-medium font-oswald text-center">
+                Associated Accessories
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+                {product?.productAccessories?.map((item, index) => (
+                  <div key={index} className="mt-8 flex flex-col items-center">
+                    <div className="border-1 flex items-center justify-center h-32 w-32 mt-3">
+                      <Image
+                        src={item?.img}
+                        width={1000}
+                        height={1000}
+                        alt="product image"
+                        className="h-28 w-28 "
+                      />
+                    </div>
+                    <p className="text-xl font-bold uppercase font-oswald">
+                      {item?.title}
+                    </p>
+                    {/* <button className="text-lg font-bold text-red-700">
+                    Learn more
+                  </button> */}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
+        </section>
+      ) : (
+        <div></div>
+      )}
 
-        {/* Product Description */}
-        <div className="bg-gray-100 w-full rounded-xl shadow-md border">
-          <h2 className="text-2xl md:text-3xl text-start border-b border-black font-semibold mb-5 text-cyan-600 p-4 rounded-lg shadow">
-            Product Description
-          </h2>
-          <div className="p-4 md:p-6 text-sm md:text-base leading-relaxed">
-            {Array.isArray(product.description) ? (
-              product.description.map((block, i) => {
-                if (block.type === "h2")
-                  return (
-                    <h2 key={i} className="text-xl md:text-3xl font-bold mt-4 mb-4">
-                      {block.text}
-                    </h2>
-                  );
-                if (block.type === "p")
-                  return (
-                    <p key={i} dangerouslySetInnerHTML={{ __html: block.text }} className="mb-3" />
-                  );
-                if (block.type === "ul")
-                  return (
-                    <ul key={i} className="list-disc ml-6 text-sm md:text-lg mb-4">
-                      {block.items.map((item, j) => (
-                        <li key={j} className="mb-2 md:mb-4" dangerouslySetInnerHTML={{ __html: item }} />
-                      ))}
-                    </ul>
-                  );
-              })
-            ) : (
-              <p dangerouslySetInnerHTML={{ __html: product.description }} />
-            )}
-          </div>
+      {/* Owner resourse section  */}
+      <section className="py-8 px-2 bg-gray-50 md:px-20">
+        <p className="text-3xl font-oswald font-bold uppercase mb-6 text-center">
+          Our Resources
+        </p>
+        <p className="text-center md:text-xl">
+          <span className="text-[#90081A] font-semibold">
+            Already own your Airless Spray Machine?
+          </span>{" "}
+          Take a look at these resources below to make sure you're getting the
+          most out of every coat.
+        </p>
+
+        {/* youtube videos */}
+        <div className="flex flex-col gap-8 md:grid md:grid-cols-2 mt-5 lg:grid-cols-4">
+          {ytArray.map((item) => {
+            return (
+              <div key={item?.title} className="bg-white">
+                <iframe
+                  // width="560"
+                  // height="315"
+                  className="w-full aspect-video"
+                  src={item?.link}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+
+                <p className="text-xl text-center font-semibold text-[#90081A]">
+                  {item?.title}
+                </p>
+              </div>
+            );
+          })}
         </div>
-             {/* Pass isOpen + onClose to ContactForm */}
-              {isFormOpen && (
-                <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
-              )}
       </section>
-    </>
+    </div>
   );
-}
+};
+
+export default ProductPageClient;

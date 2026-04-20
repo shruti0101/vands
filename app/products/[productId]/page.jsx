@@ -4,9 +4,12 @@ import ProductPageClient from "./ProductPageClient";
 // ✅ Dynamic metadata for each product
 export async function generateMetadata({ params }) {
   const { productId } = params;
+  console.log(productId)
 
   const allProducts = categories.flatMap((c) => c.products);
+  console.log(allProducts)
   const product = allProducts.find((p) => p.id === productId);
+  console.log(product);
 
   if (!product) {
     return {
@@ -27,6 +30,7 @@ export async function generateMetadata({ params }) {
 }
 
 // ✅ Render client component
-export default function Page({ params }) {
-  return <ProductPageClient params={params} />;
+export default async function Page({params}) {
+  const {productId}=await params;
+return <ProductPageClient productId={productId}  />;
 }
