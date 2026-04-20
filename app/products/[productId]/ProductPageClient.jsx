@@ -91,7 +91,7 @@ const ytArray = [
           </p>
 
        {/* Buttons */}
-    <div className="flex flex-col sm:flex-row gap-4 pt-2 my-4">
+    <div className="flex gap-4 pt-2 my-4">
 
       <button
         onClick={() => setIsFormOpen(true)}
