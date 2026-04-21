@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className=" pb-7 md:py-17 bg-white overflow-hidden">
+    <section className=" pb-7 lg:py-17 bg-white overflow-hidden">
       <div className="w-full mx-auto px-6 md:px-23">
 
         {/* TOP */}
