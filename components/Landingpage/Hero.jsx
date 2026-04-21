@@ -33,7 +33,7 @@ const Hero = () => {
   return (
     <>
       {/* ✅ Desktop Hero */}
-      <section className="relative mt-18 hidden md:flex  w-full md:h-[60vh] lg:h-[100vh] overflow-hidden">
+      <section className="relative mt-18 hidden md:flex  w-full h-[40vh] lg:h-[100vh] overflow-hidden">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
             key={`desktop-${currentIndex}`}
