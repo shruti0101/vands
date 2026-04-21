@@ -4,12 +4,12 @@ import ProductPageClient from "./ProductPageClient";
 // ✅ Dynamic metadata for each product
 export async function generateMetadata({ params }) {
   const { productId } = params;
-  console.log(productId)
+
 
   const allProducts = categories.flatMap((c) => c.products);
-  console.log(allProducts)
+
   const product = allProducts.find((p) => p.id === productId);
-  console.log(product);
+
 
   if (!product) {
     return {
