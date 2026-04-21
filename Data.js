@@ -12,7 +12,7 @@ import {
 
 
 export const categories = [
-  //category 1 [airless-spray-machine]
+  //category 1 
   {
     id: "airless-painting-machine",
     name: "Airless Painting Machine",
@@ -23,8 +23,8 @@ export const categories = [
     products: [
       // product 1 E junior 395
       {
-        id: "e-junior",
-        name: "E-Junior",
+        id: "electric-airless-paint-sprayer-e-junior",
+        name: "Electric Airless Paint Sprayer (E-Junior)",
         metaTitle:
           "** E-Junior Airless Paint Sprayer | 1500W High Pressure Machine",
         metaDescription:
@@ -105,8 +105,8 @@ export const categories = [
 
       // product 2 Digicot 495
       {
-        id: "digicot-495",
-        name: "Digicot 495",
+        id: "airless-spray-paint-equipment-digicoat",
+        name: "Airless Spray Paint Equipment (Digicoat)",
         metaTitle:
           "** Digicot 495 Airless Painting Machine | High Pressure Industrial Sprayer",
         metaDescription:
@@ -183,8 +183,8 @@ export const categories = [
 
       //product 3 eco pro plus
       {
-        id: "eco-pro-plus",
-        name: "Eco Pro Plus",
+        id: "airless-paint-sprayer-eco-pro-plus",
+        name: "Airless Paint Spray Machine (Eco Pro Plus)",
         metaTitle:
           "** Eco Pro Plus Airless Paint Spray Machine | 1800W High Pressure Sprayer",
         metaDescription:
@@ -267,8 +267,8 @@ export const categories = [
 
       // product 4 Vands 7951 [no application ]
       {
-  id: "vands-7951",
-  name: "Vands 7951",
+  id: " airless-paint-sprayer",
+  name: " Airless Paint Sprayer",
   metaTitle:
     "** Vands 7951 Airless Paint Sprayer | 6 LPM Semi-Automatic Machine",
   metaDescription:
@@ -342,20 +342,20 @@ export const categories = [
 }
 ,
 
-      //product 5 maxcot
+      //product 5 Maxcoat
       {
-        id: "maxcot",
-        name: "Maxcot",
+        id: "heavy-duty-airless-paint-pump-maxcoat",
+        name: "Heavy Duty Airless Paint pump (Maxcoat)",
         metaTitle:
-          "** Maxcot Airless Painting Machine | Ultra High Flow 4kW Industrial Sprayer",
+          "** Maxcoat Airless Painting Machine | Ultra High Flow 4kW Industrial Sprayer",
         metaDescription:
-          "** The Maxcot airless painting machine is a heavy-duty 4 kW brushless sprayer with ultra-high flow rate, designed for industrial applications and compatible with a wide range of coatings including epoxy, putty, and roof coatings.",
+          "** The Maxcoat airless painting machine is a heavy-duty 4 kW brushless sprayer with ultra-high flow rate, designed for industrial applications and compatible with a wide range of coatings including epoxy, putty, and roof coatings.",
 
         description: [
           { type: "h2", text: "Overview" },
           {
             type: "p",
-            text: "The Maxcot Airless Painting Machine is an ultra high-performance industrial sprayer built for large-scale and demanding coating applications. Powered by a robust 4 kW brushless electric motor, it delivers exceptional pressure and an extremely high flow rate for rapid coverage. Designed to handle a wide variety of heavy materials such as epoxy, mastic, putty, drywall mud, and roof coatings, this machine is ideal for professional contractors and industrial use where efficiency and power are essential.",
+            text: "The Maxcoat Airless Painting Machine is an ultra high-performance industrial sprayer built for large-scale and demanding coating applications. Powered by a robust 4 kW brushless electric motor, it delivers exceptional pressure and an extremely high flow rate for rapid coverage. Designed to handle a wide variety of heavy materials such as epoxy, mastic, putty, drywall mud, and roof coatings, this machine is ideal for professional contractors and industrial use where efficiency and power are essential.",
           },
 
           { type: "h2", text: "Features & Benefits:" },
@@ -416,15 +416,15 @@ export const categories = [
         image: [
           {
             src: "/prods/MAXCOAT.webp",
-            alt: "Maxcot",
+            alt: "Maxcoat",
           },
         ],
       },
 
       //product 6 maruti
       {
-        id: "maruti",
-        name: "Maruti",
+        id: " airless-paint-sprayer-maruti",
+        name: " Airless Paint Sprayer (Maruti)",
         metaTitle:
           "** Maruti Airless Painting Machine | 1350W High Pressure Sprayer",
         metaDescription:
@@ -475,7 +475,7 @@ export const categories = [
         ],
 
         specs: [
-          { label: "Model", value: "Maruti" },
+          { label: "Model", value: " Airless Paint Sprayer (Maruti)" },
           { label: "Rated Voltage", value: "220V" },
           { label: "Power", value: "1350W" },
           { label: "Maximum Pressure", value: "227 Bar / 2800 PSI" },
@@ -511,8 +511,8 @@ export const categories = [
       ,
       //product 7 eco pro
       {
-        id: "eco-pro",
-        name: "Eco Pro",
+        id: "airless-paint-sprayer-eco-pro",
+        name: "Airless Painting Machine (Eco-Pro)",
         metaTitle:
           "** Eco Pro Airless Painting Machine | 2500W High Performance Sprayer",
         metaDescription:
@@ -597,8 +597,8 @@ export const categories = [
 ,
       //product 8 galaxy
       {
-  id: "galaxy",
-  name: "Galaxy",
+  id: "airless-spray-painting-machine-galaxy",
+  name: "Airless Spray-Painting Machine (Galaxy)",
   metaTitle:
     "** Galaxy Airless Painting Machine | 3800W High Flow Industrial Sprayer",
   metaDescription:
@@ -687,8 +687,8 @@ export const categories = [
 
       //product 9 galaxy plus
       {
-  id: "galaxy-plus",
-  name: "Galaxy Plus",
+  id: "electric-airless-spray-painting-machine-galaxy-plus",
+  name: "Electric Airless Spray Painting Machine (Galaxy-Plus)",
   metaTitle:
     "** Galaxy-Plus Airless Painting Machine | 3800W High Performance Industrial Sprayer",
   metaDescription:
@@ -769,8 +769,8 @@ export const categories = [
 
       //product 10 professional
       {
-  id: "professional",
-  name: "Professional",
+  id: "airless-paint-sprayer-electric-useful-for-wall-paints-professional",
+  name: "Airless Paint Sprayer Electric Useful for Wall Paints (Professional)",
   metaTitle:
     "** Professional Airless Paint Sprayer | Electric Wall Painting Machine",
   metaDescription:
@@ -841,8 +841,8 @@ export const categories = [
 
       // product 11 promax [no yt link]
       {
-  id: "promax",
-  name: "Promax",
+  id: "airless-paint-sprayer-promax",
+  name: "Airless Paint Sprayer (Promax)",
   metaTitle:
     "** Promax Airless Paint Sprayer | High Efficiency Coating Machine",
   metaDescription:
@@ -914,8 +914,8 @@ export const categories = [
 
       // product 12 century
       {
-  id: "century",
-  name: "Century",
+  id: "painter-airless-paint-sprayer-century",
+  name: "Painter Airless Paint Sprayer (Century)",
   metaTitle:
     "** Century Airless Paint Sprayer | High Performance Painting Machine",
   metaDescription:
@@ -992,8 +992,8 @@ export const categories = [
 
       //product 13 pneumatic 70:1
       {
-  id: "pneumatic-70-1",
-  name: "Pneumatic 70:1",
+  id: "pneumatic-airless-paint-sprayer-pneumatic-70-1",
+  name: "Pneumatic Airless Paint Sprayer (Pneumatic 70:1)",
   metaTitle:
     "** Pneumatic 70:1 Airless Paint Sprayer | Heavy Duty Industrial Coating Machine",
   metaDescription:
@@ -1091,8 +1091,8 @@ export const categories = [
 
       //product 1 [tumblast] ->no yt link
       {
-  id: "vtb-1625",
-  name: "Airless Tumblast Shot Blasting Machine (VTB 1625 Series)",
+  id: "airless-tumblast-type-shot-blasting-machine",
+  name: "Airless Tumblast Type Shot Blasting Machine ",
   metaTitle:
     "** Airless Tumblast Shot Blasting Machine | VTB 1625 Series Industrial Blaster",
   metaDescription:

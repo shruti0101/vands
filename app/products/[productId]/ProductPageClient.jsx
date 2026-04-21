@@ -115,7 +115,7 @@ const ytArray = [
 
     </div>
 
-          {/* specification table for desktio */}
+          {/* specification table for desktop */}
           <section className="px-2 py-5 hidden lg:block">
             <div className="w-full">
               <h2 className="text-3xl font-oswald font-bold uppercase mb-6">
