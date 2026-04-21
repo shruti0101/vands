@@ -25,7 +25,7 @@ const Footer = () => {
   VANDS ENGINEERING 
 </span>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-2 md:px-12 md:py-16 grid grid-cols-1 md:grid-cols-5 gap-10">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 py-2 md:px-12 md:py-6 grid grid-cols-1 md:grid-cols-5 gap-10">
 
         {/* About */}
         <div>

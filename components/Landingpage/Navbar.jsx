@@ -143,23 +143,32 @@ const socialLinks = [
             <Link href="/contact">CONTACT US</Link>
 
             {/* PRODUCTS */}
-            <div className="relative group">
-              <button className="flex items-center gap-1">
-                OUR PRODUCTS <ChevronDown size={15} />
-              </button>
+        <div className="relative">
+  <button
+    onClick={() => setIsProductsOpen(!isProductsOpen)}
+    className="flex items-center gap-1"
+  >
+    OUR PRODUCTS <ChevronDown size={15} />
+  </button>
 
-              <div className="absolute left-0 top-full hidden group-hover:block bg-white text-black min-w-[230px] shadow-lg z-50">
-                {categories.map((item) => (
-                  <Link
-                    key={item.id}
-                    href={`/categories/${item.id}`}
-                    className="block px-4 py-2 hover:bg-gray-100"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
-            </div>
+  {/* DROPDOWN */}
+  <div
+    className={`absolute left-0 top-full bg-white text-black min-w-[230px] shadow-lg z-50 transition-all duration-200 ${
+      isProductsOpen ? "block" : "hidden"
+    }`}
+  >
+    {categories.map((item) => (
+      <Link
+        key={item.id}
+        href={`/categories/${item.id}`}
+        className="block px-4 py-2 hover:bg-gray-100"
+        onClick={() => setIsProductsOpen(false)}
+      >
+        {item.name}
+      </Link>
+    ))}
+  </div>
+</div>
           </nav>
 
           {/* SEARCH */}
