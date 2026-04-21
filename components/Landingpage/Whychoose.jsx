@@ -43,7 +43,7 @@ export default function WhyChooseUs() {
       <div className="w-full mx-auto px-6 md:px-23">
 
         {/* TOP */}
-        <div className="grid lg:grid-cols-2 gap-14 items-center mb-5">
+        <div className="grid lg:grid-cols-2 gap-10 items-center mb-5">
 
           {/* VIDEO */}
           <div className="relative h-[300px] md:h-[580px] rounded-3xl overflow-hidden ">
@@ -82,28 +82,36 @@ With over a decade of experience, Vands Engineering Solutions has developed stro
         </div>
 
         {/* FEATURES */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* FEATURES */}
+<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
-          {features.map((item, i) => (
-            <div
-              key={i}
-              className="group p-6 rounded-2xl bg-red-100 border border-black shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
-            >
-              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-red-50 text-red-500 mb-5 group-hover:bg-red-500 group-hover:text-white transition">
-                {item.icon}
-              </div>
+  {features.map((item, i) => (
+    <div
+      key={i}
+      className="group p-4 md:p-6 rounded-2xl bg-red-100 border border-black shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+    >
 
-              <h4 className="text-lg font-semibold text-black mb-3 leading-snug">
-                {item.title}
-              </h4>
-
-              <p className="text-black text-md leading-relaxed">
-                {item.desc}
-              </p>
-            </div>
-          ))}
-
+      {/* ICON + TITLE ROW */}
+      <div className="flex items-center gap-4 mb-3">
+        <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-red-50 text-red-500 
+        group-hover:bg-red-500 group-hover:text-white transition">
+          {item.icon}
         </div>
+
+        <h4 className="text-lg font-semibold text-black leading-snug">
+          {item.title}
+        </h4>
+      </div>
+
+      {/* DESCRIPTION */}
+      <p className="text-black text-sm md:text-md leading-relaxed">
+        {item.desc}
+      </p>
+
+    </div>
+  ))}
+
+</div>
 
       </div>
     </section>

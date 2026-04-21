@@ -95,9 +95,9 @@ export default function BestSellerSlider() {
           <p className="text-md md:text-4xl font-oswald text-red-500 font-bold uppercase tracking-wide">
             Our Featured Products
           </p>
-          <h2 className="text-xs md:text-xl font-medium leading-relaxed text-black mt-4">
+          <h2 className="text-xs px-2 md:text-xl font-medium leading-relaxed text-black mt-4">
        
-With over a decade of experience, Vands Engineering Solutions has developed strong expertise in manufacturing and supplying Airless Painting Machines and surface preparation equipment. Our in-depth industry knowledge helps us understand customer requirements accurately and deliver the most suitable solutions for different industrial applications.
+With over a decade of experience, Vands Engineering Solutions has developed strong expertise in manufacturing and supplying Airless Painting Machines and surface preparation equipment. Our in-depth industry knowledge helps us understand customer requirements accurately for different industrial applications.
           </h2>
         </div>
 
@@ -119,7 +119,7 @@ With over a decade of experience, Vands Engineering Solutions has developed stro
               <div className="grid md:grid-cols-2 bg-[#FFFAF1] rounded-xl shadow-md overflow-hidden">
 
                 {/* IMAGE */}
-                <div className="relative h-[480px] bg-gray-100 flex items-center justify-center">
+                <div className="relative md:h-[480px] bg-gray-100 flex items-center justify-center">
                   <Image
                     src={product.image}
                     alt={product.name}

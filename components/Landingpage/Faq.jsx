@@ -42,15 +42,15 @@ export default function FAQSection() {
   const [active, setActive] = useState(null);
 
   return (
-    <section className="py-15 bg-white">
+    <section className="py-6 md:py-15 bg-white">
       <div className="max-w-4xl mx-auto px-6">
 
         {/* Heading */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-5 md:mb-14">
           <h2 className="text-3xl md:text-5xl font-semibold text-gray-900">
-            Frequently Asked Questions
+          FAQs
           </h2>
-          <p className="mt-4 text-black">
+          <p className="mt-4 hidden md:block text-black">
             Everything you need to know about our machines and services.
           </p>
         </div>

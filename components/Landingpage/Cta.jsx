@@ -10,7 +10,7 @@ export default function HighQualityCTA() {
   return (
     <section className="w-full mx-auto overflow-hidden rounded-xl">
       
-      <div className="relative bg-red-900 py-8 sm:py-10 md:py-12 flex items-center">
+      <div className="relative bg-red-900 py-4 sm:py-10 md:py-12 flex items-center">
         
         {/* Dot Pattern Overlay */}
         <div
@@ -27,7 +27,7 @@ export default function HighQualityCTA() {
           
           {/* TEXT */}
           <div className=" text-center md:text-left">
-            <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-3">
+            <h2 className="text-white text-xl sm:text-3xl md:text-4xl font-bold leading-tight mb-3">
              Get the Best Airless Painting Machine for Your Needs
             </h2>
 
