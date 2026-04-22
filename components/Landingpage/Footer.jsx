@@ -21,9 +21,9 @@ const Footer = () => {
       <div className="absolute inset-0 bg-gradient-to-tr from-red-600/10 via-transparent to-orange-400/10 pointer-events-none"></div>
 
       {/* Watermark */}
-    <span className="hidden md:flex absolute animate-pulse inset-0 items-center justify-center text-[7rem] font-extrabold tracking-widest text-white/10 select-none pointer-events-none">
-  VANDS ENGINEERING 
-</span>
+      <span className="hidden md:flex absolute animate-pulse inset-0 items-center justify-center text-[7rem] font-extrabold tracking-widest text-white/10 select-none pointer-events-none">
+        VANDS ENGINEERING
+      </span>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-2 md:px-12 md:py-6 grid grid-cols-1 md:grid-cols-5 gap-10">
 
@@ -51,11 +51,11 @@ const Footer = () => {
 
           <p className="flex gap-2 text-sm text-white mb-3">
             <FaMapMarkerAlt className="text-red-400 mt-1" />
-          First Floor, C-13, Mukhram Garden, Tilak Nagar <br />
-          New Delhi - 110018, Delhi, India
+            First Floor, C-13, Mukhram Garden, Tilak Nagar <br />
+            New Delhi - 110018, Delhi, India
           </p>
 
-      
+
 
           <a href="tel:+919990730939" className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
             <FaPhoneAlt className="text-red-400" /> +91-9990730939
@@ -95,38 +95,38 @@ const Footer = () => {
 
           <ul className="space-y-3 text-sm text-white">
 
-  <li>
+            <li>
               <Link href="/" className="hover:text-red-400 transition flex items-center gap-2">
-                <span className="w-1 h-1 bg-red-400 rounded-full"></span>
-               Home
+                {/* <span className="w-1 h-1 bg-red-400 rounded-full"></span> */}
+                Home
               </Link>
             </li>
 
 
             <li>
               <Link href="/about" className="hover:text-red-400 transition flex items-center gap-2">
-                <span className="w-1 h-1 bg-red-400 rounded-full"></span>
+                {/* <span className="w-1 h-1 bg-red-400 rounded-full"></span> */}
                 About Us
               </Link>
             </li>
 
-         
+
 
             <li>
               <Link href="/blogs" className="hover:text-red-400 transition flex items-center gap-2">
-                <span className="w-1 h-1 bg-red-400 rounded-full"></span>
+                {/* <span className="w-1 h-1 bg-red-400 rounded-full"></span> */}
                 Blogs
               </Link>
             </li>
 
             <li>
               <Link href="/contact" className="hover:text-red-400 transition flex items-center gap-2">
-                <span className="w-1 h-1 bg-red-400 rounded-full"></span>
+                {/* <span className="w-1 h-1 bg-red-400 rounded-full"></span> */}
                 Contact
               </Link>
             </li>
 
-      
+
           </ul>
         </div>
 
@@ -140,7 +140,7 @@ const Footer = () => {
             <li><Link href="/categories/airless-painting-machine" className="hover:text-red-400 transition">Airless Painting Machines</Link></li>
             <li><Link href="/categories/blasting-machine" className="hover:text-red-400 transition"> Blasting Machines</Link></li>
             <li><Link href="/categories/other-products" className="hover:text-red-400 transition">Other Machines</Link></li>
-        
+
           </ul>
         </div>
 
@@ -151,7 +151,7 @@ const Footer = () => {
           </h3>
 
           <p className="text-sm text-white mb-4">
-           We are proud to present the TrustElite Certificate of Excellence to Vands Engineering Solutions, recognizing their commitment to exceptional customer service, outstanding business practices, and a dedication to building trust with their customers.
+            We are proud to present the TrustElite Certificate of Excellence to Vands Engineering Solutions, recognizing their commitment to exceptional customer service, outstanding business practices, and a dedication to building trust with their customers.
           </p>
 
           <div className="flex justify-start">
@@ -189,15 +189,15 @@ const Footer = () => {
         <p>© 2026 Vands Engineering Solutions. All Rights Reserved.</p>
 
         <p className="mt-2 md:mt-0">
-         Website Designed By Promozione Branding Pvt. Ltd {" "}
-        <a 
-  href="https://promozionebranding.com" 
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-red-400 font-medium"
->
-  Website Designing Company.
-</a>
+          Website Designed By Promozione Branding Pvt. Ltd {" "}
+          <a
+            href="https://promozionebranding.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-400 font-medium"
+          >
+            Website Designing Company.
+          </a>
         </p>
       </div>
     </footer>
