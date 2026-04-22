@@ -24,19 +24,11 @@ export async function generateMetadata({ params }) {
   const blog = await getBlog(params.slug);
 
   return {
-<<<<<<< HEAD
-    title: blog?.metaTitle || blog?.title || "Blog |  Studio",
-    description:
-      blog?.metaDescription ||
-      blog?.excerpt ||
-      "Read the latest insights and updates from Studio.",
-=======
     title: blog?.metaTitle || blog?.title || "Blog",
     description:
       blog?.metaDescription ||
       blog?.excerpt ||
       "Blog",
->>>>>>> fa81b983cbd52266c04715dad6209e8e81cc3c25
   };
 }
 
