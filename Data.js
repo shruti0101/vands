@@ -1,11 +1,4 @@
-// data.js
-import {
-  CircleDollarSign,
-  Cog,
-  Earth,
-  Mountain,
-  ShieldCheck,
-} from "lucide-react";
+
 
 export const categories = [
   //category 1 
