@@ -1,8 +1,8 @@
 import BlogClient from "./BlogClient";
 
 export const metadata = {
-  title: "Our Blogs - sbsmachinery.in",
-  description: "In a world shifting rapidly toward sustainability, paper cups are no longer just a convenience—they’re a statement. As single-use plastic bans tighten …",
+  title: "Airless Painting Machine Blog | Tips, Guides & Insights",
+  description: "Stay updated with expert articles on airless painting machines, technology, maintenance, and industry news by Vands Engineering Solutions.",
 };
 
 export default function AboutUsPage() {

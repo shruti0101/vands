@@ -1,5 +1,4 @@
 // data.js
-
 import {
   CircleDollarSign,
   Cog,
@@ -8,17 +7,14 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
-
-
-
 export const categories = [
   //category 1 
   {
     id: "airless-painting-machine",
     name: "Airless Painting Machine",
-    metaTitle: "** airless painting machine ",
+    metaTitle: "Industrial Airless Painting Machine Manufacturer | Vands Engineering",
     metaDescription:
-      "** airless machine . ",
+      "Vands Engineering Solutions offers industrial-grade airless painting machines with advanced technology, durability, and cost-effective wholesale solutions.",
 
     products: [
       // product 1 E junior 395
@@ -26,9 +22,9 @@ export const categories = [
         id: "electric-airless-paint-sprayer-e-junior",
         name: "Electric Airless Paint Sprayer (E-Junior)",
         metaTitle:
-          "** E-Junior Airless Paint Sprayer | 1500W High Pressure Machine",
+          "Electric Airless Paint Sprayer E-Junior | Vands Engineering",
         metaDescription:
-          "** E-Junior electric airless paint sprayer with 1500W motor, 227 bar pressure, and 2.0 L/min flow rate, designed for efficient residential, commercial, and industrial painting applications.",
+          "Buy Electric Airless Paint Sprayer (E-Junior) for smooth, efficient painting performance. Ideal for industrial and commercial coating applications.",
 
         description: [
           { type: "h2", text: "Overview" },
@@ -85,7 +81,7 @@ export const categories = [
           { label: "Motor Type", value: "Brush Motor" },
           { label: "Hose Length", value: "15 Meter" },
           { label: "Hydraulic Oil", value: "Anti-wear" },
-          
+
           { label: "Net / Gross Weight", value: "14.5 kg / 19 kg" },
           { label: "Suction Type", value: "Chuck Nut Lock (Hose Type)" },
           { label: "Pressure Control", value: "Mechanical Sensor" },
@@ -108,9 +104,9 @@ export const categories = [
         id: "airless-spray-paint-equipment-digicoat",
         name: "Airless Spray Paint Equipment (Digicoat)",
         metaTitle:
-          "** Digicot 495 Airless Painting Machine | High Pressure Industrial Sprayer",
+          "Airless Spray Paint Equipment Digicoat | Vands Engineering",
         metaDescription:
-          "** Digicot 495 airless spray paint equipment engineered for precision, high-pressure performance, and smooth coating applications across industrial and commercial projects.",
+          "Buy Airless Spray Paint Equipment (Digicoat) for high-efficiency coating applications. Ensures smooth finish, durability, and industrial-grade performance.",
 
         description: [
           { type: "h2", text: "Overview" },
@@ -186,9 +182,9 @@ export const categories = [
         id: "airless-paint-sprayer-eco-pro-plus",
         name: "Airless Paint Spray Machine (Eco Pro Plus)",
         metaTitle:
-          "** Eco Pro Plus Airless Paint Spray Machine | 1800W High Pressure Sprayer",
+          "Airless Paint Spray Machine Eco Pro Plus | Vands Engineering",
         metaDescription:
-          "** Eco Pro Plus airless painting machine with 1800W brushless motor, 227 bar pressure, and 4.5 L/min flow rate, designed for industrial and heavy-duty coating applications.",
+          "Buy Airless Paint Spray Machine (Eco Pro Plus) for efficient, smooth, and high-quality coating. Ideal for industrial and commercial painting applications.",
 
         description: [
           { type: "h2", text: "Overview" },
@@ -267,89 +263,88 @@ export const categories = [
 
       // product 4 Vands 7951 [no application ]
       {
-  id: " airless-paint-sprayer",
-  name: " Airless Paint Sprayer",
-  metaTitle:
-    "** Vands 7951 Airless Paint Sprayer | 6 LPM Semi-Automatic Machine",
-  metaDescription:
-    "** The Vands 7951 airless paint sprayer is a semi-automatic wall painting machine with 6 LPM flow rate, designed for smooth, fast, and professional coating applications.",
+        id: "airless-paint-sprayer",
+        name: "Airless Paint Sprayer",
+        metaTitle:
+          "Buy Airless Paint Sprayer | Vands Engineering Solutions",
+        metaDescription:
+          "Looking for a durable paint sprayer? Get high-efficiency airless paint sprayers designed for smooth finish, precision, and cost-effective performance.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Vands 7951 Airless Paint Sprayer is a high-performance wall painting solution designed for efficient and professional-grade coating applications. Engineered with advanced airless technology, it delivers smooth and uniform finishes without the use of compressed air. Built for semi-automatic operation and powered by a standard 220V supply, this machine ensures reliability, durability, and consistent output for both residential and commercial painting projects.",
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Vands 7951 Airless Paint Sprayer is a high-performance wall painting solution designed for efficient and professional-grade coating applications. Engineered with advanced airless technology, it delivers smooth and uniform finishes without the use of compressed air. Built for semi-automatic operation and powered by a standard 220V supply, this machine ensures reliability, durability, and consistent output for both residential and commercial painting projects.",
+          },
 
-    { type: "h2", text: "Key Features:" },
-    {
-      type: "ul",
-      items: [
-        "Semi-automatic functionality ensures better control and improved spraying efficiency",
-        "Maximum flow rate of 6 LPM allows faster coverage of medium to large surfaces",
-        "Advanced airless spraying system provides smooth and uniform coating",
-        "Minimizes overspray to reduce paint wastage and improve cost efficiency",
-        "Compact and user-friendly design for easy handling and operation",
-      ],
-    },
+          { type: "h2", text: "Key Features:" },
+          {
+            type: "ul",
+            items: [
+              "Semi-automatic functionality ensures better control and improved spraying efficiency",
+              "Maximum flow rate of 6 LPM allows faster coverage of medium to large surfaces",
+              "Advanced airless spraying system provides smooth and uniform coating",
+              "Minimizes overspray to reduce paint wastage and improve cost efficiency",
+              "Compact and user-friendly design for easy handling and operation",
+            ],
+          },
 
-    { type: "h2", text: "Applications:" },
-    {
-      type: "ul",
-      items: [
-        "Ideal for residential wall painting in homes and apartments",
-        "Suitable for commercial projects like offices, showrooms, and retail spaces",
-        "Used in construction and renovation projects for smooth finishing",
-        "Perfect for applying emulsions, primers, and decorative coatings",
-        "Preferred by contractors for efficient and high-quality wall painting",
-      ],
-    },
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for residential wall painting in homes and apartments",
+              "Suitable for commercial projects like offices, showrooms, and retail spaces",
+              "Used in construction and renovation projects for smooth finishing",
+              "Perfect for applying emulsions, primers, and decorative coatings",
+              "Preferred by contractors for efficient and high-quality wall painting",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-    {
-      type: "ul",
-      items: [
-        "Recognized as a reliable airless painting sprayer manufacturer",
-        "Focus on durable, high-performance, and cost-effective equipment",
-        "Advanced engineering ensures better efficiency and output",
-        "Competitive pricing with excellent value for professionals",
-        "Strong after-sales support including service and technical assistance",
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Recognized as a reliable airless painting sprayer manufacturer",
+              "Focus on durable, high-performance, and cost-effective equipment",
+              "Advanced engineering ensures better efficiency and output",
+              "Competitive pricing with excellent value for professionals",
+              "Strong after-sales support including service and technical assistance",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Minimum Order Quantity", value: "1 Piece" },
-    { label: "Automation Grade", value: "Semi Automatic" },
-    { label: "Maximum Flow Rate", value: "6 LPM" },
-    { label: "Brand", value: "Vands" },
-    { label: "Product Type", value: "Airless" },
-    { label: "Model", value: "7951" },
-    { label: "Voltage", value: "220 V" },
-    { label: "Application", value: "Wall Painting" },
-  ],
-  ytArray:{
-      title: "Vands 7951",
-      link: "https://www.youtube.com/embed/Y2wn3Obi_cA",
-  },
+        specs: [
+          { label: "Minimum Order Quantity", value: "1 Piece" },
+          { label: "Automation Grade", value: "Semi Automatic" },
+          { label: "Maximum Flow Rate", value: "6 LPM" },
+          { label: "Brand", value: "Vands" },
+          { label: "Product Type", value: "Airless" },
+          { label: "Model", value: "7951" },
+          { label: "Voltage", value: "220 V" },
+          { label: "Application", value: "Wall Painting" },
+        ],
+        ytArray: {
+          title: "Vands 7951",
+          link: "https://www.youtube.com/embed/Y2wn3Obi_cA",
+        },
 
-  image: [
-    {
-      src: "/prods/Vands 7951.webp",
-      alt: "Vands 7951",
-    },
-  ],
-}
-,
+        image: [
+          {
+            src: "/prods/Vands 7951.webp",
+            alt: "Vands 7951",
+          },
+        ],
+      },
 
       //product 5 Maxcoat
       {
         id: "heavy-duty-airless-paint-pump-maxcoat",
         name: "Heavy Duty Airless Paint pump (Maxcoat)",
         metaTitle:
-          "** Maxcoat Airless Painting Machine | Ultra High Flow 4kW Industrial Sprayer",
+          "Heavy Duty Airless Paint Pump Maxcoat | Vands Engineering",
         metaDescription:
-          "** The Maxcoat airless painting machine is a heavy-duty 4 kW brushless sprayer with ultra-high flow rate, designed for industrial applications and compatible with a wide range of coatings including epoxy, putty, and roof coatings.",
+          "Buy Heavy Duty Airless Paint Pump (Maxcoat) for high-performance industrial coating. Ensures smooth finish, durability, and efficient paint delivery.",
 
         description: [
           { type: "h2", text: "Overview" },
@@ -426,9 +421,9 @@ export const categories = [
         id: " airless-paint-sprayer-maruti",
         name: " Airless Paint Sprayer (Maruti)",
         metaTitle:
-          "** Maruti Airless Painting Machine | 1350W High Pressure Sprayer",
+          "Buy Airless Paint Sprayer Maruti | Vands Engineering",
         metaDescription:
-          "** Maruti airless paint sprayer with 1350W motor, 227 bar pressure, and 1.2 L/min flow rate, designed for residential, commercial, and industrial coating applications.",
+          "Looking for a reliable paint sprayer? Maruti airless sprayer delivers smooth finish, high efficiency, and cost-effective painting performance.",
 
         description: [
           { type: "h2", text: "Overview" },
@@ -493,12 +488,12 @@ export const categories = [
           { label: "Pressure Control", value: "Mechanical Limit Switch" },
         ],
 
-        
+
         ytArray: {
-            title: "MARUTI MACHINE",
-            link: "https://www.youtube.com/embed/NMFgzaD8JH0",
-          },
-        
+          title: "MARUTI MACHINE",
+          link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+        },
+
 
         image: [
           {
@@ -506,17 +501,16 @@ export const categories = [
             alt: "Maruti Airless Painting Machine",
           },
         ],
-      }
+      },
 
-      ,
       //product 7 eco pro
       {
         id: "airless-paint-sprayer-eco-pro",
         name: "Airless Painting Machine (Eco-Pro)",
         metaTitle:
-          "** Eco Pro Airless Painting Machine | 2500W High Performance Sprayer",
+          "Buy Airless Painting Machine Eco-Pro | Vands Engineering",
         metaDescription:
-          "** Eco Pro airless painting machine with 2500W brushless motor, 227 bar pressure, and 3.5 L/min flow rate, designed for industrial, commercial, and large-scale coating applications.",
+          "Looking for a reliable airless painting machine? Eco-Pro delivers smooth finish, high efficiency, and cost-effective professional painting solutions.",
 
         description: [
           { type: "h2", text: "Overview" },
@@ -582,10 +576,10 @@ export const categories = [
           { label: "Net / Gross Weight", value: "18 kg / 23 kg" },
         ],
 
-        ytArray:{
-            title: "Eco Pro",
-            link: "https://www.youtube.com/embed/ZZSfibTJlOE",
-          },
+        ytArray: {
+          title: "Eco Pro",
+          link: "https://www.youtube.com/embed/ZZSfibTJlOE",
+        },
 
         image: [
           {
@@ -593,489 +587,484 @@ export const categories = [
             alt: "Eco Pro Airless Painting Machine",
           },
         ],
-      }
-,
+      },
+
       //product 8 galaxy
       {
-  id: "airless-spray-painting-machine-galaxy",
-  name: "Airless Spray-Painting Machine (Galaxy)",
-  metaTitle:
-    "** Galaxy Airless Painting Machine | 3800W High Flow Industrial Sprayer",
-  metaDescription:
-    "** The Galaxy airless spray-painting machine features a powerful 3800W brushless motor, 8 L/min flow rate, and supports high-viscosity coatings for large-scale industrial applications.",
+        id: "airless-spray-painting-machine-galaxy",
+        name: "Airless Spray-Painting Machine (Galaxy)",
+        metaTitle:
+          "Airless Spray-Painting Machine (Galaxy) | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers Galaxy airless spray-painting machines designed for precision coating, durability, and consistent industrial performance.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Galaxy Airless Spray-Painting Machine is an ultra high-performance solution designed for large-scale industrial coating applications. Powered by a robust 3800W brushless motor, it ensures consistent output and reliable performance for continuous heavy-duty usage. Built with advanced airless technology, it delivers smooth finishes, superior atomization, and maximum paint efficiency without the need for compressed air. Its long stainless steel pump with chromed components enhances durability, making it ideal for demanding industrial environments.",
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Galaxy Airless Spray-Painting Machine is an ultra high-performance solution designed for large-scale industrial coating applications. Powered by a robust 3800W brushless motor, it ensures consistent output and reliable performance for continuous heavy-duty usage. Built with advanced airless technology, it delivers smooth finishes, superior atomization, and maximum paint efficiency without the need for compressed air. Its long stainless steel pump with chromed components enhances durability, making it ideal for demanding industrial environments.",
+          },
 
-    { type: "h2", text: "Key Features:" },
-    {
-      type: "ul",
-      items: [
-        "High-performance 3800W brushless motor for powerful and efficient operation",
-        "Delivers pressure up to 227 bar / 3300 PSI for deep penetration and uniform coating",
-        "High flow rate of 8 L/min enables rapid coverage of large surfaces",
-        "Supports maximum nozzle size of 0.039 inch for high-viscosity materials",
-        "Equipped with long stainless steel pump with chromed parts for durability",
-        "Includes 20-meter high-pressure pipe and 15-meter hose for extended reach",
-      ],
-    },
+          { type: "h2", text: "Key Features:" },
+          {
+            type: "ul",
+            items: [
+              "High-performance 3800W brushless motor for powerful and efficient operation",
+              "Delivers pressure up to 227 bar / 3300 PSI for deep penetration and uniform coating",
+              "High flow rate of 8 L/min enables rapid coverage of large surfaces",
+              "Supports maximum nozzle size of 0.039 inch for high-viscosity materials",
+              "Equipped with long stainless steel pump with chromed parts for durability",
+              "Includes 20-meter high-pressure pipe and 15-meter hose for extended reach",
+            ],
+          },
 
-    { type: "h2", text: "Applications:" },
-    {
-      type: "ul",
-      items: [
-        "Ideal for large-scale industrial coating applications",
-        "Used in infrastructure projects such as bridges, highways, dams, and high-rise buildings",
-        "Suitable for thick coatings like epoxy, waterproofing, and fireproofing materials",
-        "Perfect for coating steel structures, pipelines, tanks, and marine equipment",
-        "Widely used in shipyards, factories, warehouses, and engineering industries",
-        "Best suited for large-area projects requiring speed and consistency",
-      ],
-    },
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for large-scale industrial coating applications",
+              "Used in infrastructure projects such as bridges, highways, dams, and high-rise buildings",
+              "Suitable for thick coatings like epoxy, waterproofing, and fireproofing materials",
+              "Perfect for coating steel structures, pipelines, tanks, and marine equipment",
+              "Widely used in shipyards, factories, warehouses, and engineering industries",
+              "Best suited for large-area projects requiring speed and consistency",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-    {
-      type: "ul",
-      items: [
-        "Trusted airless painting sprayer manufacturer with industrial expertise",
-        "Focus on advanced engineering, innovation, and durability",
-        "Strict quality control ensures long-lasting performance",
-        "Competitive pricing for high-capacity industrial machines",
-        "Customer-focused solutions tailored to project requirements",
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Trusted airless painting sprayer manufacturer with industrial expertise",
+              "Focus on advanced engineering, innovation, and durability",
+              "Strict quality control ensures long-lasting performance",
+              "Competitive pricing for high-capacity industrial machines",
+              "Customer-focused solutions tailored to project requirements",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Model", value: "Galaxy" },
-    { label: "Voltage", value: "220V" },
-    { label: "Power", value: "3800W" },
-    { label: "Maximum Pressure", value: "227 Bar / 3300 PSI" },
-    { label: "Maximum Nozzle Size", value: "0.039 in" },
-    { label: "Maximum Flow Rate", value: "8 L/min" },
-    { label: "Motor Type", value: "Brushless Motor" },
-    { label: "High Pressure Pipe", value: "20 Mtr (1/4 inch)" },
-    { label: "Hose Length", value: "15 Mtr" },
-    { label: "Hydraulic Oil", value: "Anti-wear" },
-    {
-      label: "Pipe and Tip",
-      value: "15 Mtrs, Gun Set and RAC 517 Standard Tip",
-    },
-    {
-      label: "Pump Type",
-      value: "Long Stainless Steel with Chromed Parts",
-    },
-    { label: "Net/Gross Weight", value: "55 kg / 70 kg" },
-  ],
-  ytArray:{
-      title: "GALAXY MACHINE",
-      link: "https://www.youtube.com/embed/coK1bW9Yh70",
-  }
-  ,
+        specs: [
+          { label: "Model", value: "Galaxy" },
+          { label: "Voltage", value: "220V" },
+          { label: "Power", value: "3800W" },
+          { label: "Maximum Pressure", value: "227 Bar / 3300 PSI" },
+          { label: "Maximum Nozzle Size", value: "0.039 in" },
+          { label: "Maximum Flow Rate", value: "8 L/min" },
+          { label: "Motor Type", value: "Brushless Motor" },
+          { label: "High Pressure Pipe", value: "20 Mtr (1/4 inch)" },
+          { label: "Hose Length", value: "15 Mtr" },
+          { label: "Hydraulic Oil", value: "Anti-wear" },
+          {
+            label: "Pipe and Tip",
+            value: "15 Mtrs, Gun Set and RAC 517 Standard Tip",
+          },
+          {
+            label: "Pump Type",
+            value: "Long Stainless Steel with Chromed Parts",
+          },
+          { label: "Net/Gross Weight", value: "55 kg / 70 kg" },
+        ],
+        ytArray: {
+          title: "GALAXY MACHINE",
+          link: "https://www.youtube.com/embed/coK1bW9Yh70",
+        }
+        ,
 
-  image: [
-    {
-      src: "/cat/Products/airless-painting-machine/GALAXY.webp",
-      alt: "Galaxy Airless Painting Machine",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/cat/Products/airless-painting-machine/GALAXY.webp",
+            alt: "Galaxy Airless Painting Machine",
+          },
+        ],
+      },
 
       //product 9 galaxy plus
       {
-  id: "electric-airless-spray-painting-machine-galaxy-plus",
-  name: "Electric Airless Spray Painting Machine (Galaxy-Plus)",
-  metaTitle:
-    "** Galaxy-Plus Airless Painting Machine | 3800W High Performance Industrial Sprayer",
-  metaDescription:
-    "** The Galaxy-Plus airless spray-painting machine delivers ultra high-performance with a powerful 3800W motor, ideal for large-scale industrial coating and high-viscosity materials.",
+        id: "electric-airless-spray-painting-machine-galaxy-plus",
+        name: "Electric Airless Spray Painting Machine (Galaxy-Plus)",
+        metaTitle:
+          "Electric Airless Spray-Painting Machine (Galaxy-Plus) | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers Galaxy-Plus electric airless spray-painting machines designed for precision coating, durability, and consistent performance.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Galaxy-Plus Airless Spray-Painting Machine is a high-performance industrial solution designed for large-scale coating applications. Powered by a robust 3800W motor and operating on a standard 220V supply, it ensures consistent output and reliable performance for continuous heavy-duty usage. Built with advanced airless technology, it delivers superior atomization, smooth finishes, and maximum paint transfer efficiency without the need for compressed air. It is ideal for handling high-viscosity coatings in demanding industrial environments.",
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Galaxy-Plus Airless Spray-Painting Machine is a high-performance industrial solution designed for large-scale coating applications. Powered by a robust 3800W motor and operating on a standard 220V supply, it ensures consistent output and reliable performance for continuous heavy-duty usage. Built with advanced airless technology, it delivers superior atomization, smooth finishes, and maximum paint transfer efficiency without the need for compressed air. It is ideal for handling high-viscosity coatings in demanding industrial environments.",
+          },
 
-    { type: "h2", text: "Key Features:" },
-    {
-      type: "ul",
-      items: [
-        "Powerful 3800W brushless motor ensures high efficiency and long service life",
-        "Delivers pressure up to 227 bar / 3300 PSI for uniform and deep coating",
-        "High flow rate of 8 L/min enables rapid coverage of large surfaces",
-        "Supports nozzle size up to 0.039 inch for heavy-duty coatings",
-        "Durable stainless steel pump with chromed components for long-term performance",
-        "Comes with 20-meter high-pressure pipe and 15-meter hose for extended reach",
-      ],
-    },
+          { type: "h2", text: "Key Features:" },
+          {
+            type: "ul",
+            items: [
+              "Powerful 3800W brushless motor ensures high efficiency and long service life",
+              "Delivers pressure up to 227 bar / 3300 PSI for uniform and deep coating",
+              "High flow rate of 8 L/min enables rapid coverage of large surfaces",
+              "Supports nozzle size up to 0.039 inch for heavy-duty coatings",
+              "Durable stainless steel pump with chromed components for long-term performance",
+              "Comes with 20-meter high-pressure pipe and 15-meter hose for extended reach",
+            ],
+          },
 
-    { type: "h2", text: "Applications:" },
-    {
-      type: "ul",
-      items: [
-        "Ideal for large-scale industrial coating applications",
-        "Widely used in infrastructure projects like bridges, highways, and buildings",
-        "Suitable for epoxy, waterproofing, fireproofing, and protective coatings",
-        "Perfect for steel structures, pipelines, tanks, and marine equipment",
-        "Used in shipyards, factories, warehouses, and heavy engineering industries",
-        "Best for large-area projects requiring speed, efficiency, and consistency",
-      ],
-    },
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for large-scale industrial coating applications",
+              "Widely used in infrastructure projects like bridges, highways, and buildings",
+              "Suitable for epoxy, waterproofing, fireproofing, and protective coatings",
+              "Perfect for steel structures, pipelines, tanks, and marine equipment",
+              "Used in shipyards, factories, warehouses, and heavy engineering industries",
+              "Best for large-area projects requiring speed, efficiency, and consistency",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-    {
-      type: "ul",
-      items: [
-        "Trusted airless painting sprayer manufacturer with industrial expertise",
-        "Focus on innovation, advanced engineering, and product durability",
-        "Strict quality control ensures reliable and long-lasting performance",
-        "Competitive pricing for high-capacity industrial machines",
-        "Customer-focused approach with tailored solutions",
-        "Dedicated after-sales support including service and technical assistance",
-        "Preferred by professionals for powerful and efficient coating solutions",
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Trusted airless painting sprayer manufacturer with industrial expertise",
+              "Focus on innovation, advanced engineering, and product durability",
+              "Strict quality control ensures reliable and long-lasting performance",
+              "Competitive pricing for high-capacity industrial machines",
+              "Customer-focused approach with tailored solutions",
+              "Dedicated after-sales support including service and technical assistance",
+              "Preferred by professionals for powerful and efficient coating solutions",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Model", value: "Galaxy-Plus" },
-    { label: "Voltage", value: "220V" },
-    { label: "Power", value: "3800W" },
-    { label: "Maximum Pressure", value: "227 Bar / 3300 PSI" },
-    { label: "Maximum Nozzle Size", value: "0.039 in" },
-    { label: "Maximum Flow Rate", value: "8 L/min" },
-    { label: "Motor Type", value: "Brushless Motor" },
-    { label: "High Pressure Pipe", value: "20 Mtr (1/4 inch)" },
-    { label: "Hose Length", value: "15 Mtr" },
-  ],
-  ytArray:{
-      title: "GALAXY PLUS MACHINE",
-      link: "https://www.youtube.com/embed/E8k8LBfFBYE",
-  }
-  ,
+        specs: [
+          { label: "Model", value: "Galaxy-Plus" },
+          { label: "Voltage", value: "220V" },
+          { label: "Power", value: "3800W" },
+          { label: "Maximum Pressure", value: "227 Bar / 3300 PSI" },
+          { label: "Maximum Nozzle Size", value: "0.039 in" },
+          { label: "Maximum Flow Rate", value: "8 L/min" },
+          { label: "Motor Type", value: "Brushless Motor" },
+          { label: "High Pressure Pipe", value: "20 Mtr (1/4 inch)" },
+          { label: "Hose Length", value: "15 Mtr" },
+        ],
+        ytArray: {
+          title: "GALAXY PLUS MACHINE",
+          link: "https://www.youtube.com/embed/E8k8LBfFBYE",
+        }
+        ,
 
-  image: [
-    {
-      src: "/cat/Products/airless-painting-machine/GALAXY PLUS.webp",
-      alt: "Galaxy-Plus Airless Painting Machine",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/cat/Products/airless-painting-machine/GALAXY PLUS.webp",
+            alt: "Galaxy-Plus Airless Painting Machine",
+          },
+        ],
+      },
 
       //product 10 professional
       {
-  id: "airless-paint-sprayer-electric-useful-for-wall-paints-professional",
-  name: "Airless Paint Sprayer Electric Useful for Wall Paints (Professional)",
-  metaTitle:
-    "** Professional Airless Paint Sprayer | Electric Wall Painting Machine",
-  metaDescription:
-    "** The Professional airless paint sprayer is an electric wall painting machine designed for smooth, fast, and uniform coating for residential and commercial applications.",
+        id: "airless-paint-sprayer-electric-useful-for-wall-paints-professional",
+        name: "Airless Paint Sprayer Electric Useful for Wall Paints (Professional)",
+        metaTitle:
+          "Airless Paint Sprayer Electric for Wall Painting",
+        metaDescription:
+          "Professional electric airless paint sprayer ideal for wall paints. Ensures uniform coating, reduced wastage, and high-efficiency painting performance.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Professional Airless Paint Sprayer is a high-efficiency electric painting solution designed for smooth and consistent wall coating applications. Built with advanced airless spraying technology, it eliminates the need for compressed air while ensuring better paint transfer efficiency and reduced material wastage. This machine delivers uniform, streak-free, and high-quality finishes on both interior and exterior surfaces, making it ideal for residential, commercial, and project-based painting work.",
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Professional Airless Paint Sprayer is a high-efficiency electric painting solution designed for smooth and consistent wall coating applications. Built with advanced airless spraying technology, it eliminates the need for compressed air while ensuring better paint transfer efficiency and reduced material wastage. This machine delivers uniform, streak-free, and high-quality finishes on both interior and exterior surfaces, making it ideal for residential, commercial, and project-based painting work.",
+          },
 
-    { type: "h2", text: "Key Features:" },
-    {
-      type: "ul",
-      items: [
-        "High-performance electric motor ensures stable and consistent spraying output",
-        "Advanced airless technology provides smooth and uniform coating without marks",
-        "Minimizes overspray, reducing paint wastage and improving efficiency",
-        "Compatible with various wall paints including emulsions, primers, and decorative coatings",
-        "User-friendly and portable design for easy handling and mobility",
-      ],
-    },
+          { type: "h2", text: "Key Features:" },
+          {
+            type: "ul",
+            items: [
+              "High-performance electric motor ensures stable and consistent spraying output",
+              "Advanced airless technology provides smooth and uniform coating without marks",
+              "Minimizes overspray, reducing paint wastage and improving efficiency",
+              "Compatible with various wall paints including emulsions, primers, and decorative coatings",
+              "User-friendly and portable design for easy handling and mobility",
+            ],
+          },
 
-    { type: "h2", text: "Applications:" },
-    {
-      type: "ul",
-      items: [
-        "Ideal for interior wall painting in homes, offices, and apartments",
-        "Suitable for exterior wall painting of buildings and housing projects",
-        "Widely used in construction, renovation, and repainting projects",
-        "Perfect for applying primers, emulsions, and decorative coatings",
-        "Preferred by professional painters and contractors for high-quality finishing",
-      ],
-    },
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for interior wall painting in homes, offices, and apartments",
+              "Suitable for exterior wall painting of buildings and housing projects",
+              "Widely used in construction, renovation, and repainting projects",
+              "Perfect for applying primers, emulsions, and decorative coatings",
+              "Preferred by professional painters and contractors for high-quality finishing",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-    {
-      type: "ul",
-      items: [
-        "Reliable airless painting sprayer manufacturer with strong expertise",
-        "Focus on durable, high-quality, and performance-driven equipment",
-        "Advanced engineering ensures efficient and innovative solutions",
-        "Competitive pricing with excellent value for professionals",
-        "Dedicated after-sales support including maintenance and technical assistance",
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Reliable airless painting sprayer manufacturer with strong expertise",
+              "Focus on durable, high-quality, and performance-driven equipment",
+              "Advanced engineering ensures efficient and innovative solutions",
+              "Competitive pricing with excellent value for professionals",
+              "Dedicated after-sales support including maintenance and technical assistance",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Product Type", value: "Airless Paint Sprayer" },
-    { label: "Operation Type", value: "Electric" },
-    { label: "Application", value: "Wall Painting" },
-    { label: "Usage", value: "Residential, Commercial, Industrial" },
-  ],
-  ytArray:{
-      title: "PROFESSIONAL MACHINE",
-      link: "https://www.youtube.com/embed/MX-dJBIxk-w",
-  },
+        specs: [
+          { label: "Product Type", value: "Airless Paint Sprayer" },
+          { label: "Operation Type", value: "Electric" },
+          { label: "Application", value: "Wall Painting" },
+          { label: "Usage", value: "Residential, Commercial, Industrial" },
+        ],
+        ytArray: {
+          title: "PROFESSIONAL MACHINE",
+          link: "https://www.youtube.com/embed/MX-dJBIxk-w",
+        },
 
-  image: [
-    {
-      src: "/cat/Products/airless-painting-machine/PROFESSIONAL.webp",
-      alt: "Professional Airless Paint Sprayer",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/cat/Products/airless-painting-machine/PROFESSIONAL.webp",
+            alt: "Professional Airless Paint Sprayer",
+          },
+        ],
+      },
 
       // product 11 promax [no yt link]
       {
-  id: "airless-paint-sprayer-promax",
-  name: "Airless Paint Sprayer (Promax)",
-  metaTitle:
-    "** Promax Airless Paint Sprayer | High Efficiency Coating Machine",
-  metaDescription:
-    "** The Promax airless paint sprayer delivers smooth, uniform, and professional-grade finishes with advanced airless technology, ideal for residential, commercial, and industrial painting applications.",
+        id: "airless-paint-sprayer-promax",
+        name: "Airless Paint Sprayer (Promax)",
+        metaTitle:
+          "Buy Airless Paint Sprayer Promax | Vands Engineering",
+        metaDescription:
+          "Looking for a reliable paint sprayer? Promax delivers smooth finish, high efficiency, and cost-effective professional painting performance.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Promax Airless Paint Sprayer is a high-performance coating solution designed for efficient and professional-grade painting applications. Built with advanced airless technology, it eliminates the need for compressed air while ensuring higher paint transfer efficiency and reduced wastage. This machine delivers smooth, uniform finishes across various surfaces including walls, metal, and industrial structures, making it suitable for residential, commercial, and industrial projects.",
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Promax Airless Paint Sprayer is a high-performance coating solution designed for efficient and professional-grade painting applications. Built with advanced airless technology, it eliminates the need for compressed air while ensuring higher paint transfer efficiency and reduced wastage. This machine delivers smooth, uniform finishes across various surfaces including walls, metal, and industrial structures, making it suitable for residential, commercial, and industrial projects.",
+          },
 
-    { type: "h2", text: "Key Features:" },
-    {
-      type: "ul",
-      items: [
-        "High-performance spraying system for fast and consistent paint application",
-        "Advanced airless technology ensures smooth and uniform coating",
-        "Minimizes overspray, improving paint utilization and reducing costs",
-        "Compatible with emulsions, primers, enamels, and protective coatings",
-        "Portable and user-friendly design for easy handling and mobility",
-      ],
-    },
+          { type: "h2", text: "Key Features:" },
+          {
+            type: "ul",
+            items: [
+              "High-performance spraying system for fast and consistent paint application",
+              "Advanced airless technology ensures smooth and uniform coating",
+              "Minimizes overspray, improving paint utilization and reducing costs",
+              "Compatible with emulsions, primers, enamels, and protective coatings",
+              "Portable and user-friendly design for easy handling and mobility",
+            ],
+          },
 
-    { type: "h2", text: "Applications:" },
-    {
-      type: "ul",
-      items: [
-        "Ideal for residential interior and exterior wall painting",
-        "Suitable for commercial buildings like offices, malls, and complexes",
-        "Widely used in industrial coating applications for machinery and structures",
-        "Perfect for applying primers, emulsions, and protective coatings",
-        "Preferred by contractors and professionals for efficient and high-quality work",
-      ],
-    },
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for residential interior and exterior wall painting",
+              "Suitable for commercial buildings like offices, malls, and complexes",
+              "Widely used in industrial coating applications for machinery and structures",
+              "Perfect for applying primers, emulsions, and protective coatings",
+              "Preferred by contractors and professionals for efficient and high-quality work",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-    {
-      type: "ul",
-      items: [
-        "Reliable airless painting sprayer manufacturer with proven expertise",
-        "Focus on durable, high-quality, and long-lasting equipment",
-        "Advanced engineering ensures efficient and innovative solutions",
-        "Competitive pricing with excellent value for all users",
-        "Strong after-sales support including servicing and technical assistance",
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Reliable airless painting sprayer manufacturer with proven expertise",
+              "Focus on durable, high-quality, and long-lasting equipment",
+              "Advanced engineering ensures efficient and innovative solutions",
+              "Competitive pricing with excellent value for all users",
+              "Strong after-sales support including servicing and technical assistance",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Product Type", value: "Airless Paint Sprayer" },
-    { label: "Technology", value: "Airless" },
-    { label: "Application", value: "Residential, Commercial, Industrial" },
-    { label: "Coating Compatibility", value: "Emulsions, Primers, Enamels, Protective Coatings" },
-    { label: "Design", value: "Portable & User-Friendly" },
-  ],
-    ytArray:{
-      title: "PROMAX",
-      link: "",
-    },
+        specs: [
+          { label: "Product Type", value: "Airless Paint Sprayer" },
+          { label: "Technology", value: "Airless" },
+          { label: "Application", value: "Residential, Commercial, Industrial" },
+          { label: "Coating Compatibility", value: "Emulsions, Primers, Enamels, Protective Coatings" },
+          { label: "Design", value: "Portable & User-Friendly" },
+        ],
+        ytArray: {
+          title: "PROMAX",
+          link: "",
+        },
 
-  image: [
-    {
-      src: "/cat/Products/airless-painting-machine/PROMAX.webp",
-      alt: "Promax Airless Paint Sprayer",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/cat/Products/airless-painting-machine/PROMAX.webp",
+            alt: "Promax Airless Paint Sprayer",
+          },
+        ],
+      },
 
       // product 12 century
       {
-  id: "painter-airless-paint-sprayer-century",
-  name: "Painter Airless Paint Sprayer (Century)",
-  metaTitle:
-    "** Century Airless Paint Sprayer | High Performance Painting Machine",
-  metaDescription:
-    "** The Century airless paint sprayer delivers smooth, uniform, and professional-grade finishes with high efficiency, ideal for residential, commercial, and industrial applications.",
+        id: "painter-airless-paint-sprayer-century",
+        name: "Painter Airless Paint Sprayer (Century)",
+        metaTitle:
+          "Painter Airless Paint Sprayer (Century) | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers Century airless paint sprayers designed for precision coating, durability, and consistent industrial performance.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Century Airless Paint Sprayer is a high-performance painting solution designed for efficient, precise, and professional-grade coating applications. Built with advanced airless spraying technology, it ensures smooth and uniform finishes without the need for compressed air. Suitable for medium and heavy-duty applications, this machine delivers reliable performance across residential, commercial, and industrial projects while minimizing paint wastage and maximizing efficiency.",
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Century Airless Paint Sprayer is a high-performance painting solution designed for efficient, precise, and professional-grade coating applications. Built with advanced airless spraying technology, it ensures smooth and uniform finishes without the need for compressed air. Suitable for medium and heavy-duty applications, this machine delivers reliable performance across residential, commercial, and industrial projects while minimizing paint wastage and maximizing efficiency.",
+          },
 
-    { type: "h2", text: "Key Features:" },
-    {
-      type: "ul",
-      items: [
-        "High-performance spraying system for fast and consistent coverage",
-        "Provides smooth and uniform coating without brush marks or roller lines",
-        "Advanced airless technology reduces overspray and improves efficiency",
-        "Durable and robust construction for long-term industrial use",
-        "User-friendly controls suitable for professionals and semi-skilled users",
-        "Compact and portable design for easy transportation across job sites",
-      ],
-    },
+          { type: "h2", text: "Key Features:" },
+          {
+            type: "ul",
+            items: [
+              "High-performance spraying system for fast and consistent coverage",
+              "Provides smooth and uniform coating without brush marks or roller lines",
+              "Advanced airless technology reduces overspray and improves efficiency",
+              "Durable and robust construction for long-term industrial use",
+              "User-friendly controls suitable for professionals and semi-skilled users",
+              "Compact and portable design for easy transportation across job sites",
+            ],
+          },
 
-    { type: "h2", text: "Applications:" },
-    {
-      type: "ul",
-      items: [
-        "Ideal for residential wall painting with smooth and high-quality finishing",
-        "Suitable for commercial spaces like offices, malls, and complexes",
-        "Widely used in industrial coating applications for machinery and structures",
-        "Perfect for applying primers, emulsions, and decorative coatings",
-        "Effective for maintenance, repainting, and refurbishment projects",
-        "Suitable for warehouses, workshops, and factories",
-        "Preferred by contractors and professional painters for reliable performance",
-      ],
-    },
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for residential wall painting with smooth and high-quality finishing",
+              "Suitable for commercial spaces like offices, malls, and complexes",
+              "Widely used in industrial coating applications for machinery and structures",
+              "Perfect for applying primers, emulsions, and decorative coatings",
+              "Effective for maintenance, repainting, and refurbishment projects",
+              "Suitable for warehouses, workshops, and factories",
+              "Preferred by contractors and professional painters for reliable performance",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-    {
-      type: "ul",
-      items: [
-        "Trusted airless painting sprayer manufacturer with strong industry reputation",
-        "Focus on innovation, advanced engineering, and durable design",
-        "Strict quality control ensures long-lasting performance",
-        "Competitive pricing with excellent value for all users",
-        "Customer-centric approach with tailored solutions",
-        "Dedicated after-sales support including service and technical assistance",
-        "Preferred by professionals for consistent and efficient results",
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Trusted airless painting sprayer manufacturer with strong industry reputation",
+              "Focus on innovation, advanced engineering, and durable design",
+              "Strict quality control ensures long-lasting performance",
+              "Competitive pricing with excellent value for all users",
+              "Customer-centric approach with tailored solutions",
+              "Dedicated after-sales support including service and technical assistance",
+              "Preferred by professionals for consistent and efficient results",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Product Type", value: "Airless Paint Sprayer" },
-    { label: "Application", value: "Residential, Commercial, Industrial" },
-    { label: "Operation", value: "Electric" },
-    { label: "Usage", value: "Medium & Heavy Duty" },
-    { label: "Design", value: "Portable & Durable" },
-  ],
-  ytArray:
-   { title: "CENTURY MACHINE",
-      link: "https://www.youtube.com/embed/az66YPTJHTg",
-    },
+        specs: [
+          { label: "Product Type", value: "Airless Paint Sprayer" },
+          { label: "Application", value: "Residential, Commercial, Industrial" },
+          { label: "Operation", value: "Electric" },
+          { label: "Usage", value: "Medium & Heavy Duty" },
+          { label: "Design", value: "Portable & Durable" },
+        ],
+        ytArray:
+        {
+          title: "CENTURY MACHINE",
+          link: "https://www.youtube.com/embed/az66YPTJHTg",
+        },
 
-  image: [
-    {
-      src: "/cat/Products/airless-painting-machine/CENTURY.webp",
-      alt: "Century Airless Paint Sprayer",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/cat/Products/airless-painting-machine/CENTURY.webp",
+            alt: "Century Airless Paint Sprayer",
+          },
+        ],
+      },
 
       //product 13 pneumatic 70:1
       {
-  id: "pneumatic-airless-paint-sprayer-pneumatic-70-1",
-  name: "Pneumatic Airless Paint Sprayer (Pneumatic 70:1)",
-  metaTitle:
-    "** Pneumatic 70:1 Airless Paint Sprayer | Heavy Duty Industrial Coating Machine",
-  metaDescription:
-    "** The Pneumatic 70:1 airless paint sprayer delivers ultra-high pressure output for heavy-duty industrial coatings, ideal for epoxy, bitumen, and hazardous environments.",
+        id: "pneumatic-airless-paint-sprayer-pneumatic-70-1",
+        name: "Pneumatic Airless Paint Sprayer (Pneumatic 70:1)",
+        metaTitle:
+          "Pneumatic Airless Paint Sprayer (70:1) | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers pneumatic 70:1 airless paint sprayers designed for high-pressure, precise coating, and durable industrial performance.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Pneumatic 70:1 Airless Paint Sprayer is an ultra heavy-duty industrial coating machine designed for high-pressure and high-capacity applications. Powered by pneumatic (air-driven) technology, it is ideal for hazardous environments where electrical equipment is not suitable. With a powerful 70:1 pressure ratio, this sprayer delivers superior atomization and smooth, professional-grade finishes even with thick and high-viscosity materials such as epoxy and bitumen.",
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Pneumatic 70:1 Airless Paint Sprayer is an ultra heavy-duty industrial coating machine designed for high-pressure and high-capacity applications. Powered by pneumatic (air-driven) technology, it is ideal for hazardous environments where electrical equipment is not suitable. With a powerful 70:1 pressure ratio, this sprayer delivers superior atomization and smooth, professional-grade finishes even with thick and high-viscosity materials such as epoxy and bitumen.",
+          },
 
-    { type: "h2", text: "Features & Benefits:" },
-    {
-      type: "ul",
-      items: [
-        "High 70:1 pressure ratio enables spraying of thick and heavy coatings with ease",
-        "Pneumatic operation makes it safe for hazardous and explosion-prone environments",
-        "High delivery capacity ensures faster coverage of large industrial surfaces",
-        "Optimized cycles per gallon improve material efficiency and consistency",
-        "Strong air motor ensures stable and continuous performance",
-        "Durable construction designed for long-term industrial use",
-      ],
-    },
+          { type: "h2", text: "Features & Benefits:" },
+          {
+            type: "ul",
+            items: [
+              "High 70:1 pressure ratio enables spraying of thick and heavy coatings with ease",
+              "Pneumatic operation makes it safe for hazardous and explosion-prone environments",
+              "High delivery capacity ensures faster coverage of large industrial surfaces",
+              "Optimized cycles per gallon improve material efficiency and consistency",
+              "Strong air motor ensures stable and continuous performance",
+              "Durable construction designed for long-term industrial use",
+            ],
+          },
 
-    { type: "h2", text: "Applications:" },
-    {
-      type: "ul",
-      items: [
-        "Ideal for oil & gas industries, chemical plants, and hazardous environments",
-        "Suitable for applying epoxy, bitumen, waterproofing, and fireproof coatings",
-        "Perfect for coating pipelines, tanks, steel structures, and marine equipment",
-        "Widely used in infrastructure projects such as bridges, tunnels, and dams",
-        "Used in heavy industrial environments requiring high pressure and output",
-      ],
-    },
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for oil & gas industries, chemical plants, and hazardous environments",
+              "Suitable for applying epoxy, bitumen, waterproofing, and fireproof coatings",
+              "Perfect for coating pipelines, tanks, steel structures, and marine equipment",
+              "Widely used in infrastructure projects such as bridges, tunnels, and dams",
+              "Used in heavy industrial environments requiring high pressure and output",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-    {
-      type: "ul",
-      items: [
-        "Trusted manufacturer of pneumatic and industrial coating equipment",
-        "Advanced engineering ensures durability and high performance",
-        "Strict quality control for reliable long-term operation",
-        "Competitive pricing for heavy-duty industrial machines",
-        "Strong after-sales support including servicing and technical guidance",
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of pneumatic and industrial coating equipment",
+              "Advanced engineering ensures durability and high performance",
+              "Strict quality control for reliable long-term operation",
+              "Competitive pricing for heavy-duty industrial machines",
+              "Strong after-sales support including servicing and technical guidance",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Fluid Pressure Ratio", value: "70:1" },
-    { label: "Maximum Delivery Capacity", value: "11.4 L/min" },
-    { label: "Cycles per Gallon", value: "19 Cycles" },
-    { label: "Max Pump Speed", value: "50 Cycles/min" },
-    { label: "Air Motor Diameter", value: "10 inch (254 mm)" },
-    { label: "Stroke Length", value: "5 inch (120 mm)" },
-    { label: "Air Consumption", value: "4600 L/min at 5 bar" },
-    { label: "Air Pressure Range", value: "40–90 psi (3–9 bar)" },
-    { label: "Noise Level", value: "95 dBA" },
-    { label: "Packing", value: "Leather / Teflon" },
-    { label: "Air Inlet", value: "3/4 inch NPT(f)" },
-    { label: "Fluid Outlet", value: "3/8 inch NPT(f)" },
-  ],
-  ytArray:{
+        specs: [
+          { label: "Fluid Pressure Ratio", value: "70:1" },
+          { label: "Maximum Delivery Capacity", value: "11.4 L/min" },
+          { label: "Cycles per Gallon", value: "19 Cycles" },
+          { label: "Max Pump Speed", value: "50 Cycles/min" },
+          { label: "Air Motor Diameter", value: "10 inch (254 mm)" },
+          { label: "Stroke Length", value: "5 inch (120 mm)" },
+          { label: "Air Consumption", value: "4600 L/min at 5 bar" },
+          { label: "Air Pressure Range", value: "40–90 psi (3–9 bar)" },
+          { label: "Noise Level", value: "95 dBA" },
+          { label: "Packing", value: "Leather / Teflon" },
+          { label: "Air Inlet", value: "3/4 inch NPT(f)" },
+          { label: "Fluid Outlet", value: "3/8 inch NPT(f)" },
+        ],
+        ytArray: {
           title: "Pneumatic MACHINE",
           link: "https://www.youtube.com/embed/eHWtCvUIC_w",
-  },
+        },
 
-  image: [
-    {
-      src: "/pnumatic.jpeg",
-      alt: "Pneumatic 70:1 Airless Paint Sprayer",
-    },
-  ],
-}
-
-
-
-
-
-
+        image: [
+          {
+            src: "/pnumatic.jpeg",
+            alt: "Pneumatic 70:1 Airless Paint Sprayer",
+          },
+        ],
+      }
     ],
   },
 
@@ -1083,515 +1072,495 @@ export const categories = [
   {
     id: "blasting-machine",
     name: "Blasting Machine",
-    metaTitle: "** blasting Machine manufacturer ",
+    metaTitle: "Blasting Machine Manufacturer & Supplier in India",
     metaDescription:
-      "** blasting machine. ",
+      "Vands Engineering Solutions offers reliable blasting machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
     products: [
-
-      //product 1 [tumblast] ->no yt link
       {
-  id: "airless-tumblast-type-shot-blasting-machine",
-  name: "Airless Tumblast Type Shot Blasting Machine ",
-  metaTitle:
-    "** Airless Tumblast Shot Blasting Machine | VTB 1625 Series Industrial Blaster",
-  metaDescription:
-    "** Vands Engineering Solution Airless Tumblast Shot Blasting Machine (VTB 1625 Series) designed for efficient rust, scale, and surface cleaning of metal components with high-performance tumblast system and multiple capacity options.",
+        id: "airless-tumblast-type-shot-blasting-machine",
+        name: "Airless Tumblast Type Shot Blasting Machine ",
+        metaTitle:
+          "Airless Tumblast Shot Blasting Machine | Vands Engineering",
+        metaDescription:
+          "High-performance airless tumblast type shot blasting machine for efficient surface cleaning and finishing. Ideal for batch processing of small components.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Airless Tumblast Type Shot Blasting Machine (VTB 1625 Series) by Vands Engineering Solution is a high-performance industrial surface preparation system designed for efficient cleaning, finishing, and strengthening of metal components. It effectively removes rust, scale, and contaminants from small to medium-sized workpieces with consistent precision. Built with a robust tumblast mechanism, the machine ensures uniform blasting on all surfaces, delivering high-quality finishing results. Available in multiple capacity configurations from 1 CFT to 10 CFT, it is suitable for diverse industrial production requirements and continuous heavy-duty operations."
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Airless Tumblast Type Shot Blasting Machine (VTB 1625 Series) by Vands Engineering Solution is a high-performance industrial surface preparation system designed for efficient cleaning, finishing, and strengthening of metal components. It effectively removes rust, scale, and contaminants from small to medium-sized workpieces with consistent precision. Built with a robust tumblast mechanism, the machine ensures uniform blasting on all surfaces, delivering high-quality finishing results. Available in multiple capacity configurations from 1 CFT to 10 CFT, it is suitable for diverse industrial production requirements and continuous heavy-duty operations."
+          },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "Available in 1, 2, 5, and 10 CFT capacity models for flexible production needs",
-        "High-performance turbine options ranging from 5 HP to 15 HP for powerful blasting",
-        "Advanced dust collection system ensures clean working environment and improved visibility",
-        "Automatic air purging system for smooth, uninterrupted machine operation",
-        "Heavy-duty tumblast design ensures uniform surface finishing on all components",
-        "Engineered for continuous industrial use with long operational life and durability"
-      ],
-    },
+          { type: "h2", text: "Features & Benefits" },
+          {
+            type: "ul",
+            items: [
+              "Available in 1, 2, 5, and 10 CFT capacity models for flexible production needs",
+              "High-performance turbine options ranging from 5 HP to 15 HP for powerful blasting",
+              "Advanced dust collection system ensures clean working environment and improved visibility",
+              "Automatic air purging system for smooth, uninterrupted machine operation",
+              "Heavy-duty tumblast design ensures uniform surface finishing on all components",
+              "Engineered for continuous industrial use with long operational life and durability"
+            ],
+          },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Surface cleaning of castings, forgings, and fabricated metal parts",
-        "Rust and scale removal in automotive and engineering industries",
-        "Shot blasting of small to medium-sized metal components",
-        "Used in fabrication workshops and manufacturing units",
-        "Surface preparation before painting, coating, or powder coating",
-        "Metal strengthening and finishing for industrial applications"
-      ],
-    },
+          { type: "h2", text: "Applications" },
+          {
+            type: "ul",
+            items: [
+              "Surface cleaning of castings, forgings, and fabricated metal parts",
+              "Rust and scale removal in automotive and engineering industries",
+              "Shot blasting of small to medium-sized metal components",
+              "Used in fabrication workshops and manufacturing units",
+              "Surface preparation before painting, coating, or powder coating",
+              "Metal strengthening and finishing for industrial applications"
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Trusted manufacturer of high-performance industrial blasting machines",
-        "Strong engineering design focused on durability and efficiency",
-        "Multiple machine configurations for varied industrial needs",
-        "Advanced dust collection and turbine systems for safer operation",
-        "Reliable after-sales support including installation and maintenance assistance"
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution" },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of high-performance industrial blasting machines",
+              "Strong engineering design focused on durability and efficiency",
+              "Multiple machine configurations for varied industrial needs",
+              "Advanced dust collection and turbine systems for safer operation",
+              "Reliable after-sales support including installation and maintenance assistance"
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Machine Type", value: "Airless Tumblast Shot Blasting Machine" },
-    { label: "Series", value: "VTB 1625" },
-    { label: "Capacity Range", value: "1 CFT to 10 CFT" },
-    { label: "Turbine Power", value: "5 HP to 15 HP" },
-    { label: "Dust Collection System", value: "800 to 3000 (equivalent capacity)" },
-    { label: "Operation System", value: "Automatic Tumblast with Air Purging" },
-    { label: "Application", value: "Surface Cleaning, Rust Removal, Finishing" },
-    { label: "Material Handling", value: "Small to Medium Metal Components" },
-    { label: "Build", value: "Heavy-Duty Industrial Steel Construction" },
-  ],
+        specs: [
+          { label: "Machine Type", value: "Airless Tumblast Shot Blasting Machine" },
+          { label: "Series", value: "VTB 1625" },
+          { label: "Capacity Range", value: "1 CFT to 10 CFT" },
+          { label: "Turbine Power", value: "5 HP to 15 HP" },
+          { label: "Dust Collection System", value: "800 to 3000 (equivalent capacity)" },
+          { label: "Operation System", value: "Automatic Tumblast with Air Purging" },
+          { label: "Application", value: "Surface Cleaning, Rust Removal, Finishing" },
+          { label: "Material Handling", value: "Small to Medium Metal Components" },
+          { label: "Build", value: "Heavy-Duty Industrial Steel Construction" },
+        ],
 
-  ytArray: {
-    title: "Airless Tumblast Shot Blasting Machine (VTB 1625 Series)",
-    link: ""
-  },
+        ytArray: {
+          title: "Airless Tumblast Shot Blasting Machine (VTB 1625 Series)",
+          link: ""
+        },
 
-  image: [
-    {
-      src: "/prods/Airless Tumblast Shot Blasting Machine.webp",
-      alt: "Airless Tumblast Shot Blasting Machine VTB 1625 Series",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/prods/Airless Tumblast Shot Blasting Machine.webp",
+            alt: "Airless Tumblast Shot Blasting Machine VTB 1625 Series",
+          },
+        ],
+      },
 
-      //product 2  [Sand Blasting]
       {
-  id: "sand-blasting-machine",
-  name: "Sand Blasting Machine (P-300 / P-600 / P-1000 Series)",
-  metaTitle:
-    "** Portable Sand Blasting Machine | P-300 P-600 P-1000 Series Industrial Blaster",
-  metaDescription:
-    "** Vands Engineering Solution Portable Pressure Sand Blasting Machine designed for efficient rust removal, surface cleaning, and preparation with high-performance blasting and multiple capacity options.",
+        id: "sand-blasting-machine",
+        name: "Sand Blasting Machine (P-300 / P-600 / P-1000 Series)",
+        metaTitle:
+          "Sand Blasting Machine P Series | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers P-300, P-600, and P-1000 sand blasting machines for high-efficiency cleaning, coating preparation, and durability.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Portable Pressure Sand Blasting Machine Series (P-300, P-600, P-1000) by Vands Engineering Solution is designed for efficient surface cleaning, rust removal, and preparation of metal components. Built for industrial-grade performance, it effectively removes rust, paint, scale, and contaminants to deliver a smooth and uniform surface finish. Available in 3 CFT, 6 CFT, and 10 CFT capacities, this series is suitable for small, medium, and heavy-duty blasting applications across multiple industries."
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Portable Pressure Sand Blasting Machine Series (P-300, P-600, P-1000) by Vands Engineering Solution is designed for efficient surface cleaning, rust removal, and preparation of metal components. Built for industrial-grade performance, it effectively removes rust, paint, scale, and contaminants to deliver a smooth and uniform surface finish. Available in 3 CFT, 6 CFT, and 10 CFT capacities, this series is suitable for small, medium, and heavy-duty blasting applications across multiple industries."
+          },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "Available in P-300 (3 CFT), P-600 (6 CFT), and P-1000 (10 CFT) models",
-        "High blasting efficiency from 4.7 to 20 Sq. Mtr./Hr depending on model",
-        "Optimized nozzle sizes (5.0 mm to 9.5 mm) for precise blasting",
-        "Heavy-duty blasting hose ensures smooth abrasive flow and durability",
-        "Air consumption range from 70 to 240 CFM at 80 PSI for powerful operation",
-        "Compressor compatibility from 10 HP to 40 HP based on model",
-        "Compatible with abrasive grit sizes from 12 to 80 mesh",
-        "Portable and compact design with weight range of 80 kg to 200 kg"
-      ],
-    },
+          { type: "h2", text: "Features & Benefits" },
+          {
+            type: "ul",
+            items: [
+              "Available in P-300 (3 CFT), P-600 (6 CFT), and P-1000 (10 CFT) models",
+              "High blasting efficiency from 4.7 to 20 Sq. Mtr./Hr depending on model",
+              "Optimized nozzle sizes (5.0 mm to 9.5 mm) for precise blasting",
+              "Heavy-duty blasting hose ensures smooth abrasive flow and durability",
+              "Air consumption range from 70 to 240 CFM at 80 PSI for powerful operation",
+              "Compressor compatibility from 10 HP to 40 HP based on model",
+              "Compatible with abrasive grit sizes from 12 to 80 mesh",
+              "Portable and compact design with weight range of 80 kg to 200 kg"
+            ],
+          },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Rust and paint removal from steel structures and fabricated parts",
-        "Surface preparation before painting or coating",
-        "Cleaning of pipelines, tanks, and industrial equipment",
-        "Shipyard, construction, and fabrication workshop maintenance",
-        "Automotive and heavy engineering industries",
-        "Surface roughening for better coating adhesion"
-      ],
-    },
+          { type: "h2", text: "Applications" },
+          {
+            type: "ul",
+            items: [
+              "Rust and paint removal from steel structures and fabricated parts",
+              "Surface preparation before painting or coating",
+              "Cleaning of pipelines, tanks, and industrial equipment",
+              "Shipyard, construction, and fabrication workshop maintenance",
+              "Automotive and heavy engineering industries",
+              "Surface roughening for better coating adhesion"
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Trusted manufacturer of industrial surface preparation machines",
-        "High-performance blasting systems with reduced downtime",
-        "Multiple capacity options for different industrial needs",
-        "Strong and durable build for long operational life",
-        "Reliable after-sales support and technical assistance"
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution" },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of industrial surface preparation machines",
+              "High-performance blasting systems with reduced downtime",
+              "Multiple capacity options for different industrial needs",
+              "Strong and durable build for long operational life",
+              "Reliable after-sales support and technical assistance"
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Models", value: "P-300 / P-600 / P-1000" },
-    { label: "Capacity", value: "3 CFT / 6 CFT / 10 CFT" },
-    { label: "Production Capacity", value: "4.7 – 20 Sq. Mtr./Hr" },
-    { label: "Nozzle Size", value: "5.0 mm – 9.5 mm" },
-    { label: "Air Consumption", value: "70 – 240 CFM @ 80 PSI" },
-    { label: "Compressor Requirement", value: "10 HP – 40 HP" },
-    { label: "Abrasive Range", value: "12 – 80 Mesh" },
-    { label: "Machine Weight", value: "80 kg – 200 kg" },
-    { label: "Type", value: "Portable Pressure Sand Blasting Machine" },
-  ],
+        specs: [
+          { label: "Models", value: "P-300 / P-600 / P-1000" },
+          { label: "Capacity", value: "3 CFT / 6 CFT / 10 CFT" },
+          { label: "Production Capacity", value: "4.7 – 20 Sq. Mtr./Hr" },
+          { label: "Nozzle Size", value: "5.0 mm – 9.5 mm" },
+          { label: "Air Consumption", value: "70 – 240 CFM @ 80 PSI" },
+          { label: "Compressor Requirement", value: "10 HP – 40 HP" },
+          { label: "Abrasive Range", value: "12 – 80 Mesh" },
+          { label: "Machine Weight", value: "80 kg – 200 kg" },
+          { label: "Type", value: "Portable Pressure Sand Blasting Machine" },
+        ],
 
-  ytArray: {
-    title: "Portable Sand Blasting Machine Demo",
-    link: "https://www.youtube.com/embed/XUSR6pDHJl4"
-  },
+        ytArray: {
+          title: "Portable Sand Blasting Machine Demo",
+          link: "https://www.youtube.com/embed/XUSR6pDHJl4"
+        },
 
-  image: [
-    {
-      src: "/prods/Sand Blasting Machine.webp",
-      alt: "Portable Pressure Sand Blasting Machine",
-    },
-  ],
-}
-
-,
-
-
-
-
-
-
+        image: [
+          {
+            src: "/prods/Sand Blasting Machine.webp",
+            alt: "Portable Pressure Sand Blasting Machine",
+          },
+        ],
+      },
     ]
   },
 
   //category 3 [Others]
   {
-     id: "other-products",
+    id: "other-products",
     name: "Other Products",
-    metaTitle: "** others Machine manufacturer ",
+    metaTitle: "Industrial Equipment & Tools | Vands Engineering Solutions",
     metaDescription:
-      "** others machine. ",
+      "Explore a wide range of industrial equipment and tools by Vands Engineering Solutions, including high-quality products designed for performance and durability.",
 
     products: [
-      //product 1 [almen gauge]
       {
-  id: "almen-gauge-mssd-digital",
-  name: "Almen Gauge Model MSSD Digital",
-  metaTitle:
-    "** Almen Gauge MSSD Digital | High Precision Shot Peening Measurement Tool",
-  metaDescription:
-    "** Vands Engineering Solution Almen Gauge Model MSSD Digital for precise measurement of shot peening intensity and arc height using Almen strips with advanced digital accuracy and industrial reliability.",
+        id: "almen-gauge-mssd-digital",
+        name: "Almen Gauge Model MSSD Digital",
+        metaTitle:
+          "Almen Gauge Model MSSD Digital | Precision Measuring Tool",
+        metaDescription:
+          "Buy Almen Gauge Model MSSD Digital for accurate shot peening measurement. High-precision, durable, and ideal for industrial surface treatment applications.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Almen Gauge Model MSSD Digital by Vands Engineering Solution is a high-precision measurement instrument designed for accurate determination of shot peening intensity using Almen strips. It ensures precise arc height measurement, which is essential for maintaining strict quality control in surface treatment processes. Built with advanced digital sensing technology, the MSSD model delivers fast, repeatable, and highly accurate readings, making it ideal for aerospace, automotive, and heavy engineering industries where surface stress control is critical. Its compact and durable design allows reliable performance in both workshop and laboratory environments."
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Almen Gauge Model MSSD Digital by Vands Engineering Solution is a high-precision measurement instrument designed for accurate determination of shot peening intensity using Almen strips. It ensures precise arc height measurement, which is essential for maintaining strict quality control in surface treatment processes. Built with advanced digital sensing technology, the MSSD model delivers fast, repeatable, and highly accurate readings, making it ideal for aerospace, automotive, and heavy engineering industries where surface stress control is critical. Its compact and durable design allows reliable performance in both workshop and laboratory environments."
+          },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "High-precision digital system for accurate Almen strip deflection measurement",
-        "Clear digital display for quick and easy reading of results",
-        "Ensures consistent and repeatable measurement accuracy",
-        "Compatible with standard Almen strips used in shot peening",
-        "Compact and ergonomic design for easy handling and portability",
-        "Robust industrial-grade construction for workshop and lab use",
-        "Fast response time for efficient inspection and testing workflow",
-        "Low maintenance design with long operational life"
-      ],
-    },
+          { type: "h2", text: "Features & Benefits" },
+          {
+            type: "ul",
+            items: [
+              "High-precision digital system for accurate Almen strip deflection measurement",
+              "Clear digital display for quick and easy reading of results",
+              "Ensures consistent and repeatable measurement accuracy",
+              "Compatible with standard Almen strips used in shot peening",
+              "Compact and ergonomic design for easy handling and portability",
+              "Robust industrial-grade construction for workshop and lab use",
+              "Fast response time for efficient inspection and testing workflow",
+              "Low maintenance design with long operational life"
+            ],
+          },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Shot peening process control and validation",
-        "Aerospace component quality inspection",
-        "Automotive and defense surface treatment monitoring",
-        "Spring, gear, and turbine blade testing",
-        "Quality assurance in metal finishing and heat treatment plants",
-        "Laboratory research in material engineering"
-      ],
-    },
+          { type: "h2", text: "Applications" },
+          {
+            type: "ul",
+            items: [
+              "Shot peening process control and validation",
+              "Aerospace component quality inspection",
+              "Automotive and defense surface treatment monitoring",
+              "Spring, gear, and turbine blade testing",
+              "Quality assurance in metal finishing and heat treatment plants",
+              "Laboratory research in material engineering"
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Precision-engineered industrial inspection instruments",
-        "Focus on accuracy, durability, and reliability",
-        "Suitable for critical quality control applications",
-        "User-friendly design requiring minimal training",
-        "Strong technical support and dependable after-sales service"
-      ],
-    },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution" },
+          {
+            type: "ul",
+            items: [
+              "Precision-engineered industrial inspection instruments",
+              "Focus on accuracy, durability, and reliability",
+              "Suitable for critical quality control applications",
+              "User-friendly design requiring minimal training",
+              "Strong technical support and dependable after-sales service"
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Model", value: "MSSD Digital" },
-    { label: "Type", value: "Digital Almen Gauge" },
-    { label: "Measurement", value: "Almen Strip Arc Height" },
-    { label: "Display", value: "Digital LCD Display" },
-    { label: "Application", value: "Shot Peening Intensity Measurement" },
-    { label: "Usage", value: "Industrial / Laboratory / Quality Control" },
-    { label: "Build", value: "Heavy Duty Industrial Grade Construction" },
-  ],
+        specs: [
+          { label: "Model", value: "MSSD Digital" },
+          { label: "Type", value: "Digital Almen Gauge" },
+          { label: "Measurement", value: "Almen Strip Arc Height" },
+          { label: "Display", value: "Digital LCD Display" },
+          { label: "Application", value: "Shot Peening Intensity Measurement" },
+          { label: "Usage", value: "Industrial / Laboratory / Quality Control" },
+          { label: "Build", value: "Heavy Duty Industrial Grade Construction" },
+        ],
 
-  ytArray: {
-    title: "Almen Gauge Model MSSD Digital",
-    link: "https://www.youtube.com/embed/bwGROtv6KSc"
-  },
+        ytArray: {
+          title: "Almen Gauge Model MSSD Digital",
+          link: "https://www.youtube.com/embed/bwGROtv6KSc"
+        },
 
-  image: [
-    {
-      src: "/prods/Almen Gauge Model MSSD Digital.webp",
-      alt: "Almen Gauge Model MSSD Digital",
-    },
-  ],
-}
-,
-      //product 2 [dft gauge]
-{
-  id: "dry-film-thickness-gauge",
-  name: "Dry Film Thickness Gauge",
-  metaTitle:
-    "** Dry Film Thickness (DFT) Gauge | Coating Thickness Measurement Instrument",
-  metaDescription:
-    "** Vands Engineering Solution Dry Film Thickness (DFT) Gauge for accurate, non-destructive measurement of paint and coating thickness on metal and non-metal surfaces with digital and analog options.",
+        image: [
+          {
+            src: "/prods/Almen Gauge Model MSSD Digital.webp",
+            alt: "Almen Gauge Model MSSD Digital",
+          },
+        ],
+      },
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Dry Film Thickness (DFT) Gauge by Vands Engineering Solution is a precision instrument designed for accurate measurement of coating thickness on metal and non-metal surfaces. It is widely used in industrial quality control applications to ensure proper thickness of paint, powder coating, and protective layers. This helps maintain coating standards, durability, and compliance with industrial specifications. Available in both digital and analog models, the DFT gauge is suitable for a wide range of field and laboratory applications. Its non-destructive testing method ensures surface integrity while delivering fast and reliable results."
-    },
+      {
+        id: "dry-film-thickness-gauge",
+        name: "Dry Film Thickness Gauge",
+        metaTitle:
+          "Dry Film Thickness Gauge Supplier & Manufacturer",
+        metaDescription:
+          "High-precision dry film thickness gauges for accurate coating inspection. Perfect for industrial applications, ensuring durability and consistent results.",
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "High-accuracy measurement of coating thickness on ferrous and non-ferrous materials",
-        "Available in digital and analog models for flexible usage",
-        "Non-destructive testing ensures no damage to coated surfaces",
-        "Portable and lightweight design for easy field and workshop use",
-        "Fast response time for efficient quality inspection",
-        "Works on rough, smooth, painted, and coated surfaces",
-        "Durable construction suitable for industrial environments"
-      ],
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Dry Film Thickness (DFT) Gauge by Vands Engineering Solution is a precision instrument designed for accurate measurement of coating thickness on metal and non-metal surfaces. It is widely used in industrial quality control applications to ensure proper thickness of paint, powder coating, and protective layers. This helps maintain coating standards, durability, and compliance with industrial specifications. Available in both digital and analog models, the DFT gauge is suitable for a wide range of field and laboratory applications. Its non-destructive testing method ensures surface integrity while delivering fast and reliable results."
+          },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Paint and coating thickness measurement in fabrication industries",
-        "Quality control in automotive and engineering sectors",
-        "Inspection of pipelines, tanks, and structural coatings",
-        "Powder coating thickness verification in manufacturing units",
-        "Shipbuilding and heavy equipment surface inspection",
-        "Laboratory and field inspection applications"
-      ],
-    },
+          { type: "h2", text: "Features & Benefits" },
+          {
+            type: "ul",
+            items: [
+              "High-accuracy measurement of coating thickness on ferrous and non-ferrous materials",
+              "Available in digital and analog models for flexible usage",
+              "Non-destructive testing ensures no damage to coated surfaces",
+              "Portable and lightweight design for easy field and workshop use",
+              "Fast response time for efficient quality inspection",
+              "Works on rough, smooth, painted, and coated surfaces",
+              "Durable construction suitable for industrial environments"
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Trusted provider of precision inspection instruments",
-        "Focus on accuracy, durability, and ease of operation",
-        "Suitable for strict industrial quality control standards",
-        "Available in multiple model configurations",
-        "Strong technical support and reliable after-sales service"
-      ],
-    },
-  ],
+          { type: "h2", text: "Applications" },
+          {
+            type: "ul",
+            items: [
+              "Paint and coating thickness measurement in fabrication industries",
+              "Quality control in automotive and engineering sectors",
+              "Inspection of pipelines, tanks, and structural coatings",
+              "Powder coating thickness verification in manufacturing units",
+              "Shipbuilding and heavy equipment surface inspection",
+              "Laboratory and field inspection applications"
+            ],
+          },
 
-  specs: [
-    { label: "Instrument Type", value: "Dry Film Thickness (DFT) Gauge" },
-    { label: "Measurement Type", value: "Coating Thickness Measurement" },
-    { label: "Models Available", value: "Digital / Analog" },
-    { label: "Surface Compatibility", value: "Ferrous & Non-Ferrous" },
-    { label: "Testing Method", value: "Non-Destructive" },
-    { label: "Application", value: "Paint & Coating Inspection" },
-    { label: "Usage", value: "Industrial / Field / Laboratory" },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution" },
+          {
+            type: "ul",
+            items: [
+              "Trusted provider of precision inspection instruments",
+              "Focus on accuracy, durability, and ease of operation",
+              "Suitable for strict industrial quality control standards",
+              "Available in multiple model configurations",
+              "Strong technical support and reliable after-sales service"
+            ],
+          },
+        ],
 
-  ytArray: {
-    title: "Dry Film Thickness (DFT) Gauge Overview",
-    link: "https://www.youtube.com/embed/V8pNgQkSRkg"
-  },
+        specs: [
+          { label: "Instrument Type", value: "Dry Film Thickness (DFT) Gauge" },
+          { label: "Measurement Type", value: "Coating Thickness Measurement" },
+          { label: "Models Available", value: "Digital / Analog" },
+          { label: "Surface Compatibility", value: "Ferrous & Non-Ferrous" },
+          { label: "Testing Method", value: "Non-Destructive" },
+          { label: "Application", value: "Paint & Coating Inspection" },
+          { label: "Usage", value: "Industrial / Field / Laboratory" },
+        ],
 
-  image: [
-    {
-      src: "/prods/Dry Film Thickness Gauge.webp",
-      alt: "Dry Film Thickness Gauge",
-    },
-  ],
-},
+        ytArray: {
+          title: "Dry Film Thickness (DFT) Gauge Overview",
+          link: "https://www.youtube.com/embed/V8pNgQkSRkg"
+        },
 
-{
-  id: "wet-film-thickness-gauge",
-  name: "Wet Film Thickness Gauge",
-  metaTitle:
-    "** WFT Gauge | Wet Film Thickness Measurement Tool for Paint & Coating",
-  metaDescription:
-    "** Vands Engineering Solution WFT (Wet Film Thickness) Gauge for accurate measurement of wet paint and coating thickness, ensuring uniform application and quality control in industrial coating processes.",
+        image: [
+          {
+            src: "/prods/Dry Film Thickness Gauge.webp",
+            alt: "Dry Film Thickness Gauge",
+          },
+        ],
+      },
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The WFT (Wet Film Thickness) Gauge by Vands Engineering Solution is a precision instrument designed for accurate measurement of wet film thickness of coatings such as paint, varnish, lacquer, and other protective finishes. It ensures proper coating thickness during application, helping industries maintain consistent quality, improve durability, and reduce material wastage. Widely used in painting and coating inspection processes, this gauge is essential for industrial quality control applications. Manufactured from high-quality corrosion-resistant material, it delivers long service life and reliable performance even in harsh working environments."
-    },
+      {
+        id: "wet-film-thickness-gauge",
+        name: "Wet Film Thickness Gauge",
+        metaTitle:
+          "Buy Wet Film Thickness Gauge | Paint Measurement Tool",
+        metaDescription:
+          "Looking for a reliable wet film thickness gauge? Get durable and easy-to-use tools for measuring coating thickness during application.",
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "Accurate measurement of wet film thickness during coating application",
-        "Available in multiple measurement ranges for different industrial needs",
-        "Made from corrosion-resistant stainless steel for durability",
-        "Simple dip-and-read design for quick and easy operation",
-        "Ensures uniform coating thickness and reduces material wastage",
-        "Compact and portable design for field and workshop use",
-        "Suitable for repeated use in industrial quality control"
-      ],
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The WFT (Wet Film Thickness) Gauge by Vands Engineering Solution is a precision instrument designed for accurate measurement of wet film thickness of coatings such as paint, varnish, lacquer, and other protective finishes. It ensures proper coating thickness during application, helping industries maintain consistent quality, improve durability, and reduce material wastage. Widely used in painting and coating inspection processes, this gauge is essential for industrial quality control applications. Manufactured from high-quality corrosion-resistant material, it delivers long service life and reliable performance even in harsh working environments."
+          },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Paint and coating thickness measurement in industrial applications",
-        "Quality control in automotive, marine, and fabrication industries",
-        "Inspection of protective coatings on pipelines and steel structures",
-        "Used in liquid and powder coating processes",
-        "Essential tool for contractors, inspectors, and coating professionals",
-        "Ensures compliance with coating standards and specifications"
-      ],
-    },
+          { type: "h2", text: "Features & Benefits" },
+          {
+            type: "ul",
+            items: [
+              "Accurate measurement of wet film thickness during coating application",
+              "Available in multiple measurement ranges for different industrial needs",
+              "Made from corrosion-resistant stainless steel for durability",
+              "Simple dip-and-read design for quick and easy operation",
+              "Ensures uniform coating thickness and reduces material wastage",
+              "Compact and portable design for field and workshop use",
+              "Suitable for repeated use in industrial quality control"
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Precision-engineered instruments for accurate measurement",
-        "Durable and corrosion-resistant industrial-grade construction",
-        "Easy-to-use design for field and laboratory applications",
-        "Supports strict quality assurance in coating processes",
-        "Trusted supplier of inspection and surface preparation equipment"
-      ],
-    },
-  ],
+          { type: "h2", text: "Applications" },
+          {
+            type: "ul",
+            items: [
+              "Paint and coating thickness measurement in industrial applications",
+              "Quality control in automotive, marine, and fabrication industries",
+              "Inspection of protective coatings on pipelines and steel structures",
+              "Used in liquid and powder coating processes",
+              "Essential tool for contractors, inspectors, and coating professionals",
+              "Ensures compliance with coating standards and specifications"
+            ],
+          },
 
-  specs: [
-    { label: "Instrument Type", value: "Wet Film Thickness (WFT) Gauge" },
-    { label: "Measurement Type", value: "Wet Coating Thickness" },
-    { label: "Material", value: "Stainless Steel (Corrosion Resistant)" },
-    { label: "Design", value: "Dip & Read Type" },
-    { label: "Usage", value: "Industrial / Field / Laboratory" },
-    { label: "Application", value: "Paint & Coating Inspection" },
-  ],
+          { type: "h2", text: "Why Choose Vands Engineering Solution" },
+          {
+            type: "ul",
+            items: [
+              "Precision-engineered instruments for accurate measurement",
+              "Durable and corrosion-resistant industrial-grade construction",
+              "Easy-to-use design for field and laboratory applications",
+              "Supports strict quality assurance in coating processes",
+              "Trusted supplier of inspection and surface preparation equipment"
+            ],
+          },
+        ],
 
-  ytArray: {
-    title: "WFT (Wet Film Thickness) Gauge Overview",
-    link: "https://www.youtube.com/embed/MFBOnbOr5ys"
-  },
+        specs: [
+          { label: "Instrument Type", value: "Wet Film Thickness (WFT) Gauge" },
+          { label: "Measurement Type", value: "Wet Coating Thickness" },
+          { label: "Material", value: "Stainless Steel (Corrosion Resistant)" },
+          { label: "Design", value: "Dip & Read Type" },
+          { label: "Usage", value: "Industrial / Field / Laboratory" },
+          { label: "Application", value: "Paint & Coating Inspection" },
+        ],
 
-  image: [
-    {
-      src: "/prods/Wet Film Thickness Gauge.png",
-      alt: "Wet Film Thickness Gauge",
-    },
-  ],
-}
-,
-{
-  id: "flame-spray-gun-metalizing-gun",
-  name: "Flame Spray Gun (Metalizing Gun)",
-  metaTitle:
-    "** Flame Spray Gun | Metalizing Gun for Corrosion Protection & Thermal Spray Coating",
-  metaDescription:
-    "** Vands Engineering Solution Flame Spray Gun (Metalizing Gun) for high-performance thermal spraying, corrosion protection, and metal restoration with durable industrial coating applications.",
+        ytArray: {
+          title: "WFT (Wet Film Thickness) Gauge Overview",
+          link: "https://www.youtube.com/embed/MFBOnbOr5ys"
+        },
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Flame Spray Gun (Metalizing Gun) by Vands Engineering Solution is a high-performance thermal spray system designed for surface coating, corrosion protection, and metal restoration applications. It works by melting coating materials using a controlled flame and spraying them onto prepared surfaces to form a strong, durable protective layer. This process is widely used for restoring worn-out components, improving wear resistance, and providing anti-corrosion protection for industrial parts. Built for continuous industrial use, it ensures stable flame control, consistent spray output, and excellent coating adhesion for demanding maintenance and production environments."
-    },
+        image: [
+          {
+            src: "/prods/Wet Film Thickness Gauge.png",
+            alt: "Wet Film Thickness Gauge",
+          },
+        ],
+      },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "High-efficiency flame spraying system for uniform metal coating",
-        "Compatible with zinc, aluminum, and alloy coating wires",
-        "Ergonomic and lightweight design for operator comfort",
-        "Adjustable flame control for precise coating thickness",
-        "Durable industrial-grade construction for long service life",
-        "Consistent spray output with minimal material wastage",
-        "Suitable for both field and workshop applications"
-      ],
-    },
+      {
+        id: "flame-spray-gun-metalizing-gun",
+        name: "Flame Spray Gun (Metalizing Gun)",
+        metaTitle:
+          "Flame Spray Gun (Metalizing Gun) | Industrial Coating Tool",
+        metaDescription:
+          "Buy flame spray gun (metalizing gun) for efficient thermal spray coating. Ideal for corrosion protection, surface restoration, and industrial applications.",
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Corrosion protection for steel structures, bridges, and pipelines",
-        "Restoration of worn mechanical and industrial components",
-        "Surface protection of machinery and heavy equipment",
-        "Marine industry rust prevention applications",
-        "Thermal spray coating for automotive parts",
-        "Maintenance and repair of industrial components"
-      ],
-    },
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Flame Spray Gun (Metalizing Gun) by Vands Engineering Solution is a high-performance thermal spray system designed for surface coating, corrosion protection, and metal restoration applications. It works by melting coating materials using a controlled flame and spraying them onto prepared surfaces to form a strong, durable protective layer. This process is widely used for restoring worn-out components, improving wear resistance, and providing anti-corrosion protection for industrial parts. Built for continuous industrial use, it ensures stable flame control, consistent spray output, and excellent coating adhesion for demanding maintenance and production environments."
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Trusted manufacturer of industrial coating and blasting equipment",
-        "Precision-engineered tools for durability and performance",
-        "Suitable for both small and heavy-duty applications",
-        "Focus on safety, efficiency, and long operational life",
-        "Strong technical support and after-sales service"
-      ],
-    },
-  ],
+          { type: "h2", text: "Features & Benefits" },
+          {
+            type: "ul",
+            items: [
+              "High-efficiency flame spraying system for uniform metal coating",
+              "Compatible with zinc, aluminum, and alloy coating wires",
+              "Ergonomic and lightweight design for operator comfort",
+              "Adjustable flame control for precise coating thickness",
+              "Durable industrial-grade construction for long service life",
+              "Consistent spray output with minimal material wastage",
+              "Suitable for both field and workshop applications"
+            ],
+          },
 
-  specs: [
-    { label: "Machine Type", value: "Flame Spray Gun (Metalizing Gun)" },
-    { label: "Process Type", value: "Thermal Flame Spray Coating" },
-    { label: "Coating Materials", value: "Zinc, Aluminum, Alloy Wires" },
-    { label: "Operation", value: "Manual / Industrial Spray System" },
-    { label: "Usage", value: "Corrosion Protection & Metal Restoration" },
-    { label: "Application", value: "Industrial Surface Coating" },
-    { label: "Build", value: "Heavy Duty Industrial Grade" },
-  ],
+          { type: "h2", text: "Applications" },
+          {
+            type: "ul",
+            items: [
+              "Corrosion protection for steel structures, bridges, and pipelines",
+              "Restoration of worn mechanical and industrial components",
+              "Surface protection of machinery and heavy equipment",
+              "Marine industry rust prevention applications",
+              "Thermal spray coating for automotive parts",
+              "Maintenance and repair of industrial components"
+            ],
+          },
 
-  ytArray: {
-    title: "Flame Spray Gun (Metalizing Gun)",
-    link: "https://www.youtube.com/embed/LfWbejGP8So"
-  },
+          { type: "h2", text: "Why Choose Vands Engineering Solution" },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of industrial coating and blasting equipment",
+              "Precision-engineered tools for durability and performance",
+              "Suitable for both small and heavy-duty applications",
+              "Focus on safety, efficiency, and long operational life",
+              "Strong technical support and after-sales service"
+            ],
+          },
+        ],
 
-  image: [
-    {
-      src: "/prods/Flame Spray Gun (Metalizing Gun).webp",
-      alt: "Flame Spray Gun Metalizing Gun",
-    },
-  ],
-}
+        specs: [
+          { label: "Machine Type", value: "Flame Spray Gun (Metalizing Gun)" },
+          { label: "Process Type", value: "Thermal Flame Spray Coating" },
+          { label: "Coating Materials", value: "Zinc, Aluminum, Alloy Wires" },
+          { label: "Operation", value: "Manual / Industrial Spray System" },
+          { label: "Usage", value: "Corrosion Protection & Metal Restoration" },
+          { label: "Application", value: "Industrial Surface Coating" },
+          { label: "Build", value: "Heavy Duty Industrial Grade" },
+        ],
 
+        ytArray: {
+          title: "Flame Spray Gun (Metalizing Gun)",
+          link: "https://www.youtube.com/embed/LfWbejGP8So"
+        },
 
-
-
-
+        image: [
+          {
+            src: "/prods/Flame Spray Gun (Metalizing Gun).webp",
+            alt: "Flame Spray Gun Metalizing Gun",
+          },
+        ],
+      }
     ]
-
   }
-  
 ];
 
 export const cardDataLandingPage = [

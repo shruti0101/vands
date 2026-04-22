@@ -87,7 +87,7 @@ const products = [
 
 export default function BestSellerSlider() {
   return (
-    <section style={{backgroundImage:"url(/bestsellbg.jpg)"}} className="py-5 md:py-18 bg-center bg-cover">
+    <section style={{ backgroundImage: "url(/bestsellbg.jpg)" }} className="py-5 md:py-18 bg-center bg-cover">
       <div className="w-full mx-auto  md:px-23">
 
         {/* Heading */}
@@ -96,8 +96,8 @@ export default function BestSellerSlider() {
             Our Featured Products
           </p>
           <h2 className="text-xs px-2 md:text-xl font-medium leading-relaxed text-black mt-4">
-       
-With over a decade of experience, Vands Engineering Solutions has developed strong expertise in manufacturing and supplying Airless Painting Machines and surface preparation equipment. Our in-depth industry knowledge helps us understand customer requirements accurately for different industrial applications.
+
+            With over a decade of experience, Vands Engineering Solutions has developed strong expertise in manufacturing and supplying Airless Painting Machines and surface preparation equipment. Our in-depth industry knowledge helps us understand customer requirements accurately for different industrial applications.
           </h2>
         </div>
 
@@ -115,7 +115,7 @@ With over a decade of experience, Vands Engineering Solutions has developed stro
         >
           {products.map((product, i) => (
             <SwiperSlide key={i}>
-              
+
               <div className="grid md:grid-cols-2 bg-[#FFFAF1] rounded-xl shadow-md overflow-hidden">
 
                 {/* IMAGE */}
@@ -137,23 +137,23 @@ With over a decade of experience, Vands Engineering Solutions has developed stro
 
                   <ul className="space-y-2 text-black text-md">
                     {product.specs.map((spec, idx) => (
-                      <li key={idx}>• {spec}</li>
+                      <li key={idx}>{spec}</li>
                     ))}
                   </ul>
 
-                  <div className="mt-4">
+                  {/* <div className="mt-4">
                     <span className="text-orange-500 text-2xl font-bold">
                       {product.price}
                     </span>
-                  </div>
+                  </div> */}
 
 
-<Link href="/categories/airless-painting-machine    ">
-                  <button className="mt-4 w-fit bg-orange-500 text-white px-5 py-2 rounded-md hover:bg-orange-600 transition">
-                    View Product
-                  </button>
+                  <Link href="/categories/airless-painting-machine    ">
+                    <button className="mt-4 w-fit bg-orange-500 text-white px-5 py-2 rounded-md hover:bg-orange-600 transition">
+                      View Product
+                    </button>
 
-</Link> 
+                  </Link>
                 </div>
 
               </div>

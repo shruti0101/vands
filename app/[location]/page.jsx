@@ -12,8 +12,8 @@ export async function generateMetadata({ params }) {
     .join(" ");
 
   return {
-    title: `Paper Cup Making Machines Manufacturer in ${city}`,
-    description: `Looking for a reliable paper cup making machines manufacturer in ${city}? We offer high-performance, durable, and fully automated paper cup machines at competitive prices with fast delivery and expert support.`,
+    title: `${city}`,
+    description: `${city}`,
   };
 }
 
