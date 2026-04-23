@@ -81,8 +81,8 @@ const blog = {
 
 
 export default defineConfig({
-  name: "sbs-studio",
-  title: "SBS Studio",
+  name: "vands-studio",
+  title: "vands Studio",
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
   apiVersion: "2024-06-01",

@@ -139,7 +139,7 @@ const socialLinks = [
           <nav className="hidden lg:flex items-center gap-10 text-[17px] uppercase">
             <Link href="/">HOME</Link>
             <Link href="/about">ABOUT US</Link>
-            <Link href="/blogs">BLOGS</Link>
+            <Link href="/our-blogs">BLOGS</Link>
             <Link href="/contact">CONTACT US</Link>
 
             {/* PRODUCTS */}
@@ -287,7 +287,7 @@ const socialLinks = [
         ABOUT US
       </Link>
 
-      <Link href="/blogs" onClick={closeMenu}>
+      <Link href="/our-blogs" onClick={closeMenu}>
         BLOGS
       </Link>
 
