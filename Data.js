@@ -1,5 +1,3 @@
-
-
 export const categories = [
   //category 1 
   {
@@ -411,8 +409,8 @@ export const categories = [
 
       //product 6 maruti
       {
-        id: " airless-paint-sprayer-maruti",
-        name: " Airless Paint Sprayer (Maruti)",
+        id: "airless-paint-sprayer-maruti",
+        name: "Airless Paint Sprayer (Maruti)",
         metaTitle:
           "Buy Airless Paint Sprayer Maruti | Vands Engineering",
         metaDescription:
