@@ -274,7 +274,7 @@ export default function Location() {
 
         <button
           onClick={() => setIsFormOpen(true)}
-          className="bg-white text-red-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition duration-300"
+          className="bg-white cursor-pointer text-red-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition duration-300"
         >
           Get a Quote
         </button>
