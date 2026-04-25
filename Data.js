@@ -1,11 +1,4 @@
-// data.js
-import {
-  CircleDollarSign,
-  Cog,
-  Earth,
-  Mountain,
-  ShieldCheck,
-} from "lucide-react";
+
 
 export const categories = [
   //category 1 
@@ -1563,159 +1556,159 @@ export const categories = [
   }
 ];
 
-export const cardDataLandingPage = [
-  {
-    title: "Quality Assurance",
-    icon: <ShieldCheck size={40} />,
-    desc: "At SBS Machinery, quality is our top priority. All our machines are built using premium-grade materials and adhere to stringent manufacturing standards. Whether it’s a paper cup machine or a flexo printer, each unit is tested for performance, safety, and durability — ensuring long-lasting operation even in high-output environments.",
-  },
-  {
-    title: "Customization Options",
-    icon: <ShieldCheck size={40} />,
-    desc: "We offer extensive customization for all machine models — from paper cup sizes and printing color options to die-cut patterns and bag handle types. Our team works closely with each client to develop systems that align with your exact production needs, factory layout, and capacity goals",
-  },
-  {
-    title: "Extensive Industry Experience",
-    icon: <Cog size={40} />,
-    desc: "With over a decade of experience in manufacturing eco-packaging machines, SBS Machinery has built a reputation for reliability and innovation. Our expert engineers and technicians ensure smooth installation, training, and support for clients ranging from small startups to large industrial units.",
-  },
-  {
-    title: "Nationwide Availability",
-    icon: <Mountain size={40} />,
-    desc: "Our machines are readily available across major industrial cities in India, including Delhi, Mumbai, Bangalore, Hyderabad, and Ahmedabad. With quick shipping and local service teams, we guarantee reliable delivery and post-sales support anywhere in the country.",
-  },
-  {
-    title: "Customer-Centric Approach",
-    icon: <Earth size={40} />,
-    desc: "Customer satisfaction is at the heart of our operations. We build strong partnerships with clients by offering personalized consultation, transparent pricing, and after-sales service that ensures long-term success. Your growth is our mission.",
-  },
-  {
-    title: "Value for Money",
-    icon: <CircleDollarSign size={40} />,
-    desc: "SBS Machinery offers competitive pricing without compromising on quality. With industry-leading warranties, service packages, and high ROI, our machines give you the best value. Invest with confidence, knowing you’re getting reliable solutions that perform exceptionally.",
-  },
-];
+// export const cardDataLandingPage = [
+//   {
+//     title: "Quality Assurance",
+//     icon: <ShieldCheck size={40} />,
+//     desc: "At SBS Machinery, quality is our top priority. All our machines are built using premium-grade materials and adhere to stringent manufacturing standards. Whether it’s a paper cup machine or a flexo printer, each unit is tested for performance, safety, and durability — ensuring long-lasting operation even in high-output environments.",
+//   },
+//   {
+//     title: "Customization Options",
+//     icon: <ShieldCheck size={40} />,
+//     desc: "We offer extensive customization for all machine models — from paper cup sizes and printing color options to die-cut patterns and bag handle types. Our team works closely with each client to develop systems that align with your exact production needs, factory layout, and capacity goals",
+//   },
+//   {
+//     title: "Extensive Industry Experience",
+//     icon: <Cog size={40} />,
+//     desc: "With over a decade of experience in manufacturing eco-packaging machines, SBS Machinery has built a reputation for reliability and innovation. Our expert engineers and technicians ensure smooth installation, training, and support for clients ranging from small startups to large industrial units.",
+//   },
+//   {
+//     title: "Nationwide Availability",
+//     icon: <Mountain size={40} />,
+//     desc: "Our machines are readily available across major industrial cities in India, including Delhi, Mumbai, Bangalore, Hyderabad, and Ahmedabad. With quick shipping and local service teams, we guarantee reliable delivery and post-sales support anywhere in the country.",
+//   },
+//   {
+//     title: "Customer-Centric Approach",
+//     icon: <Earth size={40} />,
+//     desc: "Customer satisfaction is at the heart of our operations. We build strong partnerships with clients by offering personalized consultation, transparent pricing, and after-sales service that ensures long-term success. Your growth is our mission.",
+//   },
+//   {
+//     title: "Value for Money",
+//     icon: <CircleDollarSign size={40} />,
+//     desc: "SBS Machinery offers competitive pricing without compromising on quality. With industry-leading warranties, service packages, and high ROI, our machines give you the best value. Invest with confidence, knowing you’re getting reliable solutions that perform exceptionally.",
+//   },
+// ];
 
-export const ourProductLandingPage = [
-  {
-    image: "/products/Paper Cup Machine/Paper Cup Machine SBS-80.webp",
-    subTitle: "Paper Cup Machines",
-    title: "Fully Automatic Paper Cup Making Machine",
-    desc: "SBS Machinery’s flagship product. Ideal for manufacturing disposable paper cups ranging from 30ml to 350ml. Features include ultrasonic sealing, automatic cup collection, servo motor control, and options for single or double PE-coated paper. Capable of producing 45–120 cups per minute depending on the model.",
-    tabel: {
-      Model: "SBS-80",
-      "Moulds Size": "40ml to 300ml",
-      Power: "5 KW / Three Phase",
-      Weight: "2000 kg (approx.)",
-      Production: "70-80 pcs./min (depending on the sizes of moulds)",
-    },
-    link: "https://sbsmachinery.in/products/PaperCupMachineSBS-120",
-  },
-  {
-    image:
-      "/products/bio/BIO-DEGRADABLE BAG MAKING MACHINE (40MM BLOWING PLANT).webp",
+// export const ourProductLandingPage = [
+//   {
+//     image: "/products/Paper Cup Machine/Paper Cup Machine SBS-80.webp",
+//     subTitle: "Paper Cup Machines",
+//     title: "Fully Automatic Paper Cup Making Machine",
+//     desc: "SBS Machinery’s flagship product. Ideal for manufacturing disposable paper cups ranging from 30ml to 350ml. Features include ultrasonic sealing, automatic cup collection, servo motor control, and options for single or double PE-coated paper. Capable of producing 45–120 cups per minute depending on the model.",
+//     tabel: {
+//       Model: "SBS-80",
+//       "Moulds Size": "40ml to 300ml",
+//       Power: "5 KW / Three Phase",
+//       Weight: "2000 kg (approx.)",
+//       Production: "70-80 pcs./min (depending on the sizes of moulds)",
+//     },
+//     link: "https://sbsmachinery.in/products/PaperCupMachineSBS-120",
+//   },
+//   {
+//     image:
+//       "/products/bio/BIO-DEGRADABLE BAG MAKING MACHINE (40MM BLOWING PLANT).webp",
 
-    subTitle: "Biodegradable Packaging Machines",
-    title: "Biodegradable Bag Making Machine",
-    desc: "Designed to manufacture compostable and eco-friendly bags using biodegradable film. Supports roll-to-bag operation, automatic folding, cutting, and sealing. Fully compliant with India’s plastic ban policies. Ideal for businesses looking to switch to sustainable packaging.",
-    tabel: {
-      "Tower Height": "10-14 Feet",
-      "Machine Nip Roller Size": "32″ Inch",
-      "Connecting Load": "32 kW (42 HP)",
-      "Maximum Output": "35 to 50 Kg./Hr",
-      "Main Motor": "15 HP",
-      "Air Blower": "5 HP",
-    },
-    link: "https://sbsmachinery.in/products/BiodegradableBagPunchingMachine",
-  },
-  {
-    image: "/products/bio/Biodegradable Bag Punching Machine.webp",
-    subTitle: "Biodegradable Packaging Machines",
-    title: "Non-Woven Bag Making Machine",
-    desc: "Designed to manufacture compostable and eco-friendly bags using biodegradable film. Supports roll-to-bag operation, automatic folding, cutting, and sealing. Fully compliant with India’s plastic ban policies. Ideal for businesses looking to switch to sustainable packaging.",
-    tabel: {
-      Model: "A-700",
-      "Moulds Size": "40ml to 300ml",
-      "Power Supply": "220 V",
-      Power: "5 kW",
-      "Overall Size": "1700 X 1700 X 1500 MM",
-      "Production Speed": "5 – 20 pcs/min",
-    },
-    link: "https://sbsmachinery.in/products/BiodegradableBagPunchingMachine",
-  },
-  {
-    image: "/products/plate/2.webp",
-    subTitle: "Cutting & Plate Making",
-    title: "Paper Plate & Die Cutting Machine",
-    desc: "High-speed hydraulic or pneumatic die cutting machines suitable for making disposable plates, bowls, and trays. Can handle paper and biodegradable sheets. Available in multiple tonnage capacities and auto/manual options.",
-    tabel: {
-      Type: "SBS-1200",
-      "Paper Convey Width": "1200mm-400mm",
-      "Cut Precision": "± 0.10mm",
-      "Production Capacity": "150-200 times/min",
-      "Maximum Cutting Size": "1200 x 640mm",
-      "Suitable Material":
-        "100-800g/m² white cardboard, PE coated paper, Kraft paper etc.",
-      "Maximum Pressure": "350T",
-    },
-    link: "https://sbsmachinery.in/products/SBSHYM01SemiAutomaticHydraulicSingleDieMachine",
-  },
-  {
-    image: "/products/flexo/(FOUR COLOUR).webp",
-    subTitle: "Printing Machines",
-    title: "Flexo Printing Machine",
-    desc: "Designed for printing on PE-coated paper, kraft paper, and non-woven fabric. Multi-color options available (1–6 colors). Ideal for printing logos, designs, and branding on cups and bags before forming.",
-    tabel: {
-      "Paper Thickness": "30 – 250 G/M2",
-      "Bag Thickness": "42 – 150 GSM",
-      Power: "3.5 – 4 kW (Single Phase)",
-      Weight: "3000 – 3500 Kg",
-      "Production Speed": "2000 – 8000 IPH",
-    },
-    link: "https://sbsmachinery.in/products/FlexoNonWovenBagPrintingMachineFourColour",
-  },
-  {
-    image: "/products/offset/OFFSET.webp",
-    subTitle: "Printing Machines",
-    title: "Offset Printing Machine",
-    desc: "Used for high-resolution printing on paper sheets. Suitable for printing cup blanks, box packaging, labels, and promotional materials. Ensures sharp image clarity and fast throughput, making it suitable for bulk printing.",
-    tabel: {
-      "Paper Thickness": "30 – 250 G/M2",
-      "Bag Thickness": "42 – 150 GSM",
-      Power: "3.5 – 4 kW (Single Phase)",
-      Weight: "3000 – 3500 Kg",
-      "Production Speed": "2000 – 8000 IPH",
-    },
-    link: "https://sbsmachinery.in/products/FlexoNonWovenBagPrintingMachineFourColour",
-  },
-];
+//     subTitle: "Biodegradable Packaging Machines",
+//     title: "Biodegradable Bag Making Machine",
+//     desc: "Designed to manufacture compostable and eco-friendly bags using biodegradable film. Supports roll-to-bag operation, automatic folding, cutting, and sealing. Fully compliant with India’s plastic ban policies. Ideal for businesses looking to switch to sustainable packaging.",
+//     tabel: {
+//       "Tower Height": "10-14 Feet",
+//       "Machine Nip Roller Size": "32″ Inch",
+//       "Connecting Load": "32 kW (42 HP)",
+//       "Maximum Output": "35 to 50 Kg./Hr",
+//       "Main Motor": "15 HP",
+//       "Air Blower": "5 HP",
+//     },
+//     link: "https://sbsmachinery.in/products/BiodegradableBagPunchingMachine",
+//   },
+//   {
+//     image: "/products/bio/Biodegradable Bag Punching Machine.webp",
+//     subTitle: "Biodegradable Packaging Machines",
+//     title: "Non-Woven Bag Making Machine",
+//     desc: "Designed to manufacture compostable and eco-friendly bags using biodegradable film. Supports roll-to-bag operation, automatic folding, cutting, and sealing. Fully compliant with India’s plastic ban policies. Ideal for businesses looking to switch to sustainable packaging.",
+//     tabel: {
+//       Model: "A-700",
+//       "Moulds Size": "40ml to 300ml",
+//       "Power Supply": "220 V",
+//       Power: "5 kW",
+//       "Overall Size": "1700 X 1700 X 1500 MM",
+//       "Production Speed": "5 – 20 pcs/min",
+//     },
+//     link: "https://sbsmachinery.in/products/BiodegradableBagPunchingMachine",
+//   },
+//   {
+//     image: "/products/plate/2.webp",
+//     subTitle: "Cutting & Plate Making",
+//     title: "Paper Plate & Die Cutting Machine",
+//     desc: "High-speed hydraulic or pneumatic die cutting machines suitable for making disposable plates, bowls, and trays. Can handle paper and biodegradable sheets. Available in multiple tonnage capacities and auto/manual options.",
+//     tabel: {
+//       Type: "SBS-1200",
+//       "Paper Convey Width": "1200mm-400mm",
+//       "Cut Precision": "± 0.10mm",
+//       "Production Capacity": "150-200 times/min",
+//       "Maximum Cutting Size": "1200 x 640mm",
+//       "Suitable Material":
+//         "100-800g/m² white cardboard, PE coated paper, Kraft paper etc.",
+//       "Maximum Pressure": "350T",
+//     },
+//     link: "https://sbsmachinery.in/products/SBSHYM01SemiAutomaticHydraulicSingleDieMachine",
+//   },
+//   {
+//     image: "/products/flexo/(FOUR COLOUR).webp",
+//     subTitle: "Printing Machines",
+//     title: "Flexo Printing Machine",
+//     desc: "Designed for printing on PE-coated paper, kraft paper, and non-woven fabric. Multi-color options available (1–6 colors). Ideal for printing logos, designs, and branding on cups and bags before forming.",
+//     tabel: {
+//       "Paper Thickness": "30 – 250 G/M2",
+//       "Bag Thickness": "42 – 150 GSM",
+//       Power: "3.5 – 4 kW (Single Phase)",
+//       Weight: "3000 – 3500 Kg",
+//       "Production Speed": "2000 – 8000 IPH",
+//     },
+//     link: "https://sbsmachinery.in/products/FlexoNonWovenBagPrintingMachineFourColour",
+//   },
+//   {
+//     image: "/products/offset/OFFSET.webp",
+//     subTitle: "Printing Machines",
+//     title: "Offset Printing Machine",
+//     desc: "Used for high-resolution printing on paper sheets. Suitable for printing cup blanks, box packaging, labels, and promotional materials. Ensures sharp image clarity and fast throughput, making it suitable for bulk printing.",
+//     tabel: {
+//       "Paper Thickness": "30 – 250 G/M2",
+//       "Bag Thickness": "42 – 150 GSM",
+//       Power: "3.5 – 4 kW (Single Phase)",
+//       Weight: "3000 – 3500 Kg",
+//       "Production Speed": "2000 – 8000 IPH",
+//     },
+//     link: "https://sbsmachinery.in/products/FlexoNonWovenBagPrintingMachineFourColour",
+//   },
+// ];
 
-export const InquiryWhyChooseUs = [
-  {
-    image: "/sbsImage/supplier.webp",
-    num: "1000+",
-    desc: "Machines Successfully installed Pan india & Export Markets",
-    bg: "bg-[#FFF1F1]",
-  },
-  {
-    image: "/sbsImage/testing.webp",
-    num: "100+",
-    desc: "Industries Served Catering, Packaging, FMCG & More",
-    bg: "bg-[#F8E0FC]",
-  },
-  {
-    image: "/sbsImage/india.webp",
-    num: "PAN India",
-    desc: "Delivery & Service Network With Spare Parts & AMC Support",
-    bg: "bg-[#F9FFE1]",
-  },
-  {
-    image: "/sbsImage/registration.webp",
-    num: "15+ Years",
-    desc: "Engineering Experience Trusted by Manufacturers Across India",
-    bg: "bg-[#C6FFF4]",
-  },
-];
+// export const InquiryWhyChooseUs = [
+//   {
+//     image: "/sbsImage/supplier.webp",
+//     num: "1000+",
+//     desc: "Machines Successfully installed Pan india & Export Markets",
+//     bg: "bg-[#FFF1F1]",
+//   },
+//   {
+//     image: "/sbsImage/testing.webp",
+//     num: "100+",
+//     desc: "Industries Served Catering, Packaging, FMCG & More",
+//     bg: "bg-[#F8E0FC]",
+//   },
+//   {
+//     image: "/sbsImage/india.webp",
+//     num: "PAN India",
+//     desc: "Delivery & Service Network With Spare Parts & AMC Support",
+//     bg: "bg-[#F9FFE1]",
+//   },
+//   {
+//     image: "/sbsImage/registration.webp",
+//     num: "15+ Years",
+//     desc: "Engineering Experience Trusted by Manufacturers Across India",
+//     bg: "bg-[#C6FFF4]",
+//   },
+// ];
 
 export const faqData = [
   {

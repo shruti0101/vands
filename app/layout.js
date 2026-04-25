@@ -2,10 +2,9 @@ import { Roboto, Poppins, Oswald } from "next/font/google";
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 // import Social from "@/components/Landingpage/Social";
-import Stickybutton from "@/components/Landingpage/Stickybutton";
+
 import Script from "next/script";
-import WhatsAppSticky from "@/components/Landingpage/WhatsAppSticky";
-import Popup from "@/components/Popup";
+
 // Roboto
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -31,8 +30,13 @@ export const metadata = {
   title: "Airless Painting Machine Manufacturer | Vands Engineering",
   description:
     "Buy from a reliable airless painting machine manufacturer. Vands Engineering Solutions offers advanced technology, durability, and wholesale pricing.",
-  icons: {
-    icon: "/vands-logo.webp",
+icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.webp",
   },
 };
 
@@ -42,9 +46,7 @@ export default function RootLayout({ children }) {
 
       <body className={`${roboto.variable} ${poppins.variable} ${oswald.variable} antialiased`}>
         <LayoutWrapper>
-         <Popup/>
-          <Stickybutton />
-          <WhatsAppSticky/>
+    
           {children}
         </LayoutWrapper>
       </body>
