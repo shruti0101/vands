@@ -125,6 +125,12 @@ const Footer = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link href="/sitemap" className="hover:text-red-400 transition flex items-center gap-2">
+                {/* <span className="w-1 h-1 bg-red-400 rounded-full"></span> */}
+                Sitemap
+              </Link>
+            </li>
 
 
           </ul>

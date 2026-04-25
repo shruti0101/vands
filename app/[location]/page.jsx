@@ -1,39 +1,31 @@
-import Location from "./Location";
+import { serviceLocations } from "@/Data";
 import { notFound } from "next/navigation";
+import Location from "./Location";
 
 export async function generateMetadata({ params }) {
-  const { location } = await params;
+    const { location } = await params;
 
-  const rawCity = location.split("in-").pop();
+    const rawCity = location.split("in-").pop();
 
-  const city = rawCity
-    .split("-")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
+    const cityName = rawCity.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 
-  return {
-    title: `${city}`,
-    description: `${city}`,
-  };
+    return {
+        title: `Airless Painting Machine Manufacturer in ${cityName} | Vands Engineering Solutions`,
+        description: `Vands Engineering Solutions is a trusted Airless Painting Machine Manufacturer in ${cityName} offering high-performance, durable, and cost-effective industrial painting machines for construction, automotive, and manufacturing industries.`,
+    };
 }
 
 const Page = async ({ params }) => {
-  const { location } = await params;
+    const { location } = await params;
+    const validCity = serviceLocations.find(
+        (c) => c.href.replace("/", "") === location
+    );
 
-  // 🔥 Must contain "-in-"
-  if (!location.includes("in-")) {
-    notFound();
-  }
+    if (!validCity) {
+        notFound();
+    }
 
-  // 🔥 Extract city part after "in-"
-  const city = location.split("in-")[1];
-
-  // 🔥 If city is empty or invalid → redirect to Home
-  if (!city || city.trim().length === 0) {
-    notFound();
-  }
-
-  return <Location city={location} />;
+    return <Location location={location} />;
 };
 
 export default Page;

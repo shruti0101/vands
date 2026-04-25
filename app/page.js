@@ -37,6 +37,7 @@ export default function Home() {
       <Dedicated></Dedicated>
       <TestimonialSlider></TestimonialSlider>
       <Faq></Faq>
+      <CityPage />
       {/* <Countup />
      
 
