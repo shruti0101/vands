@@ -1,6 +1,7 @@
 "use client";
 import Enquiry from '@/components/Enquiry';
 import { useParams } from 'next/navigation';
+import { FaWhatsapp } from "react-icons/fa";
 import React, { useState } from 'react'
 import {
   Settings,
@@ -218,9 +219,14 @@ export default function Location() {
                   className="w-full h-full object-cover rounded-t-xl"
                 />
               </div>
-              <h3 className="text-sm font-semibold py-3 px-2">
+              <h3 className="text-sm md:text-[16px] font-semibold py-3 px-2">
                 {item.name}
               </h3>
+
+                  <a
+              href={`https://wa.me/+919990730939?text=Hi, I'm interested in ${item.name}`}
+              target="_blank"
+              onClick={(e) => e.stopPropagation()} className="bg-green-500 px-3 py-2 mt-3 capitalize rounded-sm text-white text-md md:text-lg flex items-center justify-center gap-2"><FaWhatsapp size={25}/> whatsapp now</a>
             </div>
           </SwiperSlide>
         ))}
