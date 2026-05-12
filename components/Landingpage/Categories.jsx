@@ -28,10 +28,17 @@ const Productcategory = () => {
       link: "/categories/airless-painting-machine",
     },
     {
-      name: "Airless Spray Painting Machine",
+      name: "Pneumatic Machines",
       products: 21,
       img: "/cat/airlessspray-removebg-preview.png",
-      hoverImg: "/cat/3.png",
+      hoverImg: "/bg remove.webp",
+      link: "/products/pneumatic-airless-paint-sprayer-pneumatic-70-1",
+    },
+    {
+      name: "Kerb Painting Machine",
+      products: 37,
+      img: "/cat/kerb-removebg-preview.png",
+      hoverImg: "/cat/2.png",
       link: "/categories/airless-painting-machine",
     },
     {
@@ -42,18 +49,11 @@ const Productcategory = () => {
       link: "/categories/airless-painting-machine",
     },
     {
-      name: "Kerb Painting Machine",
-      products: 37,
-      img: "/cat/kerb-removebg-preview.png",
-      hoverImg: "/cat/2.png",
-      link: "/categories/airless-painting-machine",
-    },
-    {
-      name: "Wall Painting Machine",
+      name: "Airless Painting machine spares parts",
       products: 17,
       img: "/cat/wallpainting-removebg-preview.png",
-      hoverImg: "/cat/5.png",
-      link: "/categories/airless-painting-machine",
+      hoverImg: "/accesseres/PAINT HOSE.webp",
+      link: "/categories/other-products",
     },
   ];
 
@@ -91,7 +91,7 @@ const Productcategory = () => {
           <Swiper
             modules={[Navigation, Autoplay]}
             spaceBetween={16}
-            slidesPerView={1.2}
+            slidesPerView={1}
             loop
             navigation
             autoplay={{ delay: 2500, disableOnInteraction: false }}
@@ -111,30 +111,14 @@ const Productcategory = () => {
                 >
                   {/* IMAGE */}
                   <div className="relative w-full h-48 sm:h-56 md:h-64 lg:h-70 flex items-center justify-center overflow-hidden rounded-xl">
-
-                    <Image
-                      src={cat.img}
-                      alt={cat.name}
-                      fill
-                      className={`object-cover transition duration-500 ${
-                        activeIndex === i
-                          ? "opacity-0 scale-110"
-                          : "opacity-100 group-hover:opacity-0 group-hover:scale-110"
-                      }`}
-                    />
-
                     <Image
                       src={cat.hoverImg}
                       alt={cat.name}
                       fill
-                      className={`object-contain absolute top-0 left-0 transition duration-500 ${
-                        activeIndex === i
-                          ? "opacity-100 scale-105"
-                          : "opacity-0 group-hover:opacity-100 group-hover:scale-105"
-                      }`}
+                      className={`object-contain absolute top-0 left-0 transition duration-500}`}
                     />
 
-                    <div className="absolute inset-0 bg-black/3 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                       <button
                         onClick={(e) => {
                           e.preventDefault();
@@ -149,16 +133,13 @@ const Productcategory = () => {
                   </div>
 
                   {/* TEXT */}
-                  <div className="mt-3 md:mt-4">
-                    <p className="font-semibold text-red-500 text-sm md:text-base">
+                  <div className="mt-3">
+                    <p className="font-semibold text-red-500 text-base md:text-xl">
                       {cat.name}
-                    </p>
-                    <p className="text-xs mt-1 text-black font-medium">
-                      {cat.products} Products
                     </p>
                   </div>
 
-                  <div className="w-0 group-hover:w-full h-[2px] bg-[#FAAC18] mt-3 transition-all"></div>
+                  <div className="w-0 group-hover:w-full h-[2px] bg-[#FAAC18] mt-2 transition-all"></div>
                 </Link>
               </SwiperSlide>
             ))}

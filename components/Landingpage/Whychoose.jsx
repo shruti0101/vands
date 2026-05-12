@@ -56,7 +56,7 @@ export default function WhyChooseUs() {
               playsInline
               className="absolute top-0 left-0 w-full h-full object-cover"
             />
-          
+
 
             {/* floating badge */}
             <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-md px-6 py-3 rounded-xl shadow-lg">
@@ -69,49 +69,49 @@ export default function WhyChooseUs() {
           {/* TEXT */}
           <div>
             <p className="text-md tracking-[0.2em] font-oswald uppercase text-red-500 font-semibold mb-3">
-           Why Choose Our Airless Painting Machines
+              why purchase our Paint machine
             </p>
 
             <h2 className="text-2xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Your Trusted Partner for Airless Painting & Surface Preparation Solutions
+              Your Trusted Partner for Airless Painting & Surface Preparation Solutions
             </h2>
 
             <p className="mt-5 text-black text-lg leading-relaxed">
-With over a decade of experience, Vands Engineering Solutions has developed strong expertise in manufacturing and supplying Airless Painting Machines and surface preparation equipment. Our in-depth industry knowledge helps us understand customer requirements accurately and deliver the most suitable solutions for different industrial applications.            </p>
+              With over a decade of experience, Vands Engineering Solutions has developed strong expertise in manufacturing and supplying Airless Painting Machines and surface preparation equipment. Our in-depth industry knowledge helps us understand customer requirements accurately and deliver the most suitable solutions for different industrial applications.            </p>
           </div>
         </div>
 
         {/* FEATURES */}
-      {/* FEATURES */}
-<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* FEATURES */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
-  {features.map((item, i) => (
-    <div
-      key={i}
-      className="group p-4 md:p-6 rounded-2xl bg-red-100 border border-black shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
-    >
+          {features.map((item, i) => (
+            <div
+              key={i}
+              className="group p-4 md:p-6 rounded-2xl bg-red-100 border border-black shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+            >
 
-      {/* ICON + TITLE ROW */}
-      <div className="flex items-center gap-4 mb-3">
-        <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-red-50 text-red-500 
+              {/* ICON + TITLE ROW */}
+              <div className="flex items-center gap-4 mb-3">
+                <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-red-50 text-red-500 
         group-hover:bg-red-500 group-hover:text-white transition">
-          {item.icon}
+                  {item.icon}
+                </div>
+
+                <h4 className="text-lg font-semibold text-black leading-snug">
+                  {item.title}
+                </h4>
+              </div>
+
+              {/* DESCRIPTION */}
+              <p className="text-black text-sm md:text-md leading-relaxed">
+                {item.desc}
+              </p>
+
+            </div>
+          ))}
+
         </div>
-
-        <h4 className="text-lg font-semibold text-black leading-snug">
-          {item.title}
-        </h4>
-      </div>
-
-      {/* DESCRIPTION */}
-      <p className="text-black text-sm md:text-md leading-relaxed">
-        {item.desc}
-      </p>
-
-    </div>
-  ))}
-
-</div>
 
       </div>
     </section>

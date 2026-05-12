@@ -4,6 +4,7 @@ import LayoutWrapper from "@/components/LayoutWrapper";
 // import Social from "@/components/Landingpage/Social";
 
 import Script from "next/script";
+import WhatsAppSticky from "@/components/Landingpage/WhatsAppSticky";
 
 // Roboto
 const roboto = Roboto({
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
         <LayoutWrapper>
     
           {children}
+           <WhatsAppSticky/>
         </LayoutWrapper>
       </body>
 

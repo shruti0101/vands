@@ -28,12 +28,12 @@ export default function Home() {
 
          <Popup/>
               <Stickybutton />
-              <WhatsAppSticky/>
+             
       {/* <Popup></Popup> */}
       <Hero />
+      <Categories />
       <Whychoose />
 
-      <Categories />
 
       <About />
       <Bestseller></Bestseller>
