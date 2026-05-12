@@ -32,18 +32,18 @@ export default function Navbar() {
   const [results, setResults] = useState([]);
 
   // LIVE SEARCH LOGIC
-useEffect(() => {
-  if (!searchQuery.trim()) {
-    setResults([]);
-    return;
-  }
+  useEffect(() => {
+    if (!searchQuery.trim()) {
+      setResults([]);
+      return;
+    }
 
-  const filtered = allProducts.filter((item) =>
-    item.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+    const filtered = allProducts.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
 
-  setResults(filtered);
-}, [searchQuery]);
+    setResults(filtered);
+  }, [searchQuery]);
 
   // ✅ SCROLL LOGIC
   useEffect(() => {
@@ -66,61 +66,60 @@ useEffect(() => {
     setIsProductsOpen(false);
   };
 
-const allProducts = categories.flatMap((cat) => cat.products || []);
+  const allProducts = categories.flatMap((cat) => cat.products || []);
 
 
 
-const socialLinks = [
-  { Icon: Facebook, link: "https://www.facebook.com/vandsengineeringsolutions" },
- 
-  { Icon: Instagram, link: "https://www.instagram.com/vandsengineering/" },
-  { Icon: Youtube, link: "https://www.youtube.com/channel/UCo1-UbYjtlOwRUlfTD04-mA" },
-  { Icon: Linkedin, link: "https://www.linkedin.com/company/vands-engineering-solutions/" },
-];
+  const socialLinks = [
+    { Icon: Facebook, link: "https://www.facebook.com/vandsengineeringsolutions" },
+
+    { Icon: Instagram, link: "https://www.instagram.com/vandsengineering/" },
+    { Icon: Youtube, link: "https://www.youtube.com/channel/UCo1-UbYjtlOwRUlfTD04-mA" },
+    { Icon: Linkedin, link: "https://www.linkedin.com/company/vands-engineering-solutions/" },
+  ];
 
   return (
     <header className="w-full fixed top-0 left-0 z-50 font-semibold">
       {/* TOP BAR */}
       <div
-        className={`hidden lg:block bg-[#c8102e] text-white transition-all duration-500 overflow-hidden ${
-          showTopBar ? "h-[67px]" : "h-0"
-        }`}
+        className={`hidden lg:block bg-[#c8102e] text-white transition-all duration-500 overflow-hidden ${showTopBar ? "h-[67px]" : "h-0"
+          }`}
       >
         <div className="max-w-[1400px] mx-auto flex items-center justify-between h-[70px] px-6">
 
           <Link href="/" >
-          
-          <Image src="/vands-logo.webp" alt="Vands" width={170} height={60} />
+
+            <Image src="/vands-logo.webp" alt="Vands" width={170} height={60} />
           </Link>
 
           <div className="flex items-center gap-5 text-[13px] uppercase">
 
-   <span className="flex items-center gap-2 text-lg animate-pulse">
-          GST NO.   07ALLPC1925A1ZP
+            <span className="flex items-center gap-2 text-lg animate-pulse">
+              GST NO.   07ALLPC1925A1ZP
             </span>
 
-            <a href= "tel:+919990730939" className="flex items-center gap-2">
+            <a href="tel:+919990730939" className="flex items-center gap-2">
               <Phone size={14} /> +91-99907 30939
             </a>
             <a href="mailto:vandsengg@gmail.com" className="flex items-center gap-2">
               <Mail size={14} /> vandsengg@gmail.com
             </a>
-         
-         
 
-  <div className="flex items-center gap-3 ml-4">
-  {socialLinks.map(({ Icon, link }, i) => (
-    <a
-      key={i}
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="p-2 rounded-full bg-white/30 hover:bg-white/50 transition cursor-pointer"
-    >
-      <Icon size={15} />
-    </a>
-  ))}
-</div>
+
+
+            <div className="flex items-center gap-3 ml-4">
+              {socialLinks.map(({ Icon, link }, i) => (
+                <a
+                  key={i}
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full bg-white/30 hover:bg-white/50 transition cursor-pointer"
+                >
+                  <Icon size={15} />
+                </a>
+              ))}
+            </div>
 
           </div>
         </div>
@@ -143,32 +142,29 @@ const socialLinks = [
             <Link href="/contact">CONTACT US</Link>
 
             {/* PRODUCTS */}
-        <div className="relative">
-  <button
-    onClick={() => setIsProductsOpen(!isProductsOpen)}
-    className="flex items-center gap-1"
-  >
-    OUR PRODUCTS <ChevronDown size={15} />
-  </button>
+            <div className="relative">
+              <button
+                onClick={() => setIsProductsOpen(!isProductsOpen)}
+                className="flex items-center gap-1"
+              >
+                OUR PRODUCTS <ChevronDown size={15} />
+              </button>
 
-  {/* DROPDOWN */}
-  <div
-    className={`absolute left-0 top-full bg-white text-black min-w-[230px] shadow-lg z-50 transition-all duration-200 ${
-      isProductsOpen ? "block" : "hidden"
-    }`}
-  >
-    {categories.map((item) => (
-      <Link
-        key={item.id}
-        href={`/categories/${item.id}`}
-        className="block px-4 py-2 hover:bg-gray-100"
-        onClick={() => setIsProductsOpen(false)}
-      >
-        {item.name}
-      </Link>
-    ))}
-  </div>
-</div>
+              {/* DROPDOWN */}
+              <div
+                className={`absolute left-0 top-full bg-white text-black min-w-[300px] shadow-lg z-50 transition-all duration-200 ${isProductsOpen ? "block" : "hidden"
+                  }`}
+              >
+                {categories.map((item) => (
+                  <Link key={item.id} href={`/categories/${item.id}`}
+                    className="block px-4 py-2 hover:bg-gray-100 border-t border-t-gray-300"
+                    onClick={() => setIsProductsOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
           </nav>
 
           {/* SEARCH */}
@@ -191,39 +187,39 @@ const socialLinks = [
               />
 
               {/* ✅ RESULTS DROPDOWN */}
-           {searchQuery && (
-  <div className="absolute top-full left-0 w-full bg-white text-black mt-1 rounded-md shadow-lg z-[9999] max-h-[300px] overflow-y-auto">
+              {searchQuery && (
+                <div className="absolute top-full left-0 w-full bg-white text-black mt-1 rounded-md shadow-lg z-[9999] max-h-[300px] overflow-y-auto">
 
-    {results.length > 0 ? (
-      results.map((item) => (
-        <Link
-          key={item.id}
-          href={`/products/${item.id}`}
-          className="flex items-center gap-3 px-4 py-2 hover:bg-gray-100 text-sm"
-          onClick={() => {
-            setSearchQuery("");
-            setResults([]);
-          }}
-        >
-          {/* IMAGE */}
-          <img
-            src={item.image?.[0]?.src}
-            alt={item.name}
-            className="w-10 h-10 object-cover rounded"
-          />
+                  {results.length > 0 ? (
+                    results.map((item) => (
+                      <Link
+                        key={item.id}
+                        href={`/products/${item.id}`}
+                        className="flex items-center gap-3 px-4 py-2 hover:bg-gray-100 text-sm"
+                        onClick={() => {
+                          setSearchQuery("");
+                          setResults([]);
+                        }}
+                      >
+                        {/* IMAGE */}
+                        <img
+                          src={item.image?.[0]?.src}
+                          alt={item.name}
+                          className="w-10 h-10 object-cover rounded"
+                        />
 
-          {/* NAME */}
-          <span>{item.name}</span>
-        </Link>
-      ))
-    ) : (
-      <div className="px-4 py-2 text-sm text-gray-500">
-        No products found
-      </div>
-    )}
+                        {/* NAME */}
+                        <span>{item.name}</span>
+                      </Link>
+                    ))
+                  ) : (
+                    <div className="px-4 py-2 text-sm text-gray-500">
+                      No products found
+                    </div>
+                  )}
 
-  </div>
-)}
+                </div>
+              )}
             </div>
 
             {/* WHATSAPP */}
@@ -246,58 +242,58 @@ const socialLinks = [
         </div>
 
         {/* MOBILE MENU */}
-{/* MOBILE MENU */}
-{isMobileMenuOpen && (
-  <div className="lg:hidden bg-black fixed top-[58px] left-0 w-full h-[calc(100vh-58px)] p-6 z-50 overflow-y-auto">
-    <div className="flex flex-col gap-6 text-lg text-white">
+        {/* MOBILE MENU */}
+        {isMobileMenuOpen && (
+          <div className="lg:hidden bg-black fixed top-[58px] left-0 w-full h-[calc(100vh-58px)] p-6 z-50 overflow-y-auto">
+            <div className="flex flex-col gap-6 text-lg text-white">
 
-      <Link href="/" onClick={closeMenu}>
-        HOME
-      </Link>
-
-      {/* PRODUCTS DROPDOWN */}
-      <div>
-        <button
-          onClick={() => setIsProductsOpen(!isProductsOpen)}
-          className="w-full flex justify-between items-center"
-        >
-          <span>OUR PRODUCTS</span>
-          <span className="text-xl">
-            {isProductsOpen ? "−" : "+"}
-          </span>
-        </button>
-
-        {isProductsOpen && (
-          <div className="mt-3 ml-3 flex flex-col gap-3 border-l border-gray-700 pl-3">
-            {categories.map((item) => (
-              <Link
-                key={item.id}
-                href={`/categories/${item.id}`}
-                onClick={closeMenu}
-                className="block text-sm text-gray-300 hover:text-red-400 transition"
-              >
-                {item.name}
+              <Link href="/" onClick={closeMenu}>
+                HOME
               </Link>
-            ))}
+
+              {/* PRODUCTS DROPDOWN */}
+              <div>
+                <button
+                  onClick={() => setIsProductsOpen(!isProductsOpen)}
+                  className="w-full flex justify-between items-center"
+                >
+                  <span>OUR PRODUCTS</span>
+                  <span className="text-xl">
+                    {isProductsOpen ? "−" : "+"}
+                  </span>
+                </button>
+
+                {isProductsOpen && (
+                  <div className="mt-3 ml-3 flex flex-col gap-3 border-l border-gray-700 pl-3">
+                    {categories.map((item) => (
+                      <Link
+                        key={item.id}
+                        href={`/categories/${item.id}`}
+                        onClick={closeMenu}
+                        className="block text-sm text-gray-300 hover:text-red-400 transition"
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              <Link href="/about" onClick={closeMenu}>
+                ABOUT US
+              </Link>
+
+              <Link href="/our-blogs" onClick={closeMenu}>
+                BLOGS
+              </Link>
+
+              <Link href="/contact" onClick={closeMenu}>
+                CONTACT US
+              </Link>
+
+            </div>
           </div>
         )}
-      </div>
-
-      <Link href="/about" onClick={closeMenu}>
-        ABOUT US
-      </Link>
-
-      <Link href="/our-blogs" onClick={closeMenu}>
-        BLOGS
-      </Link>
-
-      <Link href="/contact" onClick={closeMenu}>
-        CONTACT US
-      </Link>
-
-    </div>
-  </div>
-)}
       </div>
     </header>
   );

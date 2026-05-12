@@ -5,8 +5,8 @@ import Image from "next/image";
 // import Heroform from "@/components/Landingpage/Heroform";
 
 //  Separate images
-const desktopImages = ["/banner1.webp","/banner2.webp","banner3.jpeg"];
-const mobileImages = ["/mob1.webp","/mob2.webp","/mob3.webp"];
+const desktopImages = ["/banner1.webp","/Vands banner (8).webp","banner3.jpeg"];
+const mobileImages = ["/mob1.webp","/Vans Enginerring bannert.webp","/mob3.webp"];
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
