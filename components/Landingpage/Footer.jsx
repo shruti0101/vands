@@ -16,7 +16,6 @@ const Footer = () => {
 
   return (
     <footer className="relative bg-[#0B1C2C] text-white overflow-hidden">
-
       {/* Gradient Glow */}
       <div className="absolute inset-0 bg-gradient-to-tr from-red-600/10 via-transparent to-orange-400/10 pointer-events-none"></div>
 
@@ -26,7 +25,6 @@ const Footer = () => {
       </span>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-2 md:px-12 md:py-6 grid grid-cols-1 md:grid-cols-5 gap-10">
-
         {/* About */}
         <div>
           <h3 className="text-lg font-semibold mb-5 border-l-2 border-red-500 pl-3">
@@ -34,12 +32,13 @@ const Footer = () => {
           </h3>
 
           <p className="text-sm text-white leading-relaxed">
-            Vands Engineering Solutions is a trusted manufacturer of high-performance
-            industrial machines including{" "}
+            Vands Engineering Solutions is a trusted manufacturer of
+            high-performance industrial machines including{" "}
             <span className="text-red-400 font-medium">
               Airless Painting Machines, Blasting Equipment & Surface Solutions
             </span>
-            . We deliver durability, efficiency, and precision for modern industries.
+            . We deliver durability, efficiency, and precision for modern
+            industries.
           </p>
         </div>
 
@@ -51,35 +50,50 @@ const Footer = () => {
 
           <p className="flex gap-2 text-sm text-white mb-3">
             <FaMapMarkerAlt className="text-red-400 mt-1" />
-            First Floor, C-13, Mukhram Garden, Tilak Nagar <br />
-            New Delhi - 110018, Delhi, India
+            KH No - 82/11/1 First Floor Near Mahindra Service Center Firni Road
+            , Mundka
+            <br />
+            New Delhi - 110041
           </p>
 
-
-
-          <a href="tel:+919990730939" className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition">
+          <a
+            href="tel:+919990730939"
+            className="flex items-center gap-2 text-sm mb-2 hover:text-red-400 transition"
+          >
             <FaPhoneAlt className="text-red-400" /> +91-9990730939
           </a>
 
-          <a href="mailto:vandsengg@gmail.com" className="flex items-center gap-2 text-sm mb-4 hover:text-red-400 transition">
+          <a
+            href="mailto:vandsengg@gmail.com"
+            className="flex items-center gap-2 text-sm mb-4 hover:text-red-400 transition"
+          >
             <FaEnvelope className="text-red-400" /> vandsengg@gmail.com
           </a>
 
           {/* Social */}
           <div className="flex gap-3">
-            <a href="https://www.youtube.com/channel/UCo1-UbYjtlOwRUlfTD04-mA" target="_blank">
+            <a
+              href="https://www.youtube.com/channel/UCo1-UbYjtlOwRUlfTD04-mA"
+              target="_blank"
+            >
               <div className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer">
                 <FaYoutube className="text-sm" />
               </div>
             </a>
 
-            <a href="https://www.facebook.com/vandsengineeringsolutions" target="_blank">
+            <a
+              href="https://www.facebook.com/vandsengineeringsolutions"
+              target="_blank"
+            >
               <div className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer">
                 <FaFacebookF className="text-sm" />
               </div>
             </a>
 
-            <a href="https://www.instagram.com/vandsengineering/" target="_blank">
+            <a
+              href="https://www.instagram.com/vandsengineering/"
+              target="_blank"
+            >
               <div className="p-3 rounded-full bg-white/5 backdrop-blur-md hover:bg-red-500 transition cursor-pointer">
                 <FaInstagram className="text-sm" />
               </div>
@@ -94,45 +108,54 @@ const Footer = () => {
           </h3>
 
           <ul className="space-y-3 text-sm text-white">
-
             <li>
-              <Link href="/" className="hover:text-red-400 transition flex items-center gap-2">
+              <Link
+                href="/"
+                className="hover:text-red-400 transition flex items-center gap-2"
+              >
                 {/* <span className="w-1 h-1 bg-red-400 rounded-full"></span> */}
                 Home
               </Link>
             </li>
 
-
             <li>
-              <Link href="/about" className="hover:text-red-400 transition flex items-center gap-2">
+              <Link
+                href="/about"
+                className="hover:text-red-400 transition flex items-center gap-2"
+              >
                 {/* <span className="w-1 h-1 bg-red-400 rounded-full"></span> */}
                 About Us
               </Link>
             </li>
 
-
-
             <li>
-              <Link href="/blogs" className="hover:text-red-400 transition flex items-center gap-2">
+              <Link
+                href="/blogs"
+                className="hover:text-red-400 transition flex items-center gap-2"
+              >
                 {/* <span className="w-1 h-1 bg-red-400 rounded-full"></span> */}
                 Blogs
               </Link>
             </li>
 
             <li>
-              <Link href="/contact" className="hover:text-red-400 transition flex items-center gap-2">
+              <Link
+                href="/contact"
+                className="hover:text-red-400 transition flex items-center gap-2"
+              >
                 {/* <span className="w-1 h-1 bg-red-400 rounded-full"></span> */}
                 Contact
               </Link>
             </li>
             <li>
-              <Link href="/sitemap" className="hover:text-red-400 transition flex items-center gap-2">
+              <Link
+                href="/sitemap"
+                className="hover:text-red-400 transition flex items-center gap-2"
+              >
                 {/* <span className="w-1 h-1 bg-red-400 rounded-full"></span> */}
                 Sitemap
               </Link>
             </li>
-
-
           </ul>
         </div>
 
@@ -143,10 +166,65 @@ const Footer = () => {
           </h3>
 
           <ul className="space-y-3 text-sm text-white">
-            <li><Link href="/categories/airless-painting-machine" className="hover:text-red-400 transition">Airless Painting Machines</Link></li>
-            <li><Link href="/categories/blasting-machine" className="hover:text-red-400 transition"> Blasting Machines</Link></li>
-            <li><Link href="/categories/other-products" className="hover:text-red-400 transition">Other Machines</Link></li>
-
+            <li>
+              <Link
+                href="/categories/airless-painting-machine"
+                className="hover:text-red-400 transition"
+              >
+                Airless Painting Machines
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/categories/airless-wall-putty-spray-machines"
+                className="hover:text-red-400 transition"
+              >
+                Airless Wall Putty Spray Machines
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/categories/pneumatic-airless-paint-machines"
+                className="hover:text-red-400 transition"
+              >
+                Pneumatic Airless Paint Machines
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/categories/kerb-painting-machines"
+                className="hover:text-red-400 transition"
+              >
+                Kerb Painting Machines
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/categories/polyurethane-spray-machines"
+                className="hover:text-red-400 transition"
+              >
+                Polyurethane Spray Machines
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/categories/spare-parts-airless-painting-machines"
+                className="hover:text-red-400 transition"
+              >
+                {" "}
+                Spare parts of Airless Painting Machines
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/categories/blasting-machine"
+                className="hover:text-red-400 transition"
+              >
+                {" "}
+                Blasting Machines
+              </Link>
+            </li>
+            
           </ul>
         </div>
 
@@ -157,7 +235,10 @@ const Footer = () => {
           </h3>
 
           <p className="text-sm text-white mb-4">
-            We are proud to present the TrustElite Certificate of Excellence to Vands Engineering Solutions, recognizing their commitment to exceptional customer service, outstanding business practices, and a dedication to building trust with their customers.
+            We are proud to present the TrustElite Certificate of Excellence to
+            Vands Engineering Solutions, recognizing their commitment to
+            exceptional customer service, outstanding business practices, and a
+            dedication to building trust with their customers.
           </p>
 
           <div className="flex justify-start">
@@ -185,7 +266,7 @@ const Footer = () => {
                   className="max-w-[90vw] max-h-[90vh] rounded-xl"
                 />
               </div>,
-              document.body
+              document.body,
             )}
         </div>
       </div>
@@ -195,7 +276,7 @@ const Footer = () => {
         <p>© 2026 Vands Engineering Solutions. All Rights Reserved.</p>
 
         <p className="mt-2 md:mt-0">
-          Website Designed By Promozione Branding Pvt. Ltd {" "}
+          Website Designed By Promozione Branding Pvt. Ltd{" "}
           <a
             href="https://promozionebranding.com"
             target="_blank"

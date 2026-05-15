@@ -69,7 +69,7 @@ const ytArray = [
       <section className="px-4 py-8 md:mx-20 lg:flex lg:gap-16">
 
         {/* IMAGE SLIDER */}
-        <div className="relative w-full h-[60vh] bg-gray-50 rounded-xl overflow-hidden lg:w-1/2 lg:sticky lg:top-28 shadow-sm">
+        <div className="relative w-full h-[60vh] bg-gray-50 rounded-xl overflow-hidden lg:w-[40%] lg:sticky lg:top-28 shadow-sm">
           <AnimatePresence initial={false} custom={direction}>
             <motion.div
               key={page}
@@ -89,7 +89,7 @@ const ytArray = [
                 width={1000}
                 height={1000}
                 alt={images[imageIndex]?.alt}
-                className="object-contain h-full w-full p-6"
+                className="object-contain h-full w-full p-1"
               />
             </motion.div>
           </AnimatePresence>

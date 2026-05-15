@@ -3,7 +3,8 @@ export const categories = [
   {
     id: "airless-painting-machine",
     name: "Airless Painting Machine",
-    metaTitle: "Industrial Airless Painting Machine Manufacturer | Vands Engineering",
+    metaTitle:
+      "Industrial Airless Painting Machine Manufacturer | Vands Engineering",
     metaDescription:
       "Vands Engineering Solutions offers industrial-grade airless painting machines with advanced technology, durability, and cost-effective wholesale solutions.",
 
@@ -90,12 +91,254 @@ export const categories = [
         ],
       },
 
+      //extra
+      {
+        id: "plural-component-ratio-2k-airless-spray-painting-machine",
+
+        name: "Plural Component Ratio 2K Airless Spray Painting Machine",
+
+        metaTitle:
+          "Plural Component Ratio 2K Airless Spray Painting Machine | Vands Engineering",
+
+        metaDescription:
+          "Buy Plural Component Ratio 2K Airless Spray Painting Machine for precise two-component mixing and high-performance industrial coating applications. Ideal for epoxy, polyurethane, and protective coatings.",
+
+        description: [
+          { type: "h2", text: "Overview" },
+
+          {
+            type: "p",
+            text: "Vands Engineering Solution presents the Plural Component Ratio 2K Airless Spray Painting Machine, designed for precise mixing and spraying of two-component reactive coatings.",
+          },
+
+          {
+            type: "p",
+            text: "Engineered to simultaneously mix base material and hardener at a fixed ratio, ensuring accurate coating consistency and optimal curing performance.",
+          },
+
+          {
+            type: "p",
+            text: "Specially developed for high-performance coating applications where materials must be mixed immediately before spraying due to short pot life.",
+          },
+
+          {
+            type: "p",
+            text: "Designed with advanced airless spraying technology to deliver smooth, uniform, and high-quality coating finishes with minimal material wastage.",
+          },
+
+          {
+            type: "p",
+            text: "Ideal for industrial sectors such as automotive, aerospace, marine, fabrication, and protective coating industries requiring precision coating solutions.",
+          },
+
+          { type: "h2", text: "Features & Benefits:" },
+
+          {
+            type: "ul",
+            items: [
+              "High-pressure exchange ratio of 43:1 ensures powerful spraying performance and excellent coating atomization",
+              "Efficient flow rate of 15 Ltrs/min supports continuous operation and faster coverage for large-scale industrial applications",
+              "Operates with a compressed air pressure range of 3–6 Bar, ensuring stable and reliable spraying performance",
+              "Equipped with a 3-point static mixer system for accurate and uniform mixing of two reactive coating components",
+              "Integrated diaphragm-type flushing pump ensures efficient cleaning and prevents material hardening inside the system after operation",
+            ],
+          },
+
+          { type: "h2", text: "Applications:" },
+
+          {
+            type: "ul",
+            items: [
+              "Ideal for applying high-performance industrial coatings requiring precise two-component mixing and spraying",
+              "Widely used in automotive, aerospace, marine, and heavy engineering industries for protective coating applications",
+              "Suitable for epoxy, polyurethane, anti-corrosion, and chemical-resistant coating systems",
+              "Perfect for coating pipelines, tanks, steel structures, machinery, and fabricated components",
+              "Used in industrial environments where fast-curing and high-durability coating systems are required",
+            ],
+          },
+
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+
+          {
+            type: "ul",
+            items: [
+              "Recognized for delivering advanced and reliable industrial spraying and coating equipment solutions",
+              "Strong focus on precision engineering, operational efficiency, and high-performance coating technology",
+              "Use of premium-grade components to ensure durability, consistent mixing accuracy, and long service life",
+              "Competitive pricing with excellent value for industrial and professional coating applications",
+              "Dedicated after-sales support, including installation assistance, technical guidance, servicing, and maintenance solutions",
+            ],
+          },
+        ],
+
+        specs: [
+          {
+            label: "Machine Type",
+            value: "Plural Component Ratio 2K Airless Spray Painting Machine",
+          },
+
+          { label: "Pressure Ratio", value: "43:1" },
+
+          { label: "Maximum Flow Rate", value: "15 Ltrs/min" },
+
+          { label: "Operating Air Pressure", value: "3–6 Bar" },
+
+          { label: "Mixing System", value: "3-Point Static Mixer" },
+
+          { label: "Flushing Pump Type", value: "Diaphragm Type" },
+
+          {
+            label: "Application Type",
+            value: "Two-Component Reactive Coating",
+          },
+
+          {
+            label: "Suitable Coatings",
+            value:
+              "Epoxy, Polyurethane, Anti-Corrosion & Chemical Resistant Coatings",
+          },
+
+          {
+            label: "Industries",
+            value: "Automotive, Aerospace, Marine, Heavy Engineering",
+          },
+        ],
+
+        ytArray: {
+          title: "E-Junior",
+          link: "https://www.youtube.com/embed/Xmd13D7r_sk",
+        },
+
+        image: [
+          {
+            src: "/Plural Component Sprayer.webp",
+            alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+          },
+          {
+            src: "/Plural Component Sprayer2.webp",
+            alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+          },
+        ],
+      },
+
+      //extra
+      {
+  id: "fire-proofing-mixture-machine-ves-m9",
+
+  name: "Fire Proofing Mixture Machine (VES-M9)",
+
+  metaTitle:
+    "Fire Proofing Mixture Machine VES-M9 | Vands Engineering",
+
+  metaDescription:
+    "Buy Fire Proofing Mixture Machine (VES-M9) for efficient fireproofing and spraying applications. Ideal for industrial, commercial, and infrastructure coating projects.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+
+    {
+      type: "p",
+      text: "Vands Engineering Solution presents the VES-M9 Fire Proofing Mixture Machine, designed for high-performance fireproofing and spraying applications in industrial and commercial projects",
+    },
+
+    {
+      type: "p",
+      text: "Engineered with advanced mixing and spraying technology to deliver smooth, uniform, and efficient application of fireproofing materials on various surfaces",
+    },
+
+    {
+      type: "p",
+      text: "Manufactured using superior-quality components to ensure durability, operational reliability, and long service life in demanding environments",
+    },
+
+    {
+      type: "p",
+      text: "Lightweight yet robust construction makes the machine easy to operate, transport, and maintain for continuous project usage",
+    },
+
+    {
+      type: "p",
+      text: "Designed to provide high spraying efficiency with long-distance and high-elevation spraying capability for large infrastructure and construction projects",
+    },
+
+    { type: "h2", text: "Features & Benefits:" },
+
+    {
+      type: "ul",
+      items: [
+        "Powerful 7500W driving motor and 2200W mixing motor ensure efficient material mixing and continuous spraying performance",
+        "High output pressure of 40 Bar delivers smooth and uniform spraying results with excellent material adhesion",
+        "Maximum spraying distance of 100 meters and spraying height of 50 meters support large-scale and high-rise project applications",
+        "Large pumping hopper capacity of 150L and mixer hopper capacity of 170L improve operational productivity and reduce refilling frequency",
+        "Supplied with complete accessories including 1 spray gun, 4 spray nozzles, and 20-meter hose for ready-to-use operation",
+      ],
+    },
+
+    { type: "h2", text: "Applications:" },
+
+    {
+      type: "ul",
+      items: [
+        "Ideal for fireproofing applications in commercial buildings, industrial plants, and infrastructure projects",
+        "Widely used for spraying fire-resistant materials on steel structures, ceilings, walls, and pipelines",
+        "Suitable for construction projects requiring efficient application of thermal and fire protection coatings",
+        "Perfect for high-rise buildings, warehouses, factories, tunnels, and industrial facilities",
+        "Used by contractors and construction companies for large-scale fireproofing and protective coating operations",
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+
+    {
+      type: "ul",
+      items: [
+        "Recognized for delivering high-quality and high-performance fireproofing and spraying equipment solutions",
+        "Strong focus on advanced engineering, durability, and operational efficiency for industrial applications",
+        "Use of premium-grade components to ensure reliable performance and low maintenance requirements",
+        "Competitive pricing with excellent value for construction, industrial, and infrastructure users",
+        "Dedicated after-sales support including installation guidance, servicing, maintenance, and technical assistance",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Model", value: "VES-M9" },
+
+    { label: "Driving Motor Power", value: "7500W" },
+
+    { label: "Mixing Motor Power", value: "2200W" },
+
+    { label: "Output Pressure", value: "40 Bar" },
+
+    { label: "Maximum Spraying Distance", value: "100 Meter" },
+
+    { label: "Maximum Spraying Height", value: "50 Meter" },
+
+    { label: "Pumping Hopper Capacity", value: "150L" },
+
+    { label: "Mixer Hopper Capacity", value: "170L" },
+
+    { label: "Accessories Included", value: "1 Spray Gun, 4 Spray Nozzles, 20 Meter Hose" },
+  ],
+
+  ytArray: {
+          title: "E-Junior",
+          link: "https://www.youtube.com/embed/Xmd13D7r_sk",
+        },
+
+  image: [
+    {
+      src: "/Fire proffing spray mixture machine.webp",
+      alt: "Fire Proofing Mixture Machine (VES-M9)",
+    },
+  ],
+},
+
       // product 2 Digicot 495
       {
         id: "airless-spray-paint-equipment-digicoat",
         name: "Airless Spray Paint Equipment (Digicoat)",
-        metaTitle:
-          "Airless Spray Paint Equipment Digicoat | Vands Engineering",
+        metaTitle: "Airless Spray Paint Equipment Digicoat | Vands Engineering",
         metaDescription:
           "Buy Airless Spray Paint Equipment (Digicoat) for high-efficiency coating applications. Ensures smooth finish, durability, and industrial-grade performance.",
 
@@ -256,8 +499,7 @@ export const categories = [
       {
         id: "airless-paint-sprayer-maruti",
         name: "Airless Paint Sprayer (Maruti)",
-        metaTitle:
-          "Buy Airless Paint Sprayer Maruti | Vands Engineering",
+        metaTitle: "Buy Airless Paint Sprayer Maruti | Vands Engineering",
         metaDescription:
           "Looking for a reliable paint sprayer? Maruti airless sprayer delivers smooth finish, high efficiency, and cost-effective painting performance.",
 
@@ -324,12 +566,10 @@ export const categories = [
           { label: "Pressure Control", value: "Mechanical Limit Switch" },
         ],
 
-
         ytArray: {
           title: "MARUTI MACHINE",
           link: "https://www.youtube.com/embed/NMFgzaD8JH0",
         },
-
 
         image: [
           {
@@ -343,8 +583,7 @@ export const categories = [
       {
         id: "airless-paint-sprayer-eco-pro",
         name: "Airless Painting Machine (Eco-Pro)",
-        metaTitle:
-          "Buy Airless Painting Machine Eco-Pro | Vands Engineering",
+        metaTitle: "Buy Airless Painting Machine Eco-Pro | Vands Engineering",
         metaDescription:
           "Looking for a reliable airless painting machine? Eco-Pro delivers smooth finish, high efficiency, and cost-effective professional painting solutions.",
 
@@ -431,7 +670,8 @@ export const categories = [
   {
     id: "airless-wall-putty-spray-machines",
     name: "Airless Wall Putty Spray Machines",
-    metaTitle: "Airless Wall Putty Spray Machines Manufacturer & Supplier in India",
+    metaTitle:
+      "Airless Wall Putty Spray Machines Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable Airless Wall Putty Spray Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -440,8 +680,7 @@ export const categories = [
       {
         id: "airless-paint-sprayer",
         name: "Airless Paint Sprayer",
-        metaTitle:
-          "Buy Airless Paint Sprayer | Vands Engineering Solutions",
+        metaTitle: "Buy Airless Paint Sprayer | Vands Engineering Solutions",
         metaDescription:
           "Looking for a durable paint sprayer? Get high-efficiency airless paint sprayers designed for smooth finish, precision, and cost-effective performance.",
 
@@ -516,8 +755,7 @@ export const categories = [
       {
         id: "heavy-duty-airless-paint-pump-maxcoat",
         name: "Heavy Duty Airless Paint pump (Maxcoat)",
-        metaTitle:
-          "Heavy Duty Airless Paint Pump Maxcoat | Vands Engineering",
+        metaTitle: "Heavy Duty Airless Paint Pump Maxcoat | Vands Engineering",
         metaDescription:
           "Buy Heavy Duty Airless Paint Pump (Maxcoat) for high-performance industrial coating. Ensures smooth finish, durability, and efficient paint delivery.",
 
@@ -670,9 +908,7 @@ export const categories = [
         ytArray: {
           title: "GALAXY MACHINE",
           link: "https://www.youtube.com/embed/coK1bW9Yh70",
-        }
-        ,
-
+        },
         image: [
           {
             src: "/cat/Products/airless-painting-machine/GALAXY.webp",
@@ -752,9 +988,7 @@ export const categories = [
         ytArray: {
           title: "GALAXY PLUS MACHINE",
           link: "https://www.youtube.com/embed/E8k8LBfFBYE",
-        }
-        ,
-
+        },
         image: [
           {
             src: "/cat/Products/airless-painting-machine/GALAXY PLUS.webp",
@@ -767,8 +1001,7 @@ export const categories = [
       {
         id: "airless-paint-sprayer-electric-useful-for-wall-paints-professional",
         name: "Airless Paint Sprayer Electric Useful for Wall Paints (Professional)",
-        metaTitle:
-          "Airless Paint Sprayer Electric for Wall Painting",
+        metaTitle: "Airless Paint Sprayer Electric for Wall Painting",
         metaDescription:
           "Professional electric airless paint sprayer ideal for wall paints. Ensures uniform coating, reduced wastage, and high-efficiency painting performance.",
 
@@ -839,8 +1072,7 @@ export const categories = [
       {
         id: "airless-paint-sprayer-promax",
         name: "Airless Paint Sprayer (Promax)",
-        metaTitle:
-          "Buy Airless Paint Sprayer Promax | Vands Engineering",
+        metaTitle: "Buy Airless Paint Sprayer Promax | Vands Engineering",
         metaDescription:
           "Looking for a reliable paint sprayer? Promax delivers smooth finish, high efficiency, and cost-effective professional painting performance.",
 
@@ -891,8 +1123,14 @@ export const categories = [
         specs: [
           { label: "Product Type", value: "Airless Paint Sprayer" },
           { label: "Technology", value: "Airless" },
-          { label: "Application", value: "Residential, Commercial, Industrial" },
-          { label: "Coating Compatibility", value: "Emulsions, Primers, Enamels, Protective Coatings" },
+          {
+            label: "Application",
+            value: "Residential, Commercial, Industrial",
+          },
+          {
+            label: "Coating Compatibility",
+            value: "Emulsions, Primers, Enamels, Protective Coatings",
+          },
           { label: "Design", value: "Portable & User-Friendly" },
         ],
         ytArray: {
@@ -968,13 +1206,15 @@ export const categories = [
 
         specs: [
           { label: "Product Type", value: "Airless Paint Sprayer" },
-          { label: "Application", value: "Residential, Commercial, Industrial" },
+          {
+            label: "Application",
+            value: "Residential, Commercial, Industrial",
+          },
           { label: "Operation", value: "Electric" },
           { label: "Usage", value: "Medium & Heavy Duty" },
           { label: "Design", value: "Portable & Durable" },
         ],
-        ytArray:
-        {
+        ytArray: {
           title: "CENTURY MACHINE",
           link: "https://www.youtube.com/embed/az66YPTJHTg",
         },
@@ -986,13 +1226,13 @@ export const categories = [
           },
         ],
       },
-    ]
+    ],
   },
 
   // [Pneumatic Machines]
   {
-    id: "pneumatic-machines",
-    name: "Pneumatic Machines",
+    id: "pneumatic-airless-paint-machines",
+    name: "Pneumatic Airless Paint Machines",
     metaTitle: "Pneumatic Machines Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable Pneumatic Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
@@ -1002,8 +1242,7 @@ export const categories = [
       {
         id: "pneumatic-airless-paint-sprayer-pneumatic-70-1",
         name: "Pneumatic Airless Paint Sprayer (Pneumatic 70:1)",
-        metaTitle:
-          "Pneumatic Airless Paint Sprayer (70:1) | Vands Engineering",
+        metaTitle: "Pneumatic Airless Paint Sprayer (70:1) | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers pneumatic 70:1 airless paint sprayers designed for high-pressure, precise coating, and durable industrial performance.",
 
@@ -1077,8 +1316,8 @@ export const categories = [
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
-      }
-    ]
+      },
+    ],
   },
 
   // [Kerb Painting Machines]
@@ -1093,8 +1332,7 @@ export const categories = [
       {
         id: "kerb-painting-machine",
         name: "Kerb Painting Machines",
-        metaTitle:
-          "Kerb Painting Machines | Vands Engineering",
+        metaTitle: "Kerb Painting Machines | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers reliable Kerb Painting Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1160,13 +1398,13 @@ export const categories = [
           },
         ],
       },
-    ]
+    ],
   },
 
   // [Polyurethane Machines]
   {
-    id: "polyurethane-machines",
-    name: "Polyurethane Machines",
+    id: "polyurethane-spray-machines",
+    name: "Polyurethane Spray Machines",
     metaTitle: "Polyurethane Machines Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable Polyurethane Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
@@ -1175,8 +1413,7 @@ export const categories = [
       {
         id: "polyurea-and-pu-foam-spray-machine",
         name: "Polyurea And PU Foam Spray Machine",
-        metaTitle:
-          "Polyurea And PU Foam Spray Machine | Vands Engineering",
+        metaTitle: "Polyurea And PU Foam Spray Machine | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers reliable Polyurea And PU Foam Spray Machine for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1243,14 +1480,15 @@ export const categories = [
           },
         ],
       },
-    ]
+    ],
   },
 
   // [Spare parts of Airless Painting Machines]
   {
     id: "spare-parts-airless-painting-machines",
     name: "Spare parts of Airless Painting Machines",
-    metaTitle: "Spare parts of Airless Painting Machines Manufacturer & Supplier in India",
+    metaTitle:
+      "Spare parts of Airless Painting Machines Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable Spare parts of Airless Painting Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1258,8 +1496,7 @@ export const categories = [
       {
         id: "airless-paint-spray-gun",
         name: "Airless Paint Spray Gun",
-        metaTitle:
-          "Airless Paint Spray Gun | Vands Engineering",
+        metaTitle: "Airless Paint Spray Gun | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers reliable Airless Paint Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1329,8 +1566,7 @@ export const categories = [
       {
         id: "painting-hose-pipe",
         name: "Painting Hose Pipe",
-        metaTitle:
-          "Painting Hose Pipe | Vands Engineering",
+        metaTitle: "Painting Hose Pipe | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers reliable Painting Hose Pipe for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1392,7 +1628,7 @@ export const categories = [
 
         image: [
           {
-          src: "/Spare parts of airless paint machines/Paint hose pipe.png",
+            src: "/Spare parts of airless paint machines/Paint hose pipe.png",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -1401,8 +1637,7 @@ export const categories = [
       {
         id: "airless-tip-guard",
         name: "Airless Tip Guard",
-        metaTitle:
-          "Airless Tip Guard | Vands Engineering",
+        metaTitle: "Airless Tip Guard | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers reliable Airless Tip Guard for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1472,8 +1707,7 @@ export const categories = [
       {
         id: "airless-paint-spray-tip",
         name: "Airless Paint Spray Tip",
-        metaTitle:
-          "Airless Paint Spray Tip | Vands Engineering",
+        metaTitle: "Airless Paint Spray Tip | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers reliable Airless Paint Spray Tip for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1534,7 +1768,7 @@ export const categories = [
 
         image: [
           {
-           src: "/Spare parts of airless paint machines/Tip.png",
+            src: "/Spare parts of airless paint machines/Tip.png",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -1543,8 +1777,7 @@ export const categories = [
       {
         id: "airless-spray-filter",
         name: "Airless Spray Filter",
-        metaTitle:
-          "Airless Spray Filter | Vands Engineering",
+        metaTitle: "Airless Spray Filter | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers reliable Airless Spray Filter for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1606,7 +1839,7 @@ export const categories = [
 
         image: [
           {
-           src: "/Spare parts of airless paint machines/Filters-removebg-preview.png",
+            src: "/Spare parts of airless paint machines/Filters-removebg-preview.png",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -1615,8 +1848,7 @@ export const categories = [
       {
         id: "seal-tip-for-airless-paint-sprayer",
         name: "Seal Tip for Airless Paint Sprayer",
-        metaTitle:
-          "Seal Tip for Airless Paint Sprayer | Vands Engineering",
+        metaTitle: "Seal Tip for Airless Paint Sprayer | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers reliable Seal Tip for Airless Paint Sprayer for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1671,7 +1903,10 @@ export const categories = [
           { label: "Colour", value: "Silver" },
           { label: "Style", value: "Gun" },
           { label: "Power Source", value: "Hand Powered" },
-          { label: "Enclosure Material", value: "Plastic, Rubber, Stainless Steel" },
+          {
+            label: "Enclosure Material",
+            value: "Plastic, Rubber, Stainless Steel",
+          },
           { label: "Included Components", value: "10 x tip seal" },
           { label: "Number of Pieces", value: "1" },
         ],
@@ -1687,8 +1922,7 @@ export const categories = [
       {
         id: "mild-steel-blue-paint-spray-gun",
         name: "Mild Steel Blue Paint Spray Gun",
-        metaTitle:
-          "Mild Steel Blue Paint Spray Gun | Vands Engineering",
+        metaTitle: "Mild Steel Blue Paint Spray Gun | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers reliable Mild Steel Blue Paint Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1829,8 +2063,7 @@ export const categories = [
       {
         id: "lx80-airless-spray-gun",
         name: "LX80 Airless Spray Gun",
-        metaTitle:
-          "LX80 Airless Spray Gun | Vands Engineering",
+        metaTitle: "LX80 Airless Spray Gun | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers reliable LX80 Airless Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
@@ -1895,7 +2128,7 @@ export const categories = [
           },
         ],
       },
-    ]
+    ],
   },
 
   // [Blasting machine]
@@ -1910,8 +2143,7 @@ export const categories = [
       {
         id: "airless-tumblast-type-shot-blasting-machine",
         name: "Airless Tumblast Type Shot Blasting Machine ",
-        metaTitle:
-          "Airless Tumblast Shot Blasting Machine | Vands Engineering",
+        metaTitle: "Airless Tumblast Shot Blasting Machine | Vands Engineering",
         metaDescription:
           "High-performance airless tumblast type shot blasting machine for efficient surface cleaning and finishing. Ideal for batch processing of small components.",
 
@@ -1919,7 +2151,7 @@ export const categories = [
           { type: "h2", text: "Overview" },
           {
             type: "p",
-            text: "The Airless Tumblast Type Shot Blasting Machine (VTB 1625 Series) by Vands Engineering Solution is a high-performance industrial surface preparation system designed for efficient cleaning, finishing, and strengthening of metal components. It effectively removes rust, scale, and contaminants from small to medium-sized workpieces with consistent precision. Built with a robust tumblast mechanism, the machine ensures uniform blasting on all surfaces, delivering high-quality finishing results. Available in multiple capacity configurations from 1 CFT to 10 CFT, it is suitable for diverse industrial production requirements and continuous heavy-duty operations."
+            text: "The Airless Tumblast Type Shot Blasting Machine (VTB 1625 Series) by Vands Engineering Solution is a high-performance industrial surface preparation system designed for efficient cleaning, finishing, and strengthening of metal components. It effectively removes rust, scale, and contaminants from small to medium-sized workpieces with consistent precision. Built with a robust tumblast mechanism, the machine ensures uniform blasting on all surfaces, delivering high-quality finishing results. Available in multiple capacity configurations from 1 CFT to 10 CFT, it is suitable for diverse industrial production requirements and continuous heavy-duty operations.",
           },
 
           { type: "h2", text: "Features & Benefits" },
@@ -1931,7 +2163,7 @@ export const categories = [
               "Advanced dust collection system ensures clean working environment and improved visibility",
               "Automatic air purging system for smooth, uninterrupted machine operation",
               "Heavy-duty tumblast design ensures uniform surface finishing on all components",
-              "Engineered for continuous industrial use with long operational life and durability"
+              "Engineered for continuous industrial use with long operational life and durability",
             ],
           },
 
@@ -1944,7 +2176,7 @@ export const categories = [
               "Shot blasting of small to medium-sized metal components",
               "Used in fabrication workshops and manufacturing units",
               "Surface preparation before painting, coating, or powder coating",
-              "Metal strengthening and finishing for industrial applications"
+              "Metal strengthening and finishing for industrial applications",
             ],
           },
 
@@ -1956,26 +2188,41 @@ export const categories = [
               "Strong engineering design focused on durability and efficiency",
               "Multiple machine configurations for varied industrial needs",
               "Advanced dust collection and turbine systems for safer operation",
-              "Reliable after-sales support including installation and maintenance assistance"
+              "Reliable after-sales support including installation and maintenance assistance",
             ],
           },
         ],
 
         specs: [
-          { label: "Machine Type", value: "Airless Tumblast Shot Blasting Machine" },
+          {
+            label: "Machine Type",
+            value: "Airless Tumblast Shot Blasting Machine",
+          },
           { label: "Series", value: "VTB 1625" },
           { label: "Capacity Range", value: "1 CFT to 10 CFT" },
           { label: "Turbine Power", value: "5 HP to 15 HP" },
-          { label: "Dust Collection System", value: "800 to 3000 (equivalent capacity)" },
-          { label: "Operation System", value: "Automatic Tumblast with Air Purging" },
-          { label: "Application", value: "Surface Cleaning, Rust Removal, Finishing" },
-          { label: "Material Handling", value: "Small to Medium Metal Components" },
+          {
+            label: "Dust Collection System",
+            value: "800 to 3000 (equivalent capacity)",
+          },
+          {
+            label: "Operation System",
+            value: "Automatic Tumblast with Air Purging",
+          },
+          {
+            label: "Application",
+            value: "Surface Cleaning, Rust Removal, Finishing",
+          },
+          {
+            label: "Material Handling",
+            value: "Small to Medium Metal Components",
+          },
           { label: "Build", value: "Heavy-Duty Industrial Steel Construction" },
         ],
 
         ytArray: {
           title: "Airless Tumblast Shot Blasting Machine (VTB 1625 Series)",
-          link: ""
+          link: "",
         },
 
         image: [
@@ -1986,11 +2233,127 @@ export const categories = [
         ],
       },
 
+      //extra
+      {
+  id: "sand-blasting-hopper-with-compressor-kes-30-7-5",
+
+  name: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+
+  metaTitle:
+    "Sand Blasting Hopper with Compressor KES 30-7.5 | Vands Engineering",
+
+  metaDescription:
+    "Buy Sand Blasting Hopper with Compressor (KES 30-7.5) for efficient abrasive blasting, rust removal, and industrial surface preparation applications.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+
+    {
+      type: "p",
+      text: "Vands Engineering Solution presents the Sand Blasting Hopper with Compressor Model KES 30-7.5, designed for high-performance surface cleaning and abrasive blasting applications",
+    },
+
+    {
+      type: "p",
+      text: "Engineered to deliver powerful and efficient sand blasting performance for industrial surface preparation, rust removal, and finishing operations",
+    },
+
+    {
+      type: "p",
+      text: "Built with a heavy-duty compressor system capable of handling demanding industrial blasting requirements with stable air pressure output",
+    },
+
+    {
+      type: "p",
+      text: "Designed with a robust trolley-mounted structure for easy mobility, operational convenience, and improved site productivity",
+    },
+
+    {
+      type: "p",
+      text: "Manufactured using durable industrial-grade components to ensure long service life, reliable performance, and minimal maintenance requirements",
+    },
+
+    { type: "h2", text: "Features & Benefits:" },
+
+    {
+      type: "ul",
+      items: [
+        "The maximum working pressure of 10 bar ensures a powerful blasting performance for effective surface cleaning and preparation",
+        "High normal working airflow capacity of 120 CFM provides continuous and efficient abrasive blasting operations",
+        "Heavy-duty trolley-mounted design allows easy transportation and convenient movement across industrial job sites",
+        "Strong and durable construction supports stable operation even in harsh and demanding working environments",
+        "Compact integrated blasting and compressor system improves operational efficiency and reduces setup complexity",
+      ],
+    },
+
+    { type: "h2", text: "Applications:" },
+
+    {
+      type: "ul",
+      items: [
+        "Ideal for industrial sand blasting applications requiring effective rust, scale, and paint removal",
+        "Widely used in fabrication, shipbuilding, construction, and heavy engineering industries",
+        "Suitable for surface preparation before painting, coating, or powder coating processes",
+        "Perfect for cleaning metal structures, pipelines, tanks, machinery, and fabricated components",
+        "Used in maintenance and refurbishment projects requiring high-efficiency abrasive blasting solutions",
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+
+    {
+      type: "ul",
+      items: [
+        "Recognized for delivering reliable and high-performance industrial blasting and compressor solutions",
+        "Strong focus on engineering quality, operational efficiency, and durable machine construction",
+        "Use of premium-grade components to ensure long-lasting and trouble-free performance",
+        "Competitive pricing with excellent value for industrial and commercial users",
+        "Dedicated after-sales support, including installation assistance, servicing, maintenance, and technical guidance",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Model", value: "KES 30-7.5" },
+
+    { label: "Machine Type", value: "Sand Blasting Hopper with Compressor" },
+
+    { label: "Maximum Working Pressure", value: "10 Bar" },
+
+    { label: "Normal Working Airflow", value: "120 CFM" },
+
+    { label: "Mobility Type", value: "Trolley Mounted" },
+
+    { label: "Application", value: "Surface Cleaning & Abrasive Blasting" },
+
+    { label: "Suitable Industries", value: "Fabrication, Shipbuilding, Construction & Heavy Engineering" },
+  ],
+
+  ytArray: {
+          title: "Portable Sand Blasting Machine Demo",
+          link: "https://www.youtube.com/embed/XUSR6pDHJl4",
+        },
+
+  image: [
+    {
+      src: "/Sand blasting hose.webp",
+      alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+    },
+    {
+      src: "/Sand blasting hose2.webp",
+      alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+    },
+    {
+      src: "/Sand blasting hose3.webp",
+      alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+    },
+  ],
+},
+
       {
         id: "sand-blasting-machine",
         name: "Sand Blasting Machine (P-300 / P-600 / P-1000 Series)",
-        metaTitle:
-          "Sand Blasting Machine P Series | Vands Engineering",
+        metaTitle: "Sand Blasting Machine P Series | Vands Engineering",
         metaDescription:
           "Vands Engineering Solutions offers P-300, P-600, and P-1000 sand blasting machines for high-efficiency cleaning, coating preparation, and durability.",
 
@@ -1998,7 +2361,7 @@ export const categories = [
           { type: "h2", text: "Overview" },
           {
             type: "p",
-            text: "The Portable Pressure Sand Blasting Machine Series (P-300, P-600, P-1000) by Vands Engineering Solution is designed for efficient surface cleaning, rust removal, and preparation of metal components. Built for industrial-grade performance, it effectively removes rust, paint, scale, and contaminants to deliver a smooth and uniform surface finish. Available in 3 CFT, 6 CFT, and 10 CFT capacities, this series is suitable for small, medium, and heavy-duty blasting applications across multiple industries."
+            text: "The Portable Pressure Sand Blasting Machine Series (P-300, P-600, P-1000) by Vands Engineering Solution is designed for efficient surface cleaning, rust removal, and preparation of metal components. Built for industrial-grade performance, it effectively removes rust, paint, scale, and contaminants to deliver a smooth and uniform surface finish. Available in 3 CFT, 6 CFT, and 10 CFT capacities, this series is suitable for small, medium, and heavy-duty blasting applications across multiple industries.",
           },
 
           { type: "h2", text: "Features & Benefits" },
@@ -2012,7 +2375,7 @@ export const categories = [
               "Air consumption range from 70 to 240 CFM at 80 PSI for powerful operation",
               "Compressor compatibility from 10 HP to 40 HP based on model",
               "Compatible with abrasive grit sizes from 12 to 80 mesh",
-              "Portable and compact design with weight range of 80 kg to 200 kg"
+              "Portable and compact design with weight range of 80 kg to 200 kg",
             ],
           },
 
@@ -2025,7 +2388,7 @@ export const categories = [
               "Cleaning of pipelines, tanks, and industrial equipment",
               "Shipyard, construction, and fabrication workshop maintenance",
               "Automotive and heavy engineering industries",
-              "Surface roughening for better coating adhesion"
+              "Surface roughening for better coating adhesion",
             ],
           },
 
@@ -2037,7 +2400,7 @@ export const categories = [
               "High-performance blasting systems with reduced downtime",
               "Multiple capacity options for different industrial needs",
               "Strong and durable build for long operational life",
-              "Reliable after-sales support and technical assistance"
+              "Reliable after-sales support and technical assistance",
             ],
           },
         ],
@@ -2056,7 +2419,7 @@ export const categories = [
 
         ytArray: {
           title: "Portable Sand Blasting Machine Demo",
-          link: "https://www.youtube.com/embed/XUSR6pDHJl4"
+          link: "https://www.youtube.com/embed/XUSR6pDHJl4",
         },
 
         image: [
@@ -2066,7 +2429,7 @@ export const categories = [
           },
         ],
       },
-    ]
+    ],
   },
 
   //[Others]
@@ -2081,8 +2444,7 @@ export const categories = [
       {
         id: "almen-gauge-mssd-digital",
         name: "Almen Gauge Model MSSD Digital",
-        metaTitle:
-          "Almen Gauge Model MSSD Digital | Precision Measuring Tool",
+        metaTitle: "Almen Gauge Model MSSD Digital | Precision Measuring Tool",
         metaDescription:
           "Buy Almen Gauge Model MSSD Digital for accurate shot peening measurement. High-precision, durable, and ideal for industrial surface treatment applications.",
 
@@ -2090,7 +2452,7 @@ export const categories = [
           { type: "h2", text: "Overview" },
           {
             type: "p",
-            text: "The Almen Gauge Model MSSD Digital by Vands Engineering Solution is a high-precision measurement instrument designed for accurate determination of shot peening intensity using Almen strips. It ensures precise arc height measurement, which is essential for maintaining strict quality control in surface treatment processes. Built with advanced digital sensing technology, the MSSD model delivers fast, repeatable, and highly accurate readings, making it ideal for aerospace, automotive, and heavy engineering industries where surface stress control is critical. Its compact and durable design allows reliable performance in both workshop and laboratory environments."
+            text: "The Almen Gauge Model MSSD Digital by Vands Engineering Solution is a high-precision measurement instrument designed for accurate determination of shot peening intensity using Almen strips. It ensures precise arc height measurement, which is essential for maintaining strict quality control in surface treatment processes. Built with advanced digital sensing technology, the MSSD model delivers fast, repeatable, and highly accurate readings, making it ideal for aerospace, automotive, and heavy engineering industries where surface stress control is critical. Its compact and durable design allows reliable performance in both workshop and laboratory environments.",
           },
 
           { type: "h2", text: "Features & Benefits" },
@@ -2104,7 +2466,7 @@ export const categories = [
               "Compact and ergonomic design for easy handling and portability",
               "Robust industrial-grade construction for workshop and lab use",
               "Fast response time for efficient inspection and testing workflow",
-              "Low maintenance design with long operational life"
+              "Low maintenance design with long operational life",
             ],
           },
 
@@ -2117,7 +2479,7 @@ export const categories = [
               "Automotive and defense surface treatment monitoring",
               "Spring, gear, and turbine blade testing",
               "Quality assurance in metal finishing and heat treatment plants",
-              "Laboratory research in material engineering"
+              "Laboratory research in material engineering",
             ],
           },
 
@@ -2129,7 +2491,7 @@ export const categories = [
               "Focus on accuracy, durability, and reliability",
               "Suitable for critical quality control applications",
               "User-friendly design requiring minimal training",
-              "Strong technical support and dependable after-sales service"
+              "Strong technical support and dependable after-sales service",
             ],
           },
         ],
@@ -2140,13 +2502,16 @@ export const categories = [
           { label: "Measurement", value: "Almen Strip Arc Height" },
           { label: "Display", value: "Digital LCD Display" },
           { label: "Application", value: "Shot Peening Intensity Measurement" },
-          { label: "Usage", value: "Industrial / Laboratory / Quality Control" },
+          {
+            label: "Usage",
+            value: "Industrial / Laboratory / Quality Control",
+          },
           { label: "Build", value: "Heavy Duty Industrial Grade Construction" },
         ],
 
         ytArray: {
           title: "Almen Gauge Model MSSD Digital",
-          link: "https://www.youtube.com/embed/bwGROtv6KSc"
+          link: "https://www.youtube.com/embed/bwGROtv6KSc",
         },
 
         image: [
@@ -2156,12 +2521,124 @@ export const categories = [
           },
         ],
       },
+      {
+  id: "screw-air-compressor",
+
+  name: "Screw Air Compressor",
+
+  metaTitle:
+    "Screw Air Compressor Series | Vands Engineering",
+
+  metaDescription:
+    "Buy Screw Air Compressor Series (ACF-55, ACF-75 & ACM-90) for efficient and continuous industrial compressed air applications with energy-efficient performance.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+
+    {
+      type: "p",
+      text: "Vands Engineering Solution presents the Screw Air Compressor Series (ACF-55, ACF-75 & ACM-90) designed for high-efficiency and continuous industrial compressed air applications",
+    },
+
+    {
+      type: "p",
+      text: "Engineered with advanced direct drive technology to deliver stable airflow, energy efficiency, and reliable performance in demanding industrial environments",
+    },
+
+    {
+      type: "p",
+      text: "Built with high-performance squirrel-cage induction motors to ensure smooth operation, reduced vibration, and long operational life",
+    },
+
+    {
+      type: "p",
+      text: "Designed for heavy-duty industrial use with multiple pressure configurations including 8 Bar, 10 Bar, and 13 Bar for varied application requirements",
+    },
+
+    {
+      type: "p",
+      text: "Manufactured with premium-grade components and advanced engineering standards to provide superior productivity, durability, and low maintenance operation",
+    },
+
+    { type: "h2", text: "Features & Benefits:" },
+
+    {
+      type: "ul",
+      items: [
+        "High free air delivery capacity ranging from 300 to 565 CFM ensures efficient compressed air supply for large-scale industrial operations",
+        "Equipped with energy-efficient IE3/IE4 motors for reduced power consumption and improved operational performance",
+        "Direct drive system provides higher transmission efficiency, reduced maintenance, and stable compressor performance",
+        "Advanced star-delta starting system ensures smooth motor startup and minimizes electrical load during operation",
+        "Built with IP-55 protection and F-Class insulation for enhanced motor safety, durability, and reliable performance in harsh environments",
+      ],
+    },
+
+    { type: "h2", text: "Applications:" },
+
+    {
+      type: "ul",
+      items: [
+        "Ideal for manufacturing industries requiring continuous compressed air supply for machinery and automation systems",
+        "Widely used in automotive, engineering, fabrication, and metal processing industries",
+        "Suitable for pneumatic tools, spray painting systems, CNC machines, and industrial production lines",
+        "Perfect for textile, pharmaceutical, food processing, and packaging industries requiring efficient air compression systems",
+        "Used in heavy-duty industrial operations where reliable and energy-efficient compressed air solutions are essential",
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+
+    {
+      type: "ul",
+      items: [
+        "Recognized for delivering high-performance and energy-efficient industrial air compressor solutions",
+        "Strong focus on advanced engineering, durability, and reliable operational performance",
+        "Use of premium-quality components and modern manufacturing standards for long service life",
+        "Competitive pricing with excellent value for industrial and commercial users",
+        "Dedicated after-sales support including installation guidance, maintenance, servicing, and technical assistance",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Models", value: "ACF-55, ACF-75 & ACM-90" },
+
+    { label: "Machine Type", value: "Screw Air Compressor" },
+
+    { label: "Pressure Configurations", value: "8 Bar, 10 Bar & 13 Bar" },
+
+    { label: "Free Air Delivery Capacity", value: "300 – 565 CFM" },
+
+    { label: "Drive Type", value: "Direct Drive" },
+
+    { label: "Motor Type", value: "Squirrel-Cage Induction Motor" },
+
+    { label: "Motor Efficiency", value: "IE3 / IE4" },
+
+    { label: "Starting System", value: "Star-Delta Starting" },
+
+    { label: "Protection Class", value: "IP-55" },
+
+    { label: "Insulation Class", value: "F-Class" },
+  ],
+
+  ytArray: {
+          title: "Almen Gauge Model MSSD Digital",
+          link: "https://www.youtube.com/embed/bwGROtv6KSc",
+        },
+
+  image: [
+    {
+      src: "/Screw air compressor.webp",
+      alt: "Screw Air Compressor",
+    },
+  ],
+},
 
       {
         id: "dry-film-thickness-gauge",
         name: "Dry Film Thickness Gauge",
-        metaTitle:
-          "Dry Film Thickness Gauge Supplier & Manufacturer",
+        metaTitle: "Dry Film Thickness Gauge Supplier & Manufacturer",
         metaDescription:
           "High-precision dry film thickness gauges for accurate coating inspection. Perfect for industrial applications, ensuring durability and consistent results.",
 
@@ -2169,7 +2646,7 @@ export const categories = [
           { type: "h2", text: "Overview" },
           {
             type: "p",
-            text: "The Dry Film Thickness (DFT) Gauge by Vands Engineering Solution is a precision instrument designed for accurate measurement of coating thickness on metal and non-metal surfaces. It is widely used in industrial quality control applications to ensure proper thickness of paint, powder coating, and protective layers. This helps maintain coating standards, durability, and compliance with industrial specifications. Available in both digital and analog models, the DFT gauge is suitable for a wide range of field and laboratory applications. Its non-destructive testing method ensures surface integrity while delivering fast and reliable results."
+            text: "The Dry Film Thickness (DFT) Gauge by Vands Engineering Solution is a precision instrument designed for accurate measurement of coating thickness on metal and non-metal surfaces. It is widely used in industrial quality control applications to ensure proper thickness of paint, powder coating, and protective layers. This helps maintain coating standards, durability, and compliance with industrial specifications. Available in both digital and analog models, the DFT gauge is suitable for a wide range of field and laboratory applications. Its non-destructive testing method ensures surface integrity while delivering fast and reliable results.",
           },
 
           { type: "h2", text: "Features & Benefits" },
@@ -2182,7 +2659,7 @@ export const categories = [
               "Portable and lightweight design for easy field and workshop use",
               "Fast response time for efficient quality inspection",
               "Works on rough, smooth, painted, and coated surfaces",
-              "Durable construction suitable for industrial environments"
+              "Durable construction suitable for industrial environments",
             ],
           },
 
@@ -2195,7 +2672,7 @@ export const categories = [
               "Inspection of pipelines, tanks, and structural coatings",
               "Powder coating thickness verification in manufacturing units",
               "Shipbuilding and heavy equipment surface inspection",
-              "Laboratory and field inspection applications"
+              "Laboratory and field inspection applications",
             ],
           },
 
@@ -2207,7 +2684,7 @@ export const categories = [
               "Focus on accuracy, durability, and ease of operation",
               "Suitable for strict industrial quality control standards",
               "Available in multiple model configurations",
-              "Strong technical support and reliable after-sales service"
+              "Strong technical support and reliable after-sales service",
             ],
           },
         ],
@@ -2224,7 +2701,7 @@ export const categories = [
 
         ytArray: {
           title: "Dry Film Thickness (DFT) Gauge Overview",
-          link: "https://www.youtube.com/embed/V8pNgQkSRkg"
+          link: "https://www.youtube.com/embed/V8pNgQkSRkg",
         },
 
         image: [
@@ -2238,8 +2715,7 @@ export const categories = [
       {
         id: "wet-film-thickness-gauge",
         name: "Wet Film Thickness Gauge",
-        metaTitle:
-          "Buy Wet Film Thickness Gauge | Paint Measurement Tool",
+        metaTitle: "Buy Wet Film Thickness Gauge | Paint Measurement Tool",
         metaDescription:
           "Looking for a reliable wet film thickness gauge? Get durable and easy-to-use tools for measuring coating thickness during application.",
 
@@ -2247,7 +2723,7 @@ export const categories = [
           { type: "h2", text: "Overview" },
           {
             type: "p",
-            text: "The WFT (Wet Film Thickness) Gauge by Vands Engineering Solution is a precision instrument designed for accurate measurement of wet film thickness of coatings such as paint, varnish, lacquer, and other protective finishes. It ensures proper coating thickness during application, helping industries maintain consistent quality, improve durability, and reduce material wastage. Widely used in painting and coating inspection processes, this gauge is essential for industrial quality control applications. Manufactured from high-quality corrosion-resistant material, it delivers long service life and reliable performance even in harsh working environments."
+            text: "The WFT (Wet Film Thickness) Gauge by Vands Engineering Solution is a precision instrument designed for accurate measurement of wet film thickness of coatings such as paint, varnish, lacquer, and other protective finishes. It ensures proper coating thickness during application, helping industries maintain consistent quality, improve durability, and reduce material wastage. Widely used in painting and coating inspection processes, this gauge is essential for industrial quality control applications. Manufactured from high-quality corrosion-resistant material, it delivers long service life and reliable performance even in harsh working environments.",
           },
 
           { type: "h2", text: "Features & Benefits" },
@@ -2260,7 +2736,7 @@ export const categories = [
               "Simple dip-and-read design for quick and easy operation",
               "Ensures uniform coating thickness and reduces material wastage",
               "Compact and portable design for field and workshop use",
-              "Suitable for repeated use in industrial quality control"
+              "Suitable for repeated use in industrial quality control",
             ],
           },
 
@@ -2273,7 +2749,7 @@ export const categories = [
               "Inspection of protective coatings on pipelines and steel structures",
               "Used in liquid and powder coating processes",
               "Essential tool for contractors, inspectors, and coating professionals",
-              "Ensures compliance with coating standards and specifications"
+              "Ensures compliance with coating standards and specifications",
             ],
           },
 
@@ -2285,7 +2761,7 @@ export const categories = [
               "Durable and corrosion-resistant industrial-grade construction",
               "Easy-to-use design for field and laboratory applications",
               "Supports strict quality assurance in coating processes",
-              "Trusted supplier of inspection and surface preparation equipment"
+              "Trusted supplier of inspection and surface preparation equipment",
             ],
           },
         ],
@@ -2301,7 +2777,7 @@ export const categories = [
 
         ytArray: {
           title: "WFT (Wet Film Thickness) Gauge Overview",
-          link: "https://www.youtube.com/embed/MFBOnbOr5ys"
+          link: "https://www.youtube.com/embed/MFBOnbOr5ys",
         },
 
         image: [
@@ -2315,8 +2791,7 @@ export const categories = [
       {
         id: "flame-spray-gun-metalizing-gun",
         name: "Flame Spray Gun (Metalizing Gun)",
-        metaTitle:
-          "Flame Spray Gun (Metalizing Gun) | Industrial Coating Tool",
+        metaTitle: "Flame Spray Gun (Metalizing Gun) | Industrial Coating Tool",
         metaDescription:
           "Buy flame spray gun (metalizing gun) for efficient thermal spray coating. Ideal for corrosion protection, surface restoration, and industrial applications.",
 
@@ -2324,7 +2799,7 @@ export const categories = [
           { type: "h2", text: "Overview" },
           {
             type: "p",
-            text: "The Flame Spray Gun (Metalizing Gun) by Vands Engineering Solution is a high-performance thermal spray system designed for surface coating, corrosion protection, and metal restoration applications. It works by melting coating materials using a controlled flame and spraying them onto prepared surfaces to form a strong, durable protective layer. This process is widely used for restoring worn-out components, improving wear resistance, and providing anti-corrosion protection for industrial parts. Built for continuous industrial use, it ensures stable flame control, consistent spray output, and excellent coating adhesion for demanding maintenance and production environments."
+            text: "The Flame Spray Gun (Metalizing Gun) by Vands Engineering Solution is a high-performance thermal spray system designed for surface coating, corrosion protection, and metal restoration applications. It works by melting coating materials using a controlled flame and spraying them onto prepared surfaces to form a strong, durable protective layer. This process is widely used for restoring worn-out components, improving wear resistance, and providing anti-corrosion protection for industrial parts. Built for continuous industrial use, it ensures stable flame control, consistent spray output, and excellent coating adhesion for demanding maintenance and production environments.",
           },
 
           { type: "h2", text: "Features & Benefits" },
@@ -2337,7 +2812,7 @@ export const categories = [
               "Adjustable flame control for precise coating thickness",
               "Durable industrial-grade construction for long service life",
               "Consistent spray output with minimal material wastage",
-              "Suitable for both field and workshop applications"
+              "Suitable for both field and workshop applications",
             ],
           },
 
@@ -2350,7 +2825,7 @@ export const categories = [
               "Surface protection of machinery and heavy equipment",
               "Marine industry rust prevention applications",
               "Thermal spray coating for automotive parts",
-              "Maintenance and repair of industrial components"
+              "Maintenance and repair of industrial components",
             ],
           },
 
@@ -2362,7 +2837,7 @@ export const categories = [
               "Precision-engineered tools for durability and performance",
               "Suitable for both small and heavy-duty applications",
               "Focus on safety, efficiency, and long operational life",
-              "Strong technical support and after-sales service"
+              "Strong technical support and after-sales service",
             ],
           },
         ],
@@ -2379,7 +2854,7 @@ export const categories = [
 
         ytArray: {
           title: "Flame Spray Gun (Metalizing Gun)",
-          link: "https://www.youtube.com/embed/LfWbejGP8So"
+          link: "https://www.youtube.com/embed/LfWbejGP8So",
         },
 
         image: [
@@ -2388,127 +2863,528 @@ export const categories = [
             alt: "Flame Spray Gun Metalizing Gun",
           },
         ],
-      }
-    ]
-  }
+      },
+    ],
+  },
+
 ];
 
 export const serviceLocations = [
-  { href: "airless-painting-machine-manufacturer-in-delhi", label: "Delhi", id: 1 },
-  { href: "airless-painting-machine-manufacturer-in-gurgaon", label: "Gurgaon", id: 2 },
-  { href: "airless-painting-machine-manufacturer-in-noida", label: "Noida", id: 3 },
-  { href: "airless-painting-machine-manufacturer-in-greater-noida", label: "Greater Noida", id: 4 },
-  { href: "airless-painting-machine-manufacturer-in-faridabad", label: "Faridabad", id: 5 },
-  { href: "airless-painting-machine-manufacturer-in-ghaziabad", label: "Ghaziabad", id: 6 },
-  { href: "airless-painting-machine-manufacturer-in-panipat", label: "Panipat", id: 7 },
-  { href: "airless-painting-machine-manufacturer-in-sonipat", label: "Sonipat", id: 8 },
-  { href: "airless-painting-machine-manufacturer-in-rohtak", label: "Rohtak", id: 9 },
-  { href: "airless-painting-machine-manufacturer-in-karnal", label: "Karnal", id: 10 },
-  { href: "airless-painting-machine-manufacturer-in-chandigarh", label: "Chandigarh", id: 11 },
-  { href: "airless-painting-machine-manufacturer-in-ludhiana", label: "Ludhiana", id: 12 },
-  { href: "airless-painting-machine-manufacturer-in-amritsar", label: "Amritsar", id: 13 },
-  { href: "airless-painting-machine-manufacturer-in-jalandhar", label: "Jalandhar", id: 14 },
-  { href: "airless-painting-machine-manufacturer-in-baddi", label: "Baddi", id: 15 },
-  { href: "airless-painting-machine-manufacturer-in-shimla", label: "Shimla", id: 16 },
-  { href: "airless-painting-machine-manufacturer-in-dehradun", label: "Dehradun", id: 17 },
-  { href: "airless-painting-machine-manufacturer-in-haridwar", label: "Haridwar", id: 18 },
-  { href: "airless-painting-machine-manufacturer-in-jaipur", label: "Jaipur", id: 19 },
-  { href: "airless-painting-machine-manufacturer-in-alwar", label: "Alwar", id: 20 },
+  {
+    href: "airless-painting-machine-manufacturer-in-delhi",
+    label: "Delhi",
+    id: 1,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-gurgaon",
+    label: "Gurgaon",
+    id: 2,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-noida",
+    label: "Noida",
+    id: 3,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-greater-noida",
+    label: "Greater Noida",
+    id: 4,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-faridabad",
+    label: "Faridabad",
+    id: 5,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-ghaziabad",
+    label: "Ghaziabad",
+    id: 6,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-panipat",
+    label: "Panipat",
+    id: 7,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-sonipat",
+    label: "Sonipat",
+    id: 8,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-rohtak",
+    label: "Rohtak",
+    id: 9,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-karnal",
+    label: "Karnal",
+    id: 10,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-chandigarh",
+    label: "Chandigarh",
+    id: 11,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-ludhiana",
+    label: "Ludhiana",
+    id: 12,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-amritsar",
+    label: "Amritsar",
+    id: 13,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-jalandhar",
+    label: "Jalandhar",
+    id: 14,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-baddi",
+    label: "Baddi",
+    id: 15,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-shimla",
+    label: "Shimla",
+    id: 16,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-dehradun",
+    label: "Dehradun",
+    id: 17,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-haridwar",
+    label: "Haridwar",
+    id: 18,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-jaipur",
+    label: "Jaipur",
+    id: 19,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-alwar",
+    label: "Alwar",
+    id: 20,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-mumbai", label: "Mumbai", id: 21 },
-  { href: "airless-painting-machine-manufacturer-in-pune", label: "Pune", id: 22 },
-  { href: "airless-painting-machine-manufacturer-in-nashik", label: "Nashik", id: 23 },
-  { href: "airless-painting-machine-manufacturer-in-nagpur", label: "Nagpur", id: 24 },
-  { href: "airless-painting-machine-manufacturer-in-aurangabad", label: "Aurangabad", id: 25 },
-  { href: "airless-painting-machine-manufacturer-in-kolhapur", label: "Kolhapur", id: 26 },
+  {
+    href: "airless-painting-machine-manufacturer-in-mumbai",
+    label: "Mumbai",
+    id: 21,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-pune",
+    label: "Pune",
+    id: 22,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-nashik",
+    label: "Nashik",
+    id: 23,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-nagpur",
+    label: "Nagpur",
+    id: 24,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-aurangabad",
+    label: "Aurangabad",
+    id: 25,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-kolhapur",
+    label: "Kolhapur",
+    id: 26,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-ahmedabad", label: "Ahmedabad", id: 27 },
-  { href: "airless-painting-machine-manufacturer-in-surat", label: "Surat", id: 28 },
-  { href: "airless-painting-machine-manufacturer-in-vadodara", label: "Vadodara", id: 29 },
-  { href: "airless-painting-machine-manufacturer-in-rajkot", label: "Rajkot", id: 30 },
-  { href: "airless-painting-machine-manufacturer-in-jamnagar", label: "Jamnagar", id: 31 },
-  { href: "airless-painting-machine-manufacturer-in-bhavnagar", label: "Bhavnagar", id: 32 },
-  { href: "airless-painting-machine-manufacturer-in-bharuch", label: "Bharuch", id: 33 },
-  { href: "airless-painting-machine-manufacturer-in-vapi", label: "Vapi", id: 34 },
-  { href: "airless-painting-machine-manufacturer-in-valsad", label: "Valsad", id: 35 },
-  { href: "airless-painting-machine-manufacturer-in-gandhinagar", label: "Gandhinagar", id: 36 },
+  {
+    href: "airless-painting-machine-manufacturer-in-ahmedabad",
+    label: "Ahmedabad",
+    id: 27,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-surat",
+    label: "Surat",
+    id: 28,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-vadodara",
+    label: "Vadodara",
+    id: 29,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-rajkot",
+    label: "Rajkot",
+    id: 30,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-jamnagar",
+    label: "Jamnagar",
+    id: 31,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-bhavnagar",
+    label: "Bhavnagar",
+    id: 32,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-bharuch",
+    label: "Bharuch",
+    id: 33,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-vapi",
+    label: "Vapi",
+    id: 34,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-valsad",
+    label: "Valsad",
+    id: 35,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-gandhinagar",
+    label: "Gandhinagar",
+    id: 36,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-indore", label: "Indore", id: 37 },
-  { href: "airless-painting-machine-manufacturer-in-bhopal", label: "Bhopal", id: 38 },
-  { href: "airless-painting-machine-manufacturer-in-pithampur", label: "Pithampur", id: 39 },
-  { href: "airless-painting-machine-manufacturer-in-ujjain", label: "Ujjain", id: 40 },
+  {
+    href: "airless-painting-machine-manufacturer-in-indore",
+    label: "Indore",
+    id: 37,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-bhopal",
+    label: "Bhopal",
+    id: 38,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-pithampur",
+    label: "Pithampur",
+    id: 39,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-ujjain",
+    label: "Ujjain",
+    id: 40,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-bangalore", label: "Bangalore", id: 41 },
-  { href: "airless-painting-machine-manufacturer-in-chennai", label: "Chennai", id: 42 },
-  { href: "airless-painting-machine-manufacturer-in-hyderabad", label: "Hyderabad", id: 43 },
-  { href: "airless-painting-machine-manufacturer-in-coimbatore", label: "Coimbatore", id: 44 },
-  { href: "airless-painting-machine-manufacturer-in-hosur", label: "Hosur", id: 45 },
-  { href: "airless-painting-machine-manufacturer-in-mysore", label: "Mysore", id: 46 },
-  { href: "airless-painting-machine-manufacturer-in-tiruppur", label: "Tiruppur", id: 47 },
-  { href: "airless-painting-machine-manufacturer-in-salem", label: "Salem", id: 48 },
-  { href: "airless-painting-machine-manufacturer-in-madurai", label: "Madurai", id: 49 },
-  { href: "airless-painting-machine-manufacturer-in-trichy", label: "Trichy", id: 50 },
+  {
+    href: "airless-painting-machine-manufacturer-in-bangalore",
+    label: "Bangalore",
+    id: 41,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-chennai",
+    label: "Chennai",
+    id: 42,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-hyderabad",
+    label: "Hyderabad",
+    id: 43,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-coimbatore",
+    label: "Coimbatore",
+    id: 44,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-hosur",
+    label: "Hosur",
+    id: 45,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-mysore",
+    label: "Mysore",
+    id: 46,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-tiruppur",
+    label: "Tiruppur",
+    id: 47,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-salem",
+    label: "Salem",
+    id: 48,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-madurai",
+    label: "Madurai",
+    id: 49,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-trichy",
+    label: "Trichy",
+    id: 50,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-kochi", label: "Kochi", id: 51 },
-  { href: "airless-painting-machine-manufacturer-in-thiruvananthapuram", label: "Thiruvananthapuram", id: 52 },
-  { href: "airless-painting-machine-manufacturer-in-kozhikode", label: "Kozhikode", id: 53 },
+  {
+    href: "airless-painting-machine-manufacturer-in-kochi",
+    label: "Kochi",
+    id: 51,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-thiruvananthapuram",
+    label: "Thiruvananthapuram",
+    id: 52,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-kozhikode",
+    label: "Kozhikode",
+    id: 53,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-vijayawada", label: "Vijayawada", id: 54 },
-  { href: "airless-painting-machine-manufacturer-in-visakhapatnam", label: "Visakhapatnam", id: 55 },
-  { href: "airless-painting-machine-manufacturer-in-guntur", label: "Guntur", id: 56 },
-  { href: "airless-painting-machine-manufacturer-in-nellore", label: "Nellore", id: 57 },
-  { href: "airless-painting-machine-manufacturer-in-warangal", label: "Warangal", id: 58 },
-  { href: "airless-painting-machine-manufacturer-in-secunderabad", label: "Secunderabad", id: 59 },
+  {
+    href: "airless-painting-machine-manufacturer-in-vijayawada",
+    label: "Vijayawada",
+    id: 54,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-visakhapatnam",
+    label: "Visakhapatnam",
+    id: 55,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-guntur",
+    label: "Guntur",
+    id: 56,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-nellore",
+    label: "Nellore",
+    id: 57,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-warangal",
+    label: "Warangal",
+    id: 58,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-secunderabad",
+    label: "Secunderabad",
+    id: 59,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-hubli", label: "Hubli", id: 60 },
+  {
+    href: "airless-painting-machine-manufacturer-in-hubli",
+    label: "Hubli",
+    id: 60,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-kolkata", label: "Kolkata", id: 61 },
-  { href: "airless-painting-machine-manufacturer-in-durgapur", label: "Durgapur", id: 62 },
-  { href: "airless-painting-machine-manufacturer-in-asansol", label: "Asansol", id: 63 },
-  { href: "airless-painting-machine-manufacturer-in-haldia", label: "Haldia", id: 64 },
-  { href: "airless-painting-machine-manufacturer-in-kharagpur", label: "Kharagpur", id: 65 },
+  {
+    href: "airless-painting-machine-manufacturer-in-kolkata",
+    label: "Kolkata",
+    id: 61,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-durgapur",
+    label: "Durgapur",
+    id: 62,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-asansol",
+    label: "Asansol",
+    id: 63,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-haldia",
+    label: "Haldia",
+    id: 64,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-kharagpur",
+    label: "Kharagpur",
+    id: 65,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-jamshedpur", label: "Jamshedpur", id: 66 },
-  { href: "airless-painting-machine-manufacturer-in-ranchi", label: "Ranchi", id: 67 },
-  { href: "airless-painting-machine-manufacturer-in-bokaro", label: "Bokaro", id: 68 },
+  {
+    href: "airless-painting-machine-manufacturer-in-jamshedpur",
+    label: "Jamshedpur",
+    id: 66,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-ranchi",
+    label: "Ranchi",
+    id: 67,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-bokaro",
+    label: "Bokaro",
+    id: 68,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-bhubaneswar", label: "Bhubaneswar", id: 69 },
-  { href: "airless-painting-machine-manufacturer-in-cuttack", label: "Cuttack", id: 70 },
-  { href: "airless-painting-machine-manufacturer-in-rourkela", label: "Rourkela", id: 71 },
-  { href: "airless-painting-machine-manufacturer-in-angul", label: "Angul", id: 72 },
+  {
+    href: "airless-painting-machine-manufacturer-in-bhubaneswar",
+    label: "Bhubaneswar",
+    id: 69,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-cuttack",
+    label: "Cuttack",
+    id: 70,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-rourkela",
+    label: "Rourkela",
+    id: 71,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-angul",
+    label: "Angul",
+    id: 72,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-patna", label: "Patna", id: 73 },
-  { href: "airless-painting-machine-manufacturer-in-gaya", label: "Gaya", id: 74 },
-  { href: "airless-painting-machine-manufacturer-in-muzaffarpur", label: "Muzaffarpur", id: 75 },
+  {
+    href: "airless-painting-machine-manufacturer-in-patna",
+    label: "Patna",
+    id: 73,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-gaya",
+    label: "Gaya",
+    id: 74,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-muzaffarpur",
+    label: "Muzaffarpur",
+    id: 75,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-siliguri", label: "Siliguri", id: 76 },
+  {
+    href: "airless-painting-machine-manufacturer-in-siliguri",
+    label: "Siliguri",
+    id: 76,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-guwahati", label: "Guwahati", id: 77 },
-  { href: "airless-painting-machine-manufacturer-in-shillong", label: "Shillong", id: 78 },
-  { href: "airless-painting-machine-manufacturer-in-imphal", label: "Imphal", id: 79 },
-  { href: "airless-painting-machine-manufacturer-in-agartala", label: "Agartala", id: 80 },
+  {
+    href: "airless-painting-machine-manufacturer-in-guwahati",
+    label: "Guwahati",
+    id: 77,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-shillong",
+    label: "Shillong",
+    id: 78,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-imphal",
+    label: "Imphal",
+    id: 79,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-agartala",
+    label: "Agartala",
+    id: 80,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-raipur", label: "Raipur", id: 81 },
-  { href: "airless-painting-machine-manufacturer-in-bilaspur", label: "Bilaspur", id: 82 },
-  { href: "airless-painting-machine-manufacturer-in-durg", label: "Durg", id: 83 },
-  { href: "airless-painting-machine-manufacturer-in-korba", label: "Korba", id: 84 },
+  {
+    href: "airless-painting-machine-manufacturer-in-raipur",
+    label: "Raipur",
+    id: 81,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-bilaspur",
+    label: "Bilaspur",
+    id: 82,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-durg",
+    label: "Durg",
+    id: 83,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-korba",
+    label: "Korba",
+    id: 84,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-satna", label: "Satna", id: 85 },
-  { href: "airless-painting-machine-manufacturer-in-rewa", label: "Rewa", id: 86 },
-  { href: "airless-painting-machine-manufacturer-in-jabalpur", label: "Jabalpur", id: 87 },
-  { href: "airless-painting-machine-manufacturer-in-sagar", label: "Sagar", id: 88 },
-  { href: "airless-painting-machine-manufacturer-in-khandwa", label: "Khandwa", id: 89 },
-  { href: "airless-painting-machine-manufacturer-in-bhilai", label: "Bhilai", id: 90 },
+  {
+    href: "airless-painting-machine-manufacturer-in-satna",
+    label: "Satna",
+    id: 85,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-rewa",
+    label: "Rewa",
+    id: 86,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-jabalpur",
+    label: "Jabalpur",
+    id: 87,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-sagar",
+    label: "Sagar",
+    id: 88,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-khandwa",
+    label: "Khandwa",
+    id: 89,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-bhilai",
+    label: "Bhilai",
+    id: 90,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-morbi", label: "Morbi", id: 91 },
-  { href: "airless-painting-machine-manufacturer-in-ankleshwar", label: "Ankleshwar", id: 92 },
-  { href: "airless-painting-machine-manufacturer-in-sanand", label: "Sanand", id: 93 },
-  { href: "airless-painting-machine-manufacturer-in-halol", label: "Halol", id: 94 },
-  { href: "airless-painting-machine-manufacturer-in-jhagadia", label: "Jhagadia", id: 95 },
-  { href: "airless-painting-machine-manufacturer-in-mundra", label: "Mundra", id: 96 },
-  { href: "airless-painting-machine-manufacturer-in-dholera", label: "Dholera", id: 97 },
+  {
+    href: "airless-painting-machine-manufacturer-in-morbi",
+    label: "Morbi",
+    id: 91,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-ankleshwar",
+    label: "Ankleshwar",
+    id: 92,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-sanand",
+    label: "Sanand",
+    id: 93,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-halol",
+    label: "Halol",
+    id: 94,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-jhagadia",
+    label: "Jhagadia",
+    id: 95,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-mundra",
+    label: "Mundra",
+    id: 96,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-dholera",
+    label: "Dholera",
+    id: 97,
+  },
 
-  { href: "airless-painting-machine-manufacturer-in-sriperumbudur", label: "Sriperumbudur", id: 98 },
-  { href: "airless-painting-machine-manufacturer-in-oragadam", label: "Oragadam", id: 99 },
-  { href: "airless-painting-machine-manufacturer-in-chakan", label: "Chakan", id: 100 },
+  {
+    href: "airless-painting-machine-manufacturer-in-sriperumbudur",
+    label: "Sriperumbudur",
+    id: 98,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-oragadam",
+    label: "Oragadam",
+    id: 99,
+  },
+  {
+    href: "airless-painting-machine-manufacturer-in-chakan",
+    label: "Chakan",
+    id: 100,
+  },
 ];

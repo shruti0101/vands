@@ -114,8 +114,8 @@ Contact: ${phone}`;
             <MapPin className="mx-auto text-[#C8102E] mb-3" size={32} />
             <h3 className="font-semibold text-lg mb-2">Address</h3>
             <p className="text-sm text-gray-600">
-               First Floor, C-13, Mukhram Garden, Tilak Nagar <br />
-          New Delhi - 110018, Delhi, India
+               KH No - 82/11/1 First Floor Near Mahindra Service Center Firni Road , Mundka  <br />
+              New Delhi - 110041 
             </p>
           </div>
 
