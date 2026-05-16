@@ -7,6 +7,7 @@ export const categories = [
       "Industrial Airless Painting Machine Manufacturer | Vands Engineering",
     metaDescription:
       "Vands Engineering Solutions offers industrial-grade airless painting machines with advanced technology, durability, and cost-effective wholesale solutions.",
+    banner:"/banner/Airless-Painting-Machine.webp",
 
     products: [
       // product 1 E junior 395
@@ -670,6 +671,7 @@ export const categories = [
   {
     id: "airless-wall-putty-spray-machines",
     name: "Airless Wall Putty Spray Machines",
+    banner:"/banner/Airless-Wall-Putty-Spray-Machines.webp",
     metaTitle:
       "Airless Wall Putty Spray Machines Manufacturer & Supplier in India",
     metaDescription:
@@ -1233,6 +1235,7 @@ export const categories = [
   {
     id: "pneumatic-airless-paint-machines",
     name: "Pneumatic Airless Paint Machines",
+    banner:"/banner/Airless-Painting-Machine.webp",
     metaTitle: "Pneumatic Machines Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable Pneumatic Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
@@ -1324,6 +1327,7 @@ export const categories = [
   {
     id: "kerb-painting-machines",
     name: "Kerb Painting Machines",
+    banner:"/banner/Kerb-Painting-Machines.webp",
     metaTitle: "Kerb Painting Machines Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable Kerb Painting Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
@@ -1405,6 +1409,7 @@ export const categories = [
   {
     id: "polyurethane-spray-machines",
     name: "Polyurethane Spray Machines",
+    banner:"/banner/Polyurethane-Spray-Machines.webp",
     metaTitle: "Polyurethane Machines Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable Polyurethane Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
@@ -1487,6 +1492,7 @@ export const categories = [
   {
     id: "spare-parts-airless-painting-machines",
     name: "Spare parts of Airless Painting Machines",
+    banner:"/banner/Spare-parts-of-Airless-Painting-Machines.webp",
     metaTitle:
       "Spare parts of Airless Painting Machines Manufacturer & Supplier in India",
     metaDescription:
@@ -2135,6 +2141,7 @@ export const categories = [
   {
     id: "blasting-machine",
     name: "Blasting Machine",
+    banner:"/banner/Blasting-Machine.webp",
     metaTitle: "Blasting Machine Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable blasting machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
@@ -2436,6 +2443,7 @@ export const categories = [
   {
     id: "other-products",
     name: "Other Products",
+    banner:"/banner/Other-Products.webp",
     metaTitle: "Industrial Equipment & Tools | Vands Engineering Solutions",
     metaDescription:
       "Explore a wide range of industrial equipment and tools by Vands Engineering Solutions, including high-quality products designed for performance and durability.",

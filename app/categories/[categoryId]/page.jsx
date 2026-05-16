@@ -34,8 +34,12 @@ export default function CategoryPage({ params }) {
     <>
       {/* Hero Section */}
       <section
-        style={{ backgroundImage: "url('/bg.webp')" }}
-        className="w-full bg-cover bg-center h-[50vh] md:h-[90vh] relative md:mt-10 lg:mt-32"
+        style={{
+          backgroundImage: `url(${category?.banner})`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="w-full bg-contain   md:bg-cover bg-center h-[38vh] md:h-[95vh] relative md:mt-9 lg:mt-32"
       >
         <div className="px-5 absolute inset-0 text-center flex items-center justify-center ">
           <h2 className=" text-cyan-600 bg-white p-2 text-2xl md:text-6xl font-bold z-10">
@@ -44,10 +48,8 @@ export default function CategoryPage({ params }) {
         </div>
       </section>
 
-    
-
       {/* Products Grid */}
-      <div className="p-10 max-w-7xl mx-auto mt-5">
+      <div className="px-10 md:p-10 max-w-7xl mx-auto md:mt-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {category.products.map((product) => (
             <Link
@@ -65,7 +67,9 @@ export default function CategoryPage({ params }) {
                   unoptimized
                 />
               </div>
-              <h2 className="mt-3 font-semibold text-center mt-2">{product.name}</h2>
+              <h2 className="mt-3 font-semibold text-center mt-2">
+                {product.name}
+              </h2>
             </Link>
           ))}
         </div>
