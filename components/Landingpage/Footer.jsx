@@ -12,6 +12,8 @@ import { createPortal } from "react-dom";
 import Link from "next/link";
 
 const Footer = () => {
+    const date = new Date();
+
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
@@ -273,18 +275,17 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className="border-t border-white/10 text-gray-400 text-sm py-4 px-6 flex flex-col md:flex-row justify-between items-center">
-        <p>© 2026 Vands Engineering Solutions. All Rights Reserved.</p>
+        <p>© {date.getFullYear()} Vands Engineering Solutions. All Rights Reserved.</p>
 
         <p className="mt-2 md:mt-0">
-          Website Designed By Promozione Branding Pvt. Ltd{" "}
-          <a
-            href="https://promozionebranding.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-red-400 font-medium"
-          >
-            Website Designing Company.
-          </a>
+          Website Designed By Inquiry Bazaar Pvt. Ltd.  {" "}
+        <a
+          target="_blank"
+          href="https://inquirybazaar.com/"
+          className="text-[#FAAC18] hover:underline"
+        >
+           B2B Marketplace
+        </a>
         </p>
       </div>
     </footer>
