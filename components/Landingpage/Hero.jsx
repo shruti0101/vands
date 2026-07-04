@@ -1,91 +1,96 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+
+import { memo, useEffect, useState } from "react";
 import Image from "next/image";
-// import Heroform from "@/components/Landingpage/Heroform";
 
-//  Separate images
-const desktopImages = ["/banner1.webp","/Vands banner (8).webp","banner3.jpeg"];
-const mobileImages = ["/mob1.webp","/Vans Enginerring bannert.webp","/mob3.webp"];
+const desktopImages = [
+  "/banner1.webp",
+  "/banner2.webp",
 
-const Hero = () => {
+];
+
+const mobileImages = [
+  "/mob1.webp",
+  "/mob2.webp",
+
+];
+
+function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [direction, setDirection] = useState(1);
+  const [isDesktop, setIsDesktop] = useState(true);
 
-  // Auto-slide every 5s
+  // Detect screen size only once + on resize
   useEffect(() => {
-    const interval = setInterval(() => {
-      slideNext();
-    }, 5000);
-    return () => clearInterval(interval);
+    const checkScreen = () => {
+      setIsDesktop(window.innerWidth >= 768);
+    };
+
+    checkScreen();
+
+    window.addEventListener("resize", checkScreen);
+    return () => window.removeEventListener("resize", checkScreen);
   }, []);
 
-  const slideNext = () => {
-    setDirection(1);
-    setCurrentIndex((prev) => (prev + 1) % desktopImages.length);
-  };
+  // Auto slider
+  useEffect(() => {
+    const images = isDesktop ? desktopImages : mobileImages;
 
-  const slidePrev = () => {
-    setDirection(-1);
-    setCurrentIndex((prev) => (prev - 1 + desktopImages.length) % desktopImages.length);
-  };
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % images.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [isDesktop]);
+
+  // Preload next image
+  useEffect(() => {
+    const images = isDesktop ? desktopImages : mobileImages;
+
+    const next = (currentIndex + 1) % images.length;
+
+    const img = new window.Image();
+    img.src = images[next];
+  }, [currentIndex, isDesktop]);
+
+  const images = isDesktop ? desktopImages : mobileImages;
 
   return (
-    <>
-      {/* ✅ Desktop Hero */}
-      <section className="relative mt-18 hidden md:flex  w-full md:h-[70vh] xl:h-[100vh] overflow-hidden">
-        <AnimatePresence initial={false} custom={direction}>
-          <motion.div
-            key={`desktop-${currentIndex}`}
-            className="absolute inset-0 w-full h-full"
-            custom={direction}
-            initial={{ x: direction > 0 ? "100%" : "-100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: direction > 0 ? "-100%" : "100%" }}
-            transition={{ duration: 1, ease: "easeInOut" }}
-          >
-            <Image
-              src={desktopImages[currentIndex]}
-              alt={`Desktop banner ${currentIndex + 1}`}
-              width={1500}
-              height={900}
-
-              priority
-           
-              className="max-w-full h-auto object-cover"
-            />
-          </motion.div>
-        </AnimatePresence>
-
-       
-      </section>
-
-      {/* ✅ Mobile Hero */}
-      <section className="relative mt-10 block md:hidden w-full  h-[55vh]  overflow-hidden">
-        <AnimatePresence initial={false} custom={direction}>
-          <motion.div
-            key={`mobile-${currentIndex}`}
-            className="absolute inset-0 w-full h-full"
-            custom={direction}
-            initial={{ x: direction > 0 ? "100%" : "-100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: direction > 0 ? "-100%" : "100%" }}
-            transition={{ duration: 1, ease: "easeInOut" }}
-          >
-            <Image
-              src={mobileImages[currentIndex]}
-              alt={`Mobile banner ${currentIndex + 1}`}
-              width={600}
-              height={1200}
-              priority
-              // sizes="100vw"
-              className="object-contain "
-            />
-          </motion.div>
-        </AnimatePresence>
-      </section>
-    </>
+    <section
+      className={`relative w-full overflow-hidden ${
+        isDesktop
+          ? "hidden md:block mt-18 h-[70vh] xl:h-screen"
+          : "block md:hidden mt-10 h-[55vh]"
+      }`}
+    >
+      {images.map((image, index) => (
+        <div
+          key={image}
+          className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${
+            index === currentIndex
+              ? "opacity-100 z-10"
+              : "opacity-0 z-0"
+          }`}
+        >
+          <Image
+            src={image}
+            alt={`Banner ${index + 1}`}
+            fill
+            priority={index === 0}
+            fetchPriority={index === 0 ? "high" : "auto"}
+            loading={index === 0 ? "eager" : "lazy"}
+            decoding="async"
+            quality={65}
+            sizes="100vw"
+            className={
+              isDesktop
+                ? "object-cover select-none"
+                : "object-contain select-none"
+            }
+          />
+        </div>
+      ))}
+    </section>
   );
-};
+}
 
-export default Hero;
+export default memo(Hero);

@@ -105,7 +105,7 @@ ${message}`;
         {/* LEFT IMAGE */}
         <div className="hidden md:block">
           <Image
-            src="/cat/2.png"
+            src="/cat/2.webp"
             alt="machine"
             width={1000}
             height={900}

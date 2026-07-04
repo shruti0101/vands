@@ -160,18 +160,18 @@ export default function Location() {
   };
 
   const products = [
-    { name: "Airless Paint Spray Machine", img: "/cat/4.png" },
-    { name: "Airless Spray Gun Machine", img: "/cat/1.png" },
-    { name: "Wall Putty Spray Machine", img: "/cat/2.png" },
-    { name: "Airless Texture Paint Sprayer", img: "/cat/3.png" },
-    { name: "Airless Texture Paint Sprayer", img: "/cat/5.png" },
-    { name: "Airless Texture Paint Sprayer", img: "/cat/6.png" },
-    { name: "Airless Paint Spray Machine", img: "/cat/4.png" },
-    { name: "Airless Spray Gun Machine", img: "/cat/1.png" },
-    { name: "Wall Putty Spray Machine", img: "/cat/2.png" },
-    { name: "Airless Texture Paint Sprayer", img: "/cat/3.png" },
-    { name: "Airless Texture Paint Sprayer", img: "/cat/5.png" },
-    { name: "Airless Texture Paint Sprayer", img: "/cat/6.png" },
+    { name: "Airless Paint Spray Machine", img: "/cat/4.webp" },
+    { name: "Airless Spray Gun Machine", img: "/cat/1.webp" },
+    { name: "Wall Putty Spray Machine", img: "/cat/2.webp" },
+    { name: "Airless Texture Paint Sprayer", img: "/cat/3.webp" },
+    { name: "Airless Texture Paint Sprayer", img: "/cat/5.webp" },
+    { name: "Airless Texture Paint Sprayer", img: "/cat/6.webp" },
+    { name: "Airless Paint Spray Machine", img: "/cat/4.webp" },
+    { name: "Airless Spray Gun Machine", img: "/cat/1.webp" },
+    { name: "Wall Putty Spray Machine", img: "/cat/2.webp" },
+    { name: "Airless Texture Paint Sprayer", img: "/cat/3.webp" },
+    { name: "Airless Texture Paint Sprayer", img: "/cat/5.webp" },
+    { name: "Airless Texture Paint Sprayer", img: "/cat/6.webp" },
   ];
 
   return (<>
