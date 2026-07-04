@@ -32,7 +32,7 @@ const Productcategory = () => {
       products: 21,
       img: "/cat/airlessspray-removebg-preview.webp",
       hoverImg: "/bg remove.webp",
-      link: "/categories/pneumatic-machines",
+      link: "/categories/pneumatic-airless-paint-machines",
     },
     {
       name: "Kerb Painting Machine",
@@ -46,7 +46,7 @@ const Productcategory = () => {
       products: 26,
       img: "/cat/airlesspaintspray-removebg-preview.webp",
       hoverImg: "/1.jpeg",
-      link: "/categories/polyurethane-machines",
+      link: "/categories/polyurethane-spray-machines",
     },
     {
       name: "Airless Painting machine spares parts",
