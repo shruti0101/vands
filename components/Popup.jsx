@@ -14,7 +14,40 @@ export default function ContactForm() {
   const [product, setProduct] = useState("");
   const [message, setMessage] = useState("");
 
+useEffect(() => {
+  // Don't show again during this browser session
+  if (sessionStorage.getItem("popupShown")) return;
 
+  const handleScroll = () => {
+    const scrollableHeight =
+      document.documentElement.scrollHeight - window.innerHeight;
+
+    // If page isn't scrollable enough
+    if (scrollableHeight <= 0) return;
+
+    const scrolled = window.scrollY;
+
+    // Show popup after 30% of total scrollable page
+    if (scrolled >= scrollableHeight * 0.3) {
+      setIsOpen(true);
+
+      sessionStorage.setItem("popupShown", "true");
+
+      window.removeEventListener("scroll", handleScroll);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll, {
+    passive: true,
+  });
+
+  // Check once in case the page is already scrolled
+  handleScroll();
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
 
   if (!isOpen) return null;
 

@@ -9,56 +9,55 @@ export default function Enquiry({ isOpen, onClose }) {
   const [submitted, setSubmitted] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const [loading, setLoading] = useState(false);
+const [message, setMessage] = useState("");
 
   if (!isOpen) return null;
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const form = e.target;
+const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    const name = form.name.value;
-    const phone = form.phone.value;
-    const email = form.email.value;
-    const product = form.products.value;
-    const message = form.message.value;
+  const formElement = e.currentTarget;
 
-    setLoading(true);
-    setSuccessMessage("Sending...");
-
-    try {
-      const { data } = await axios.post(
-        "https://brandbnalo.com/api/form/add",
-        {
-          platform: "vands engineering inquiry Form",
-          platformEmail: "vandsengg@gmail.com",
-          name,
-          phone,
-          email,
-          place: "N/A",
-          product,
-          message,
-        }
-      );
-
-      if (data?.success) {
-        setSubmitted(true);
-        setSuccessMessage("✅ Submitted successfully!");
-
-        form.reset();
-
-        setTimeout(() => {
-          setSubmitted(false);
-          onClose(); // ✅ CLOSE FROM PARENT
-        }, 3000);
-      } else {
-        setSuccessMessage("❌ Failed to send.");
-      }
-    } catch (error) {
-      setSuccessMessage("❌ Server error.");
-    } finally {
-      setLoading(false);
-    }
+  const payload = {
+    platform: "Vands Engineering Inquiry Form",
+    platformEmail: "vandsengg@gmail.com",
+    name: formElement.name.value.trim(),
+    phone: formElement.phone.value.trim(),
+    email: formElement.email.value.trim(),
+    place: "N/A",
+    product: formElement.products.value,
+    message: formElement.message.value.trim(),
   };
+
+  try {
+    setLoading(true);
+    setMessage("");
+
+    const { data } = await axios.post(
+      "https://brandbnalo.com/api/form/add",
+      payload
+    );
+
+    if (data?.success) {
+      setMessage("✅ Thank you! Your enquiry has been submitted successfully.");
+
+      formElement.reset();
+
+      setTimeout(() => {
+        setMessage("");
+        onClose();
+      }, 2500);
+    } else {
+      setMessage("❌ Failed to submit enquiry. Please try again.");
+    }
+  } catch (error) {
+    console.error(error);
+    setMessage("❌ Something went wrong. Please try again.");
+  } finally {
+    setLoading(false);
+  }
+};
+
 
   return (
     <div
@@ -112,6 +111,8 @@ export default function Enquiry({ isOpen, onClose }) {
             <input
               type="tel"
               name="phone"
+              maxLength={10}
+              minLength={10}
               required
               placeholder="Phone Number"
               className="w-full p-3 border-2 border-black rounded-md"
