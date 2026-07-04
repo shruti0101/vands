@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Eye, X } from "lucide-react";
@@ -11,77 +11,83 @@ import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const Productcategory = () => {
-  const categories = [
-    {
-      name: "Airless Painting Machine",
-      products: 30,
-      img: "/cat/airlesspainting.webp",
-      hoverImg: "/cat/6.webp",
-      link: "/categories/airless-painting-machine",
-    },
-    {
-      name: "Airless Wall Putty Spray Machines",
-      products: 24,
-      img: "/cat/wallputty-removebg-preview.webp",
-      hoverImg: "/cat/1.webp",
-      link: "/categories/airless-wall-putty-spray-machines",
-    },
-    {
-      name: "Pneumatic Machines",
-      products: 21,
-      img: "/cat/airlessspray-removebg-preview.webp",
-      hoverImg: "/bg remove.webp",
-      link: "/categories/pneumatic-airless-paint-machines",
-    },
-    {
-      name: "Kerb Painting Machine",
-      products: 37,
-      img: "/cat/kerb-removebg-preview.webp",
-      hoverImg: "/2.jpeg",
-      link: "/categories/kerb-painting-machines",
-    },
-    {
-      name: "Polyurethane Machines",
-      products: 26,
-      img: "/cat/airlesspaintspray-removebg-preview.webp",
-      hoverImg: "/1.jpeg",
-      link: "/categories/polyurethane-spray-machines",
-    },
-    {
-      name: "Airless Painting machine spares parts",
-      products: 17,
-      img: "/cat/wallpainting-removebg-preview.webp",
-      hoverImg: "/accesseres/PAINT HOSE.webp",
-      link: "/categories/spare-parts-airless-painting-machines",
-    },
-  ];
+const categories = [
+  {
+    id: 1,
+    name: "Airless Painting Machine",
+    products: 30,
+    img: "/cat/airlesspainting.webp",
+    hoverImg: "/cat/6.webp",
+    link: "/categories/airless-painting-machine",
+  },
+  {
+    id: 2,
+    name: "Airless Wall Putty Spray Machines",
+    products: 24,
+    img: "/cat/wallputty-removebg-preview.webp",
+    hoverImg: "/cat/1.webp",
+    link: "/categories/airless-wall-putty-spray-machines",
+  },
+  {
+    id: 3,
+    name: "Pneumatic Machines",
+    products: 21,
+    img: "/cat/airlessspray-removebg-preview.webp",
+    hoverImg: "/bg remove.webp",
+    link: "/categories/pneumatic-airless-paint-machines",
+  },
+  {
+    id: 4,
+    name: "Kerb Painting Machine",
+    products: 37,
+    img: "/cat/kerb-removebg-preview.webp",
+    hoverImg: "/2.jpeg",
+    link: "/categories/kerb-painting-machines",
+  },
+  {
+    id: 5,
+    name: "Polyurethane Machines",
+    products: 26,
+    img: "/cat/airlesspaintspray-removebg-preview.webp",
+    hoverImg: "/1.jpeg",
+    link: "/categories/polyurethane-spray-machines",
+  },
+  {
+    id: 6,
+    name: "Airless Painting machine spares parts",
+    products: 17,
+    img: "/cat/wallpainting-removebg-preview.webp",
+    hoverImg: "/accesseres/PAINT HOSE.webp",
+    link: "/categories/spare-parts-airless-painting-machines",
+  },
+];
 
-  const [activeIndex, setActiveIndex] = useState(null);
+const Productcategory = () => {
   const [modalImage, setModalImage] = useState(null);
 
   return (
     <>
       <section className="bg-[#FFFAF1]">
-        <div className="w-full mx-auto px-4 sm:px-6 md:px-10 lg:px-20 py-10 md:py-16">
-
+        <div className="mx-auto w-full px-4 sm:px-6 md:px-10 lg:px-20 py-10 md:py-16">
           {/* Heading */}
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-10 md:mb-14 gap-4 md:gap-6">
+          <div className="mb-10 flex flex-col gap-4 md:mb-14 md:flex-row md:items-center md:justify-between">
             <div>
-              <h2 className="text-2xl sm:text-3xl md:text-5xl max-w-4xl font-semibold tracking-wide">
-                <span className="bg-red-600 bg-clip-text text-transparent leading-snug">
+              <h2 className="max-w-4xl text-2xl font-semibold tracking-wide sm:text-3xl md:text-5xl">
+                <span className="bg-red-600 bg-clip-text leading-snug text-transparent">
                   High-Performance Airless Painting Machines
                 </span>
               </h2>
 
-              <p className="text-black mt-3 max-w-3xl text-sm sm:text-base md:text-xl leading-relaxed">
-                At Vands Engineering Solutions, we offer a wide range of advanced Airless Painting Machines designed to deliver superior performance.
+              <p className="mt-3 max-w-3xl text-sm leading-relaxed text-black sm:text-base md:text-xl">
+                At Vands Engineering Solutions, we offer a wide range of
+                advanced Airless Painting Machines designed to deliver superior
+                performance.
               </p>
             </div>
 
             <Link
               href="/categories/airless-painting-machine"
-              className="bg-red-600 hover:bg-red-700 text-white px-5 py-2.5 md:px-6 md:py-3 rounded-lg font-semibold shadow-md transition text-sm md:text-base w-fit"
+              className="w-fit rounded-lg bg-red-600 px-5 py-2.5 text-sm font-semibold text-white shadow-md transition hover:bg-red-700 md:px-6 md:py-3 md:text-base"
             >
               Explore All Products
             </Link>
@@ -90,56 +96,76 @@ const Productcategory = () => {
           {/* Slider */}
           <Swiper
             modules={[Navigation, Autoplay]}
-            spaceBetween={16}
-            slidesPerView={1}
-            loop
             navigation
-            autoplay={{ delay: 2500, disableOnInteraction: false }}
+            spaceBetween={20}
+            slidesPerView={1}
+            loop={false}
+            preloadImages={false}
+            watchSlidesProgress
+            autoplay={{
+              delay: 5000,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            }}
             breakpoints={{
-              480: { slidesPerView: 1 },
-              640: { slidesPerView: 2 },
-              768: { slidesPerView: 3 },
-              1024: { slidesPerView: 3 },
+              480: {
+                slidesPerView: 1,
+              },
+              640: {
+                slidesPerView: 2,
+              },
+              768: {
+                slidesPerView: 3,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
             }}
           >
             {categories.map((cat, i) => (
-              <SwiperSlide key={i}>
+              <SwiperSlide key={cat.id}>
                 <Link
                   href={cat.link}
-                  onClick={() => setActiveIndex(i)}
-                  className="group relative rounded-2xl bg-white border border-red-500 shadow-md hover:shadow-xl transition p-3 md:p-4 flex flex-col items-center text-center overflow-hidden"
+                  className="group flex h-full flex-col overflow-hidden rounded-2xl border border-red-500 bg-white p-3 text-center shadow-md transition hover:shadow-xl md:p-4"
                 >
-                  {/* IMAGE */}
-                  <div className="relative w-full h-48 sm:h-56 md:h-64 lg:h-70 flex items-center justify-center overflow-hidden rounded-xl">
+                  <div className="relative flex h-48 w-full items-center justify-center overflow-hidden rounded-xl sm:h-56 md:h-64 lg:h-72">
                     <Image
                       src={cat.hoverImg}
                       alt={cat.name}
                       fill
-                      className={`object-contain absolute top-0 left-0 transition duration-500}`}
+                      priority={i === 0}
+                      loading={i === 0 ? "eager" : "lazy"}
+                      fetchPriority={i === 0 ? "high" : "auto"}
+                      decoding="async"
+                      quality={65}
+                      sizes="(max-width:640px) 100vw,
+                             (max-width:768px) 50vw,
+                             (max-width:1024px) 33vw,
+                             33vw"
+                      className="object-contain transition-transform duration-500 group-hover:scale-105"
                     />
 
-                    <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 transition group-hover:opacity-100">
                       <button
                         onClick={(e) => {
                           e.preventDefault();
                           e.stopPropagation();
-                          setModalImage(cat.hoverImg || cat.img);
+                          setModalImage(cat.hoverImg);
                         }}
-                        className="bg-red-500 p-2 md:p-3 rounded-full shadow-lg hover:scale-110 transition"
+                        className="rounded-full bg-red-500 p-3 shadow-lg transition hover:scale-110"
                       >
-                        <Eye className="w-4 h-4 md:w-5 md:h-5 text-white" />
+                        <Eye className="h-5 w-5 text-white" />
                       </button>
                     </div>
                   </div>
 
-                  {/* TEXT */}
-                  <div className="mt-3">
-                    <p className="font-semibold text-red-500 text-base md:text-xl">
+                  <div className="mt-4">
+                    <h3 className="text-base font-semibold text-red-500 md:text-xl">
                       {cat.name}
-                    </p>
+                    </h3>
                   </div>
 
-                  <div className="w-0 group-hover:w-full h-[2px] bg-[#FAAC18] mt-2 transition-all"></div>
+                  <div className="mt-3 h-[2px] w-0 bg-[#FAAC18] transition-all duration-500 group-hover:w-full" />
                 </Link>
               </SwiperSlide>
             ))}
@@ -147,25 +173,26 @@ const Productcategory = () => {
         </div>
       </section>
 
-      {/* MODAL */}
       {modalImage && (
         <div
           onClick={() => setModalImage(null)}
-          className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
         >
-          <button className="absolute top-4 right-4 md:top-6 md:right-6 text-white">
-            <X size={24} />
+          <button className="absolute right-5 top-5 text-white">
+            <X size={28} />
           </button>
 
           <div
             onClick={(e) => e.stopPropagation()}
-            className="relative w-full max-w-3xl h-[60vh] sm:h-[70vh] md:h-[80vh]"
+            className="relative h-[70vh] w-full max-w-4xl"
           >
             <Image
               src={modalImage}
               alt="Preview"
               fill
-              className="object-contain rounded-lg"
+              quality={75}
+              sizes="100vw"
+              className="object-contain"
             />
           </div>
         </div>
@@ -174,4 +201,4 @@ const Productcategory = () => {
   );
 };
 
-export default Productcategory;
+export default memo(Productcategory);
