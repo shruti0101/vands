@@ -47,12 +47,11 @@ const Hero = () => {
             <Image
               src={desktopImages[currentIndex]}
               alt={`Desktop banner ${currentIndex + 1}`}
-              width={1500}
-              height={900}
+        fill
 
               priority
            
-              className="max-w-full h-auto object-cover"
+              className="max-w-full h-auto "
             />
           </motion.div>
         </AnimatePresence>
