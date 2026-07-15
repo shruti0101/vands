@@ -1,90 +1,71 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+
+import { memo, useEffect, useState } from "react";
 import Image from "next/image";
-// import Heroform from "@/components/Landingpage/Heroform";
 
-//  Separate images
-const desktopImages = ["/banner1.webp","/Vands banner (8).webp","banner3.jpeg"];
-const mobileImages = ["/mob1.webp","/Vans Enginerring bannert.webp","/mob3.webp"];
+const desktopImages = [
+  "/banner1.webp",
+  "/banner2.webp",
+];
 
-const Hero = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [direction, setDirection] = useState(1);
+const mobileImages = [
+  "/mob1.webp",
+  "/mob2.webp",
+];
 
-  // Auto-slide every 5s
+function Hero() {
+  const [current, setCurrent] = useState(0);
+
   useEffect(() => {
-    const interval = setInterval(() => {
-      slideNext();
+    const timer = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % desktopImages.length);
     }, 5000);
-    return () => clearInterval(interval);
+
+    return () => clearInterval(timer);
   }, []);
-
-  const slideNext = () => {
-    setDirection(1);
-    setCurrentIndex((prev) => (prev + 1) % desktopImages.length);
-  };
-
-  const slidePrev = () => {
-    setDirection(-1);
-    setCurrentIndex((prev) => (prev - 1 + desktopImages.length) % desktopImages.length);
-  };
 
   return (
     <>
-      {/* ✅ Desktop Hero */}
-      <section className="relative mt-18 hidden md:flex  w-full md:h-[70vh] xl:h-[100vh] overflow-hidden">
-        <AnimatePresence initial={false} custom={direction}>
-          <motion.div
-            key={`desktop-${currentIndex}`}
-            className="absolute inset-0 w-full h-full"
-            custom={direction}
-            initial={{ x: direction > 0 ? "100%" : "-100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: direction > 0 ? "-100%" : "100%" }}
-            transition={{ duration: 1, ease: "easeInOut" }}
-          >
-            <Image
-              src={desktopImages[currentIndex]}
-              alt={`Desktop banner ${currentIndex + 1}`}
-        fill
-
-              priority
-           
-              className="max-w-full h-auto "
-            />
-          </motion.div>
-        </AnimatePresence>
-
-       
+      {/* Desktop */}
+      <section className="relative hidden md:block mt-18 h-[70vh] xl:h-screen overflow-hidden">
+        {desktopImages.map((image, index) => (
+          <Image
+            key={image}
+            src={image}
+            alt={`Banner ${index + 1}`}
+            fill
+            priority={index === 0}
+            fetchPriority={index === 0 ? "high" : "auto"}
+            loading={index === 0 ? "eager" : "lazy"}
+            quality={55}
+            sizes="100vw"
+            className={`absolute inset-0 object-cover transition-opacity duration-700 ${
+              current === index ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
       </section>
 
-      {/* ✅ Mobile Hero */}
-      <section className="relative mt-10 block md:hidden w-full  h-[55vh]  overflow-hidden">
-        <AnimatePresence initial={false} custom={direction}>
-          <motion.div
-            key={`mobile-${currentIndex}`}
-            className="absolute inset-0 w-full h-full"
-            custom={direction}
-            initial={{ x: direction > 0 ? "100%" : "-100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: direction > 0 ? "-100%" : "100%" }}
-            transition={{ duration: 1, ease: "easeInOut" }}
-          >
-            <Image
-              src={mobileImages[currentIndex]}
-              alt={`Mobile banner ${currentIndex + 1}`}
-              width={600}
-              height={1200}
-              priority
-              // sizes="100vw"
-              className="object-contain "
-            />
-          </motion.div>
-        </AnimatePresence>
+      {/* Mobile */}
+      <section className="relative md:hidden mt-10 h-[55vh] overflow-hidden">
+        {mobileImages.map((image, index) => (
+          <Image
+            key={image}
+            src={image}
+            alt={`Banner ${index + 1}`}
+            fill
+            priority={index === 0}
+            loading={index === 0 ? "eager" : "lazy"}
+            quality={50}
+            sizes="100vw"
+            className={`absolute inset-0 object-contain transition-opacity duration-700 ${
+              current === index ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
       </section>
     </>
   );
-};
+}
 
-export default Hero;
+export default memo(Hero);

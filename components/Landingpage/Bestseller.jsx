@@ -11,7 +11,7 @@ const products = [
   {
     name: "Galaxy Plus Sprayer",
     price: "₹45,000",
-    image: "/cat/1.png",
+    image: "/cat/1.webp",
     tagline: "High Performance for Large Scale Projects",
     description:
       "Designed for contractors and professionals, the Galaxy Plus delivers powerful output with consistent spray quality for large surfaces and infrastructure work.",
@@ -26,7 +26,7 @@ const products = [
   {
     name: "Heavy Duty Petrol Sprayer",
     price: "₹75,000",
-    image: "/cat/2.png",
+    image: "/cat/2.webp",
     tagline: "Maximum Power for Industrial Applications",
     description:
       "Built for tough environments, this petrol-powered sprayer ensures uninterrupted performance, making it ideal for large industrial and infrastructure projects.",
@@ -41,7 +41,7 @@ const products = [
   {
     name: "Galaxy Compact Sprayer",
     price: "₹38,000",
-    image: "/cat/3.png",
+    image: "/cat/3.webp",
     tagline: "Compact Design with Powerful Output",
     description:
       "A perfect balance of portability and performance, ideal for medium-scale projects requiring precision and efficiency.",
@@ -56,7 +56,7 @@ const products = [
   {
     name: "EcoPro Sprayer",
     price: "₹32,000",
-    image: "/cat/4.png",
+    image: "/cat/4.webp",
     tagline: "Affordable & Efficient Painting Solution",
     description:
       "An economical solution for small to medium applications, offering reliable performance with minimal maintenance.",
@@ -71,7 +71,7 @@ const products = [
   {
     name: "ProFinish Wall Sprayer",
     price: "₹42,000",
-    image: "/cat/5.png",
+    image: "/cat/5.webp",
     tagline: "Perfect for Wall & Interior Coating",
     description:
       "Engineered for precision wall coating and interior finishes, delivering consistent coverage with professional-grade results.",

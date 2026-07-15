@@ -1563,7 +1563,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Spare parts of airless paint machines/Silver plus gun.png",
+            src: "/Spare parts of airless paint machines/Silver plus gun.webp",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -1634,7 +1634,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Spare parts of airless paint machines/Paint hose pipe.png",
+            src: "/Spare parts of airless paint machines/Paint hose pipe.webp",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -1704,7 +1704,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Spare parts of airless paint machines/Tip Guard.png",
+            src: "/Spare parts of airless paint machines/Tip Guard.webp",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -1774,7 +1774,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Spare parts of airless paint machines/Tip.png",
+            src: "/Spare parts of airless paint machines/Tip.webp",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -1845,7 +1845,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Spare parts of airless paint machines/Filters-removebg-preview.png",
+            src: "/Spare parts of airless paint machines/Filters-removebg-preview.webp",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -1919,7 +1919,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Spare parts of airless paint machines/Tip seal.png",
+            src: "/Spare parts of airless paint machines/Tip seal.webp",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -1990,7 +1990,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Spare parts of airless paint machines/Maxcoat Gun.png",
+            src: "/Spare parts of airless paint machines/Maxcoat Gun.webp",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -2060,7 +2060,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Spare parts of airless paint machines/Inlet_pipe-removebg-preview.png",
+            src: "/Spare parts of airless paint machines/Inlet_pipe-removebg-preview.webp",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],
@@ -2129,7 +2129,7 @@ export const categories = [
 
         image: [
           {
-            src: "/Spare parts of airless paint machines/LX 80 GUN.png",
+            src: "/Spare parts of airless paint machines/LX 80 GUN.webp",
             alt: "Pneumatic 70:1 Airless Paint Sprayer",
           },
         ],

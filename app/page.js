@@ -5,7 +5,7 @@ import Categories from "@/components/Landingpage/Categories";
 
 import Bestseller from "@/components/Landingpage/Bestseller";
 import Cta from "@/components/Landingpage/Cta";
-import Whychoose from "@/components/Landingpage/Whychoose";
+// import Whychoose from "@/components/Landingpage/Whychoose";
 import Product from "@/components/Landingpage/Product";
 import Faq from "@/components/Landingpage/Faq";
 import TestimonialSlider from "@/components/Landingpage/Testimonials";
@@ -32,7 +32,7 @@ export default function Home() {
       {/* <Popup></Popup> */}
       <Hero />
       <Categories />
-      <Whychoose />
+      {/* <Whychoose /> */}
 
 
       <About />

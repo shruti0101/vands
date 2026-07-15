@@ -22,7 +22,7 @@ export default function ManufacturerSection() {
           {/* LEFT IMAGE */}
           <div className="relative w-full h-full ">
             <Image
-              src="/cat/5.png" 
+              src="/cat/5.webp" 
               alt="Airless Painting Machine"
               width={2000}
               height={2000}
