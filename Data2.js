@@ -840,9 +840,9 @@ export const categories = [
             id: "vands-915",
             name: "Vands 915",
 
-            metaTitle: "Vands 915",
+            metaTitle: "Vands 915 Rugged Series Airless Paint Machine | Vands Engineering",
 
-            metaDescription: "Vands 915 ",
+            metaDescription: "Explore the Vands 915 Rugged Series Airless Paint Machine—built for powerful, smooth, and efficient painting across industrial and commercial projects",
 
             description: [
               { type: "h2", text: "Overview" },
@@ -916,9 +916,9 @@ export const categories = [
             id: "vands-930",
             name: "Vands 930",
 
-            metaTitle: "Vands 930 ",
+            metaTitle: "Vands 930 Rugged Series Airless Paint Machine | Vands Engineering",
 
-            metaDescription: "Vands 930 ",
+            metaDescription: "Buy the Vands 930 Rugged Series Airless Paint Machine from Vands Engineering. Delivers fast, uniform coverage with superior durability and professional-grade results",
 
             description: [
               { type: "h2", text: "Overview" },
@@ -993,10 +993,10 @@ export const categories = [
   name: "Vands 950",
 
   metaTitle:
-    "Vands 950 Electric Paint Machine | Airless Paint Sprayer",
+    "Vands 950 Rugged Series Airless Paint Machine | Vands Engineering",
 
   metaDescription:
-    "Vands 950 Electric Paint Machine with a 2.0kW brushless motor, 2.5 L/min flow rate, and 3300 PSI pressure. Ideal for fast, smooth, and professional painting.",
+    "Discover the Vands 950 Rugged Series Airless Paint Machine by Vands Engineering. Built for high performance, durability, and efficient painting for commercial and industrial use.",
 
   description: [
     { type: "h2", text: "Overview" },
@@ -1071,10 +1071,10 @@ export const categories = [
   name: "Vands 980",
 
   metaTitle:
-    "Vands 980 Electric Paint Machine | Airless Paint Sprayer",
+    "Vands 980 Rugged Series Airless Paint Machine | Vands Engineering",
 
   metaDescription:
-    "Vands 980 Electric Paint Machine with a 2.0kW brushless motor, 2.5 L/min flow rate, and 3300 PSI pressure. Ideal for fast, smooth, and professional painting.",
+    "Explore the Vands 980 Rugged Series Airless Paint Machine by Vands Engineering. Designed for powerful performance, smooth finishes, and efficient painting in demanding applications.",
 
   description: [
     { type: "h2", text: "Overview" },
@@ -1502,10 +1502,10 @@ export const categories = [
   name: "Almen Strip",
 
   metaTitle:
-    "Almen Strip for Shot Peening | Precision Test Strip",
+    "Almen Strip Manufacturer | Vands Engineering",
 
   metaDescription:
-    "Buy premium Almen Strip for accurate shot peening intensity measurement. Manufactured to industry standards for reliable and consistent quality control.",
+    "Vands Engineering manufactures high-quality Almen Strips for accurate shot peening measurement. Reliable, durable, and suitable for industrial quality inspection.",
 
   description: [
     { type: "h2", text: "Overview" },
@@ -1588,7 +1588,7 @@ export const categories = [
         id: "abrasive ",
         name: "Abrasive ",
         products: [
-          
+
         ],
       },
     ],
