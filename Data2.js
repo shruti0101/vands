@@ -1151,6 +1151,17 @@ export const categories = [
       },
 
       {
+        id: "plural-component-machine",
+        name: "Plural Component Machine",
+        products: []
+      },
+      {
+        id: "internal-pipe-blasting-Coating-equipment",
+        name: "Internal Pipe Blasting/Coating Equipment",
+        products: []
+      },
+
+      {
         id: "spare-parts-of-airless-painting-machine",
         name: "SPARE PARTS OF AIRLESS PAINTING MACHINES",
         products: [
@@ -1715,141 +1726,141 @@ export const categories = [
         ],
       },
 
-      {
-        id: "other-products",
-        name: "Other Products",
-        products: [
-          {
-            id: "plural-component-ratio-2k-airless-spray-painting-machine",
+      // {
+      //   id: "other-products",
+      //   name: "Other Products",
+      //   products: [
+      //     {
+      //       id: "plural-component-ratio-2k-airless-spray-painting-machine",
 
-            name: "Plural Component Ratio 2K Airless Spray Painting Machine",
+      //       name: "Plural Component Ratio 2K Airless Spray Painting Machine",
 
-            metaTitle:
-              "Plural Component Ratio 2K Airless Spray Painting Machine | Vands Engineering",
+      //       metaTitle:
+      //         "Plural Component Ratio 2K Airless Spray Painting Machine | Vands Engineering",
 
-            metaDescription:
-              "Buy Plural Component Ratio 2K Airless Spray Painting Machine for precise two-component mixing and high-performance industrial coating applications. Ideal for epoxy, polyurethane, and protective coatings.",
+      //       metaDescription:
+      //         "Buy Plural Component Ratio 2K Airless Spray Painting Machine for precise two-component mixing and high-performance industrial coating applications. Ideal for epoxy, polyurethane, and protective coatings.",
 
-            description: [
-              { type: "h2", text: "Overview" },
+      //       description: [
+      //         { type: "h2", text: "Overview" },
 
-              {
-                type: "p",
-                text: "Vands Engineering Solution presents the Plural Component Ratio 2K Airless Spray Painting Machine, designed for precise mixing and spraying of two-component reactive coatings.",
-              },
+      //         {
+      //           type: "p",
+      //           text: "Vands Engineering Solution presents the Plural Component Ratio 2K Airless Spray Painting Machine, designed for precise mixing and spraying of two-component reactive coatings.",
+      //         },
 
-              {
-                type: "p",
-                text: "Engineered to simultaneously mix base material and hardener at a fixed ratio, ensuring accurate coating consistency and optimal curing performance.",
-              },
+      //         {
+      //           type: "p",
+      //           text: "Engineered to simultaneously mix base material and hardener at a fixed ratio, ensuring accurate coating consistency and optimal curing performance.",
+      //         },
 
-              {
-                type: "p",
-                text: "Specially developed for high-performance coating applications where materials must be mixed immediately before spraying due to short pot life.",
-              },
+      //         {
+      //           type: "p",
+      //           text: "Specially developed for high-performance coating applications where materials must be mixed immediately before spraying due to short pot life.",
+      //         },
 
-              {
-                type: "p",
-                text: "Designed with advanced airless spraying technology to deliver smooth, uniform, and high-quality coating finishes with minimal material wastage.",
-              },
+      //         {
+      //           type: "p",
+      //           text: "Designed with advanced airless spraying technology to deliver smooth, uniform, and high-quality coating finishes with minimal material wastage.",
+      //         },
 
-              {
-                type: "p",
-                text: "Ideal for industrial sectors such as automotive, aerospace, marine, fabrication, and protective coating industries requiring precision coating solutions.",
-              },
+      //         {
+      //           type: "p",
+      //           text: "Ideal for industrial sectors such as automotive, aerospace, marine, fabrication, and protective coating industries requiring precision coating solutions.",
+      //         },
 
-              { type: "h2", text: "Features & Benefits:" },
+      //         { type: "h2", text: "Features & Benefits:" },
 
-              {
-                type: "ul",
-                items: [
-                  "High-pressure exchange ratio of 43:1 ensures powerful spraying performance and excellent coating atomization",
-                  "Efficient flow rate of 15 Ltrs/min supports continuous operation and faster coverage for large-scale industrial applications",
-                  "Operates with a compressed air pressure range of 3–6 Bar, ensuring stable and reliable spraying performance",
-                  "Equipped with a 3-point static mixer system for accurate and uniform mixing of two reactive coating components",
-                  "Integrated diaphragm-type flushing pump ensures efficient cleaning and prevents material hardening inside the system after operation",
-                ],
-              },
+      //         {
+      //           type: "ul",
+      //           items: [
+      //             "High-pressure exchange ratio of 43:1 ensures powerful spraying performance and excellent coating atomization",
+      //             "Efficient flow rate of 15 Ltrs/min supports continuous operation and faster coverage for large-scale industrial applications",
+      //             "Operates with a compressed air pressure range of 3–6 Bar, ensuring stable and reliable spraying performance",
+      //             "Equipped with a 3-point static mixer system for accurate and uniform mixing of two reactive coating components",
+      //             "Integrated diaphragm-type flushing pump ensures efficient cleaning and prevents material hardening inside the system after operation",
+      //           ],
+      //         },
 
-              { type: "h2", text: "Applications:" },
+      //         { type: "h2", text: "Applications:" },
 
-              {
-                type: "ul",
-                items: [
-                  "Ideal for applying high-performance industrial coatings requiring precise two-component mixing and spraying",
-                  "Widely used in automotive, aerospace, marine, and heavy engineering industries for protective coating applications",
-                  "Suitable for epoxy, polyurethane, anti-corrosion, and chemical-resistant coating systems",
-                  "Perfect for coating pipelines, tanks, steel structures, machinery, and fabricated components",
-                  "Used in industrial environments where fast-curing and high-durability coating systems are required",
-                ],
-              },
+      //         {
+      //           type: "ul",
+      //           items: [
+      //             "Ideal for applying high-performance industrial coatings requiring precise two-component mixing and spraying",
+      //             "Widely used in automotive, aerospace, marine, and heavy engineering industries for protective coating applications",
+      //             "Suitable for epoxy, polyurethane, anti-corrosion, and chemical-resistant coating systems",
+      //             "Perfect for coating pipelines, tanks, steel structures, machinery, and fabricated components",
+      //             "Used in industrial environments where fast-curing and high-durability coating systems are required",
+      //           ],
+      //         },
 
-              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+      //         { type: "h2", text: "Why Choose Vands Engineering Solution:" },
 
-              {
-                type: "ul",
-                items: [
-                  "Recognized for delivering advanced and reliable industrial spraying and coating equipment solutions",
-                  "Strong focus on precision engineering, operational efficiency, and high-performance coating technology",
-                  "Use of premium-grade components to ensure durability, consistent mixing accuracy, and long service life",
-                  "Competitive pricing with excellent value for industrial and professional coating applications",
-                  "Dedicated after-sales support, including installation assistance, technical guidance, servicing, and maintenance solutions",
-                ],
-              },
-            ],
+      //         {
+      //           type: "ul",
+      //           items: [
+      //             "Recognized for delivering advanced and reliable industrial spraying and coating equipment solutions",
+      //             "Strong focus on precision engineering, operational efficiency, and high-performance coating technology",
+      //             "Use of premium-grade components to ensure durability, consistent mixing accuracy, and long service life",
+      //             "Competitive pricing with excellent value for industrial and professional coating applications",
+      //             "Dedicated after-sales support, including installation assistance, technical guidance, servicing, and maintenance solutions",
+      //           ],
+      //         },
+      //       ],
 
-            specs: [
-              {
-                label: "Machine Type",
-                value:
-                  "Plural Component Ratio 2K Airless Spray Painting Machine",
-              },
+      //       specs: [
+      //         {
+      //           label: "Machine Type",
+      //           value:
+      //             "Plural Component Ratio 2K Airless Spray Painting Machine",
+      //         },
 
-              { label: "Pressure Ratio", value: "43:1" },
+      //         { label: "Pressure Ratio", value: "43:1" },
 
-              { label: "Maximum Flow Rate", value: "15 Ltrs/min" },
+      //         { label: "Maximum Flow Rate", value: "15 Ltrs/min" },
 
-              { label: "Operating Air Pressure", value: "3–6 Bar" },
+      //         { label: "Operating Air Pressure", value: "3–6 Bar" },
 
-              { label: "Mixing System", value: "3-Point Static Mixer" },
+      //         { label: "Mixing System", value: "3-Point Static Mixer" },
 
-              { label: "Flushing Pump Type", value: "Diaphragm Type" },
+      //         { label: "Flushing Pump Type", value: "Diaphragm Type" },
 
-              {
-                label: "Application Type",
-                value: "Two-Component Reactive Coating",
-              },
+      //         {
+      //           label: "Application Type",
+      //           value: "Two-Component Reactive Coating",
+      //         },
 
-              {
-                label: "Suitable Coatings",
-                value:
-                  "Epoxy, Polyurethane, Anti-Corrosion & Chemical Resistant Coatings",
-              },
+      //         {
+      //           label: "Suitable Coatings",
+      //           value:
+      //             "Epoxy, Polyurethane, Anti-Corrosion & Chemical Resistant Coatings",
+      //         },
 
-              {
-                label: "Industries",
-                value: "Automotive, Aerospace, Marine, Heavy Engineering",
-              },
-            ],
+      //         {
+      //           label: "Industries",
+      //           value: "Automotive, Aerospace, Marine, Heavy Engineering",
+      //         },
+      //       ],
 
-            ytArray: {
-              title: "E-Junior",
-              link: "https://www.youtube.com/embed/Xmd13D7r_sk",
-            },
+      //       ytArray: {
+      //         title: "E-Junior",
+      //         link: "https://www.youtube.com/embed/Xmd13D7r_sk",
+      //       },
 
-            image: [
-              {
-                src: "/Plural Component Sprayer.webp",
-                alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
-              },
-              {
-                src: "/Plural Component Sprayer2.webp",
-                alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
-              },
-            ],
-          },
-        ],
-      },
+      //       image: [
+      //         {
+      //           src: "/Plural Component Sprayer.webp",
+      //           alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+      //         },
+      //         {
+      //           src: "/Plural Component Sprayer2.webp",
+      //           alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
     ],
   },
 
@@ -1948,6 +1959,11 @@ export const categories = [
           },
         ],
       },
+        {
+        id: "plural-component-machine",
+        name: "Plural Component Machine",
+        products: []
+      }
     ],
   },
 
@@ -2199,9 +2215,14 @@ export const categories = [
       "Vands Engineering Solutions offers reliable shot blasting machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
 
     subcategory: [
+      // {
+      //   id: "machine-photo-and-machine-details",
+      //   name: "Machine Photo and Machine Details",
+      //   products: [],
+      // },
       {
-        id: "machine-photo-and-machine-details",
-        name: "Machine Photo and Machine Details",
+        id: "cabinet-of-shot-blasting",
+        name: "Cabinet of Shot Blasting",
         products: [],
       },
       {
@@ -2856,11 +2877,11 @@ export const categories = [
 },
         ],
       },
-      // {
-      //   id: "trolley-mounted",
-      //   name: "Trolley Mounted",
-      //   products: [],
-      // },
+      {
+        id: "trolley-mounted",
+        name: "Trolley Mounted",
+        products: [],
+      },
     ],
   },
 
@@ -2958,6 +2979,42 @@ export const categories = [
         products: [],
       },
     ],
+  },
+
+  {
+    id: "flame-spray-gun",
+    name: "FLAME SPRAY GUN (METALIZING GUN)",
+    banner: "/banner/Other-Products.webp",
+
+    metaTitle:
+      "Kerb Painting & Road Marking Machines | Vands Engineering Solutions",
+
+    metaDescription:
+      "Explore high-quality kerb painting machines and road marking machines from Vands Engineering Solutions. Designed for precise line marking, durability, and high performance, our machines are ideal for highways, roads, parking lots, airports, and industrial applications.",
+
+    subcategory: [
+{
+        id: "spare-parts",
+        name: "Spare parts ",
+        products: [],
+      },
+    ]
+  },
+
+
+  {
+    id: "cement-motrar-spray-machine-m9",
+    name: "CEMENT MOTRAR SPRAY MACHINE M-9",
+    banner: "/banner/Other-Products.webp",
+
+    metaTitle:
+      "Kerb Painting & Road Marking Machines | Vands Engineering Solutions",
+
+    metaDescription:
+      "Explore high-quality kerb painting machines and road marking machines from Vands Engineering Solutions. Designed for precise line marking, durability, and high performance, our machines are ideal for highways, roads, parking lots, airports, and industrial applications.",
+
+    subcategory: []
+  
   },
 
   //Precision & Finishing Tools
