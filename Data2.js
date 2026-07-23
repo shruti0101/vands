@@ -2766,6 +2766,94 @@ export const categories = [
               },
             ],
           },
+
+          {
+  id: "electric-compressor-10hp",
+  name: "Electric Compressor 10 HP",
+
+  metaTitle:
+    "10 HP Electric Air Compressor | Industrial Air Compressor",
+
+  metaDescription:
+    "Buy 10 HP Electric Air Compressor with 7.5 kW motor, 39 CFM air delivery at 8 Bar, IE3 motor, and IP55 protection. Ideal for industrial compressed air applications.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The 10 HP Electric Air Compressor from Vands Engineering Solution is a high-performance industrial compressor designed to deliver reliable and efficient compressed air for demanding applications. Powered by a 7.5 kW squirrel-cage induction motor, it provides excellent air delivery while maintaining energy efficiency and long service life. Featuring direct drive technology, IP55 protection, and an IE3 high-efficiency motor, this compressor is ideal for manufacturing plants, workshops, automotive facilities, and industrial operations.",
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "Powerful 10 HP (7.5 kW) industrial motor",
+        "Air-cooled system for reliable continuous operation",
+        "High air delivery of 39 CFM at 8 Bar",
+        "Energy-efficient IE3 motor for lower power consumption",
+        "Direct drive mechanism for reduced maintenance",
+        "IP55 protection for harsh industrial environments",
+        "Star-Delta starter for smooth motor operation",
+        "Low oil carryover for clean compressed air output",
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Automotive workshops",
+        "Industrial manufacturing plants",
+        "Painting and spray coating applications",
+        "CNC machines and pneumatic tools",
+        "Fabrication and engineering workshops",
+        "General compressed air systems",
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Reliable industrial air compressor solutions",
+        "Premium-quality components for long service life",
+        "Energy-efficient and low-maintenance design",
+        "Consistent compressed air performance",
+        "Professional technical support and after-sales service",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Model", value: "10 HP" },
+    { label: "Motor Power", value: "7.5 kW" },
+    { label: "Cooling Type", value: "Air Cooled" },
+    { label: "Free Air Delivery (8 Bar)", value: "39 CFM" },
+    { label: "Free Air Delivery (10 Bar)", value: "32 CFM" },
+    { label: "Motor Type", value: "Squirrel-Cage Induction Motor" },
+    { label: "Start Type", value: "Star Delta" },
+    { label: "Voltage / Frequency", value: "3 Phase, 415V ±5%, 50Hz" },
+    { label: "Insulation Class", value: "F-Class" },
+    { label: "Protection Level", value: "IP55" },
+    { label: "Motor Efficiency", value: "IE3 Motor" },
+    { label: "Motor Speed", value: "2800 RPM (2 Pole)" },
+    { label: "Drive Type", value: "Direct Drive" },
+    { label: "Oil Carryover", value: "< 5 PPM" },
+  ],
+
+  ytArray: {
+    title: "10 HP Electric Air Compressor",
+    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+  },
+
+  image: [
+    {
+      src: "/prods/ELECTRIC-COMPRESSOR.webp",
+      alt: "10 HP Electric Air Compressor",
+    },
+  ],
+},
         ],
       },
       // {
