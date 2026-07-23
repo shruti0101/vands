@@ -840,9 +840,11 @@ export const categories = [
             id: "vands-915",
             name: "Vands 915",
 
-            metaTitle: "Vands 915 Rugged Series Airless Paint Machine | Vands Engineering",
+            metaTitle:
+              "Vands 915 Rugged Series Airless Paint Machine | Vands Engineering",
 
-            metaDescription: "Explore the Vands 915 Rugged Series Airless Paint Machine—built for powerful, smooth, and efficient painting across industrial and commercial projects",
+            metaDescription:
+              "Explore the Vands 915 Rugged Series Airless Paint Machine—built for powerful, smooth, and efficient painting across industrial and commercial projects",
 
             description: [
               { type: "h2", text: "Overview" },
@@ -916,9 +918,11 @@ export const categories = [
             id: "vands-930",
             name: "Vands 930",
 
-            metaTitle: "Vands 930 Rugged Series Airless Paint Machine | Vands Engineering",
+            metaTitle:
+              "Vands 930 Rugged Series Airless Paint Machine | Vands Engineering",
 
-            metaDescription: "Buy the Vands 930 Rugged Series Airless Paint Machine from Vands Engineering. Delivers fast, uniform coverage with superior durability and professional-grade results",
+            metaDescription:
+              "Buy the Vands 930 Rugged Series Airless Paint Machine from Vands Engineering. Delivers fast, uniform coverage with superior durability and professional-grade results",
 
             description: [
               { type: "h2", text: "Overview" },
@@ -989,160 +993,160 @@ export const categories = [
           },
 
           {
-  id: "vands-950",
-  name: "Vands 950",
+            id: "vands-950",
+            name: "Vands 950",
 
-  metaTitle:
-    "Vands 950 Rugged Series Airless Paint Machine | Vands Engineering",
+            metaTitle:
+              "Vands 950 Rugged Series Airless Paint Machine | Vands Engineering",
 
-  metaDescription:
-    "Discover the Vands 950 Rugged Series Airless Paint Machine by Vands Engineering. Built for high performance, durability, and efficient painting for commercial and industrial use.",
+            metaDescription:
+              "Discover the Vands 950 Rugged Series Airless Paint Machine by Vands Engineering. Built for high performance, durability, and efficient painting for commercial and industrial use.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Vands 950 Electric Paint Machine is a powerful airless paint sprayer engineered for professional painting applications. Equipped with a high-performance 2.0 kW brushless motor, it delivers a flow rate of 2.5 L/min and a maximum working pressure of 3300 PSI (227 Bar), ensuring fast, smooth, and consistent paint coverage. Its durable construction, lightweight design, and reliable performance make it ideal for contractors, industrial coating, commercial projects, and residential painting.",
-    },
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Vands 950 Electric Paint Machine is a powerful airless paint sprayer engineered for professional painting applications. Equipped with a high-performance 2.0 kW brushless motor, it delivers a flow rate of 2.5 L/min and a maximum working pressure of 3300 PSI (227 Bar), ensuring fast, smooth, and consistent paint coverage. Its durable construction, lightweight design, and reliable performance make it ideal for contractors, industrial coating, commercial projects, and residential painting.",
+              },
 
-    { type: "h2", text: "Features & Benefits:" },
-    {
-      type: "ul",
-      items: [
-        "Powerful 2.0 kW brushless motor for reliable and maintenance-free performance",
-        "High flow rate of 2.5 L/min for faster painting and improved productivity",
-        "Maximum working pressure of 3300 PSI (227 Bar) for superior atomization",
-        "Supports spray tips up to 0.021 inch for versatile coating applications",
-        "Lightweight 15 kg design for easy transportation and handling",
-        "Provides smooth, uniform, and professional-quality finishes with minimal overspray",
-      ],
-    },
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "Powerful 2.0 kW brushless motor for reliable and maintenance-free performance",
+                  "High flow rate of 2.5 L/min for faster painting and improved productivity",
+                  "Maximum working pressure of 3300 PSI (227 Bar) for superior atomization",
+                  "Supports spray tips up to 0.021 inch for versatile coating applications",
+                  "Lightweight 15 kg design for easy transportation and handling",
+                  "Provides smooth, uniform, and professional-quality finishes with minimal overspray",
+                ],
+              },
 
-    { type: "h2", text: "Applications:" },
-    {
-      type: "ul",
-      items: [
-        "Industrial machinery and equipment coating",
-        "Residential and commercial wall painting",
-        "Steel structures, pipelines, and tanks",
-        "Construction and infrastructure projects",
-        "Protective and decorative coating applications",
-      ],
-    },
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Industrial machinery and equipment coating",
+                  "Residential and commercial wall painting",
+                  "Steel structures, pipelines, and tanks",
+                  "Construction and infrastructure projects",
+                  "Protective and decorative coating applications",
+                ],
+              },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-    {
-      type: "ul",
-      items: [
-        "Trusted manufacturer of premium airless paint machines",
-        "Built using high-quality components for long service life",
-        "Reliable performance with advanced brushless motor technology",
-        "Competitive pricing with dependable after-sales support",
-        "Designed to meet professional painting requirements",
-      ],
-    },
-  ],
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted manufacturer of premium airless paint machines",
+                  "Built using high-quality components for long service life",
+                  "Reliable performance with advanced brushless motor technology",
+                  "Competitive pricing with dependable after-sales support",
+                  "Designed to meet professional painting requirements",
+                ],
+              },
+            ],
 
-  specs: [
-    { label: "Model", value: "Vands 950" },
-    { label: "Motor Power", value: "4.2 kW" },
-    { label: "Motor Type", value: "Brushless Motor" },
-    { label: "Flow Rate", value: "6.5 L/min" },
-    { label: "Working Pressure", value: "3800 PSI / 227 Bar" },
-    { label: "Maximum Tip Size", value: "0.041 inch" },
-    { label: "Weight", value: "59 kg" },
-  ],
+            specs: [
+              { label: "Model", value: "Vands 950" },
+              { label: "Motor Power", value: "4.2 kW" },
+              { label: "Motor Type", value: "Brushless Motor" },
+              { label: "Flow Rate", value: "6.5 L/min" },
+              { label: "Working Pressure", value: "3800 PSI / 227 Bar" },
+              { label: "Maximum Tip Size", value: "0.041 inch" },
+              { label: "Weight", value: "59 kg" },
+            ],
 
-  ytArray: {
-    title: "Vands 950 Electric Paint Machine",
-    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
-  },
+            ytArray: {
+              title: "Vands 950 Electric Paint Machine",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
 
-  image: [
-    {
-      src: "/prods/VANDS-950.webp",
-      alt: "Vands 950 Electric Airless Paint Machine",
-    },
-  ],
+            image: [
+              {
+                src: "/prods/VANDS-950.webp",
+                alt: "Vands 950 Electric Airless Paint Machine",
+              },
+            ],
           },
 
           {
-  id: "vands-980",
-  name: "Vands 980",
+            id: "vands-980",
+            name: "Vands 980",
 
-  metaTitle:
-    "Vands 980 Rugged Series Airless Paint Machine | Vands Engineering",
+            metaTitle:
+              "Vands 980 Rugged Series Airless Paint Machine | Vands Engineering",
 
-  metaDescription:
-    "Explore the Vands 980 Rugged Series Airless Paint Machine by Vands Engineering. Designed for powerful performance, smooth finishes, and efficient painting in demanding applications.",
+            metaDescription:
+              "Explore the Vands 980 Rugged Series Airless Paint Machine by Vands Engineering. Designed for powerful performance, smooth finishes, and efficient painting in demanding applications.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Vands 980 Electric Paint Machine is a powerful airless paint sprayer engineered for professional painting applications. Equipped with a high-performance 2.0 kW brushless motor, it delivers a flow rate of 2.5 L/min and a maximum working pressure of 3300 PSI (227 Bar), ensuring fast, smooth, and consistent paint coverage. Its durable construction, lightweight design, and reliable performance make it ideal for contractors, industrial coating, commercial projects, and residential painting.",
-    },
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Vands 980 Electric Paint Machine is a powerful airless paint sprayer engineered for professional painting applications. Equipped with a high-performance 2.0 kW brushless motor, it delivers a flow rate of 2.5 L/min and a maximum working pressure of 3300 PSI (227 Bar), ensuring fast, smooth, and consistent paint coverage. Its durable construction, lightweight design, and reliable performance make it ideal for contractors, industrial coating, commercial projects, and residential painting.",
+              },
 
-    { type: "h2", text: "Features & Benefits:" },
-    {
-      type: "ul",
-      items: [
-        "Powerful 2.0 kW brushless motor for reliable and maintenance-free performance",
-        "High flow rate of 2.5 L/min for faster painting and improved productivity",
-        "Maximum working pressure of 3300 PSI (227 Bar) for superior atomization",
-        "Supports spray tips up to 0.021 inch for versatile coating applications",
-        "Lightweight 15 kg design for easy transportation and handling",
-        "Provides smooth, uniform, and professional-quality finishes with minimal overspray",
-      ],
-    },
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "Powerful 2.0 kW brushless motor for reliable and maintenance-free performance",
+                  "High flow rate of 2.5 L/min for faster painting and improved productivity",
+                  "Maximum working pressure of 3300 PSI (227 Bar) for superior atomization",
+                  "Supports spray tips up to 0.021 inch for versatile coating applications",
+                  "Lightweight 15 kg design for easy transportation and handling",
+                  "Provides smooth, uniform, and professional-quality finishes with minimal overspray",
+                ],
+              },
 
-    { type: "h2", text: "Applications:" },
-    {
-      type: "ul",
-      items: [
-        "Industrial machinery and equipment coating",
-        "Residential and commercial wall painting",
-        "Steel structures, pipelines, and tanks",
-        "Construction and infrastructure projects",
-        "Protective and decorative coating applications",
-      ],
-    },
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Industrial machinery and equipment coating",
+                  "Residential and commercial wall painting",
+                  "Steel structures, pipelines, and tanks",
+                  "Construction and infrastructure projects",
+                  "Protective and decorative coating applications",
+                ],
+              },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-    {
-      type: "ul",
-      items: [
-        "Trusted manufacturer of premium airless paint machines",
-        "Built using high-quality components for long service life",
-        "Reliable performance with advanced brushless motor technology",
-        "Competitive pricing with dependable after-sales support",
-        "Designed to meet professional painting requirements",
-      ],
-    },
-  ],
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted manufacturer of premium airless paint machines",
+                  "Built using high-quality components for long service life",
+                  "Reliable performance with advanced brushless motor technology",
+                  "Competitive pricing with dependable after-sales support",
+                  "Designed to meet professional painting requirements",
+                ],
+              },
+            ],
 
-  specs: [
-    { label: "Model", value: "Vands 980" },
-    { label: "Motor Power", value: "4.8 kW" },
-    { label: "Motor Type", value: "Brushless Motor" },
-    { label: "Flow Rate", value: "8.5 L/min" },
-    { label: "Working Pressure", value: "3800 PSI / 227 Bar" },
-    { label: "Maximum Tip Size", value: "0.049 inch" },
-    { label: "Weight", value: "70 kg" },
-  ],
+            specs: [
+              { label: "Model", value: "Vands 980" },
+              { label: "Motor Power", value: "4.8 kW" },
+              { label: "Motor Type", value: "Brushless Motor" },
+              { label: "Flow Rate", value: "8.5 L/min" },
+              { label: "Working Pressure", value: "3800 PSI / 227 Bar" },
+              { label: "Maximum Tip Size", value: "0.049 inch" },
+              { label: "Weight", value: "70 kg" },
+            ],
 
-  ytArray: {
-    title: "Vands 980 Electric Paint Machine",
-    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
-  },
+            ytArray: {
+              title: "Vands 980 Electric Paint Machine",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
 
-  image: [
-    {
-      src: "/prods/VANDS-980.webp",
-      alt: "Vands 980 Electric Airless Paint Machine",
-    },
-  ],
-},
+            image: [
+              {
+                src: "/prods/VANDS-980.webp",
+                alt: "Vands 980 Electric Airless Paint Machine",
+              },
+            ],
+          },
         ],
       },
       {
@@ -1158,7 +1162,782 @@ export const categories = [
       {
         id: "spare-parts-of-airless-painting-machine",
         name: "SPARE PARTS OF AIRLESS PAINTING MACHINES",
-        products: [],
+        products: [
+          {
+            id: "airless-paint-spray-gun",
+            name: "Airless Paint Spray Gun",
+            metaTitle: "Airless Paint Spray Gun | Vands Engineering",
+            metaDescription:
+              "Vands Engineering Solutions offers reliable Airless Paint Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Airless Paint Spray Gun by Vands Engineering Solution is a precision-engineered spraying solution designed for professional-grade finishing and coating applications. Built with high-quality stainless steel construction, this spray gun offers excellent durability, corrosion resistance, and long operational life in demanding industrial and commercial environments. It delivers smooth, uniform, and controlled paint application while ensuring efficient air consumption and stable spraying performance. Designed for user comfort and reliable operation, the spray gun is ideal for achieving superior coating quality across a wide range of applications.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "Equipped with a 1 mm nozzle size for precise atomization and smooth paint distribution",
+                  "Durable stainless steel body construction ensures high strength and corrosion resistance",
+                  "Operates efficiently within an air pressure range of 70–100 PSI for consistent spraying performance",
+                  "Low air consumption of 7–8 CFM helps reduce compressor load and improve efficiency",
+                  "Compact and ergonomic design ensures easy handling and better operator comfort",
+                  "100 ml cup capacity supports convenient operation for detailed and precision painting tasks",
+                  "Provides smooth, controlled, and professional-quality coating results",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Ideal for industrial painting and coating applications requiring precision finishing",
+                  "Suitable for automotive refinishing, touch-up work, and detailed paint applications",
+                  "Widely used in furniture, metal fabrication, and woodworking industries",
+                  "Perfect for applying primers, enamels, lacquers, and decorative coatings",
+                  "Preferred by professional painters and workshops for reliable spray performance",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted Airless Painting Sprayer Manufacturer delivering high-quality spraying equipment",
+                  "Strong focus on precision engineering, durability, and efficient coating performance",
+                  "Use of premium-grade materials for long-lasting reliability and reduced maintenance",
+                  "Competitive pricing with excellent value for industrial and professional users",
+                  "Dedicated after-sales support including technical assistance, servicing, and customer support",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Nozzle Size", value: "1 mm" },
+              { label: "Body Material", value: "Stainless Steel" },
+              { label: "Air Pressure", value: "70 - 100 psi" },
+              { label: "Air Consumption", value: "7 - 8 CFM" },
+              { label: "Cup Capacity", value: "100 ml" },
+              { label: "Color", value: "Silver" },
+            ],
+
+            image: [
+              {
+                src: "/Spare parts of airless paint machines/Silver plus gun.webp",
+                alt: "Pneumatic 70:1 Airless Paint Sprayer",
+              },
+            ],
+          },
+
+          {
+            id: "painting-hose-pipe",
+            name: "Painting Hose Pipe",
+            metaTitle: "Painting Hose Pipe | Vands Engineering",
+            metaDescription:
+              "Vands Engineering Solutions offers reliable Painting Hose Pipe for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Painting Hose Pipe by Vands Engineering Solution is a high-quality paint transfer solution designed for smooth and efficient painting applications. Manufactured using durable HDPE material, the hose pipe offers excellent flexibility, strength, and long-lasting performance in demanding industrial and commercial environments. Engineered for reliable paint flow and efficient pressure handling, it supports uninterrupted operation with airless painting sprayers and coating equipment. With a strong 2 mm wall thickness, the hose ensures enhanced durability, leak resistance, and stable performance during continuous usage.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "Manufactured from premium-quality HDPE material for durability and flexibility",
+                  "20 mm diameter ensures smooth and uninterrupted paint flow during operations",
+                  "Strong 2 mm wall thickness provides enhanced pressure resistance and long service life",
+                  "Semi-automatic compatible design suitable for various painting and coating equipment",
+                  "Resistant to wear, tear, and leakage for reliable long-term performance",
+                  "Supplied in roll packaging for convenient storage, transportation, and handling",
+                  "Supports efficient painting operations with stable and consistent paint transfer",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Ideal for paint transfer applications in industrial and commercial painting projects",
+                  "Suitable for use with airless painting sprayers and coating equipment",
+                  "Widely used in construction, automotive, and fabrication industries",
+                  "Perfect for workshops, factories, and professional painting setups",
+                  "Used in residential and commercial painting projects requiring uninterrupted paint flow",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted Airless Painting Sprayer Manufacturer offering durable painting accessories",
+                  "Strong focus on quality manufacturing and premium material selection",
+                  "Designed for efficient paint transfer performance with minimal maintenance",
+                  "Competitive pricing with excellent value for industrial and commercial users",
+                  "Dedicated after-sales support including technical guidance and servicing assistance",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Automation Grade", value: "Semi-Automatic" },
+              { label: "Color", value: "Blue" },
+              { label: "Usage/Application", value: "For Painting Purpose" },
+              { label: "Size/Dia", value: "20 mm" },
+              { label: "Thickness", value: "2 mm" },
+              { label: "Material", value: "HDPE" },
+              { label: "Packaging Type", value: "	Roll" },
+            ],
+
+            image: [
+              {
+                src: "/Spare parts of airless paint machines/Paint hose pipe.webp",
+                alt: "Pneumatic 70:1 Airless Paint Sprayer",
+              },
+            ],
+          },
+
+          {
+            id: "airless-tip-guard",
+            name: "Airless Tip Guard",
+            metaTitle: "Airless Tip Guard | Vands Engineering",
+            metaDescription:
+              "Vands Engineering Solutions offers reliable Airless Tip Guard for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Airless Tip Guard by Vands Engineering Solution is a high-quality safety accessory designed to provide enhanced protection and stability during airless painting operations. Engineered to securely hold the spray tip in position, it helps protect operators from accidental contact with high-pressure paint spray. Manufactured using durable plastic material, the tip guard ensures long-lasting performance, lightweight handling, and resistance to wear during continuous usage. Designed for compatibility with a wide range of airless spray guns, it improves spraying safety, tip stability, and overall operational efficiency.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "Heavy-duty design provides reliable protection in demanding painting environments",
+                  "Equipped with a 5-inch thread size for secure fitting and easy installation",
+                  "Made from durable plastic material for lightweight handling and long service life",
+                  "Compact construction with only 50 gm weight ensures operator convenience",
+                  "Bright yellow color improves visibility and enhances workplace safety",
+                  "Securely holds the spray tip in place for stable and accurate spraying performance",
+                  "Designed for compatibility with various airless spray guns and coating equipment",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Ideal for airless painting and coating applications requiring spray tip protection",
+                  "Suitable for industrial, commercial, and residential painting projects",
+                  "Widely used in automotive, construction, and fabrication industries",
+                  "Perfect for protecting spray tips from accidental damage during operation",
+                  "Used by professional painters and contractors for safe and reliable spraying",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted Airless Painting Sprayer Manufacturer offering high-quality painting accessories",
+                  "Strong focus on durable construction and precision engineering",
+                  "Use of premium-grade materials for long-lasting operational reliability",
+                  "Competitive pricing with excellent value for industrial and professional users",
+                  "Dedicated after-sales support including technical assistance and servicing solutions",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Thread Size", value: "5 inch" },
+              { label: "Type", value: "Heavy Duty" },
+              { label: "Brand", value: "Vands" },
+              { label: "Material", value: "Plasticm" },
+              { label: "Weight", value: "50 gm" },
+              { label: "Colour", value: "Yellow" },
+            ],
+
+            image: [
+              {
+                src: "/Spare parts of airless paint machines/Tip Guard.webp",
+                alt: "Pneumatic 70:1 Airless Paint Sprayer",
+              },
+            ],
+          },
+
+          {
+            id: "airless-paint-spray-tip",
+            name: "Airless Paint Spray Tip",
+            metaTitle: "Airless Paint Spray Tip | Vands Engineering",
+            metaDescription:
+              "Vands Engineering Solutions offers reliable Airless Paint Spray Tip for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Airless Paint Spray Tip by Vands Engineering Solution is a precision-engineered spraying accessory designed to deliver superior coating performance and professional-quality finishing. Built for smooth atomization and uniform paint distribution, this spray tip ensures controlled application and efficient spraying across various surfaces. Designed for compatibility with a wide range of airless spray guns and painting machines, it is suitable for industrial, commercial, and professional painting environments. Manufactured using high-quality and durable materials, the spray tip offers reliable performance, long operational life, and reduced paint wastage during continuous usage.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "Equipped with a 0.3 mm nozzle size for fine atomization and smooth paint application",
+                  "Supports automatic operation for consistent and efficient spraying performance",
+                  "Lightweight 100 gm design ensures easy handling and reduced operator fatigue",
+                  "Compact and small-size structure suitable for detailed and precision coating applications",
+                  "Provides controlled paint flow for uniform and professional-quality finishing",
+                  "Designed for compatibility with various airless spray guns and painting systems",
+                  "Helps reduce paint wastage while improving spraying efficiency and accuracy",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Ideal for precision painting and coating applications requiring controlled spray patterns",
+                  "Suitable for industrial, commercial, and professional airless painting operations",
+                  "Widely used in automotive, furniture, and metal finishing industries",
+                  "Perfect for applying primers, enamels, lacquers, and decorative coatings",
+                  "Preferred by professional painters and workshops seeking reliable spray performance",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted Airless Painting Sprayer Manufacturer offering high-quality spraying accessories",
+                  "Strong focus on precision engineering and durable construction",
+                  "Use of premium-quality materials for reliable and long-lasting performance",
+                  "Competitive pricing with excellent value for industrial and commercial users",
+                  "Dedicated after-sales support including technical assistance and servicing solutions",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Automation Grade", value: "Automatic" },
+              { label: "Nozzle Size", value: "0.3 mm" },
+              { label: "Cup Capacity", value: "200 ml" },
+              { label: "Weight", value: "100 gm" },
+              { label: "Power", value: "Solar" },
+              { label: "Size", value: "Small" },
+            ],
+
+            image: [
+              {
+                src: "/Spare parts of airless paint machines/Tip.webp",
+                alt: "Pneumatic 70:1 Airless Paint Sprayer",
+              },
+            ],
+          },
+
+          {
+            id: "airless-spray-filter",
+            name: "Airless Spray Filter",
+            metaTitle: "Airless Spray Filter | Vands Engineering",
+            metaDescription:
+              "Vands Engineering Solutions offers reliable Airless Spray Filter for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Airless Spray Filter by Vands Engineering Solution is a high-performance filtration accessory designed to improve spraying efficiency and protect airless painting equipment from contamination. Manufactured using premium-quality stainless steel material, the filter offers excellent durability, corrosion resistance, and long operational life. Engineered to remove dirt, debris, and impurities from paint and coating materials, it helps maintain smooth paint flow and consistent spraying performance. Designed for compatibility with various airless spray guns and painting machines, the filter reduces nozzle clogging, extends pump life, and enhances overall coating quality.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "Premium stainless steel strainer construction ensures high strength and durability",
+                  "Efficient filtration system removes dirt, debris, and impurities from coatings",
+                  "60 mesh high-precision filter supports smooth and consistent spray performance",
+                  "Helps reduce nozzle clogging and improve coating application quality",
+                  "Protects pumps and spray equipment, reducing maintenance requirements",
+                  "Corrosion-resistant material ensures long operational life in demanding environments",
+                  "Easy to install and replace for uninterrupted painting operations",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Ideal for filtering paint and coating materials in airless spraying applications",
+                  "Suitable for industrial, commercial, automotive, and construction painting operations",
+                  "Widely used with airless spray guns and painting machines for smooth spraying",
+                  "Perfect for preventing contamination and nozzle blockage during coating applications",
+                  "Used by professional painters and contractors for efficient and high-quality finishing",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted Airless Painting Sprayer Manufacturer offering high-quality filtration solutions",
+                  "Strong focus on durable construction and precision engineering",
+                  "Use of premium-grade stainless steel materials for reliable long-term performance",
+                  "Competitive pricing with excellent value for industrial and professional users",
+                  "Dedicated after-sales support including technical guidance and servicing assistance",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Color", value: "Multicolour" },
+              { label: "Item Model Number", value: "ATO53094169" },
+              { label: "Item Part Number", value: "ATO53094169" },
+              { label: "Primary material", value: "Stainless Steel" },
+              { label: "Finish Type", value: "Painted" },
+              { label: "Capacity", value: "Standard" },
+              { label: "Number of Pieces", value: "1" },
+            ],
+
+            image: [
+              {
+                src: "/Spare parts of airless paint machines/Filters-removebg-preview.webp",
+                alt: "Pneumatic 70:1 Airless Paint Sprayer",
+              },
+            ],
+          },
+
+          {
+            id: "seal-tip-for-airless-paint-sprayer",
+            name: "Seal Tip for Airless Paint Sprayer",
+            metaTitle: "Seal Tip for Airless Paint Sprayer | Vands Engineering",
+            metaDescription:
+              "Vands Engineering Solutions offers reliable Seal Tip for Airless Paint Sprayer for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Seal Tip for Airless Paint Sprayer by Vands Engineering Solution is a high-quality sealing accessory designed to ensure leak-proof and efficient spraying performance. Engineered to provide a secure seal between the spray tip and spray gun, it helps maintain stable paint flow and consistent pressure during operation. Manufactured using a durable combination of plastic, rubber, and stainless steel materials, the seal tip offers excellent strength, flexibility, corrosion resistance, and long operational life. Designed for compatibility with various airless paint sprayers, it improves spraying accuracy, reduces paint leakage, and enhances overall equipment efficiency.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "High-quality sealing design helps prevent paint leakage during spraying operations",
+                  "Manufactured using durable plastic, rubber, and stainless steel materials",
+                  "Provides excellent strength, flexibility, and corrosion resistance for long service life",
+                  "Lightweight construction with only 0.02 kg weight ensures easy installation and handling",
+                  "Designed for secure fitting and stable positioning of spray tips",
+                  "Helps maintain pressure consistency and improve spraying efficiency",
+                  "Compact and reliable structure supports smooth and uninterrupted painting performance",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Ideal for sealing spray tips in airless paint sprayers for industrial and commercial applications",
+                  "Suitable for wall painting, metal coating, automotive refinishing, and protective coating work",
+                  "Widely used with airless spray guns to maintain pressure stability and reduce leakage",
+                  "Perfect for professional painters, contractors, and workshop painting operations",
+                  "Used in construction, fabrication, furniture, and manufacturing industries",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted Airless Painting Sprayer Manufacturer offering high-quality spraying accessories",
+                  "Strong focus on precision engineering and durable material selection",
+                  "Use of premium-grade materials for reliable and long-lasting performance",
+                  "Competitive pricing with excellent value for industrial and professional users",
+                  "Dedicated after-sales support including technical assistance and servicing solutions",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Weight", value: "0.02 Kilograms" },
+              { label: "Colour", value: "Silver" },
+              { label: "Style", value: "Gun" },
+              { label: "Power Source", value: "Hand Powered" },
+              {
+                label: "Enclosure Material",
+                value: "Plastic, Rubber, Stainless Steel",
+              },
+              { label: "Included Components", value: "10 x tip seal" },
+              { label: "Number of Pieces", value: "1" },
+            ],
+
+            image: [
+              {
+                src: "/Spare parts of airless paint machines/Tip seal.webp",
+                alt: "Pneumatic 70:1 Airless Paint Sprayer",
+              },
+            ],
+          },
+
+          {
+            id: "mild-steel-blue-paint-spray-gun",
+            name: "Mild Steel Blue Paint Spray Gun",
+            metaTitle: "Mild Steel Blue Paint Spray Gun | Vands Engineering",
+            metaDescription:
+              "Vands Engineering Solutions offers reliable Mild Steel Blue Paint Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Mild Steel Blue Paint Spray Gun by Vands Engineering Solution is a high-performance painting tool designed for smooth and efficient coating applications across multiple industries. Engineered to deliver precise paint atomization and uniform coating results, this spray gun ensures professional-quality surface finishing on a variety of materials. Manufactured with a durable mild steel handle structure, it offers excellent strength, stability, and long-lasting operational performance. Designed for easy handling and controlled spraying, the spray gun is ideal for industrial, commercial, automotive, and workshop painting applications.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "Equipped with a 1.3 mm nozzle size for smooth atomization and consistent paint application",
+                  "Large 500 ml cup capacity supports continuous spraying with reduced refilling frequency",
+                  "Durable mild steel handle construction ensures strong grip and long service life",
+                  "Single nozzle spray system provides controlled paint flow and uniform coating performance",
+                  "Attractive blue base finish gives a professional appearance and enhanced durability",
+                  "Ergonomic design ensures comfortable handling during extended painting operations",
+                  "Designed for reliable performance and efficient paint transfer across various surfaces",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Ideal for industrial and commercial painting applications requiring smooth finishing",
+                  "Suitable for automotive refinishing, furniture coating, and metal surface painting",
+                  "Widely used in workshops, fabrication units, and construction projects",
+                  "Perfect for applying primers, enamels, lacquers, and decorative coatings",
+                  "Preferred by professional painters and contractors for reliable spray performance",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted Airless Painting Sprayer Manufacturer offering high-quality painting equipment",
+                  "Strong focus on precision engineering, durability, and coating efficiency",
+                  "Use of premium-grade materials and advanced manufacturing processes",
+                  "Competitive pricing with excellent value for industrial and professional users",
+                  "Dedicated after-sales support including technical assistance and servicing solutions",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Cup Capacity", value: "500 ml" },
+              { label: "Nozzle Size", value: "1.3 mm" },
+              { label: "Type", value: "Spray Gun" },
+              { label: "Handle Material", value: "Mild Steel" },
+              { label: "Usage", value: "Used For Painting" },
+              { label: "Nozzle", value: "Single Nozzle" },
+              { label: "Color", value: "Blue" },
+            ],
+
+            image: [
+              {
+                src: "/Spare parts of airless paint machines/Maxcoat Gun.webp",
+                alt: "Pneumatic 70:1 Airless Paint Sprayer",
+              },
+            ],
+          },
+
+          {
+            id: "airless-spraying-machine-paint-sprayers-tool-parts",
+            name: "Airless Spraying Machine, Paint Sprayers, Tool Parts",
+            metaTitle:
+              "Airless Spraying Machine, Paint Sprayers, Tool Parts | Vands Engineering",
+            metaDescription:
+              "Vands Engineering Solutions offers reliable Airless Spraying Machine, Paint Sprayers, Tool Parts for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Airless Spraying Machine Paint Sprayers Tool Parts by Vands Engineering Solution are high-quality components designed to ensure reliable and efficient spraying performance in airless painting systems. Manufactured using premium-grade metal, rubber, and stainless steel materials, these tool parts offer excellent durability, strength, and long operational life. Engineered for precise fitting and compatibility, they support the smooth functioning and maintenance of various airless spraying machines used in industrial, commercial, and professional applications. Designed to improve equipment reliability and spraying efficiency, these components help maintain consistent operational performance in demanding environments.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "Manufactured using high-quality metal, rubber, and stainless steel materials",
+                  "Strong and durable construction ensures reliable long-term performance",
+                  "Designed for compatibility with various airless spraying machines and paint sprayers",
+                  "Lightweight yet sturdy structure with 1.11 kg weight for easy handling and installation",
+                  "Precision-engineered components help maintain smooth paint flow and spraying efficiency",
+                  "Wear-resistant materials support stable performance during continuous industrial usage",
+                  "Helps improve equipment reliability and reduce maintenance requirements",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Ideal for maintenance and replacement applications in airless paint spraying machines",
+                  "Suitable for industrial, commercial, automotive, and construction painting equipment",
+                  "Widely used in workshops, fabrication industries, and professional painting setups",
+                  "Perfect for improving operational efficiency and extending paint sprayer service life",
+                  "Used by professional painters and contractors for reliable spraying performance",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted Airless Painting Sprayer Manufacturer offering premium-quality machine parts",
+                  "Strong focus on precision engineering and durable component manufacturing",
+                  "Use of high-grade materials for consistent performance and reliability",
+                  "Competitive pricing with excellent value for industrial and professional users",
+                  "Dedicated after-sales support including technical guidance and servicing assistance",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Item Weight", value: "1.11 Kilograms" },
+              {
+                label: "Material Type",
+                value: "Metal, Rubber, Stainless Steel",
+              },
+              { label: "Colour", value: "Silver" },
+              { label: "Net Quantity", value: "1.0 Count" },
+              { label: "Usage", value: "Used For Painting" },
+            ],
+
+            image: [
+              {
+                src: "/Spare parts of airless paint machines/Inlet_pipe-removebg-preview.webp",
+                alt: "Pneumatic 70:1 Airless Paint Sprayer",
+              },
+            ],
+          },
+
+          {
+            id: "lx80-airless-spray-gun",
+            name: "LX80 Airless Spray Gun",
+            metaTitle: "LX80 Airless Spray Gun | Vands Engineering",
+            metaDescription:
+              "Vands Engineering Solutions offers reliable LX80 Airless Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The LX80 Airless Spray Gun by Vands Engineering Solution is a high-performance spraying tool designed for smooth and efficient paint application across multiple industries. Engineered to deliver precise atomization and uniform coating results, this spray gun ensures professional-quality surface finishing on a variety of materials. Manufactured using a durable and lightweight plastic body, it offers comfortable handling, easy operation, and long operational performance. Designed for compatibility with airless paint sprayers, the LX80 Airless Spray Gun is suitable for industrial, commercial, automotive, and construction painting applications requiring reliable and efficient spraying performance.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+              {
+                type: "ul",
+                items: [
+                  "Equipped with a 1 mm nozzle size for smooth atomization and even paint distribution",
+                  "Durable plastic body construction ensures lightweight handling and wear resistance",
+                  "Large 550 ml cup capacity allows longer spraying duration with fewer refills",
+                  "Standard 1/4 inch air inlet size ensures compatibility with various spraying systems",
+                  "Ergonomic and user-friendly design provides comfortable grip and controlled spraying",
+                  "Designed for reliable and efficient coating performance across different applications",
+                  "Supports smooth and professional-quality finishing on multiple surface types",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+              {
+                type: "ul",
+                items: [
+                  "Ideal for industrial and commercial painting applications requiring uniform finishes",
+                  "Suitable for automotive refinishing, furniture coating, and decorative painting work",
+                  "Widely used in workshops, fabrication units, and construction painting projects",
+                  "Perfect for applying primers, enamels, lacquers, and protective coatings",
+                  "Preferred by professional painters and contractors for reliable spraying performance",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted Airless Painting Sprayer Manufacturer offering high-quality painting equipment",
+                  "Strong focus on precision engineering, durability, and coating efficiency",
+                  "Use of premium-grade materials and advanced manufacturing processes",
+                  "Competitive pricing with excellent value for industrial and professional users",
+                  "Dedicated after-sales support including technical assistance and servicing solutions",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Nozzle Size", value: "1 mm" },
+              { label: "Body Material", value: "Plastic" },
+              { label: "Cup Capacity", value: "550 ml" },
+              { label: "Air Inlet Size", value: "1.0 Coun1/4" },
+              { label: "Usage", value: "Used For Painting" },
+            ],
+
+            image: [
+              {
+                src: "/Spare parts of airless paint machines/LX 80 GUN.webp",
+                alt: "Pneumatic 70:1 Airless Paint Sprayer",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "other-products",
+        name: "Other Products",
+        products: [
+          {
+            id: "plural-component-ratio-2k-airless-spray-painting-machine",
+
+            name: "Plural Component Ratio 2K Airless Spray Painting Machine",
+
+            metaTitle:
+              "Plural Component Ratio 2K Airless Spray Painting Machine | Vands Engineering",
+
+            metaDescription:
+              "Buy Plural Component Ratio 2K Airless Spray Painting Machine for precise two-component mixing and high-performance industrial coating applications. Ideal for epoxy, polyurethane, and protective coatings.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+
+              {
+                type: "p",
+                text: "Vands Engineering Solution presents the Plural Component Ratio 2K Airless Spray Painting Machine, designed for precise mixing and spraying of two-component reactive coatings.",
+              },
+
+              {
+                type: "p",
+                text: "Engineered to simultaneously mix base material and hardener at a fixed ratio, ensuring accurate coating consistency and optimal curing performance.",
+              },
+
+              {
+                type: "p",
+                text: "Specially developed for high-performance coating applications where materials must be mixed immediately before spraying due to short pot life.",
+              },
+
+              {
+                type: "p",
+                text: "Designed with advanced airless spraying technology to deliver smooth, uniform, and high-quality coating finishes with minimal material wastage.",
+              },
+
+              {
+                type: "p",
+                text: "Ideal for industrial sectors such as automotive, aerospace, marine, fabrication, and protective coating industries requiring precision coating solutions.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+
+              {
+                type: "ul",
+                items: [
+                  "High-pressure exchange ratio of 43:1 ensures powerful spraying performance and excellent coating atomization",
+                  "Efficient flow rate of 15 Ltrs/min supports continuous operation and faster coverage for large-scale industrial applications",
+                  "Operates with a compressed air pressure range of 3–6 Bar, ensuring stable and reliable spraying performance",
+                  "Equipped with a 3-point static mixer system for accurate and uniform mixing of two reactive coating components",
+                  "Integrated diaphragm-type flushing pump ensures efficient cleaning and prevents material hardening inside the system after operation",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+
+              {
+                type: "ul",
+                items: [
+                  "Ideal for applying high-performance industrial coatings requiring precise two-component mixing and spraying",
+                  "Widely used in automotive, aerospace, marine, and heavy engineering industries for protective coating applications",
+                  "Suitable for epoxy, polyurethane, anti-corrosion, and chemical-resistant coating systems",
+                  "Perfect for coating pipelines, tanks, steel structures, machinery, and fabricated components",
+                  "Used in industrial environments where fast-curing and high-durability coating systems are required",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+
+              {
+                type: "ul",
+                items: [
+                  "Recognized for delivering advanced and reliable industrial spraying and coating equipment solutions",
+                  "Strong focus on precision engineering, operational efficiency, and high-performance coating technology",
+                  "Use of premium-grade components to ensure durability, consistent mixing accuracy, and long service life",
+                  "Competitive pricing with excellent value for industrial and professional coating applications",
+                  "Dedicated after-sales support, including installation assistance, technical guidance, servicing, and maintenance solutions",
+                ],
+              },
+            ],
+
+            specs: [
+              {
+                label: "Machine Type",
+                value:
+                  "Plural Component Ratio 2K Airless Spray Painting Machine",
+              },
+
+              { label: "Pressure Ratio", value: "43:1" },
+
+              { label: "Maximum Flow Rate", value: "15 Ltrs/min" },
+
+              { label: "Operating Air Pressure", value: "3–6 Bar" },
+
+              { label: "Mixing System", value: "3-Point Static Mixer" },
+
+              { label: "Flushing Pump Type", value: "Diaphragm Type" },
+
+              {
+                label: "Application Type",
+                value: "Two-Component Reactive Coating",
+              },
+
+              {
+                label: "Suitable Coatings",
+                value:
+                  "Epoxy, Polyurethane, Anti-Corrosion & Chemical Resistant Coatings",
+              },
+
+              {
+                label: "Industries",
+                value: "Automotive, Aerospace, Marine, Heavy Engineering",
+              },
+            ],
+
+            ytArray: {
+              title: "E-Junior",
+              link: "https://www.youtube.com/embed/Xmd13D7r_sk",
+            },
+
+            image: [
+              {
+                src: "/Plural Component Sprayer.webp",
+                alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+              },
+              {
+                src: "/Plural Component Sprayer2.webp",
+                alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -1237,6 +2016,231 @@ export const categories = [
       },
     ],
   },
+
+  //Spare Parts
+   {
+    id: "spare-parts",
+    name: "Spare Parts",
+    banner: "/banner/Polyurethane-Spray-Machines.webp",
+    metaTitle: "Spare parts of Spray Gun Manufacturer & Supplier in India",
+    metaDescription:
+      "Vands Engineering Solutions offers reliable Polyurethane Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+    subcategory: [
+      {
+        id: "spray-guns",
+        name: "Spray Guns",
+        products: [
+          {
+        id: "airless-paint-spray-gun",
+        name: "Airless Paint Spray Gun",
+        metaTitle: "Airless Paint Spray Gun | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers reliable Airless Paint Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Airless Paint Spray Gun by Vands Engineering Solution is a precision-engineered spraying solution designed for professional-grade finishing and coating applications. Built with high-quality stainless steel construction, this spray gun offers excellent durability, corrosion resistance, and long operational life in demanding industrial and commercial environments. It delivers smooth, uniform, and controlled paint application while ensuring efficient air consumption and stable spraying performance. Designed for user comfort and reliable operation, the spray gun is ideal for achieving superior coating quality across a wide range of applications.",
+          },
+
+          { type: "h2", text: "Features & Benefits:" },
+          {
+            type: "ul",
+            items: [
+              "Equipped with a 1 mm nozzle size for precise atomization and smooth paint distribution",
+              "Durable stainless steel body construction ensures high strength and corrosion resistance",
+              "Operates efficiently within an air pressure range of 70–100 PSI for consistent spraying performance",
+              "Low air consumption of 7–8 CFM helps reduce compressor load and improve efficiency",
+              "Compact and ergonomic design ensures easy handling and better operator comfort",
+              "100 ml cup capacity supports convenient operation for detailed and precision painting tasks",
+              "Provides smooth, controlled, and professional-quality coating results",
+            ],
+          },
+
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for industrial painting and coating applications requiring precision finishing",
+              "Suitable for automotive refinishing, touch-up work, and detailed paint applications",
+              "Widely used in furniture, metal fabrication, and woodworking industries",
+              "Perfect for applying primers, enamels, lacquers, and decorative coatings",
+              "Preferred by professional painters and workshops for reliable spray performance",
+            ],
+          },
+
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Trusted Airless Painting Sprayer Manufacturer delivering high-quality spraying equipment",
+              "Strong focus on precision engineering, durability, and efficient coating performance",
+              "Use of premium-grade materials for long-lasting reliability and reduced maintenance",
+              "Competitive pricing with excellent value for industrial and professional users",
+              "Dedicated after-sales support including technical assistance, servicing, and customer support",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Nozzle Size", value: "1 mm" },
+          { label: "Body Material", value: "Stainless Steel" },
+          { label: "Air Pressure", value: "70 - 100 psi" },
+          { label: "Air Consumption", value: "7 - 8 CFM" },
+          { label: "Cup Capacity", value: "100 ml" },
+          { label: "Color", value: "Silver" },
+        ],
+
+        image: [
+          {
+            src: "/Spare parts of airless paint machines/Silver plus gun.webp",
+            alt: "Pneumatic 70:1 Airless Paint Sprayer",
+          },
+        ],
+      }, {
+        id: "mild-steel-blue-paint-spray-gun",
+        name: "Mild Steel Blue Paint Spray Gun",
+        metaTitle: "Mild Steel Blue Paint Spray Gun | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers reliable Mild Steel Blue Paint Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Mild Steel Blue Paint Spray Gun by Vands Engineering Solution is a high-performance painting tool designed for smooth and efficient coating applications across multiple industries. Engineered to deliver precise paint atomization and uniform coating results, this spray gun ensures professional-quality surface finishing on a variety of materials. Manufactured with a durable mild steel handle structure, it offers excellent strength, stability, and long-lasting operational performance. Designed for easy handling and controlled spraying, the spray gun is ideal for industrial, commercial, automotive, and workshop painting applications.",
+          },
+
+          { type: "h2", text: "Features & Benefits:" },
+          {
+            type: "ul",
+            items: [
+              "Equipped with a 1.3 mm nozzle size for smooth atomization and consistent paint application",
+              "Large 500 ml cup capacity supports continuous spraying with reduced refilling frequency",
+              "Durable mild steel handle construction ensures strong grip and long service life",
+              "Single nozzle spray system provides controlled paint flow and uniform coating performance",
+              "Attractive blue base finish gives a professional appearance and enhanced durability",
+              "Ergonomic design ensures comfortable handling during extended painting operations",
+              "Designed for reliable performance and efficient paint transfer across various surfaces",
+            ],
+          },
+
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for industrial and commercial painting applications requiring smooth finishing",
+              "Suitable for automotive refinishing, furniture coating, and metal surface painting",
+              "Widely used in workshops, fabrication units, and construction projects",
+              "Perfect for applying primers, enamels, lacquers, and decorative coatings",
+              "Preferred by professional painters and contractors for reliable spray performance",
+            ],
+          },
+
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Trusted Airless Painting Sprayer Manufacturer offering high-quality painting equipment",
+              "Strong focus on precision engineering, durability, and coating efficiency",
+              "Use of premium-grade materials and advanced manufacturing processes",
+              "Competitive pricing with excellent value for industrial and professional users",
+              "Dedicated after-sales support including technical assistance and servicing solutions",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Cup Capacity", value: "500 ml" },
+          { label: "Nozzle Size", value: "1.3 mm" },
+          { label: "Type", value: "Spray Gun" },
+          { label: "Handle Material", value: "Mild Steel" },
+          { label: "Usage", value: "Used For Painting" },
+          { label: "Nozzle", value: "Single Nozzle" },
+          { label: "Color", value: "Blue" },
+        ],
+
+        image: [
+          {
+            src: "/Spare parts of airless paint machines/Maxcoat Gun.webp",
+            alt: "Pneumatic 70:1 Airless Paint Sprayer",
+          },
+        ],
+      }, {
+        id: "lx80-airless-spray-gun",
+        name: "LX80 Airless Spray Gun",
+        metaTitle: "LX80 Airless Spray Gun | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers reliable LX80 Airless Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The LX80 Airless Spray Gun by Vands Engineering Solution is a high-performance spraying tool designed for smooth and efficient paint application across multiple industries. Engineered to deliver precise atomization and uniform coating results, this spray gun ensures professional-quality surface finishing on a variety of materials. Manufactured using a durable and lightweight plastic body, it offers comfortable handling, easy operation, and long operational performance. Designed for compatibility with airless paint sprayers, the LX80 Airless Spray Gun is suitable for industrial, commercial, automotive, and construction painting applications requiring reliable and efficient spraying performance.",
+          },
+
+          { type: "h2", text: "Features & Benefits:" },
+          {
+            type: "ul",
+            items: [
+              "Equipped with a 1 mm nozzle size for smooth atomization and even paint distribution",
+              "Durable plastic body construction ensures lightweight handling and wear resistance",
+              "Large 550 ml cup capacity allows longer spraying duration with fewer refills",
+              "Standard 1/4 inch air inlet size ensures compatibility with various spraying systems",
+              "Ergonomic and user-friendly design provides comfortable grip and controlled spraying",
+              "Designed for reliable and efficient coating performance across different applications",
+              "Supports smooth and professional-quality finishing on multiple surface types",
+            ],
+          },
+
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for industrial and commercial painting applications requiring uniform finishes",
+              "Suitable for automotive refinishing, furniture coating, and decorative painting work",
+              "Widely used in workshops, fabrication units, and construction painting projects",
+              "Perfect for applying primers, enamels, lacquers, and protective coatings",
+              "Preferred by professional painters and contractors for reliable spraying performance",
+            ],
+          },
+
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Trusted Airless Painting Sprayer Manufacturer offering high-quality painting equipment",
+              "Strong focus on precision engineering, durability, and coating efficiency",
+              "Use of premium-grade materials and advanced manufacturing processes",
+              "Competitive pricing with excellent value for industrial and professional users",
+              "Dedicated after-sales support including technical assistance and servicing solutions",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Nozzle Size", value: "1 mm" },
+          { label: "Body Material", value: "Plastic" },
+          { label: "Cup Capacity", value: "550 ml" },
+          { label: "Air Inlet Size", value: "1.0 Coun1/4" },
+          { label: "Usage", value: "Used For Painting" },
+        ],
+
+        image: [
+          {
+            src: "/Spare parts of airless paint machines/LX 80 GUN.webp",
+            alt: "Pneumatic 70:1 Airless Paint Sprayer",
+          },
+        ],
+      },
+        ],
+      },
+    ]
+  },
+
 
   // [Polyurethane Machines]
   {
@@ -1498,98 +2502,98 @@ export const categories = [
           },
 
           {
-  id: "almen-strip",
-  name: "Almen Strip",
+            id: "almen-strip",
+            name: "Almen Strip",
 
-  metaTitle:
-    "Almen Strip Manufacturer | Vands Engineering",
+            metaTitle: "Almen Strip Manufacturer | Vands Engineering",
 
-  metaDescription:
-    "Vands Engineering manufactures high-quality Almen Strips for accurate shot peening measurement. Reliable, durable, and suitable for industrial quality inspection.",
+            metaDescription:
+              "Vands Engineering manufactures high-quality Almen Strips for accurate shot peening measurement. Reliable, durable, and suitable for industrial quality inspection.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Almen Strip by Vands Engineering Solution is a precision-engineered test strip designed to accurately measure shot peening intensity. Manufactured to meet industry standards, it provides consistent and repeatable results when used with an Almen Gauge. The strip deforms under the impact of shot peening, allowing operators to determine the intensity of the process and ensure proper surface treatment. Widely used across aerospace, automotive, defense, and heavy engineering industries, Almen Strips play a vital role in maintaining quality control and process validation.",
-    },
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Almen Strip by Vands Engineering Solution is a precision-engineered test strip designed to accurately measure shot peening intensity. Manufactured to meet industry standards, it provides consistent and repeatable results when used with an Almen Gauge. The strip deforms under the impact of shot peening, allowing operators to determine the intensity of the process and ensure proper surface treatment. Widely used across aerospace, automotive, defense, and heavy engineering industries, Almen Strips play a vital role in maintaining quality control and process validation.",
+              },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "Manufactured to industry standards for accurate shot peening measurement",
-        "Provides consistent and repeatable test results",
-        "Precision heat-treated steel for reliable performance",
-        "Compatible with standard Almen Gauges",
-        "Ensures effective process validation and quality control",
-        "High dimensional accuracy for dependable measurements",
-        "Suitable for industrial and laboratory testing applications",
-        "Available for various shot peening intensity requirements",
-      ],
-    },
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "Manufactured to industry standards for accurate shot peening measurement",
+                  "Provides consistent and repeatable test results",
+                  "Precision heat-treated steel for reliable performance",
+                  "Compatible with standard Almen Gauges",
+                  "Ensures effective process validation and quality control",
+                  "High dimensional accuracy for dependable measurements",
+                  "Suitable for industrial and laboratory testing applications",
+                  "Available for various shot peening intensity requirements",
+                ],
+              },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Shot peening intensity verification",
-        "Aerospace component manufacturing",
-        "Automotive parts production",
-        "Spring and gear manufacturing",
-        "Defense and heavy engineering industries",
-        "Quality control laboratories",
-        "Metal finishing and surface treatment facilities",
-      ],
-    },
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Shot peening intensity verification",
+                  "Aerospace component manufacturing",
+                  "Automotive parts production",
+                  "Spring and gear manufacturing",
+                  "Defense and heavy engineering industries",
+                  "Quality control laboratories",
+                  "Metal finishing and surface treatment facilities",
+                ],
+              },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Premium-quality shot peening accessories",
-        "Manufactured with strict quality standards",
-        "Consistent performance and accurate measurements",
-        "Reliable products for industrial applications",
-        "Excellent technical support and customer service",
-      ],
-    },
-  ],
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Premium-quality shot peening accessories",
+                  "Manufactured with strict quality standards",
+                  "Consistent performance and accurate measurements",
+                  "Reliable products for industrial applications",
+                  "Excellent technical support and customer service",
+                ],
+              },
+            ],
 
-  specs: [
-    { label: "Product", value: "Almen Strip" },
-    { label: "Material", value: "Precision Heat-Treated Steel" },
-    { label: "Type", value: "Shot Peening Test Strip" },
-    { label: "Application", value: "Shot Peening Intensity Measurement" },
-    { label: "Compatibility", value: "Standard Almen Gauges" },
-    { label: "Standard", value: "Industry Standard Manufacturing" },
-    {
-      label: "Usage",
-      value: "Industrial / Laboratory / Quality Control",
-    },
-  ],
+            specs: [
+              { label: "Product", value: "Almen Strip" },
+              { label: "Material", value: "Precision Heat-Treated Steel" },
+              { label: "Type", value: "Shot Peening Test Strip" },
+              {
+                label: "Application",
+                value: "Shot Peening Intensity Measurement",
+              },
+              { label: "Compatibility", value: "Standard Almen Gauges" },
+              { label: "Standard", value: "Industry Standard Manufacturing" },
+              {
+                label: "Usage",
+                value: "Industrial / Laboratory / Quality Control",
+              },
+            ],
 
-  ytArray: {
-    title: "Almen Strip",
-    link: "https://www.youtube.com/embed/bwGROtv6KSc",
-  },
+            ytArray: {
+              title: "Almen Strip",
+              link: "https://www.youtube.com/embed/bwGROtv6KSc",
+            },
 
-  image: [
-    {
-      src: "/prods/Almen-Strip.webp",
-      alt: "Almen Strip for Shot Peening Intensity Measurement",
-    },
-  ],
-},
+            image: [
+              {
+                src: "/prods/Almen-Strip.webp",
+                alt: "Almen Strip for Shot Peening Intensity Measurement",
+              },
+            ],
+          },
         ],
       },
 
       {
         id: "abrasive ",
         name: "Abrasive ",
-        products: [
-
-        ],
+        products: [],
       },
     ],
   },
