@@ -1152,7 +1152,136 @@ export const categories = [
       {
         id: "plural-component-machine",
         name: "Plural Component Machine",
-        products: [],
+        products: [
+          {
+        id: "plural-component-ratio-2k-airless-spray-painting-machine",
+
+        name: "Plural Component Ratio 2K Airless Spray Painting Machine",
+
+        metaTitle:
+          "Plural Component Ratio 2K Airless Spray Painting Machine | Vands Engineering",
+
+        metaDescription:
+          "Buy Plural Component Ratio 2K Airless Spray Painting Machine for precise two-component mixing and high-performance industrial coating applications. Ideal for epoxy, polyurethane, and protective coatings.",
+
+        description: [
+          { type: "h2", text: "Overview" },
+
+          {
+            type: "p",
+            text: "Vands Engineering Solution presents the Plural Component Ratio 2K Airless Spray Painting Machine, designed for precise mixing and spraying of two-component reactive coatings.",
+          },
+
+          {
+            type: "p",
+            text: "Engineered to simultaneously mix base material and hardener at a fixed ratio, ensuring accurate coating consistency and optimal curing performance.",
+          },
+
+          {
+            type: "p",
+            text: "Specially developed for high-performance coating applications where materials must be mixed immediately before spraying due to short pot life.",
+          },
+
+          {
+            type: "p",
+            text: "Designed with advanced airless spraying technology to deliver smooth, uniform, and high-quality coating finishes with minimal material wastage.",
+          },
+
+          {
+            type: "p",
+            text: "Ideal for industrial sectors such as automotive, aerospace, marine, fabrication, and protective coating industries requiring precision coating solutions.",
+          },
+
+          { type: "h2", text: "Features & Benefits:" },
+
+          {
+            type: "ul",
+            items: [
+              "High-pressure exchange ratio of 43:1 ensures powerful spraying performance and excellent coating atomization",
+              "Efficient flow rate of 15 Ltrs/min supports continuous operation and faster coverage for large-scale industrial applications",
+              "Operates with a compressed air pressure range of 3–6 Bar, ensuring stable and reliable spraying performance",
+              "Equipped with a 3-point static mixer system for accurate and uniform mixing of two reactive coating components",
+              "Integrated diaphragm-type flushing pump ensures efficient cleaning and prevents material hardening inside the system after operation",
+            ],
+          },
+
+          { type: "h2", text: "Applications:" },
+
+          {
+            type: "ul",
+            items: [
+              "Ideal for applying high-performance industrial coatings requiring precise two-component mixing and spraying",
+              "Widely used in automotive, aerospace, marine, and heavy engineering industries for protective coating applications",
+              "Suitable for epoxy, polyurethane, anti-corrosion, and chemical-resistant coating systems",
+              "Perfect for coating pipelines, tanks, steel structures, machinery, and fabricated components",
+              "Used in industrial environments where fast-curing and high-durability coating systems are required",
+            ],
+          },
+
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+
+          {
+            type: "ul",
+            items: [
+              "Recognized for delivering advanced and reliable industrial spraying and coating equipment solutions",
+              "Strong focus on precision engineering, operational efficiency, and high-performance coating technology",
+              "Use of premium-grade components to ensure durability, consistent mixing accuracy, and long service life",
+              "Competitive pricing with excellent value for industrial and professional coating applications",
+              "Dedicated after-sales support, including installation assistance, technical guidance, servicing, and maintenance solutions",
+            ],
+          },
+        ],
+
+        specs: [
+          {
+            label: "Machine Type",
+            value: "Plural Component Ratio 2K Airless Spray Painting Machine",
+          },
+
+          { label: "Pressure Ratio", value: "43:1" },
+
+          { label: "Maximum Flow Rate", value: "15 Ltrs/min" },
+
+          { label: "Operating Air Pressure", value: "3–6 Bar" },
+
+          { label: "Mixing System", value: "3-Point Static Mixer" },
+
+          { label: "Flushing Pump Type", value: "Diaphragm Type" },
+
+          {
+            label: "Application Type",
+            value: "Two-Component Reactive Coating",
+          },
+
+          {
+            label: "Suitable Coatings",
+            value:
+              "Epoxy, Polyurethane, Anti-Corrosion & Chemical Resistant Coatings",
+          },
+
+          {
+            label: "Industries",
+            value: "Automotive, Aerospace, Marine, Heavy Engineering",
+          },
+        ],
+
+        ytArray: {
+          title: "E-Junior",
+          link: "https://www.youtube.com/embed/Xmd13D7r_sk",
+        },
+
+        image: [
+          {
+            src: "/Plural Component Sprayer.webp",
+            alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+          },
+          {
+            src: "/Plural Component Sprayer2.webp",
+            alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+          },
+        ],
+      },
+        ],
       },
       {
         id: "internal-pipe-blasting-coating-equipment",
@@ -1955,7 +2084,86 @@ export const categories = [
       {
         id: "pneumaticmachine",
         name: "Pneumatic Machine",
-        products: [],
+        products: [
+            {
+        id: "pneumatic-airless-paint-sprayer-pneumatic-70-1",
+        name: "Pneumatic Airless Paint Sprayer (Pneumatic 70:1)",
+        metaTitle: "Pneumatic Airless Paint Sprayer (70:1) | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers pneumatic 70:1 airless paint sprayers designed for high-pressure, precise coating, and durable industrial performance.",
+
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Pneumatic 70:1 Airless Paint Sprayer is an ultra heavy-duty industrial coating machine designed for high-pressure and high-capacity applications. Powered by pneumatic (air-driven) technology, it is ideal for hazardous environments where electrical equipment is not suitable. With a powerful 70:1 pressure ratio, this sprayer delivers superior atomization and smooth, professional-grade finishes even with thick and high-viscosity materials such as epoxy and bitumen.",
+          },
+
+          { type: "h2", text: "Features & Benefits:" },
+          {
+            type: "ul",
+            items: [
+              "High 70:1 pressure ratio enables spraying of thick and heavy coatings with ease",
+              "Pneumatic operation makes it safe for hazardous and explosion-prone environments",
+              "High delivery capacity ensures faster coverage of large industrial surfaces",
+              "Optimized cycles per gallon improve material efficiency and consistency",
+              "Strong air motor ensures stable and continuous performance",
+              "Durable construction designed for long-term industrial use",
+            ],
+          },
+
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for oil & gas industries, chemical plants, and hazardous environments",
+              "Suitable for applying epoxy, bitumen, waterproofing, and fireproof coatings",
+              "Perfect for coating pipelines, tanks, steel structures, and marine equipment",
+              "Widely used in infrastructure projects such as bridges, tunnels, and dams",
+              "Used in heavy industrial environments requiring high pressure and output",
+            ],
+          },
+
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of pneumatic and industrial coating equipment",
+              "Advanced engineering ensures durability and high performance",
+              "Strict quality control for reliable long-term operation",
+              "Competitive pricing for heavy-duty industrial machines",
+              "Strong after-sales support including servicing and technical guidance",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Fluid Pressure Ratio", value: "70:1" },
+          { label: "Maximum Delivery Capacity", value: "11.4 L/min" },
+          { label: "Cycles per Gallon", value: "19 Cycles" },
+          { label: "Max Pump Speed", value: "50 Cycles/min" },
+          { label: "Air Motor Diameter", value: "10 inch (254 mm)" },
+          { label: "Stroke Length", value: "5 inch (120 mm)" },
+          { label: "Air Consumption", value: "4600 L/min at 5 bar" },
+          { label: "Air Pressure Range", value: "40–90 psi (3–9 bar)" },
+          { label: "Noise Level", value: "95 dBA" },
+          { label: "Packing", value: "Leather / Teflon" },
+          { label: "Air Inlet", value: "3/4 inch NPT(f)" },
+          { label: "Fluid Outlet", value: "3/8 inch NPT(f)" },
+        ],
+        ytArray: {
+          title: "Pneumatic MACHINE",
+          link: "https://www.youtube.com/embed/eHWtCvUIC_w",
+        },
+
+        image: [
+          {
+            src: "/pnumatic.jpeg",
+            alt: "Pneumatic 70:1 Airless Paint Sprayer",
+          },
+        ],
+      },
+        ],
       },
       {
         id: "plural-component-machine",
@@ -1979,7 +2187,87 @@ export const categories = [
       {
         id: "p-300-to-p-600",
         name: "P-300 TO P-600",
-        products: [],
+        products: [
+           {
+        id: "sand-blasting-machine",
+        name: "Sand Blasting Machine (P-300 / P-600 / P-1000 Series)",
+        metaTitle: "Sand Blasting Machine P Series | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers P-300, P-600, and P-1000 sand blasting machines for high-efficiency cleaning, coating preparation, and durability.",
+
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Portable Pressure Sand Blasting Machine Series (P-300, P-600, P-1000) by Vands Engineering Solution is designed for efficient surface cleaning, rust removal, and preparation of metal components. Built for industrial-grade performance, it effectively removes rust, paint, scale, and contaminants to deliver a smooth and uniform surface finish. Available in 3 CFT, 6 CFT, and 10 CFT capacities, this series is suitable for small, medium, and heavy-duty blasting applications across multiple industries.",
+          },
+
+          { type: "h2", text: "Features & Benefits" },
+          {
+            type: "ul",
+            items: [
+              "Available in P-300 (3 CFT), P-600 (6 CFT), and P-1000 (10 CFT) models",
+              "High blasting efficiency from 4.7 to 20 Sq. Mtr./Hr depending on model",
+              "Optimized nozzle sizes (5.0 mm to 9.5 mm) for precise blasting",
+              "Heavy-duty blasting hose ensures smooth abrasive flow and durability",
+              "Air consumption range from 70 to 240 CFM at 80 PSI for powerful operation",
+              "Compressor compatibility from 10 HP to 40 HP based on model",
+              "Compatible with abrasive grit sizes from 12 to 80 mesh",
+              "Portable and compact design with weight range of 80 kg to 200 kg",
+            ],
+          },
+
+          { type: "h2", text: "Applications" },
+          {
+            type: "ul",
+            items: [
+              "Rust and paint removal from steel structures and fabricated parts",
+              "Surface preparation before painting or coating",
+              "Cleaning of pipelines, tanks, and industrial equipment",
+              "Shipyard, construction, and fabrication workshop maintenance",
+              "Automotive and heavy engineering industries",
+              "Surface roughening for better coating adhesion",
+            ],
+          },
+
+          { type: "h2", text: "Why Choose Vands Engineering Solution" },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of industrial surface preparation machines",
+              "High-performance blasting systems with reduced downtime",
+              "Multiple capacity options for different industrial needs",
+              "Strong and durable build for long operational life",
+              "Reliable after-sales support and technical assistance",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Models", value: "P-300 / P-600 / P-1000" },
+          { label: "Capacity", value: "3 CFT / 6 CFT / 10 CFT" },
+          { label: "Production Capacity", value: "4.7 – 20 Sq. Mtr./Hr" },
+          { label: "Nozzle Size", value: "5.0 mm – 9.5 mm" },
+          { label: "Air Consumption", value: "70 – 240 CFM @ 80 PSI" },
+          { label: "Compressor Requirement", value: "10 HP – 40 HP" },
+          { label: "Abrasive Range", value: "12 – 80 Mesh" },
+          { label: "Machine Weight", value: "80 kg – 200 kg" },
+          { label: "Type", value: "Portable Pressure Sand Blasting Machine" },
+        ],
+
+        ytArray: {
+          title: "Portable Sand Blasting Machine Demo",
+          link: "https://www.youtube.com/embed/XUSR6pDHJl4",
+        },
+
+        image: [
+          {
+            src: "/prods/Sand Blasting Machine.webp",
+            alt: "Portable Pressure Sand Blasting Machine",
+          },
+        ],
+      },
+        ],
       },
       {
         id: "sand-blasting-trolley-type",
@@ -1989,7 +2277,133 @@ export const categories = [
       {
         id: "sand-blasting-spare-parts",
         name: "Sand Blasting Spare Parts",
-        products: [],
+        products: [
+            {
+        id: "sand-blasting-hopper-with-compressor-kes-30-7-5",
+
+        name: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+
+        metaTitle:
+          "Sand Blasting Hopper with Compressor KES 30-7.5 | Vands Engineering",
+
+        metaDescription:
+          "Buy Sand Blasting Hopper with Compressor (KES 30-7.5) for efficient abrasive blasting, rust removal, and industrial surface preparation applications.",
+
+        description: [
+          { type: "h2", text: "Overview" },
+
+          {
+            type: "p",
+            text: "Vands Engineering Solution presents the Sand Blasting Hopper with Compressor Model KES 30-7.5, designed for high-performance surface cleaning and abrasive blasting applications",
+          },
+
+          {
+            type: "p",
+            text: "Engineered to deliver powerful and efficient sand blasting performance for industrial surface preparation, rust removal, and finishing operations",
+          },
+
+          {
+            type: "p",
+            text: "Built with a heavy-duty compressor system capable of handling demanding industrial blasting requirements with stable air pressure output",
+          },
+
+          {
+            type: "p",
+            text: "Designed with a robust trolley-mounted structure for easy mobility, operational convenience, and improved site productivity",
+          },
+
+          {
+            type: "p",
+            text: "Manufactured using durable industrial-grade components to ensure long service life, reliable performance, and minimal maintenance requirements",
+          },
+
+          { type: "h2", text: "Features & Benefits:" },
+
+          {
+            type: "ul",
+            items: [
+              "The maximum working pressure of 10 bar ensures a powerful blasting performance for effective surface cleaning and preparation",
+              "High normal working airflow capacity of 120 CFM provides continuous and efficient abrasive blasting operations",
+              "Heavy-duty trolley-mounted design allows easy transportation and convenient movement across industrial job sites",
+              "Strong and durable construction supports stable operation even in harsh and demanding working environments",
+              "Compact integrated blasting and compressor system improves operational efficiency and reduces setup complexity",
+            ],
+          },
+
+          { type: "h2", text: "Applications:" },
+
+          {
+            type: "ul",
+            items: [
+              "Ideal for industrial sand blasting applications requiring effective rust, scale, and paint removal",
+              "Widely used in fabrication, shipbuilding, construction, and heavy engineering industries",
+              "Suitable for surface preparation before painting, coating, or powder coating processes",
+              "Perfect for cleaning metal structures, pipelines, tanks, machinery, and fabricated components",
+              "Used in maintenance and refurbishment projects requiring high-efficiency abrasive blasting solutions",
+            ],
+          },
+
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+
+          {
+            type: "ul",
+            items: [
+              "Recognized for delivering reliable and high-performance industrial blasting and compressor solutions",
+              "Strong focus on engineering quality, operational efficiency, and durable machine construction",
+              "Use of premium-grade components to ensure long-lasting and trouble-free performance",
+              "Competitive pricing with excellent value for industrial and commercial users",
+              "Dedicated after-sales support, including installation assistance, servicing, maintenance, and technical guidance",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Model", value: "KES 30-7.5" },
+
+          {
+            label: "Machine Type",
+            value: "Sand Blasting Hopper with Compressor",
+          },
+
+          { label: "Maximum Working Pressure", value: "10 Bar" },
+
+          { label: "Normal Working Airflow", value: "120 CFM" },
+
+          { label: "Mobility Type", value: "Trolley Mounted" },
+
+          {
+            label: "Application",
+            value: "Surface Cleaning & Abrasive Blasting",
+          },
+
+          {
+            label: "Suitable Industries",
+            value:
+              "Fabrication, Shipbuilding, Construction & Heavy Engineering",
+          },
+        ],
+
+        ytArray: {
+          title: "Portable Sand Blasting Machine Demo",
+          link: "https://www.youtube.com/embed/XUSR6pDHJl4",
+        },
+
+        image: [
+          {
+            src: "/Sand blasting hose.webp",
+            alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+          },
+          {
+            src: "/Sand blasting hose2.webp",
+            alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+          },
+          {
+            src: "/Sand blasting hose3.webp",
+            alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+          },
+        ],
+      },
+        ],
       },
     ],
   },
@@ -2305,7 +2719,77 @@ export const categories = [
       {
         id: "kerb-painting-machine",
         name: "Kerb Painting Machine",
-        products: [],
+        products: [
+           {
+        id: "kerb-painting-machine",
+        name: "Kerb Painting Machines",
+        metaTitle: "Kerb Painting Machines | Vands Engineering",
+        metaDescription:
+          "Vands Engineering Solutions offers reliable Kerb Painting Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Kerb Painting Machine by Vands Engineering Solution is a high-performance road marking solution specially designed for efficient kerb painting and road marking applications. Powered by a reliable Honda engine, this machine ensures continuous and dependable operation for municipal, highway, airport, and infrastructure projects. It delivers smooth, uniform, and high-visibility paint application on kerbs, dividers, pavements, and road edges. Built with advanced airless spraying technology, the machine provides faster coverage, minimizes paint wastage, and delivers professional-quality finishing for large-scale projects.",
+          },
+
+          { type: "h2", text: "Features & Benefits:" },
+          {
+            type: "ul",
+            items: [
+              "Powered by a durable Honda engine for reliable performance and fuel efficiency",
+              "High flow capacity of 12 L/min with both nozzles for faster coverage of long road stretches",
+              "Delivers spraying pressure up to 3300 PSI for smooth atomization and uniform paint application",
+              "Equipped with manual and digital pressure control systems for precise spraying operation",
+              "Supports maximum tip size of 0.043 inch for heavy road marking paints and high-visibility coatings",
+              "Advanced spraying technology reduces paint wastage and improves operational efficiency",
+              "Designed for continuous operation in demanding municipal and infrastructure projects",
+            ],
+          },
+
+          { type: "h2", text: "Applications:" },
+          {
+            type: "ul",
+            items: [
+              "Ideal for kerb and curb painting on highways, city roads, and municipal infrastructure",
+              "Widely used for road marking and line marking applications at airports and runways",
+              "Suitable for painting dividers, pavements, parking zones, and traffic management areas",
+              "Used by municipalities, contractors, and road construction companies for safety enhancement",
+              "Perfect for large-scale infrastructure maintenance and road marking projects",
+            ],
+          },
+
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          {
+            type: "ul",
+            items: [
+              "Trusted Airless Painting Sprayer Manufacturer offering durable and advanced road marking solutions",
+              "Strong focus on engineering quality, efficiency, and high-performance spraying technology",
+              "Robust components and precision manufacturing ensure long operational life",
+              "Competitive pricing with excellent value for contractors and infrastructure companies",
+              "Reliable after-sales support including technical assistance, servicing, and maintenance solutions",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Rated Input Power", value: "Honda Engine" },
+          { label: "Flow", value: "12/min both nozzles" },
+          { label: "Pressure", value: "3300 PSI" },
+          { label: "Pressure Control", value: "Manual and Digital" },
+          { label: "Max Tip", value: "0.043" },
+          { label: "Weight", value: "100 kgs" },
+        ],
+
+        image: [
+          {
+            src: "/Kerb painting Machine.webp",
+            alt: "Pneumatic 70:1 Airless Paint Sprayer",
+          },
+        ],
+      },
+        ],
       },
       {
         id: "road-marking-machine",
