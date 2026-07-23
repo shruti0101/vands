@@ -27,6 +27,7 @@ export default function Navbar() {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProductsOpen, setIsProductsOpen] = useState(false);
+  const [activeMobileCategory, setActiveMobileCategory] = useState(null);
 
   // ✅ SEARCH STATE
   const [searchQuery, setSearchQuery] = useState("");
@@ -143,7 +144,7 @@ export default function Navbar() {
           </div>
 
           {/* NAV LINKS */}
-          <nav  className="hidden lg:flex items-center gap-10 text-[17px] uppercase">
+          <nav className="hidden lg:flex items-center gap-10 text-[17px] uppercase">
             <Link href="/">HOME</Link>
             <Link href="/about">ABOUT US</Link>
             <Link href="/our-blogs">BLOGS</Link>
@@ -175,7 +176,6 @@ export default function Navbar() {
                         onMouseEnter={() => setActiveCategory(item)}
                       >
                         <div
-                          
                           onClick={(e) => {
                             if (item.subcategory?.length > 0) {
                               e.preventDefault(); // don't navigate if submenu exists
@@ -213,11 +213,8 @@ export default function Navbar() {
                       ))}
                     </div>
                   )}
-                 
                 </div>
-                
               )}
-               
             </div>
           </nav>
 
@@ -303,29 +300,80 @@ export default function Navbar() {
 
               {/* PRODUCTS DROPDOWN */}
               <div>
-                <button
-                  onClick={() => setIsProductsOpen(!isProductsOpen)}
-                  className="w-full flex justify-between items-center"
-                >
-                  <span>OUR PRODUCTS</span>
-                  <span className="text-xl">{isProductsOpen ? "−" : "+"}</span>
-                </button>
+  <button
+    onClick={() => setIsProductsOpen(!isProductsOpen)}
+    className="w-full flex justify-between items-center"
+  >
+    <span>OUR PRODUCTS</span>
+    <span className="text-xl">{isProductsOpen ? "−" : "+"}</span>
+  </button>
 
-                {isProductsOpen && (
-                  <div className="mt-3 ml-3 flex flex-col gap-3 border-l border-gray-700 pl-3">
-                    {categories.map((item) => (
-                      <Link
-                        key={item.id}
-                        href={`/categories/${item.id}`}
-                        onClick={closeMenu}
-                        className="block text-sm text-gray-300 hover:text-red-400 transition"
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
-                  </div>
-                )}
+  {isProductsOpen && (
+    <div className="mt-3 flex flex-col border-l border-gray-700 ml-2">
+
+      {categories.map((item) => (
+        <div key={item.id} className="text-white">
+
+          {/* Category */}
+          <div className="flex items-center justify-between">
+
+            <Link
+              href={`/categories/${item.id}`}
+              onClick={(e) => {
+                if (item.subcategory?.length) {
+                  e.preventDefault();
+
+                  setActiveMobileCategory(
+                    activeMobileCategory === item.id ? null : item.id
+                  );
+                } else {
+                  closeMenu();
+                }
+              }}
+              className="flex-1 py-3 pl-4 text-gray-300 hover:text-red-400"
+            >
+              {item.name}
+            </Link>
+
+            {item.subcategory?.length > 0 && (
+              <button
+                onClick={() =>
+                  setActiveMobileCategory(
+                    activeMobileCategory === item.id ? null : item.id
+                  )
+                }
+                className="px-4 text-lg"
+              >
+                {activeMobileCategory === item.id ? "−" : "+"}
+              </button>
+            )}
+          </div>
+
+          {/* Subcategories */}
+          {activeMobileCategory === item.id &&
+            item.subcategory?.length > 0 && (
+              <div className="ml-5 border-l border-gray-600">
+
+                {item.subcategory.map((sub) => (
+                  <Link
+                    key={sub.id}
+                    href={`/categories/${item.id}/${sub.id}`}
+                    onClick={closeMenu}
+                    className="block py-2 pl-4 text-sm text-gray-400 hover:text-red-400"
+                  >
+                    {sub.name}
+                  </Link>
+                ))}
+
               </div>
+            )}
+
+        </div>
+      ))}
+
+    </div>
+  )}
+</div>
 
               <Link href="/about" onClick={closeMenu}>
                 ABOUT US
