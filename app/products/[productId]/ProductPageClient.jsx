@@ -1,8 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { categories } from "@/Data";
+import { categories } from "@/Data2";
 import Enquiry from "@/components/Enquiry";
 
 const variants = {
@@ -22,17 +22,44 @@ const variants = {
   }),
 };
 
+
+
 const ProductPageClient = ({ productId }) => {
+
+  
   const [isFormOpen, setIsFormOpen] = useState(false);
 
-  const allProducts = categories.flatMap((c) =>
-    c.products.map((p) => ({
-      ...p,
-      categoryName: c.name,
+  // const allProducts = categories.flatMap((c) =>
+  //   c.products.map((p) => ({
+  //     ...p,
+  //     categoryName: c.name,
+  //   }))
+  // );
+
+const allProducts = categories.flatMap((category) => {
+  // Products directly inside the category
+  const categoryProducts = (category.products || []).map((product) => ({
+    ...product,
+    category,
+    subcategory: null,
+  }));
+
+  // Products inside subcategories
+  const subcategoryProducts = (category.subcategory || []).flatMap((sub) =>
+    (sub.products || []).map((product) => ({
+      ...product,
+      category,
+      subcategory: sub,
     }))
   );
 
-  const product = allProducts.find((p) => p.id === productId);
+  return [...categoryProducts, ...subcategoryProducts];
+});
+
+
+const product = allProducts.find((p) => p.id === productId);
+
+console.log(product);
 
   const [[page, direction], setPage] = useState([0, 0]);
   const images = product?.image || [];
@@ -62,7 +89,31 @@ const ytArray = [
   },
 ];
 
+useEffect(() => {
+  if (!product) return;
+
+  document.title =
+    product.metaTitle || product.name;
+
+  let meta = document.querySelector(
+    'meta[name="description"]'
+  );
+
+  if (!meta) {
+    meta = document.createElement("meta");
+    meta.name = "description";
+    document.head.appendChild(meta);
+  }
+
+  meta.content =
+    product.metaDescription ||
+    product.description?.[0]?.text ||
+    "";
+}, [product]);
+
   return (
+    <>
+    
     <div className="lg:mt-32 mt-14">
 
       {/* MAIN SECTION */}
@@ -259,6 +310,7 @@ const ytArray = [
       )}
 
     </div>
+    </>
   );
 };
 

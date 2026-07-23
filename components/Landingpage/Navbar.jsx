@@ -16,10 +16,11 @@ import {
   Linkedin,
   Menu,
   X,
+  ChevronRight,
 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
-import { categories } from "@/Data";
+import { categories } from "@/Data2";
 
 export default function Navbar() {
   const [showTopBar, setShowTopBar] = useState(true);
@@ -31,6 +32,9 @@ export default function Navbar() {
   const [searchQuery, setSearchQuery] = useState("");
   const [results, setResults] = useState([]);
 
+  // const [isProductsOpen, setIsProductsOpen] = useState(false);
+  const [activeCategory, setActiveCategory] = useState(null);
+
   // LIVE SEARCH LOGIC
   useEffect(() => {
     if (!searchQuery.trim()) {
@@ -39,7 +43,7 @@ export default function Navbar() {
     }
 
     const filtered = allProducts.filter((item) =>
-      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+      item.name.toLowerCase().includes(searchQuery.toLowerCase()),
     );
 
     setResults(filtered);
@@ -68,44 +72,50 @@ export default function Navbar() {
 
   const allProducts = categories.flatMap((cat) => cat.products || []);
 
-
-
   const socialLinks = [
-    { Icon: Facebook, link: "https://www.facebook.com/vandsengineeringsolutions" },
+    {
+      Icon: Facebook,
+      link: "https://www.facebook.com/vandsengineeringsolutions",
+    },
 
     { Icon: Instagram, link: "https://www.instagram.com/vandsengineering/" },
-    { Icon: Youtube, link: "https://www.youtube.com/channel/UCo1-UbYjtlOwRUlfTD04-mA" },
-    { Icon: Linkedin, link: "https://www.linkedin.com/company/vands-engineering-solutions/" },
+    {
+      Icon: Youtube,
+      link: "https://www.youtube.com/channel/UCo1-UbYjtlOwRUlfTD04-mA",
+    },
+    {
+      Icon: Linkedin,
+      link: "https://www.linkedin.com/company/vands-engineering-solutions/",
+    },
   ];
 
   return (
     <header className="w-full fixed top-0 left-0 z-50 font-semibold">
       {/* TOP BAR */}
       <div
-        className={`hidden lg:block bg-[#c8102e] text-white transition-all duration-500 overflow-hidden ${showTopBar ? "h-[67px]" : "h-0"
-          }`}
+        className={`hidden lg:block bg-[#c8102e] text-white transition-all duration-500 overflow-hidden ${
+          showTopBar ? "h-[67px]" : "h-0"
+        }`}
       >
         <div className="max-w-[1400px] mx-auto flex items-center justify-between h-[70px] px-6">
-
-          <Link href="/" >
-
+          <Link href="/">
             <Image src="/vands-logo.webp" alt="Vands" width={170} height={60} />
           </Link>
 
           <div className="flex items-center gap-5 text-[13px] uppercase">
-
             <span className="flex items-center gap-2 text-lg animate-pulse">
-              GST NO.   07ALLPC1925A1ZP
+              GST NO. 07ALLPC1925A1ZP
             </span>
 
             <a href="tel:+919990730939" className="flex items-center gap-2">
               <Phone size={14} /> +91-99907 30939
             </a>
-            <a href="mailto:vandsengg@gmail.com" className="flex items-center gap-2">
+            <a
+              href="mailto:vandsengg@gmail.com"
+              className="flex items-center gap-2"
+            >
               <Mail size={14} /> vandsengg@gmail.com
             </a>
-
-
 
             <div className="flex items-center gap-3 ml-4">
               {socialLinks.map(({ Icon, link }, i) => (
@@ -120,7 +130,6 @@ export default function Navbar() {
                 </a>
               ))}
             </div>
-
           </div>
         </div>
       </div>
@@ -128,14 +137,13 @@ export default function Navbar() {
       {/* MAIN NAV */}
       <div className="bg-black text-white sticky top-0 z-50 shadow-md">
         <div className="max-w-[1400px] mx-auto flex items-center justify-between px-4 lg:px-10 h-[58px]">
-
           {/* LOGO */}
           <div className="lg:hidden">
             <Image src="/vands-logo.webp" alt="Vands" width={120} height={40} />
           </div>
 
           {/* NAV LINKS */}
-          <nav className="hidden lg:flex items-center gap-10 text-[17px] uppercase">
+          <nav  className="hidden lg:flex items-center gap-10 text-[17px] uppercase">
             <Link href="/">HOME</Link>
             <Link href="/about">ABOUT US</Link>
             <Link href="/our-blogs">BLOGS</Link>
@@ -144,33 +152,78 @@ export default function Navbar() {
             {/* PRODUCTS */}
             <div className="relative">
               <button
-                onClick={() => setIsProductsOpen(!isProductsOpen)}
+                onClick={() => {
+                  setIsProductsOpen(!isProductsOpen);
+
+                  if (!isProductsOpen && categories.length > 0) {
+                    setActiveCategory(categories[0]);
+                  }
+                }}
                 className="flex items-center gap-1"
               >
                 OUR PRODUCTS <ChevronDown size={15} />
               </button>
 
-              {/* DROPDOWN */}
-              <div
-                className={`absolute left-0 top-full bg-white text-black min-w-[300px] shadow-lg z-50 transition-all duration-200 ${isProductsOpen ? "block" : "hidden"
-                  }`}
-              >
-                {categories.map((item) => (
-                  <Link key={item.id} href={`/categories/${item.id}`}
-                    className="block px-4 py-2 hover:bg-gray-100 border-t border-t-gray-300"
-                    onClick={() => setIsProductsOpen(false)}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
+              {isProductsOpen && (
+                <div className="absolute text-black left-0 top-full flex items-start bg-white shadow-xl z-50">
+                  {/* Categories */}
+                  <div className="w-72 overflow-y-auto h-120 border-r">
+                    {categories?.map((item) => (
+                      <div
+                        key={item.id}
+                        className="relative"
+                        onMouseEnter={() => setActiveCategory(item)}
+                      >
+                        <div
+                          
+                          onClick={(e) => {
+                            if (item.subcategory?.length > 0) {
+                              e.preventDefault(); // don't navigate if submenu exists
+                              setActiveCategory(item);
+                            } else {
+                              setIsProductsOpen(false);
+                            }
+                          }}
+                          className="flex justify-between items-center px-4 py-3 hover:bg-gray-100 border-b"
+                        >
+                          <span>{item.name}</span>
+
+                          {item.subcategory?.length > 0 && (
+                            <ChevronRight size={16} />
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Sub Categories */}
+
+                  {activeCategory?.subcategory?.length > 0 && (
+                    <div className="w-72 absolute -right-73 text-black bg-white h-fit">
+                      {" "}
+                      {activeCategory.subcategory.map((sub) => (
+                        <Link
+                          key={sub.id}
+                          href={`/categories/${activeCategory.id}/${sub.id}`}
+                          onClick={() => setIsProductsOpen(false)}
+                          className="block px-4 py-3 hover:bg-gray-100 border-b"
+                        >
+                          {sub.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                 
+                </div>
+                
+              )}
+               
             </div>
           </nav>
 
           {/* SEARCH */}
           <div className="hidden lg:flex items-center gap-8">
             <div className="relative">
-
               {/* INPUT */}
               <input
                 type="text"
@@ -189,7 +242,6 @@ export default function Navbar() {
               {/* ✅ RESULTS DROPDOWN */}
               {searchQuery && (
                 <div className="absolute top-full left-0 w-full bg-white text-black mt-1 rounded-md shadow-lg z-[9999] max-h-[300px] overflow-y-auto">
-
                   {results.length > 0 ? (
                     results.map((item) => (
                       <Link
@@ -217,7 +269,6 @@ export default function Navbar() {
                       No products found
                     </div>
                   )}
-
                 </div>
               )}
             </div>
@@ -246,7 +297,6 @@ export default function Navbar() {
         {isMobileMenuOpen && (
           <div className="lg:hidden bg-black fixed top-[58px] left-0 w-full h-[calc(100vh-58px)] p-6 z-50 overflow-y-auto">
             <div className="flex flex-col gap-6 text-lg text-white">
-
               <Link href="/" onClick={closeMenu}>
                 HOME
               </Link>
@@ -258,9 +308,7 @@ export default function Navbar() {
                   className="w-full flex justify-between items-center"
                 >
                   <span>OUR PRODUCTS</span>
-                  <span className="text-xl">
-                    {isProductsOpen ? "−" : "+"}
-                  </span>
+                  <span className="text-xl">{isProductsOpen ? "−" : "+"}</span>
                 </button>
 
                 {isProductsOpen && (
@@ -290,7 +338,6 @@ export default function Navbar() {
               <Link href="/contact" onClick={closeMenu}>
                 CONTACT US
               </Link>
-
             </div>
           </div>
         )}

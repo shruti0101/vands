@@ -1,13 +1,16 @@
-import { categories } from "@/Data";
+import { categories } from "@/Data2";
 import Link from "next/link";
 import Image from "next/image";
 
 export async function generateMetadata({ params }) {
-  const { categoryId } = params;
-  const category = categories.find((c) => c.id === categoryId);
-  console.log(category);
+  const { id ,categoryId} = await params;
+   const category = categories.find((c) => c.id === categoryId);
 
-  if (!category) {
+  const subcategory = category?.subcategory?.find(
+    (sub) => sub.id === id
+  );
+
+  if (!subcategory) {
     return {
       title: "Category Not Found | vands engineering",
       description: "The requested category does not exist.",
@@ -15,16 +18,20 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: category.metaTitle,
-    description: category.metaDescription,
+    title: subcategory.metaTitle,
+    description: subcategory.metaDescription,
   };
 }
 
 export default function CategoryPage({ params }) {
-  const { categoryId } = params;
+   const { categoryId, id } = params;
   const category = categories.find((c) => c.id === categoryId);
 
-  if (!category) {
+    const subcategory = category?.subcategory?.find(
+    (sub) => sub.id === id
+  );
+
+  if (!category || !subcategory) {
     return (
       <h2 className="text-center text-red-500 mt-10">Category not found</h2>
     );
@@ -43,7 +50,7 @@ export default function CategoryPage({ params }) {
       >
         <div className="px-5 absolute inset-0 text-center flex items-center justify-center ">
           <h2 className=" text-cyan-600 bg-white p-2 text-2xl md:text-6xl font-bold z-10">
-            {category.name}
+            {subcategory?.name}
           </h2>
         </div>
       </section>
@@ -51,7 +58,7 @@ export default function CategoryPage({ params }) {
       {/* Products Grid */}
       <div className="px-10 md:p-10 max-w-7xl mx-auto md:mt-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {category.products.map((product) => (
+          {subcategory?.products.map((product) => (
             <Link
               key={product.name}
               href={`/products/${product.id}`}

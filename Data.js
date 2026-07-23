@@ -7,7 +7,7 @@ export const categories = [
       "Industrial Airless Painting Machine Manufacturer | Vands Engineering",
     metaDescription:
       "Vands Engineering Solutions offers industrial-grade airless painting machines with advanced technology, durability, and cost-effective wholesale solutions.",
-    banner:"/banner/Airless-Painting-Machine.webp",
+    banner: "/banner/Airless-Painting-Machine.webp",
 
     products: [
       // product 1 E junior 395
@@ -224,116 +224,118 @@ export const categories = [
 
       //extra
       {
-  id: "fire-proofing-mixture-machine-ves-m9",
+        id: "fire-proofing-mixture-machine-ves-m9",
 
-  name: "Fire Proofing Mixture Machine (VES-M9)",
+        name: "Fire Proofing Mixture Machine (VES-M9)",
 
-  metaTitle:
-    "Fire Proofing Mixture Machine VES-M9 | Vands Engineering",
+        metaTitle: "Fire Proofing Mixture Machine VES-M9 | Vands Engineering",
 
-  metaDescription:
-    "Buy Fire Proofing Mixture Machine (VES-M9) for efficient fireproofing and spraying applications. Ideal for industrial, commercial, and infrastructure coating projects.",
+        metaDescription:
+          "Buy Fire Proofing Mixture Machine (VES-M9) for efficient fireproofing and spraying applications. Ideal for industrial, commercial, and infrastructure coating projects.",
 
-  description: [
-    { type: "h2", text: "Overview" },
+        description: [
+          { type: "h2", text: "Overview" },
 
-    {
-      type: "p",
-      text: "Vands Engineering Solution presents the VES-M9 Fire Proofing Mixture Machine, designed for high-performance fireproofing and spraying applications in industrial and commercial projects",
-    },
+          {
+            type: "p",
+            text: "Vands Engineering Solution presents the VES-M9 Fire Proofing Mixture Machine, designed for high-performance fireproofing and spraying applications in industrial and commercial projects",
+          },
 
-    {
-      type: "p",
-      text: "Engineered with advanced mixing and spraying technology to deliver smooth, uniform, and efficient application of fireproofing materials on various surfaces",
-    },
+          {
+            type: "p",
+            text: "Engineered with advanced mixing and spraying technology to deliver smooth, uniform, and efficient application of fireproofing materials on various surfaces",
+          },
 
-    {
-      type: "p",
-      text: "Manufactured using superior-quality components to ensure durability, operational reliability, and long service life in demanding environments",
-    },
+          {
+            type: "p",
+            text: "Manufactured using superior-quality components to ensure durability, operational reliability, and long service life in demanding environments",
+          },
 
-    {
-      type: "p",
-      text: "Lightweight yet robust construction makes the machine easy to operate, transport, and maintain for continuous project usage",
-    },
+          {
+            type: "p",
+            text: "Lightweight yet robust construction makes the machine easy to operate, transport, and maintain for continuous project usage",
+          },
 
-    {
-      type: "p",
-      text: "Designed to provide high spraying efficiency with long-distance and high-elevation spraying capability for large infrastructure and construction projects",
-    },
+          {
+            type: "p",
+            text: "Designed to provide high spraying efficiency with long-distance and high-elevation spraying capability for large infrastructure and construction projects",
+          },
 
-    { type: "h2", text: "Features & Benefits:" },
+          { type: "h2", text: "Features & Benefits:" },
 
-    {
-      type: "ul",
-      items: [
-        "Powerful 7500W driving motor and 2200W mixing motor ensure efficient material mixing and continuous spraying performance",
-        "High output pressure of 40 Bar delivers smooth and uniform spraying results with excellent material adhesion",
-        "Maximum spraying distance of 100 meters and spraying height of 50 meters support large-scale and high-rise project applications",
-        "Large pumping hopper capacity of 150L and mixer hopper capacity of 170L improve operational productivity and reduce refilling frequency",
-        "Supplied with complete accessories including 1 spray gun, 4 spray nozzles, and 20-meter hose for ready-to-use operation",
-      ],
-    },
+          {
+            type: "ul",
+            items: [
+              "Powerful 7500W driving motor and 2200W mixing motor ensure efficient material mixing and continuous spraying performance",
+              "High output pressure of 40 Bar delivers smooth and uniform spraying results with excellent material adhesion",
+              "Maximum spraying distance of 100 meters and spraying height of 50 meters support large-scale and high-rise project applications",
+              "Large pumping hopper capacity of 150L and mixer hopper capacity of 170L improve operational productivity and reduce refilling frequency",
+              "Supplied with complete accessories including 1 spray gun, 4 spray nozzles, and 20-meter hose for ready-to-use operation",
+            ],
+          },
 
-    { type: "h2", text: "Applications:" },
+          { type: "h2", text: "Applications:" },
 
-    {
-      type: "ul",
-      items: [
-        "Ideal for fireproofing applications in commercial buildings, industrial plants, and infrastructure projects",
-        "Widely used for spraying fire-resistant materials on steel structures, ceilings, walls, and pipelines",
-        "Suitable for construction projects requiring efficient application of thermal and fire protection coatings",
-        "Perfect for high-rise buildings, warehouses, factories, tunnels, and industrial facilities",
-        "Used by contractors and construction companies for large-scale fireproofing and protective coating operations",
-      ],
-    },
+          {
+            type: "ul",
+            items: [
+              "Ideal for fireproofing applications in commercial buildings, industrial plants, and infrastructure projects",
+              "Widely used for spraying fire-resistant materials on steel structures, ceilings, walls, and pipelines",
+              "Suitable for construction projects requiring efficient application of thermal and fire protection coatings",
+              "Perfect for high-rise buildings, warehouses, factories, tunnels, and industrial facilities",
+              "Used by contractors and construction companies for large-scale fireproofing and protective coating operations",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
 
-    {
-      type: "ul",
-      items: [
-        "Recognized for delivering high-quality and high-performance fireproofing and spraying equipment solutions",
-        "Strong focus on advanced engineering, durability, and operational efficiency for industrial applications",
-        "Use of premium-grade components to ensure reliable performance and low maintenance requirements",
-        "Competitive pricing with excellent value for construction, industrial, and infrastructure users",
-        "Dedicated after-sales support including installation guidance, servicing, maintenance, and technical assistance",
-      ],
-    },
-  ],
+          {
+            type: "ul",
+            items: [
+              "Recognized for delivering high-quality and high-performance fireproofing and spraying equipment solutions",
+              "Strong focus on advanced engineering, durability, and operational efficiency for industrial applications",
+              "Use of premium-grade components to ensure reliable performance and low maintenance requirements",
+              "Competitive pricing with excellent value for construction, industrial, and infrastructure users",
+              "Dedicated after-sales support including installation guidance, servicing, maintenance, and technical assistance",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Model", value: "VES-M9" },
+        specs: [
+          { label: "Model", value: "VES-M9" },
 
-    { label: "Driving Motor Power", value: "7500W" },
+          { label: "Driving Motor Power", value: "7500W" },
 
-    { label: "Mixing Motor Power", value: "2200W" },
+          { label: "Mixing Motor Power", value: "2200W" },
 
-    { label: "Output Pressure", value: "40 Bar" },
+          { label: "Output Pressure", value: "40 Bar" },
 
-    { label: "Maximum Spraying Distance", value: "100 Meter" },
+          { label: "Maximum Spraying Distance", value: "100 Meter" },
 
-    { label: "Maximum Spraying Height", value: "50 Meter" },
+          { label: "Maximum Spraying Height", value: "50 Meter" },
 
-    { label: "Pumping Hopper Capacity", value: "150L" },
+          { label: "Pumping Hopper Capacity", value: "150L" },
 
-    { label: "Mixer Hopper Capacity", value: "170L" },
+          { label: "Mixer Hopper Capacity", value: "170L" },
 
-    { label: "Accessories Included", value: "1 Spray Gun, 4 Spray Nozzles, 20 Meter Hose" },
-  ],
+          {
+            label: "Accessories Included",
+            value: "1 Spray Gun, 4 Spray Nozzles, 20 Meter Hose",
+          },
+        ],
 
-  ytArray: {
+        ytArray: {
           title: "E-Junior",
           link: "https://www.youtube.com/embed/Xmd13D7r_sk",
         },
 
-  image: [
-    {
-      src: "/Fire proffing spray mixture machine.webp",
-      alt: "Fire Proofing Mixture Machine (VES-M9)",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/Fire proffing spray mixture machine.webp",
+            alt: "Fire Proofing Mixture Machine (VES-M9)",
+          },
+        ],
+      },
 
       // product 2 Digicot 495
       {
@@ -671,7 +673,7 @@ export const categories = [
   {
     id: "airless-wall-putty-spray-machines",
     name: "Airless Wall Putty Spray Machines",
-    banner:"/banner/Airless-Wall-Putty-Spray-Machines.webp",
+    banner: "/banner/Airless-Wall-Putty-Spray-Machines.webp",
     metaTitle:
       "Airless Wall Putty Spray Machines Manufacturer & Supplier in India",
     metaDescription:
@@ -1235,7 +1237,7 @@ export const categories = [
   {
     id: "pneumatic-airless-paint-machines",
     name: "Pneumatic Airless Paint Machines",
-    banner:"/banner/Airless-Painting-Machine.webp",
+    banner: "/banner/Airless-Painting-Machine.webp",
     metaTitle: "Pneumatic Machines Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable Pneumatic Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
@@ -1327,7 +1329,7 @@ export const categories = [
   {
     id: "kerb-painting-machines",
     name: "Kerb Painting Machines",
-    banner:"/banner/Kerb-Painting-Machines.webp",
+    banner: "/banner/Kerb-Painting-Machines.webp",
     metaTitle: "Kerb Painting Machines Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable Kerb Painting Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
@@ -1409,7 +1411,7 @@ export const categories = [
   {
     id: "polyurethane-spray-machines",
     name: "Polyurethane Spray Machines",
-    banner:"/banner/Polyurethane-Spray-Machines.webp",
+    banner: "/banner/Polyurethane-Spray-Machines.webp",
     metaTitle: "Polyurethane Machines Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable Polyurethane Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
@@ -1492,7 +1494,7 @@ export const categories = [
   {
     id: "spare-parts-airless-painting-machines",
     name: "Spare parts of Airless Painting Machines",
-    banner:"/banner/Spare-parts-of-Airless-Painting-Machines.webp",
+    banner: "/banner/Spare-parts-of-Airless-Painting-Machines.webp",
     metaTitle:
       "Spare parts of Airless Painting Machines Manufacturer & Supplier in India",
     metaDescription:
@@ -2141,7 +2143,7 @@ export const categories = [
   {
     id: "blasting-machine",
     name: "Blasting Machine",
-    banner:"/banner/Blasting-Machine.webp",
+    banner: "/banner/Blasting-Machine.webp",
     metaTitle: "Blasting Machine Manufacturer & Supplier in India",
     metaDescription:
       "Vands Engineering Solutions offers reliable blasting machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
@@ -2242,120 +2244,130 @@ export const categories = [
 
       //extra
       {
-  id: "sand-blasting-hopper-with-compressor-kes-30-7-5",
+        id: "sand-blasting-hopper-with-compressor-kes-30-7-5",
 
-  name: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+        name: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
 
-  metaTitle:
-    "Sand Blasting Hopper with Compressor KES 30-7.5 | Vands Engineering",
+        metaTitle:
+          "Sand Blasting Hopper with Compressor KES 30-7.5 | Vands Engineering",
 
-  metaDescription:
-    "Buy Sand Blasting Hopper with Compressor (KES 30-7.5) for efficient abrasive blasting, rust removal, and industrial surface preparation applications.",
+        metaDescription:
+          "Buy Sand Blasting Hopper with Compressor (KES 30-7.5) for efficient abrasive blasting, rust removal, and industrial surface preparation applications.",
 
-  description: [
-    { type: "h2", text: "Overview" },
+        description: [
+          { type: "h2", text: "Overview" },
 
-    {
-      type: "p",
-      text: "Vands Engineering Solution presents the Sand Blasting Hopper with Compressor Model KES 30-7.5, designed for high-performance surface cleaning and abrasive blasting applications",
-    },
+          {
+            type: "p",
+            text: "Vands Engineering Solution presents the Sand Blasting Hopper with Compressor Model KES 30-7.5, designed for high-performance surface cleaning and abrasive blasting applications",
+          },
 
-    {
-      type: "p",
-      text: "Engineered to deliver powerful and efficient sand blasting performance for industrial surface preparation, rust removal, and finishing operations",
-    },
+          {
+            type: "p",
+            text: "Engineered to deliver powerful and efficient sand blasting performance for industrial surface preparation, rust removal, and finishing operations",
+          },
 
-    {
-      type: "p",
-      text: "Built with a heavy-duty compressor system capable of handling demanding industrial blasting requirements with stable air pressure output",
-    },
+          {
+            type: "p",
+            text: "Built with a heavy-duty compressor system capable of handling demanding industrial blasting requirements with stable air pressure output",
+          },
 
-    {
-      type: "p",
-      text: "Designed with a robust trolley-mounted structure for easy mobility, operational convenience, and improved site productivity",
-    },
+          {
+            type: "p",
+            text: "Designed with a robust trolley-mounted structure for easy mobility, operational convenience, and improved site productivity",
+          },
 
-    {
-      type: "p",
-      text: "Manufactured using durable industrial-grade components to ensure long service life, reliable performance, and minimal maintenance requirements",
-    },
+          {
+            type: "p",
+            text: "Manufactured using durable industrial-grade components to ensure long service life, reliable performance, and minimal maintenance requirements",
+          },
 
-    { type: "h2", text: "Features & Benefits:" },
+          { type: "h2", text: "Features & Benefits:" },
 
-    {
-      type: "ul",
-      items: [
-        "The maximum working pressure of 10 bar ensures a powerful blasting performance for effective surface cleaning and preparation",
-        "High normal working airflow capacity of 120 CFM provides continuous and efficient abrasive blasting operations",
-        "Heavy-duty trolley-mounted design allows easy transportation and convenient movement across industrial job sites",
-        "Strong and durable construction supports stable operation even in harsh and demanding working environments",
-        "Compact integrated blasting and compressor system improves operational efficiency and reduces setup complexity",
-      ],
-    },
+          {
+            type: "ul",
+            items: [
+              "The maximum working pressure of 10 bar ensures a powerful blasting performance for effective surface cleaning and preparation",
+              "High normal working airflow capacity of 120 CFM provides continuous and efficient abrasive blasting operations",
+              "Heavy-duty trolley-mounted design allows easy transportation and convenient movement across industrial job sites",
+              "Strong and durable construction supports stable operation even in harsh and demanding working environments",
+              "Compact integrated blasting and compressor system improves operational efficiency and reduces setup complexity",
+            ],
+          },
 
-    { type: "h2", text: "Applications:" },
+          { type: "h2", text: "Applications:" },
 
-    {
-      type: "ul",
-      items: [
-        "Ideal for industrial sand blasting applications requiring effective rust, scale, and paint removal",
-        "Widely used in fabrication, shipbuilding, construction, and heavy engineering industries",
-        "Suitable for surface preparation before painting, coating, or powder coating processes",
-        "Perfect for cleaning metal structures, pipelines, tanks, machinery, and fabricated components",
-        "Used in maintenance and refurbishment projects requiring high-efficiency abrasive blasting solutions",
-      ],
-    },
+          {
+            type: "ul",
+            items: [
+              "Ideal for industrial sand blasting applications requiring effective rust, scale, and paint removal",
+              "Widely used in fabrication, shipbuilding, construction, and heavy engineering industries",
+              "Suitable for surface preparation before painting, coating, or powder coating processes",
+              "Perfect for cleaning metal structures, pipelines, tanks, machinery, and fabricated components",
+              "Used in maintenance and refurbishment projects requiring high-efficiency abrasive blasting solutions",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
 
-    {
-      type: "ul",
-      items: [
-        "Recognized for delivering reliable and high-performance industrial blasting and compressor solutions",
-        "Strong focus on engineering quality, operational efficiency, and durable machine construction",
-        "Use of premium-grade components to ensure long-lasting and trouble-free performance",
-        "Competitive pricing with excellent value for industrial and commercial users",
-        "Dedicated after-sales support, including installation assistance, servicing, maintenance, and technical guidance",
-      ],
-    },
-  ],
+          {
+            type: "ul",
+            items: [
+              "Recognized for delivering reliable and high-performance industrial blasting and compressor solutions",
+              "Strong focus on engineering quality, operational efficiency, and durable machine construction",
+              "Use of premium-grade components to ensure long-lasting and trouble-free performance",
+              "Competitive pricing with excellent value for industrial and commercial users",
+              "Dedicated after-sales support, including installation assistance, servicing, maintenance, and technical guidance",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Model", value: "KES 30-7.5" },
+        specs: [
+          { label: "Model", value: "KES 30-7.5" },
 
-    { label: "Machine Type", value: "Sand Blasting Hopper with Compressor" },
+          {
+            label: "Machine Type",
+            value: "Sand Blasting Hopper with Compressor",
+          },
 
-    { label: "Maximum Working Pressure", value: "10 Bar" },
+          { label: "Maximum Working Pressure", value: "10 Bar" },
 
-    { label: "Normal Working Airflow", value: "120 CFM" },
+          { label: "Normal Working Airflow", value: "120 CFM" },
 
-    { label: "Mobility Type", value: "Trolley Mounted" },
+          { label: "Mobility Type", value: "Trolley Mounted" },
 
-    { label: "Application", value: "Surface Cleaning & Abrasive Blasting" },
+          {
+            label: "Application",
+            value: "Surface Cleaning & Abrasive Blasting",
+          },
 
-    { label: "Suitable Industries", value: "Fabrication, Shipbuilding, Construction & Heavy Engineering" },
-  ],
+          {
+            label: "Suitable Industries",
+            value:
+              "Fabrication, Shipbuilding, Construction & Heavy Engineering",
+          },
+        ],
 
-  ytArray: {
+        ytArray: {
           title: "Portable Sand Blasting Machine Demo",
           link: "https://www.youtube.com/embed/XUSR6pDHJl4",
         },
 
-  image: [
-    {
-      src: "/Sand blasting hose.webp",
-      alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
-    },
-    {
-      src: "/Sand blasting hose2.webp",
-      alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
-    },
-    {
-      src: "/Sand blasting hose3.webp",
-      alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/Sand blasting hose.webp",
+            alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+          },
+          {
+            src: "/Sand blasting hose2.webp",
+            alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+          },
+          {
+            src: "/Sand blasting hose3.webp",
+            alt: "Sand Blasting Hopper with Compressor (KES 30-7.5)",
+          },
+        ],
+      },
 
       {
         id: "sand-blasting-machine",
@@ -2443,7 +2455,7 @@ export const categories = [
   {
     id: "other-products",
     name: "Other Products",
-    banner:"/banner/Other-Products.webp",
+    banner: "/banner/Other-Products.webp",
     metaTitle: "Industrial Equipment & Tools | Vands Engineering Solutions",
     metaDescription:
       "Explore a wide range of industrial equipment and tools by Vands Engineering Solutions, including high-quality products designed for performance and durability.",
@@ -2530,118 +2542,117 @@ export const categories = [
         ],
       },
       {
-  id: "screw-air-compressor",
+        id: "screw-air-compressor",
 
-  name: "Screw Air Compressor",
+        name: "Screw Air Compressor",
 
-  metaTitle:
-    "Screw Air Compressor Series | Vands Engineering",
+        metaTitle: "Screw Air Compressor Series | Vands Engineering",
 
-  metaDescription:
-    "Buy Screw Air Compressor Series (ACF-55, ACF-75 & ACM-90) for efficient and continuous industrial compressed air applications with energy-efficient performance.",
+        metaDescription:
+          "Buy Screw Air Compressor Series (ACF-55, ACF-75 & ACM-90) for efficient and continuous industrial compressed air applications with energy-efficient performance.",
 
-  description: [
-    { type: "h2", text: "Overview" },
+        description: [
+          { type: "h2", text: "Overview" },
 
-    {
-      type: "p",
-      text: "Vands Engineering Solution presents the Screw Air Compressor Series (ACF-55, ACF-75 & ACM-90) designed for high-efficiency and continuous industrial compressed air applications",
-    },
+          {
+            type: "p",
+            text: "Vands Engineering Solution presents the Screw Air Compressor Series (ACF-55, ACF-75 & ACM-90) designed for high-efficiency and continuous industrial compressed air applications",
+          },
 
-    {
-      type: "p",
-      text: "Engineered with advanced direct drive technology to deliver stable airflow, energy efficiency, and reliable performance in demanding industrial environments",
-    },
+          {
+            type: "p",
+            text: "Engineered with advanced direct drive technology to deliver stable airflow, energy efficiency, and reliable performance in demanding industrial environments",
+          },
 
-    {
-      type: "p",
-      text: "Built with high-performance squirrel-cage induction motors to ensure smooth operation, reduced vibration, and long operational life",
-    },
+          {
+            type: "p",
+            text: "Built with high-performance squirrel-cage induction motors to ensure smooth operation, reduced vibration, and long operational life",
+          },
 
-    {
-      type: "p",
-      text: "Designed for heavy-duty industrial use with multiple pressure configurations including 8 Bar, 10 Bar, and 13 Bar for varied application requirements",
-    },
+          {
+            type: "p",
+            text: "Designed for heavy-duty industrial use with multiple pressure configurations including 8 Bar, 10 Bar, and 13 Bar for varied application requirements",
+          },
 
-    {
-      type: "p",
-      text: "Manufactured with premium-grade components and advanced engineering standards to provide superior productivity, durability, and low maintenance operation",
-    },
+          {
+            type: "p",
+            text: "Manufactured with premium-grade components and advanced engineering standards to provide superior productivity, durability, and low maintenance operation",
+          },
 
-    { type: "h2", text: "Features & Benefits:" },
+          { type: "h2", text: "Features & Benefits:" },
 
-    {
-      type: "ul",
-      items: [
-        "High free air delivery capacity ranging from 300 to 565 CFM ensures efficient compressed air supply for large-scale industrial operations",
-        "Equipped with energy-efficient IE3/IE4 motors for reduced power consumption and improved operational performance",
-        "Direct drive system provides higher transmission efficiency, reduced maintenance, and stable compressor performance",
-        "Advanced star-delta starting system ensures smooth motor startup and minimizes electrical load during operation",
-        "Built with IP-55 protection and F-Class insulation for enhanced motor safety, durability, and reliable performance in harsh environments",
-      ],
-    },
+          {
+            type: "ul",
+            items: [
+              "High free air delivery capacity ranging from 300 to 565 CFM ensures efficient compressed air supply for large-scale industrial operations",
+              "Equipped with energy-efficient IE3/IE4 motors for reduced power consumption and improved operational performance",
+              "Direct drive system provides higher transmission efficiency, reduced maintenance, and stable compressor performance",
+              "Advanced star-delta starting system ensures smooth motor startup and minimizes electrical load during operation",
+              "Built with IP-55 protection and F-Class insulation for enhanced motor safety, durability, and reliable performance in harsh environments",
+            ],
+          },
 
-    { type: "h2", text: "Applications:" },
+          { type: "h2", text: "Applications:" },
 
-    {
-      type: "ul",
-      items: [
-        "Ideal for manufacturing industries requiring continuous compressed air supply for machinery and automation systems",
-        "Widely used in automotive, engineering, fabrication, and metal processing industries",
-        "Suitable for pneumatic tools, spray painting systems, CNC machines, and industrial production lines",
-        "Perfect for textile, pharmaceutical, food processing, and packaging industries requiring efficient air compression systems",
-        "Used in heavy-duty industrial operations where reliable and energy-efficient compressed air solutions are essential",
-      ],
-    },
+          {
+            type: "ul",
+            items: [
+              "Ideal for manufacturing industries requiring continuous compressed air supply for machinery and automation systems",
+              "Widely used in automotive, engineering, fabrication, and metal processing industries",
+              "Suitable for pneumatic tools, spray painting systems, CNC machines, and industrial production lines",
+              "Perfect for textile, pharmaceutical, food processing, and packaging industries requiring efficient air compression systems",
+              "Used in heavy-duty industrial operations where reliable and energy-efficient compressed air solutions are essential",
+            ],
+          },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+          { type: "h2", text: "Why Choose Vands Engineering Solution:" },
 
-    {
-      type: "ul",
-      items: [
-        "Recognized for delivering high-performance and energy-efficient industrial air compressor solutions",
-        "Strong focus on advanced engineering, durability, and reliable operational performance",
-        "Use of premium-quality components and modern manufacturing standards for long service life",
-        "Competitive pricing with excellent value for industrial and commercial users",
-        "Dedicated after-sales support including installation guidance, maintenance, servicing, and technical assistance",
-      ],
-    },
-  ],
+          {
+            type: "ul",
+            items: [
+              "Recognized for delivering high-performance and energy-efficient industrial air compressor solutions",
+              "Strong focus on advanced engineering, durability, and reliable operational performance",
+              "Use of premium-quality components and modern manufacturing standards for long service life",
+              "Competitive pricing with excellent value for industrial and commercial users",
+              "Dedicated after-sales support including installation guidance, maintenance, servicing, and technical assistance",
+            ],
+          },
+        ],
 
-  specs: [
-    { label: "Models", value: "ACF-55, ACF-75 & ACM-90" },
+        specs: [
+          { label: "Models", value: "ACF-55, ACF-75 & ACM-90" },
 
-    { label: "Machine Type", value: "Screw Air Compressor" },
+          { label: "Machine Type", value: "Screw Air Compressor" },
 
-    { label: "Pressure Configurations", value: "8 Bar, 10 Bar & 13 Bar" },
+          { label: "Pressure Configurations", value: "8 Bar, 10 Bar & 13 Bar" },
 
-    { label: "Free Air Delivery Capacity", value: "300 – 565 CFM" },
+          { label: "Free Air Delivery Capacity", value: "300 – 565 CFM" },
 
-    { label: "Drive Type", value: "Direct Drive" },
+          { label: "Drive Type", value: "Direct Drive" },
 
-    { label: "Motor Type", value: "Squirrel-Cage Induction Motor" },
+          { label: "Motor Type", value: "Squirrel-Cage Induction Motor" },
 
-    { label: "Motor Efficiency", value: "IE3 / IE4" },
+          { label: "Motor Efficiency", value: "IE3 / IE4" },
 
-    { label: "Starting System", value: "Star-Delta Starting" },
+          { label: "Starting System", value: "Star-Delta Starting" },
 
-    { label: "Protection Class", value: "IP-55" },
+          { label: "Protection Class", value: "IP-55" },
 
-    { label: "Insulation Class", value: "F-Class" },
-  ],
+          { label: "Insulation Class", value: "F-Class" },
+        ],
 
-  ytArray: {
+        ytArray: {
           title: "Almen Gauge Model MSSD Digital",
           link: "https://www.youtube.com/embed/bwGROtv6KSc",
         },
 
-  image: [
-    {
-      src: "/Screw air compressor.webp",
-      alt: "Screw Air Compressor",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/Screw air compressor.webp",
+            alt: "Screw Air Compressor",
+          },
+        ],
+      },
 
       {
         id: "dry-film-thickness-gauge",
@@ -2874,7 +2885,6 @@ export const categories = [
       },
     ],
   },
-
 ];
 
 export const serviceLocations = [
