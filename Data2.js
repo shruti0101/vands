@@ -3065,8 +3065,8 @@ export const categories = [
 
   // [Polyurethane Machines]
   {
-    id: "spray-machines",
-    name: "Spray Machines",
+    id: "polyurethane-spray-machines",
+    name: "Polyurethane Spray Machines",
     banner: "/banner/Polyurethane-Spray-Machines.webp",
     metaTitle: "Polyurethane Machines Manufacturer & Supplier in India",
     metaDescription:
@@ -3074,8 +3074,8 @@ export const categories = [
 
     subcategory: [
       {
-        id: "polyurethane-spray-machines",
-        name: "Polyurethane Spray Machines",
+        id: "polyurethane-spray-machine",
+        name: "Polyurethane Spray Machine",
         products: [
           {
             id: "polycoat",
@@ -3487,7 +3487,96 @@ export const categories = [
       {
         id: "trolley-mounted",
         name: "Trolley Mounted",
-        products: [],
+        products: [
+          {
+            id: "tractor-mounted-sand-blasting-compressor",
+            name: "Tractor Mounted Sand Blasting Compressor",
+
+            metaTitle:
+              "Tractor Mounted Sand Blasting Compressor | Vands Engineering",
+
+            metaDescription:
+              "Buy Tractor Mounted Sand Blasting Compressor from Vands Engineering Solution. High-performance compressor for sandblasting, surface preparation, rust removal, and industrial cleaning applications.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Tractor Mounted Sand Blasting Compressor from Vands Engineering Solution is a robust and efficient compressed air system designed for heavy-duty sandblasting operations. Engineered to be mounted on tractors for easy mobility, it delivers a reliable supply of compressed air for abrasive blasting applications. Ideal for rust removal, paint stripping, surface cleaning, and industrial maintenance, this compressor ensures consistent performance, durability, and high productivity across demanding job sites.",
+              },
+
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "Heavy-duty tractor-mounted design for easy transportation",
+                  "Reliable compressed air supply for continuous sandblasting operations",
+                  "Two-stage compression system for improved efficiency",
+                  "High-quality construction for long service life",
+                  "Suitable for outdoor and industrial environments",
+                  "Large storage capacity for uninterrupted blasting operations",
+                  "Easy operation with low maintenance requirements",
+                  "Designed for demanding surface preparation applications",
+                ],
+              },
+
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Rust and corrosion removal",
+                  "Paint stripping and surface preparation",
+                  "Steel structure cleaning",
+                  "Bridge and infrastructure maintenance",
+                  "Shipyard and marine applications",
+                  "Industrial equipment maintenance",
+                  "Pipeline and tank surface preparation",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted manufacturer of industrial blasting equipment",
+                  "Reliable and durable compressor systems",
+                  "Designed for maximum operational efficiency",
+                  "High-quality engineering and manufacturing standards",
+                  "Professional technical support and after-sales service",
+                ],
+              },
+            ],
+
+            specs: [
+              {
+                label: "Product",
+                value: "Tractor Mounted Sand Blasting Compressor",
+              },
+              { label: "Storage Capacity", value: "500 kg" },
+              { label: "Barometric Pressure", value: "1 Bar" },
+              { label: "Brand", value: "Vands" },
+              { label: "Design Temperature", value: "46°C" },
+              { label: "Maximum Working Pressure", value: "7.5 kg/cm²" },
+              { label: "Number of Stages", value: "2" },
+              {
+                label: "Application",
+                value: "Industrial Sand Blasting & Surface Preparation",
+              },
+            ],
+
+            ytArray: {
+              title: "Tractor Mounted Sand Blasting Compressor",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
+
+            image: [
+              {
+                src: "/prods/Tractor-Mounted-Sand-Blasting-Compressor.webp",
+                alt: "Tractor Mounted Sand Blasting Compressor by Vands Engineering Solution",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
