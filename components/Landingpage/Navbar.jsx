@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import {
   ChevronDown,
@@ -28,6 +28,9 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProductsOpen, setIsProductsOpen] = useState(false);
   const [activeMobileCategory, setActiveMobileCategory] = useState(null);
+
+  const productMenuRef = useRef(null);
+  const mobileMenuRef = useRef(null);
 
   // ✅ SEARCH STATE
   const [searchQuery, setSearchQuery] = useState("");
@@ -66,6 +69,29 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
+  useEffect(() => {
+  function handleClickOutside(event) {
+    const desktopOutside =
+      !productMenuRef.current ||
+      !productMenuRef.current.contains(event.target);
+
+    const mobileOutside =
+      !mobileMenuRef.current ||
+      !mobileMenuRef.current.contains(event.target);
+
+    if (desktopOutside && mobileOutside) {
+      setIsProductsOpen(false);
+      setActiveCategory(null);
+      setActiveMobileCategory(null);
+    }
+  }
+
+  document.addEventListener("mousedown", handleClickOutside);
+
+  return () =>
+    document.removeEventListener("mousedown", handleClickOutside);
+}, []);
+
   const closeMenu = () => {
     setIsMobileMenuOpen(false);
     setIsProductsOpen(false);
@@ -91,7 +117,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="w-full fixed top-0 left-0 z-50 font-semibold">
+    <header  className="w-full fixed top-0 left-0 z-50 font-semibold">
       {/* TOP BAR */}
       <div
         className={`hidden lg:block bg-[#c8102e] text-white transition-all duration-500 overflow-hidden ${
@@ -112,10 +138,10 @@ export default function Navbar() {
               <Phone size={14} /> +91-99907 30939
             </a>
             <a
-              href="mailto:vandsengg@gmail.com"
+              href="mailto:sales.vands5@gmail.com"
               className="flex items-center gap-2"
             >
-              <Mail size={14} /> vandsengg@gmail.com
+              <Mail size={14} /> sales.vands5@gmail.com
             </a>
 
             <div className="flex items-center gap-3 ml-4">
@@ -136,7 +162,7 @@ export default function Navbar() {
       </div>
 
       {/* MAIN NAV */}
-      <div className="bg-black text-white sticky top-0 z-50 shadow-md">
+      <div  className="bg-black text-white sticky top-0 z-50 shadow-md">
         <div className="max-w-[1400px] mx-auto flex items-center justify-between px-4 lg:px-10 h-[58px]">
           {/* LOGO */}
           <div className="lg:hidden">
@@ -151,7 +177,7 @@ export default function Navbar() {
             <Link href="/contact">CONTACT US</Link>
 
             {/* PRODUCTS */}
-            <div className="relative">
+            <div ref={productMenuRef} className="relative">
               <button
                 onClick={() => {
                   setIsProductsOpen(!isProductsOpen);
@@ -299,7 +325,7 @@ export default function Navbar() {
               </Link>
 
               {/* PRODUCTS DROPDOWN */}
-              <div>
+              <div  ref={mobileMenuRef}>
   <button
     onClick={() => setIsProductsOpen(!isProductsOpen)}
     className="w-full flex justify-between items-center"

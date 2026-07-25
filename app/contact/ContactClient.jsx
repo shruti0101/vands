@@ -23,7 +23,7 @@ export default function Page() {
     try {
       const formData = {
         platform: "Vands Engineering  Contact Form",
-        platformEmail: "vandsengg@gmail.com",
+        platformEmail: "sales.vands5@gmail.com",
         name,
         phone,
         email,
@@ -107,7 +107,7 @@ Contact: ${phone}`;
           <div className="bg-white p-6 rounded-2xl shadow-xl text-center hover:scale-105 transition">
             <Mail className="mx-auto text-[#C8102E] mb-3" size={32} />
             <h3 className="font-semibold text-lg mb-2">Email Address</h3>
-            <p>vandsengg@gmail.com</p>
+            <p>sales.vands5@gmail.com</p>
           </div>
 
           <div className="bg-white p-6 rounded-2xl shadow-xl text-center hover:scale-105 transition">

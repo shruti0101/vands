@@ -1153,12 +1153,226 @@ export const categories = [
       {
         id: "plural-component-machine",
         name: "Plural Component Machine",
-        products: []
+        products: [
+          {
+            id: "plural-component-ratio-2k-airless-spray-painting-machine",
+
+            name: "Plural Component Ratio 2K Airless Spray Painting Machine",
+
+            metaTitle:
+              "Plural Component Ratio 2K Airless Spray Painting Machine | Vands Engineering",
+
+            metaDescription:
+              "Buy Plural Component Ratio 2K Airless Spray Painting Machine for precise two-component mixing and high-performance industrial coating applications. Ideal for epoxy, polyurethane, and protective coatings.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+
+              {
+                type: "p",
+                text: "Vands Engineering Solution presents the Plural Component Ratio 2K Airless Spray Painting Machine, designed for precise mixing and spraying of two-component reactive coatings.",
+              },
+
+              {
+                type: "p",
+                text: "Engineered to simultaneously mix base material and hardener at a fixed ratio, ensuring accurate coating consistency and optimal curing performance.",
+              },
+
+              {
+                type: "p",
+                text: "Specially developed for high-performance coating applications where materials must be mixed immediately before spraying due to short pot life.",
+              },
+
+              {
+                type: "p",
+                text: "Designed with advanced airless spraying technology to deliver smooth, uniform, and high-quality coating finishes with minimal material wastage.",
+              },
+
+              {
+                type: "p",
+                text: "Ideal for industrial sectors such as automotive, aerospace, marine, fabrication, and protective coating industries requiring precision coating solutions.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+
+              {
+                type: "ul",
+                items: [
+                  "High-pressure exchange ratio of 43:1 ensures powerful spraying performance and excellent coating atomization",
+                  "Efficient flow rate of 15 Ltrs/min supports continuous operation and faster coverage for large-scale industrial applications",
+                  "Operates with a compressed air pressure range of 3–6 Bar, ensuring stable and reliable spraying performance",
+                  "Equipped with a 3-point static mixer system for accurate and uniform mixing of two reactive coating components",
+                  "Integrated diaphragm-type flushing pump ensures efficient cleaning and prevents material hardening inside the system after operation",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+
+              {
+                type: "ul",
+                items: [
+                  "Ideal for applying high-performance industrial coatings requiring precise two-component mixing and spraying",
+                  "Widely used in automotive, aerospace, marine, and heavy engineering industries for protective coating applications",
+                  "Suitable for epoxy, polyurethane, anti-corrosion, and chemical-resistant coating systems",
+                  "Perfect for coating pipelines, tanks, steel structures, machinery, and fabricated components",
+                  "Used in industrial environments where fast-curing and high-durability coating systems are required",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+
+              {
+                type: "ul",
+                items: [
+                  "Recognized for delivering advanced and reliable industrial spraying and coating equipment solutions",
+                  "Strong focus on precision engineering, operational efficiency, and high-performance coating technology",
+                  "Use of premium-grade components to ensure durability, consistent mixing accuracy, and long service life",
+                  "Competitive pricing with excellent value for industrial and professional coating applications",
+                  "Dedicated after-sales support, including installation assistance, technical guidance, servicing, and maintenance solutions",
+                ],
+              },
+            ],
+
+            specs: [
+              {
+                label: "Machine Type",
+                value:
+                  "Plural Component Ratio 2K Airless Spray Painting Machine",
+              },
+
+              { label: "Pressure Ratio", value: "43:1" },
+
+              { label: "Maximum Flow Rate", value: "15 Ltrs/min" },
+
+              { label: "Operating Air Pressure", value: "3–6 Bar" },
+
+              { label: "Mixing System", value: "3-Point Static Mixer" },
+
+              { label: "Flushing Pump Type", value: "Diaphragm Type" },
+
+              {
+                label: "Application Type",
+                value: "Two-Component Reactive Coating",
+              },
+
+              {
+                label: "Suitable Coatings",
+                value:
+                  "Epoxy, Polyurethane, Anti-Corrosion & Chemical Resistant Coatings",
+              },
+
+              {
+                label: "Industries",
+                value: "Automotive, Aerospace, Marine, Heavy Engineering",
+              },
+            ],
+
+            ytArray: {
+              title: "E-Junior",
+              link: "https://www.youtube.com/embed/Xmd13D7r_sk",
+            },
+
+            image: [
+              {
+                src: "/Plural Component Sprayer.webp",
+                alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+              },
+              {
+                src: "/Plural Component Sprayer2.webp",
+                alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+              },
+            ],
+          },
+        ],
       },
       {
         id: "internal-pipe-blasting-Coating-equipment",
         name: "Internal Pipe Blasting/Coating Equipment",
-        products: []
+        products: [
+          {
+            id: "internal-pipe-coating-equipment",
+            name: "Internal Pipe Coating Equipment",
+
+            metaTitle: "Internal Pipe Coating Equipment | Pipe Coating Machine",
+
+            metaDescription:
+              "Buy Internal Pipe Coating Equipment from Vands Engineering Solution. Ideal for uniform coating and painting of inner pipe surfaces for corrosion protection and improved durability.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Internal Pipe Coating Equipment from Vands Engineering Solution is specially designed for the efficient coating and painting of internal pipe surfaces. Manufactured from high-quality mild steel, this manually operated equipment ensures smooth, uniform, and consistent coating application inside pipes with a minimum internal diameter of 20 mm. It plays a vital role in protecting pipelines against corrosion, enhancing flow efficiency, and extending service life. Widely used across oil & gas, water supply, chemical processing, and industrial piping systems, this equipment delivers reliable performance with easy operation and low maintenance.",
+              },
+
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "Designed for uniform internal pipe coating and painting",
+                  "Suitable for pipes with a minimum internal diameter of 20 mm",
+                  "Strong mild steel construction for long service life",
+                  "Manual operation for simple and reliable performance",
+                  "Ensures smooth and consistent coating application",
+                  "Improves corrosion resistance and pipe durability",
+                  "Compact design for easy transportation and handling",
+                  "Low maintenance with dependable industrial performance",
+                ],
+              },
+
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Internal coating of steel pipelines",
+                  "Oil and gas pipeline protection",
+                  "Water supply and distribution pipelines",
+                  "Chemical processing plants",
+                  "Industrial pipe maintenance",
+                  "Corrosion protection and rehabilitation projects",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Reliable industrial coating equipment manufacturer",
+                  "Robust construction for demanding applications",
+                  "Precision-engineered for consistent coating quality",
+                  "Competitive pricing with dependable performance",
+                  "Professional technical support and after-sales service",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Product", value: "Internal Pipe Coating Equipment" },
+              { label: "Material", value: "Mild Steel" },
+              { label: "Internal Pipe Diameter", value: "20 mm (Minimum)" },
+              { label: "Operation Type", value: "Manual" },
+              { label: "Height", value: "3.5 Feet" },
+              { label: "Brand", value: "Vands" },
+              { label: "Packaging Type", value: "Box" },
+              {
+                label: "Application",
+                value: "Coating & Painting of Inner Pipes",
+              },
+            ],
+
+            ytArray: {
+              title: "Internal Pipe Coating Equipment",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
+
+            image: [
+              {
+                src: "/prods/Internal-Pipe-Coating-Equipment.avif",
+                alt: "Internal Pipe Coating Equipment by Vands Engineering Solution",
+              },
+            ],
+          },
+        ],
       },
 
       {
@@ -1959,11 +2173,141 @@ export const categories = [
           },
         ],
       },
-        {
+      {
         id: "plural-component-machine",
         name: "Plural Component Machine",
-        products: []
-      }
+        products: [
+          {
+            id: "plural-component-ratio-2k-airless-spray-painting-machine",
+
+            name: "Plural Component Ratio 2K Airless Spray Painting Machine",
+
+            metaTitle:
+              "Plural Component Ratio 2K Airless Spray Painting Machine | Vands Engineering",
+
+            metaDescription:
+              "Buy Plural Component Ratio 2K Airless Spray Painting Machine for precise two-component mixing and high-performance industrial coating applications. Ideal for epoxy, polyurethane, and protective coatings.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+
+              {
+                type: "p",
+                text: "Vands Engineering Solution presents the Plural Component Ratio 2K Airless Spray Painting Machine, designed for precise mixing and spraying of two-component reactive coatings.",
+              },
+
+              {
+                type: "p",
+                text: "Engineered to simultaneously mix base material and hardener at a fixed ratio, ensuring accurate coating consistency and optimal curing performance.",
+              },
+
+              {
+                type: "p",
+                text: "Specially developed for high-performance coating applications where materials must be mixed immediately before spraying due to short pot life.",
+              },
+
+              {
+                type: "p",
+                text: "Designed with advanced airless spraying technology to deliver smooth, uniform, and high-quality coating finishes with minimal material wastage.",
+              },
+
+              {
+                type: "p",
+                text: "Ideal for industrial sectors such as automotive, aerospace, marine, fabrication, and protective coating industries requiring precision coating solutions.",
+              },
+
+              { type: "h2", text: "Features & Benefits:" },
+
+              {
+                type: "ul",
+                items: [
+                  "High-pressure exchange ratio of 43:1 ensures powerful spraying performance and excellent coating atomization",
+                  "Efficient flow rate of 15 Ltrs/min supports continuous operation and faster coverage for large-scale industrial applications",
+                  "Operates with a compressed air pressure range of 3–6 Bar, ensuring stable and reliable spraying performance",
+                  "Equipped with a 3-point static mixer system for accurate and uniform mixing of two reactive coating components",
+                  "Integrated diaphragm-type flushing pump ensures efficient cleaning and prevents material hardening inside the system after operation",
+                ],
+              },
+
+              { type: "h2", text: "Applications:" },
+
+              {
+                type: "ul",
+                items: [
+                  "Ideal for applying high-performance industrial coatings requiring precise two-component mixing and spraying",
+                  "Widely used in automotive, aerospace, marine, and heavy engineering industries for protective coating applications",
+                  "Suitable for epoxy, polyurethane, anti-corrosion, and chemical-resistant coating systems",
+                  "Perfect for coating pipelines, tanks, steel structures, machinery, and fabricated components",
+                  "Used in industrial environments where fast-curing and high-durability coating systems are required",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+
+              {
+                type: "ul",
+                items: [
+                  "Recognized for delivering advanced and reliable industrial spraying and coating equipment solutions",
+                  "Strong focus on precision engineering, operational efficiency, and high-performance coating technology",
+                  "Use of premium-grade components to ensure durability, consistent mixing accuracy, and long service life",
+                  "Competitive pricing with excellent value for industrial and professional coating applications",
+                  "Dedicated after-sales support, including installation assistance, technical guidance, servicing, and maintenance solutions",
+                ],
+              },
+            ],
+
+            specs: [
+              {
+                label: "Machine Type",
+                value:
+                  "Plural Component Ratio 2K Airless Spray Painting Machine",
+              },
+
+              { label: "Pressure Ratio", value: "43:1" },
+
+              { label: "Maximum Flow Rate", value: "15 Ltrs/min" },
+
+              { label: "Operating Air Pressure", value: "3–6 Bar" },
+
+              { label: "Mixing System", value: "3-Point Static Mixer" },
+
+              { label: "Flushing Pump Type", value: "Diaphragm Type" },
+
+              {
+                label: "Application Type",
+                value: "Two-Component Reactive Coating",
+              },
+
+              {
+                label: "Suitable Coatings",
+                value:
+                  "Epoxy, Polyurethane, Anti-Corrosion & Chemical Resistant Coatings",
+              },
+
+              {
+                label: "Industries",
+                value: "Automotive, Aerospace, Marine, Heavy Engineering",
+              },
+            ],
+
+            ytArray: {
+              title: "E-Junior",
+              link: "https://www.youtube.com/embed/Xmd13D7r_sk",
+            },
+
+            image: [
+              {
+                src: "/Plural Component Sprayer.webp",
+                alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+              },
+              {
+                src: "/Plural Component Sprayer2.webp",
+                alt: "Plural Component Ratio 2K Airless Spray Painting Machine",
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 
@@ -2069,7 +2413,96 @@ export const categories = [
       {
         id: "sand-blasting-trolley-type",
         name: "Sand Blasting Trolley Type",
-        products: [],
+        products: [
+          {
+            id: "tractor-mounted-sand-blasting-compressor",
+            name: "Tractor Mounted Sand Blasting Compressor",
+
+            metaTitle:
+              "Tractor Mounted Sand Blasting Compressor | Vands Engineering",
+
+            metaDescription:
+              "Buy Tractor Mounted Sand Blasting Compressor from Vands Engineering Solution. High-performance compressor for sandblasting, surface preparation, rust removal, and industrial cleaning applications.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Tractor Mounted Sand Blasting Compressor from Vands Engineering Solution is a robust and efficient compressed air system designed for heavy-duty sandblasting operations. Engineered to be mounted on tractors for easy mobility, it delivers a reliable supply of compressed air for abrasive blasting applications. Ideal for rust removal, paint stripping, surface cleaning, and industrial maintenance, this compressor ensures consistent performance, durability, and high productivity across demanding job sites.",
+              },
+
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "Heavy-duty tractor-mounted design for easy transportation",
+                  "Reliable compressed air supply for continuous sandblasting operations",
+                  "Two-stage compression system for improved efficiency",
+                  "High-quality construction for long service life",
+                  "Suitable for outdoor and industrial environments",
+                  "Large storage capacity for uninterrupted blasting operations",
+                  "Easy operation with low maintenance requirements",
+                  "Designed for demanding surface preparation applications",
+                ],
+              },
+
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Rust and corrosion removal",
+                  "Paint stripping and surface preparation",
+                  "Steel structure cleaning",
+                  "Bridge and infrastructure maintenance",
+                  "Shipyard and marine applications",
+                  "Industrial equipment maintenance",
+                  "Pipeline and tank surface preparation",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted manufacturer of industrial blasting equipment",
+                  "Reliable and durable compressor systems",
+                  "Designed for maximum operational efficiency",
+                  "High-quality engineering and manufacturing standards",
+                  "Professional technical support and after-sales service",
+                ],
+              },
+            ],
+
+            specs: [
+              {
+                label: "Product",
+                value: "Tractor Mounted Sand Blasting Compressor",
+              },
+              { label: "Storage Capacity", value: "500 kg" },
+              { label: "Barometric Pressure", value: "1 Bar" },
+              { label: "Brand", value: "Vands" },
+              { label: "Design Temperature", value: "46°C" },
+              { label: "Maximum Working Pressure", value: "7.5 kg/cm²" },
+              { label: "Number of Stages", value: "2" },
+              {
+                label: "Application",
+                value: "Industrial Sand Blasting & Surface Preparation",
+              },
+            ],
+
+            ytArray: {
+              title: "Tractor Mounted Sand Blasting Compressor",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
+
+            image: [
+              {
+                src: "/prods/Tractor-Mounted-Sand-Blasting-Compressor.webp",
+                alt: "Tractor Mounted Sand Blasting Compressor by Vands Engineering Solution",
+              },
+            ],
+          },
+        ],
       },
       {
         id: "sand-blasting-spare-parts",
@@ -2223,234 +2656,179 @@ export const categories = [
       {
         id: "cabinet-of-shot-blasting",
         name: "Cabinet of Shot Blasting",
-        products: [],
+        products: [
+          {
+            id: "cabinet-shot-blasting-pb-9182",
+            name: "Cabinet Shot Blasting Machine PB 9182",
+
+            metaTitle:
+              "Cabinet Shot Blasting Machine PB 9182 | Vands Engineering",
+
+            metaDescription:
+              "Buy Cabinet Shot Blasting Machine PB 9182 from Vands Engineering Solution. Ideal for efficient surface cleaning, rust removal, deburring, and industrial shot blasting applications.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Cabinet Shot Blasting Machine PB 9182 from Vands Engineering Solution is a high-performance enclosed blasting system designed for precision surface preparation and cleaning. It provides a controlled blasting environment that efficiently removes rust, scale, paint, burrs, and contaminants while minimizing abrasive loss and dust emission. Built for industrial applications, this machine offers excellent visibility, high productivity, and reliable performance, making it suitable for workshops, manufacturing units, foundries, and fabrication industries.",
+              },
+
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "Fully enclosed cabinet for safe and dust-controlled blasting",
+                  "Efficient abrasive recycling system for reduced operating costs",
+                  "High-capacity dust collector for a clean working environment",
+                  "Heavy-duty steel construction for long service life",
+                  "Spacious cabinet for handling a wide range of components",
+                  "High-performance fan for effective dust extraction",
+                  "Easy operation and low maintenance design",
+                  "Suitable for continuous industrial applications",
+                ],
+              },
+
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Rust and scale removal",
+                  "Surface preparation before painting or coating",
+                  "Deburring of machined components",
+                  "Cleaning castings and fabricated parts",
+                  "Automotive and aerospace component finishing",
+                  "Metal finishing and maintenance operations",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Premium-quality industrial shot blasting equipment",
+                  "Reliable performance with robust construction",
+                  "Designed for high productivity and operator safety",
+                  "Low maintenance and long operational life",
+                  "Professional technical support and after-sales service",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Model", value: "PB 9182" },
+              { label: "Height (A)", value: "775 mm" },
+              { label: "Width (B)", value: "910 mm" },
+              { label: "Depth (C)", value: "820 mm" },
+              { label: "Door Width (G)", value: "730 mm" },
+              { label: "Door Height (H)", value: "675 mm" },
+              { label: "Overall Height (D)", value: "2130 mm" },
+              { label: "Overall Width", value: "1100 mm" },
+              { label: "Overall Depth (P)", value: "2500 mm" },
+              { label: "Reclaimer Fan Motor", value: "1 HP" },
+              { label: "Fan Capacity", value: "14.16 m³/min" },
+              { label: "Fan Capacity (CFM)", value: "500 CFM" },
+              { label: "Filter Cloth Area", value: "7.5 m²" },
+            ],
+
+            ytArray: {
+              title: "Cabinet Shot Blasting Machine PB 9182",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
+
+            image: [
+              {
+                src: "/prods/cabinet-shot-blasting-pb-9182.webp",
+                alt: "Cabinet Shot Blasting Machine PB 9182",
+              },
+            ],
+          },
+        ],
       },
       {
         id: "shot-blasting-spare-parts",
         name: "Shot Blasting Spare parts",
-        products: [],
-      },
-    ],
-  },
-
-  //Spare Parts
-  {
-    id: "spare-parts",
-    name: "Spare Parts",
-    banner: "/banner/Polyurethane-Spray-Machines.webp",
-    metaTitle: "Spare parts of Spray Gun Manufacturer & Supplier in India",
-    metaDescription:
-      "Vands Engineering Solutions offers reliable Polyurethane Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
-
-    subcategory: [
-      {
-        id: "spray-guns",
-        name: "Spray Guns",
         products: [
           {
-            id: "airless-paint-spray-gun",
-            name: "Airless Paint Spray Gun",
-            metaTitle: "Airless Paint Spray Gun | Vands Engineering",
+            id: "shot-blasting-machine-spare-parts",
+            name: "Shot Blasting Machine Spare Parts",
+
+            metaTitle: "Shot Blasting Machine Spare Parts | Vands Engineering",
+
             metaDescription:
-              "Vands Engineering Solutions offers reliable Airless Paint Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+              "Buy  Shot Blasting Machine Spare Parts from Vands Engineering Solution. High-quality replacement parts for reliable performance, reduced downtime, and extended equipment life.",
 
             description: [
               { type: "h2", text: "Overview" },
               {
                 type: "p",
-                text: "The Airless Paint Spray Gun by Vands Engineering Solution is a precision-engineered spraying solution designed for professional-grade finishing and coating applications. Built with high-quality stainless steel construction, this spray gun offers excellent durability, corrosion resistance, and long operational life in demanding industrial and commercial environments. It delivers smooth, uniform, and controlled paint application while ensuring efficient air consumption and stable spraying performance. Designed for user comfort and reliable operation, the spray gun is ideal for achieving superior coating quality across a wide range of applications.",
+                text: "The  Shot Blasting Machine Spare Parts from Vands Engineering Solution are precision-engineered components designed to maintain the efficiency, reliability, and service life of air shot blasting machines. Manufactured using high-quality materials, these spare parts ensure seamless compatibility with existing equipment while minimizing downtime and maintenance costs. Suitable for a wide range of industrial surface preparation applications, they deliver dependable performance under demanding operating conditions.",
               },
 
-              { type: "h2", text: "Features & Benefits:" },
+              { type: "h2", text: "Features & Benefits" },
               {
                 type: "ul",
                 items: [
-                  "Equipped with a 1 mm nozzle size for precise atomization and smooth paint distribution",
-                  "Durable stainless steel body construction ensures high strength and corrosion resistance",
-                  "Operates efficiently within an air pressure range of 70–100 PSI for consistent spraying performance",
-                  "Low air consumption of 7–8 CFM helps reduce compressor load and improve efficiency",
-                  "Compact and ergonomic design ensures easy handling and better operator comfort",
-                  "100 ml cup capacity supports convenient operation for detailed and precision painting tasks",
-                  "Provides smooth, controlled, and professional-quality coating results",
+                  "Manufactured from premium-quality materials for long service life",
+                  "Designed for reliable and efficient machine performance",
+                  "Precision-engineered for perfect compatibility",
+                  "Helps reduce machine downtime and maintenance costs",
+                  "Easy installation and replacement",
+                  "Suitable for continuous industrial applications",
+                  "Enhances the efficiency of shot blasting operations",
+                  "Excellent wear resistance for demanding environments",
                 ],
               },
 
-              { type: "h2", text: "Applications:" },
+              { type: "h2", text: "Applications" },
               {
                 type: "ul",
                 items: [
-                  "Ideal for industrial painting and coating applications requiring precision finishing",
-                  "Suitable for automotive refinishing, touch-up work, and detailed paint applications",
-                  "Widely used in furniture, metal fabrication, and woodworking industries",
-                  "Perfect for applying primers, enamels, lacquers, and decorative coatings",
-                  "Preferred by professional painters and workshops for reliable spray performance",
+                  "shot blasting machines",
+                  "Steel beam surface preparation",
+                  "Rust and scale removal",
+                  "Industrial fabrication workshops",
+                  "Foundries and manufacturing plants",
+                  "Equipment maintenance and refurbishment",
                 ],
               },
 
-              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
               {
                 type: "ul",
                 items: [
-                  "Trusted Airless Painting Sprayer Manufacturer delivering high-quality spraying equipment",
-                  "Strong focus on precision engineering, durability, and efficient coating performance",
-                  "Use of premium-grade materials for long-lasting reliability and reduced maintenance",
-                  "Competitive pricing with excellent value for industrial and professional users",
-                  "Dedicated after-sales support including technical assistance, servicing, and customer support",
-                ],
-              },
-            ],
-
-            specs: [
-              { label: "Nozzle Size", value: "1 mm" },
-              { label: "Body Material", value: "Stainless Steel" },
-              { label: "Air Pressure", value: "70 - 100 psi" },
-              { label: "Air Consumption", value: "7 - 8 CFM" },
-              { label: "Cup Capacity", value: "100 ml" },
-              { label: "Color", value: "Silver" },
-            ],
-
-            image: [
-              {
-                src: "/Spare parts of airless paint machines/Silver plus gun.webp",
-                alt: "Pneumatic 70:1 Airless Paint Sprayer",
-              },
-            ],
-          },
-          {
-            id: "mild-steel-blue-paint-spray-gun",
-            name: "Mild Steel Blue Paint Spray Gun",
-            metaTitle: "Mild Steel Blue Paint Spray Gun | Vands Engineering",
-            metaDescription:
-              "Vands Engineering Solutions offers reliable Mild Steel Blue Paint Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
-
-            description: [
-              { type: "h2", text: "Overview" },
-              {
-                type: "p",
-                text: "The Mild Steel Blue Paint Spray Gun by Vands Engineering Solution is a high-performance painting tool designed for smooth and efficient coating applications across multiple industries. Engineered to deliver precise paint atomization and uniform coating results, this spray gun ensures professional-quality surface finishing on a variety of materials. Manufactured with a durable mild steel handle structure, it offers excellent strength, stability, and long-lasting operational performance. Designed for easy handling and controlled spraying, the spray gun is ideal for industrial, commercial, automotive, and workshop painting applications.",
-              },
-
-              { type: "h2", text: "Features & Benefits:" },
-              {
-                type: "ul",
-                items: [
-                  "Equipped with a 1.3 mm nozzle size for smooth atomization and consistent paint application",
-                  "Large 500 ml cup capacity supports continuous spraying with reduced refilling frequency",
-                  "Durable mild steel handle construction ensures strong grip and long service life",
-                  "Single nozzle spray system provides controlled paint flow and uniform coating performance",
-                  "Attractive blue base finish gives a professional appearance and enhanced durability",
-                  "Ergonomic design ensures comfortable handling during extended painting operations",
-                  "Designed for reliable performance and efficient paint transfer across various surfaces",
-                ],
-              },
-
-              { type: "h2", text: "Applications:" },
-              {
-                type: "ul",
-                items: [
-                  "Ideal for industrial and commercial painting applications requiring smooth finishing",
-                  "Suitable for automotive refinishing, furniture coating, and metal surface painting",
-                  "Widely used in workshops, fabrication units, and construction projects",
-                  "Perfect for applying primers, enamels, lacquers, and decorative coatings",
-                  "Preferred by professional painters and contractors for reliable spray performance",
-                ],
-              },
-
-              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-              {
-                type: "ul",
-                items: [
-                  "Trusted Airless Painting Sprayer Manufacturer offering high-quality painting equipment",
-                  "Strong focus on precision engineering, durability, and coating efficiency",
-                  "Use of premium-grade materials and advanced manufacturing processes",
-                  "Competitive pricing with excellent value for industrial and professional users",
-                  "Dedicated after-sales support including technical assistance and servicing solutions",
+                  "Trusted supplier of industrial shot blasting equipment and spares",
+                  "High-quality components with reliable performance",
+                  "Precision manufacturing for perfect fit and durability",
+                  "Competitive pricing with dependable after-sales support",
+                  "Committed to quality and customer satisfaction",
                 ],
               },
             ],
 
             specs: [
-              { label: "Cup Capacity", value: "500 ml" },
-              { label: "Nozzle Size", value: "1.3 mm" },
-              { label: "Type", value: "Spray Gun" },
-              { label: "Handle Material", value: "Mild Steel" },
-              { label: "Usage", value: "Used For Painting" },
-              { label: "Nozzle", value: "Single Nozzle" },
-              { label: "Color", value: "Blue" },
+              {
+                label: "Product",
+                value: "Air Shot Blasting Machine Spare Parts",
+              },
+              { label: "Machine Type", value: "Air Blasting" },
+              { label: "Material to Be Blasted", value: "Beam" },
+              { label: "Number of Doors", value: "Single Door" },
+              { label: "Voltage", value: "220 V" },
+              { label: "Capacity", value: "0–5 Ton/Day" },
+              { label: "Automation Grade", value: "Manual" },
+              { label: "Power Supply", value: "AC 440 V Compatible" },
             ],
+
+            ytArray: {
+              title: "Air Shot Blasting Machine Spare Parts",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
 
             image: [
               {
-                src: "/Spare parts of airless paint machines/Maxcoat Gun.webp",
-                alt: "Pneumatic 70:1 Airless Paint Sprayer",
-              },
-            ],
-          },
-          {
-            id: "lx80-airless-spray-gun",
-            name: "LX80 Airless Spray Gun",
-            metaTitle: "LX80 Airless Spray Gun | Vands Engineering",
-            metaDescription:
-              "Vands Engineering Solutions offers reliable LX80 Airless Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
-
-            description: [
-              { type: "h2", text: "Overview" },
-              {
-                type: "p",
-                text: "The LX80 Airless Spray Gun by Vands Engineering Solution is a high-performance spraying tool designed for smooth and efficient paint application across multiple industries. Engineered to deliver precise atomization and uniform coating results, this spray gun ensures professional-quality surface finishing on a variety of materials. Manufactured using a durable and lightweight plastic body, it offers comfortable handling, easy operation, and long operational performance. Designed for compatibility with airless paint sprayers, the LX80 Airless Spray Gun is suitable for industrial, commercial, automotive, and construction painting applications requiring reliable and efficient spraying performance.",
-              },
-
-              { type: "h2", text: "Features & Benefits:" },
-              {
-                type: "ul",
-                items: [
-                  "Equipped with a 1 mm nozzle size for smooth atomization and even paint distribution",
-                  "Durable plastic body construction ensures lightweight handling and wear resistance",
-                  "Large 550 ml cup capacity allows longer spraying duration with fewer refills",
-                  "Standard 1/4 inch air inlet size ensures compatibility with various spraying systems",
-                  "Ergonomic and user-friendly design provides comfortable grip and controlled spraying",
-                  "Designed for reliable and efficient coating performance across different applications",
-                  "Supports smooth and professional-quality finishing on multiple surface types",
-                ],
-              },
-
-              { type: "h2", text: "Applications:" },
-              {
-                type: "ul",
-                items: [
-                  "Ideal for industrial and commercial painting applications requiring uniform finishes",
-                  "Suitable for automotive refinishing, furniture coating, and decorative painting work",
-                  "Widely used in workshops, fabrication units, and construction painting projects",
-                  "Perfect for applying primers, enamels, lacquers, and protective coatings",
-                  "Preferred by professional painters and contractors for reliable spraying performance",
-                ],
-              },
-
-              { type: "h2", text: "Why Choose Vands Engineering Solution:" },
-              {
-                type: "ul",
-                items: [
-                  "Trusted Airless Painting Sprayer Manufacturer offering high-quality painting equipment",
-                  "Strong focus on precision engineering, durability, and coating efficiency",
-                  "Use of premium-grade materials and advanced manufacturing processes",
-                  "Competitive pricing with excellent value for industrial and professional users",
-                  "Dedicated after-sales support including technical assistance and servicing solutions",
-                ],
-              },
-            ],
-
-            specs: [
-              { label: "Nozzle Size", value: "1 mm" },
-              { label: "Body Material", value: "Plastic" },
-              { label: "Cup Capacity", value: "550 ml" },
-              { label: "Air Inlet Size", value: "1.0 Coun1/4" },
-              { label: "Usage", value: "Used For Painting" },
-            ],
-
-            image: [
-              {
-                src: "/Spare parts of airless paint machines/LX 80 GUN.webp",
-                alt: "Pneumatic 70:1 Airless Paint Sprayer",
+                src: "/prods/Shot-Blasting-Machine-Spare-Parts.webp",
+                alt: "Shot Blasting Machine Spare Parts by Vands Engineering Solution",
               },
             ],
           },
@@ -2458,6 +2836,232 @@ export const categories = [
       },
     ],
   },
+
+  //Spare Parts
+  // {
+  //   id: "spare-parts",
+  //   name: "Spare Parts",
+  //   banner: "/banner/Polyurethane-Spray-Machines.webp",
+  //   metaTitle: "Spare parts of Spray Gun Manufacturer & Supplier in India",
+  //   metaDescription:
+  //     "Vands Engineering Solutions offers reliable Polyurethane Machines for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+  //   subcategory: [
+  //     {
+  //       id: "spray-guns",
+  //       name: "Spray Guns",
+  //       products: [
+  //         {
+  //           id: "airless-paint-spray-gun",
+  //           name: "Airless Paint Spray Gun",
+  //           metaTitle: "Airless Paint Spray Gun | Vands Engineering",
+  //           metaDescription:
+  //             "Vands Engineering Solutions offers reliable Airless Paint Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+  //           description: [
+  //             { type: "h2", text: "Overview" },
+  //             {
+  //               type: "p",
+  //               text: "The Airless Paint Spray Gun by Vands Engineering Solution is a precision-engineered spraying solution designed for professional-grade finishing and coating applications. Built with high-quality stainless steel construction, this spray gun offers excellent durability, corrosion resistance, and long operational life in demanding industrial and commercial environments. It delivers smooth, uniform, and controlled paint application while ensuring efficient air consumption and stable spraying performance. Designed for user comfort and reliable operation, the spray gun is ideal for achieving superior coating quality across a wide range of applications.",
+  //             },
+
+  //             { type: "h2", text: "Features & Benefits:" },
+  //             {
+  //               type: "ul",
+  //               items: [
+  //                 "Equipped with a 1 mm nozzle size for precise atomization and smooth paint distribution",
+  //                 "Durable stainless steel body construction ensures high strength and corrosion resistance",
+  //                 "Operates efficiently within an air pressure range of 70–100 PSI for consistent spraying performance",
+  //                 "Low air consumption of 7–8 CFM helps reduce compressor load and improve efficiency",
+  //                 "Compact and ergonomic design ensures easy handling and better operator comfort",
+  //                 "100 ml cup capacity supports convenient operation for detailed and precision painting tasks",
+  //                 "Provides smooth, controlled, and professional-quality coating results",
+  //               ],
+  //             },
+
+  //             { type: "h2", text: "Applications:" },
+  //             {
+  //               type: "ul",
+  //               items: [
+  //                 "Ideal for industrial painting and coating applications requiring precision finishing",
+  //                 "Suitable for automotive refinishing, touch-up work, and detailed paint applications",
+  //                 "Widely used in furniture, metal fabrication, and woodworking industries",
+  //                 "Perfect for applying primers, enamels, lacquers, and decorative coatings",
+  //                 "Preferred by professional painters and workshops for reliable spray performance",
+  //               ],
+  //             },
+
+  //             { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+  //             {
+  //               type: "ul",
+  //               items: [
+  //                 "Trusted Airless Painting Sprayer Manufacturer delivering high-quality spraying equipment",
+  //                 "Strong focus on precision engineering, durability, and efficient coating performance",
+  //                 "Use of premium-grade materials for long-lasting reliability and reduced maintenance",
+  //                 "Competitive pricing with excellent value for industrial and professional users",
+  //                 "Dedicated after-sales support including technical assistance, servicing, and customer support",
+  //               ],
+  //             },
+  //           ],
+
+  //           specs: [
+  //             { label: "Nozzle Size", value: "1 mm" },
+  //             { label: "Body Material", value: "Stainless Steel" },
+  //             { label: "Air Pressure", value: "70 - 100 psi" },
+  //             { label: "Air Consumption", value: "7 - 8 CFM" },
+  //             { label: "Cup Capacity", value: "100 ml" },
+  //             { label: "Color", value: "Silver" },
+  //           ],
+
+  //           image: [
+  //             {
+  //               src: "/Spare parts of airless paint machines/Silver plus gun.webp",
+  //               alt: "Pneumatic 70:1 Airless Paint Sprayer",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           id: "mild-steel-blue-paint-spray-gun",
+  //           name: "Mild Steel Blue Paint Spray Gun",
+  //           metaTitle: "Mild Steel Blue Paint Spray Gun | Vands Engineering",
+  //           metaDescription:
+  //             "Vands Engineering Solutions offers reliable Mild Steel Blue Paint Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+  //           description: [
+  //             { type: "h2", text: "Overview" },
+  //             {
+  //               type: "p",
+  //               text: "The Mild Steel Blue Paint Spray Gun by Vands Engineering Solution is a high-performance painting tool designed for smooth and efficient coating applications across multiple industries. Engineered to deliver precise paint atomization and uniform coating results, this spray gun ensures professional-quality surface finishing on a variety of materials. Manufactured with a durable mild steel handle structure, it offers excellent strength, stability, and long-lasting operational performance. Designed for easy handling and controlled spraying, the spray gun is ideal for industrial, commercial, automotive, and workshop painting applications.",
+  //             },
+
+  //             { type: "h2", text: "Features & Benefits:" },
+  //             {
+  //               type: "ul",
+  //               items: [
+  //                 "Equipped with a 1.3 mm nozzle size for smooth atomization and consistent paint application",
+  //                 "Large 500 ml cup capacity supports continuous spraying with reduced refilling frequency",
+  //                 "Durable mild steel handle construction ensures strong grip and long service life",
+  //                 "Single nozzle spray system provides controlled paint flow and uniform coating performance",
+  //                 "Attractive blue base finish gives a professional appearance and enhanced durability",
+  //                 "Ergonomic design ensures comfortable handling during extended painting operations",
+  //                 "Designed for reliable performance and efficient paint transfer across various surfaces",
+  //               ],
+  //             },
+
+  //             { type: "h2", text: "Applications:" },
+  //             {
+  //               type: "ul",
+  //               items: [
+  //                 "Ideal for industrial and commercial painting applications requiring smooth finishing",
+  //                 "Suitable for automotive refinishing, furniture coating, and metal surface painting",
+  //                 "Widely used in workshops, fabrication units, and construction projects",
+  //                 "Perfect for applying primers, enamels, lacquers, and decorative coatings",
+  //                 "Preferred by professional painters and contractors for reliable spray performance",
+  //               ],
+  //             },
+
+  //             { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+  //             {
+  //               type: "ul",
+  //               items: [
+  //                 "Trusted Airless Painting Sprayer Manufacturer offering high-quality painting equipment",
+  //                 "Strong focus on precision engineering, durability, and coating efficiency",
+  //                 "Use of premium-grade materials and advanced manufacturing processes",
+  //                 "Competitive pricing with excellent value for industrial and professional users",
+  //                 "Dedicated after-sales support including technical assistance and servicing solutions",
+  //               ],
+  //             },
+  //           ],
+
+  //           specs: [
+  //             { label: "Cup Capacity", value: "500 ml" },
+  //             { label: "Nozzle Size", value: "1.3 mm" },
+  //             { label: "Type", value: "Spray Gun" },
+  //             { label: "Handle Material", value: "Mild Steel" },
+  //             { label: "Usage", value: "Used For Painting" },
+  //             { label: "Nozzle", value: "Single Nozzle" },
+  //             { label: "Color", value: "Blue" },
+  //           ],
+
+  //           image: [
+  //             {
+  //               src: "/Spare parts of airless paint machines/Maxcoat Gun.webp",
+  //               alt: "Pneumatic 70:1 Airless Paint Sprayer",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           id: "lx80-airless-spray-gun",
+  //           name: "LX80 Airless Spray Gun",
+  //           metaTitle: "LX80 Airless Spray Gun | Vands Engineering",
+  //           metaDescription:
+  //             "Vands Engineering Solutions offers reliable LX80 Airless Spray Gun for industrial use. Trusted manufacturer and wholesaler delivering performance and durability.",
+
+  //           description: [
+  //             { type: "h2", text: "Overview" },
+  //             {
+  //               type: "p",
+  //               text: "The LX80 Airless Spray Gun by Vands Engineering Solution is a high-performance spraying tool designed for smooth and efficient paint application across multiple industries. Engineered to deliver precise atomization and uniform coating results, this spray gun ensures professional-quality surface finishing on a variety of materials. Manufactured using a durable and lightweight plastic body, it offers comfortable handling, easy operation, and long operational performance. Designed for compatibility with airless paint sprayers, the LX80 Airless Spray Gun is suitable for industrial, commercial, automotive, and construction painting applications requiring reliable and efficient spraying performance.",
+  //             },
+
+  //             { type: "h2", text: "Features & Benefits:" },
+  //             {
+  //               type: "ul",
+  //               items: [
+  //                 "Equipped with a 1 mm nozzle size for smooth atomization and even paint distribution",
+  //                 "Durable plastic body construction ensures lightweight handling and wear resistance",
+  //                 "Large 550 ml cup capacity allows longer spraying duration with fewer refills",
+  //                 "Standard 1/4 inch air inlet size ensures compatibility with various spraying systems",
+  //                 "Ergonomic and user-friendly design provides comfortable grip and controlled spraying",
+  //                 "Designed for reliable and efficient coating performance across different applications",
+  //                 "Supports smooth and professional-quality finishing on multiple surface types",
+  //               ],
+  //             },
+
+  //             { type: "h2", text: "Applications:" },
+  //             {
+  //               type: "ul",
+  //               items: [
+  //                 "Ideal for industrial and commercial painting applications requiring uniform finishes",
+  //                 "Suitable for automotive refinishing, furniture coating, and decorative painting work",
+  //                 "Widely used in workshops, fabrication units, and construction painting projects",
+  //                 "Perfect for applying primers, enamels, lacquers, and protective coatings",
+  //                 "Preferred by professional painters and contractors for reliable spraying performance",
+  //               ],
+  //             },
+
+  //             { type: "h2", text: "Why Choose Vands Engineering Solution:" },
+  //             {
+  //               type: "ul",
+  //               items: [
+  //                 "Trusted Airless Painting Sprayer Manufacturer offering high-quality painting equipment",
+  //                 "Strong focus on precision engineering, durability, and coating efficiency",
+  //                 "Use of premium-grade materials and advanced manufacturing processes",
+  //                 "Competitive pricing with excellent value for industrial and professional users",
+  //                 "Dedicated after-sales support including technical assistance and servicing solutions",
+  //               ],
+  //             },
+  //           ],
+
+  //           specs: [
+  //             { label: "Nozzle Size", value: "1 mm" },
+  //             { label: "Body Material", value: "Plastic" },
+  //             { label: "Cup Capacity", value: "550 ml" },
+  //             { label: "Air Inlet Size", value: "1.0 Coun1/4" },
+  //             { label: "Usage", value: "Used For Painting" },
+  //           ],
+
+  //           image: [
+  //             {
+  //               src: "/Spare parts of airless paint machines/LX 80 GUN.webp",
+  //               alt: "Pneumatic 70:1 Airless Paint Sprayer",
+  //             },
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 
   // [Polyurethane Machines]
   {
@@ -2789,92 +3393,95 @@ export const categories = [
           },
 
           {
-  id: "electric-compressor-10hp",
-  name: "Electric Compressor 10 HP",
+            id: "electric-compressor-10hp",
+            name: "Electric Compressor 10 HP",
 
-  metaTitle:
-    "10 HP Electric Air Compressor | Industrial Air Compressor",
+            metaTitle:
+              "10 HP Electric Air Compressor | Industrial Air Compressor",
 
-  metaDescription:
-    "Buy 10 HP Electric Air Compressor with 7.5 kW motor, 39 CFM air delivery at 8 Bar, IE3 motor, and IP55 protection. Ideal for industrial compressed air applications.",
+            metaDescription:
+              "Buy 10 HP Electric Air Compressor with 7.5 kW motor, 39 CFM air delivery at 8 Bar, IE3 motor, and IP55 protection. Ideal for industrial compressed air applications.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The 10 HP Electric Air Compressor from Vands Engineering Solution is a high-performance industrial compressor designed to deliver reliable and efficient compressed air for demanding applications. Powered by a 7.5 kW squirrel-cage induction motor, it provides excellent air delivery while maintaining energy efficiency and long service life. Featuring direct drive technology, IP55 protection, and an IE3 high-efficiency motor, this compressor is ideal for manufacturing plants, workshops, automotive facilities, and industrial operations.",
-    },
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The 10 HP Electric Air Compressor from Vands Engineering Solution is a high-performance industrial compressor designed to deliver reliable and efficient compressed air for demanding applications. Powered by a 7.5 kW squirrel-cage induction motor, it provides excellent air delivery while maintaining energy efficiency and long service life. Featuring direct drive technology, IP55 protection, and an IE3 high-efficiency motor, this compressor is ideal for manufacturing plants, workshops, automotive facilities, and industrial operations.",
+              },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "Powerful 10 HP (7.5 kW) industrial motor",
-        "Air-cooled system for reliable continuous operation",
-        "High air delivery of 39 CFM at 8 Bar",
-        "Energy-efficient IE3 motor for lower power consumption",
-        "Direct drive mechanism for reduced maintenance",
-        "IP55 protection for harsh industrial environments",
-        "Star-Delta starter for smooth motor operation",
-        "Low oil carryover for clean compressed air output",
-      ],
-    },
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "Powerful 10 HP (7.5 kW) industrial motor",
+                  "Air-cooled system for reliable continuous operation",
+                  "High air delivery of 39 CFM at 8 Bar",
+                  "Energy-efficient IE3 motor for lower power consumption",
+                  "Direct drive mechanism for reduced maintenance",
+                  "IP55 protection for harsh industrial environments",
+                  "Star-Delta starter for smooth motor operation",
+                  "Low oil carryover for clean compressed air output",
+                ],
+              },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Automotive workshops",
-        "Industrial manufacturing plants",
-        "Painting and spray coating applications",
-        "CNC machines and pneumatic tools",
-        "Fabrication and engineering workshops",
-        "General compressed air systems",
-      ],
-    },
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Automotive workshops",
+                  "Industrial manufacturing plants",
+                  "Painting and spray coating applications",
+                  "CNC machines and pneumatic tools",
+                  "Fabrication and engineering workshops",
+                  "General compressed air systems",
+                ],
+              },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Reliable industrial air compressor solutions",
-        "Premium-quality components for long service life",
-        "Energy-efficient and low-maintenance design",
-        "Consistent compressed air performance",
-        "Professional technical support and after-sales service",
-      ],
-    },
-  ],
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Reliable industrial air compressor solutions",
+                  "Premium-quality components for long service life",
+                  "Energy-efficient and low-maintenance design",
+                  "Consistent compressed air performance",
+                  "Professional technical support and after-sales service",
+                ],
+              },
+            ],
 
-  specs: [
-    { label: "Model", value: "10 HP" },
-    { label: "Motor Power", value: "7.5 kW" },
-    { label: "Cooling Type", value: "Air Cooled" },
-    { label: "Free Air Delivery (8 Bar)", value: "39 CFM" },
-    { label: "Free Air Delivery (10 Bar)", value: "32 CFM" },
-    { label: "Motor Type", value: "Squirrel-Cage Induction Motor" },
-    { label: "Start Type", value: "Star Delta" },
-    { label: "Voltage / Frequency", value: "3 Phase, 415V ±5%, 50Hz" },
-    { label: "Insulation Class", value: "F-Class" },
-    { label: "Protection Level", value: "IP55" },
-    { label: "Motor Efficiency", value: "IE3 Motor" },
-    { label: "Motor Speed", value: "2800 RPM (2 Pole)" },
-    { label: "Drive Type", value: "Direct Drive" },
-    { label: "Oil Carryover", value: "< 5 PPM" },
-  ],
+            specs: [
+              { label: "Model", value: "10 HP" },
+              { label: "Motor Power", value: "7.5 kW" },
+              { label: "Cooling Type", value: "Air Cooled" },
+              { label: "Free Air Delivery (8 Bar)", value: "39 CFM" },
+              { label: "Free Air Delivery (10 Bar)", value: "32 CFM" },
+              { label: "Motor Type", value: "Squirrel-Cage Induction Motor" },
+              { label: "Start Type", value: "Star Delta" },
+              {
+                label: "Voltage / Frequency",
+                value: "3 Phase, 415V ±5%, 50Hz",
+              },
+              { label: "Insulation Class", value: "F-Class" },
+              { label: "Protection Level", value: "IP55" },
+              { label: "Motor Efficiency", value: "IE3 Motor" },
+              { label: "Motor Speed", value: "2800 RPM (2 Pole)" },
+              { label: "Drive Type", value: "Direct Drive" },
+              { label: "Oil Carryover", value: "< 5 PPM" },
+            ],
 
-  ytArray: {
-    title: "10 HP Electric Air Compressor",
-    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
-  },
+            ytArray: {
+              title: "10 HP Electric Air Compressor",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
 
-  image: [
-    {
-      src: "/prods/ELECTRIC-COMPRESSOR.webp",
-      alt: "10 HP Electric Air Compressor",
-    },
-  ],
-},
+            image: [
+              {
+                src: "/prods/ELECTRIC-COMPRESSOR.webp",
+                alt: "10 HP Electric Air Compressor",
+              },
+            ],
+          },
         ],
       },
       {
@@ -2976,7 +3583,90 @@ export const categories = [
       {
         id: "road-marking-machine",
         name: "Road Marking Machine",
-        products: [],
+        products: [
+          {
+            id: "cold-paint-road-marking-machine",
+            name: "Cold Paint Road Marking Machine",
+
+            metaTitle: "Cold Paint Road Marking Machine | Vands Engineering",
+
+            metaDescription:
+              "Buy Cold Paint Road Marking Machine from Vands Engineering Solution. Ideal for precise road line marking with manual operation, 160cc engine, and adjustable line widths from 4 to 24 inches.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Cold Paint Road Marking Machine from Vands Engineering Solution is a reliable and efficient solution for creating clear and durable road markings. Designed with a powerful 160cc engine and semi-automatic operation, it delivers precise and consistent line marking using cold paint technology. Its robust construction, adjustable line width, and bucket-type paint tank make it suitable for highways, parking areas, airports, industrial facilities, and municipal road maintenance projects. Built for ease of use and long-lasting performance, this machine ensures high productivity while enhancing road safety and visibility.",
+              },
+
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "Designed for accurate and uniform cold paint road marking",
+                  "Powerful 160cc engine for reliable field performance",
+                  "Semi-automatic operation for improved productivity",
+                  "Adjustable line width from 4 to 24 inches",
+                  "Bucket-type paint tank for easy paint refilling",
+                  "Heavy-duty construction for long service life",
+                  "Easy to operate and maintain",
+                  "Suitable for continuous road marking applications",
+                ],
+              },
+
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Highway and roadway lane marking",
+                  "Parking lot line marking",
+                  "Airport runway and taxiway marking",
+                  "Industrial facility safety marking",
+                  "Warehouse floor line marking",
+                  "Municipal road maintenance projects",
+                  "Pedestrian crossings and traffic guidance markings",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "High-quality road marking equipment",
+                  "Built for accuracy, durability, and efficiency",
+                  "Reliable performance in demanding work environments",
+                  "Competitive pricing with dependable after-sales support",
+                  "Trusted supplier of industrial and road maintenance machinery",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Product", value: "Cold Paint Road Marking Machine" },
+              { label: "Paint Type", value: "Cold Paint" },
+              { label: "Marking Paint Type", value: "Cold Paint" },
+              { label: "Automation Grade", value: "Manual" },
+              { label: "Operation", value: "Semi-Automatic" },
+              { label: "Paint Tank Capacity", value: "Bucket Type" },
+              { label: "Line Width", value: "4 Inch – 24 Inch" },
+              { label: "Engine Power", value: "160cc" },
+              { label: "Brand", value: "Vands" },
+            ],
+
+            ytArray: {
+              title: "Cold Paint Road Marking Machine",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
+
+            image: [
+              {
+                src: "/prods/Cold-Paint-Road-Marking-Machine.webp",
+                alt: "Cold Paint Road Marking Machine by Vands Engineering Solution",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -2993,14 +3683,186 @@ export const categories = [
       "Explore high-quality kerb painting machines and road marking machines from Vands Engineering Solutions. Designed for precise line marking, durability, and high performance, our machines are ideal for highways, roads, parking lots, airports, and industrial applications.",
 
     subcategory: [
-{
+      {
+        id: "flam-spray-gun-metalizing-gun",
+        name: "Flame Spray Gun (Metalizing Gun)",
+        products: [
+          {
+            id: "flame-spray-gun-metalizing-gun",
+            name: "Flame Spray Gun (Metalizing Gun)",
+            metaTitle:
+              "Flame Spray Gun (Metalizing Gun) | Industrial Coating Tool",
+            metaDescription:
+              "Buy flame spray gun (metalizing gun) for efficient thermal spray coating. Ideal for corrosion protection, surface restoration, and industrial applications.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Flame Spray Gun (Metalizing Gun) by Vands Engineering Solution is a high-performance thermal spray system designed for surface coating, corrosion protection, and metal restoration applications. It works by melting coating materials using a controlled flame and spraying them onto prepared surfaces to form a strong, durable protective layer. This process is widely used for restoring worn-out components, improving wear resistance, and providing anti-corrosion protection for industrial parts. Built for continuous industrial use, it ensures stable flame control, consistent spray output, and excellent coating adhesion for demanding maintenance and production environments.",
+              },
+
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "High-efficiency flame spraying system for uniform metal coating",
+                  "Compatible with zinc, aluminum, and alloy coating wires",
+                  "Ergonomic and lightweight design for operator comfort",
+                  "Adjustable flame control for precise coating thickness",
+                  "Durable industrial-grade construction for long service life",
+                  "Consistent spray output with minimal material wastage",
+                  "Suitable for both field and workshop applications",
+                ],
+              },
+
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Corrosion protection for steel structures, bridges, and pipelines",
+                  "Restoration of worn mechanical and industrial components",
+                  "Surface protection of machinery and heavy equipment",
+                  "Marine industry rust prevention applications",
+                  "Thermal spray coating for automotive parts",
+                  "Maintenance and repair of industrial components",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted manufacturer of industrial coating and blasting equipment",
+                  "Precision-engineered tools for durability and performance",
+                  "Suitable for both small and heavy-duty applications",
+                  "Focus on safety, efficiency, and long operational life",
+                  "Strong technical support and after-sales service",
+                ],
+              },
+            ],
+
+            specs: [
+              {
+                label: "Machine Type",
+                value: "Flame Spray Gun (Metalizing Gun)",
+              },
+              { label: "Process Type", value: "Thermal Flame Spray Coating" },
+              {
+                label: "Coating Materials",
+                value: "Zinc, Aluminum, Alloy Wires",
+              },
+              { label: "Operation", value: "Manual / Industrial Spray System" },
+              {
+                label: "Usage",
+                value: "Corrosion Protection & Metal Restoration",
+              },
+              { label: "Application", value: "Industrial Surface Coating" },
+              { label: "Build", value: "Heavy Duty Industrial Grade" },
+            ],
+
+            ytArray: {
+              title: "Flame Spray Gun (Metalizing Gun)",
+              link: "https://www.youtube.com/embed/LfWbejGP8So",
+            },
+
+            image: [
+              {
+                src: "/prods/Flame Spray Gun (Metalizing Gun).webp",
+                alt: "Flame Spray Gun Metalizing Gun",
+              },
+            ],
+          },
+        ],
+      },
+      {
         id: "spare-parts",
         name: "Spare parts ",
-        products: [],
-      },
-    ]
+        products: [
+          {
+  id: "air-filter-regulator-lubricator",
+  name: "Air Filter Regulator Lubricator",
+
+  metaTitle:
+    "Air Filter Regulator Lubricator for Flame Spray Gun | Vands",
+
+  metaDescription:
+    "Buy Air Filter Regulator Lubricator for Flame Spray Gun from Vands Engineering Solution. Ensures clean, regulated, and lubricated compressed air for reliable flame spray operations.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The Air Filter Regulator Lubricator (FRL Unit) from Vands Engineering Solution is an essential spare part for flame spray gun systems. It combines air filtration, pressure regulation, and lubrication into a single compact unit to ensure a clean and stable compressed air supply. By removing moisture and contaminants, maintaining consistent air pressure, and supplying the required lubrication, the FRL unit improves spray quality, extends equipment life, and enhances the overall efficiency of flame spray coating operations.",
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "Three-in-one unit combining air filter, regulator, and lubricator",
+        "Removes dust, moisture, and impurities from compressed air",
+        "Maintains stable air pressure for consistent flame spray performance",
+        "Provides automatic lubrication to pneumatic components",
+        "Improves coating quality and spray consistency",
+        "Compact, durable, and easy to install",
+        "Reduces maintenance costs and extends equipment life",
+        "Suitable for continuous industrial operation",
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Flame spray gun systems",
+        "Thermal spray coating equipment",
+        "Metalizing applications",
+        "Industrial pneumatic systems",
+        "Surface engineering and coating operations",
+        "General compressed air equipment",
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "High-quality genuine flame spray spare parts",
+        "Reliable performance for industrial applications",
+        "Durable construction with long service life",
+        "Precision-engineered for maximum efficiency",
+        "Professional technical support and after-sales service",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Product", value: "Air Filter Regulator Lubricator" },
+    { label: "Type", value: "FRL Unit" },
+    { label: "Function", value: "Air Filtration, Pressure Regulation & Lubrication" },
+    { label: "Application", value: "Flame Spray Gun System" },
+    { label: "Air Supply", value: "Compressed Air" },
+    { label: "Installation", value: "Inline Pneumatic Connection" },
+    { label: "Brand", value: "Vands" },
+  ],
+
+  ytArray: {
+    title: "Air Filter Regulator Lubricator",
+    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
   },
 
+  image: [
+    {
+      src: "/prods/Air-Filter-Regulator-Lubricator.webp",
+      alt: "Air Filter Regulator Lubricator for Flame Spray Gun",
+    },
+  ],
+},
+        ],
+      },
+    ],
+  },
 
   {
     id: "cement-motrar-spray-machine-m9",
@@ -3013,8 +3875,98 @@ export const categories = [
     metaDescription:
       "Explore high-quality kerb painting machines and road marking machines from Vands Engineering Solutions. Designed for precise line marking, durability, and high performance, our machines are ideal for highways, roads, parking lots, airports, and industrial applications.",
 
-    subcategory: []
-  
+    subcategory: [
+      {
+        id: "cement-motrar-spray-machine-m9",
+        name: "CEMENT MOTRAR SPRAY MACHINE M-9",
+        products: [
+          {
+            id: "fireproofing-spray-mixture-machine-m9",
+            name: "Fireproofing Spray Mixture Machine M9",
+
+            metaTitle:
+              "Fireproofing Spray Mixture Machine M9 | Vands Engineering",
+
+            metaDescription:
+              "Buy Fireproofing Spray Mixture Machine M9 from Vands Engineering Solution. Automatic three-phase machine for mixing and spraying cement and fireproofing materials with high efficiency.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Fireproofing Spray Mixture Machine M9 from Vands Engineering Solution is a high-performance automatic machine designed for mixing and spraying cement-based fireproofing materials with exceptional efficiency. Built from robust mild steel components, this machine ensures reliable operation, uniform material mixing, and consistent spray application. Its heavy-duty construction, three-phase power system, and user-friendly controls make it ideal for large-scale construction and industrial fireproofing projects while requiring minimal maintenance.",
+              },
+
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "Automatic operation for increased productivity",
+                  "Efficient mixing and spraying of cement and fireproofing materials",
+                  "Heavy-duty mild steel construction for long service life",
+                  "Three-phase power system for reliable industrial performance",
+                  "Provides uniform material mixing and consistent spray application",
+                  "Easy to operate with low maintenance requirements",
+                  "Designed for continuous operation on demanding job sites",
+                  "Suitable for commercial and industrial fireproofing applications",
+                ],
+              },
+
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Structural steel fireproofing",
+                  "Commercial building construction",
+                  "Industrial plant fire protection",
+                  "Warehouse and factory fireproof coating",
+                  "Tunnel and infrastructure projects",
+                  "Cement-based fireproofing material application",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Trusted manufacturer of industrial spraying equipment",
+                  "Premium-quality machines with durable construction",
+                  "Reliable performance for large-scale projects",
+                  "Low maintenance and easy operation",
+                  "Professional technical support and dependable after-sales service",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Model", value: "M9" },
+              { label: "Product", value: "Fireproofing Spray Mixture Machine" },
+              { label: "Material", value: "Mild Steel (M.S.)" },
+              { label: "Condition", value: "New" },
+              { label: "Power Supply", value: "Three Phase" },
+              {
+                label: "Application",
+                value: "Mixing and Spraying Cement & Fireproofing Materials",
+              },
+              { label: "Automation Grade", value: "Automatic" },
+              { label: "Weight", value: "550 kg" },
+            ],
+
+            ytArray: {
+              title: "Fireproofing Spray Mixture Machine M9",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
+
+            image: [
+              {
+                src: "/prods/cement.webp",
+                alt: "Fireproofing Spray Mixture Machine M9 by Vands Engineering Solution",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
 
   //Precision & Finishing Tools
@@ -3293,9 +4245,342 @@ export const categories = [
       },
 
       {
-        id: "abrasive ",
-        name: "Abrasive ",
-        products: [],
+        id: "abrasive",
+        name: "Abrasive",
+        products: [
+          {
+            id: "steel-shot",
+            name: "Steel Shot",
+
+            metaTitle: "Steel Shot | Shot Blasting Media | Vands",
+
+            metaDescription:
+              "Buy Steel Shot from Vands Engineering Solution. High-quality steel shot blasting media for efficient surface cleaning, descaling, deburring, and shot peening applications.",
+
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Steel Shot from Vands Engineering Solution is a premium-quality abrasive blasting media designed for high-performance surface preparation and shot peening applications. Manufactured from high-grade steel granules, it offers excellent durability, consistent particle size, and long service life. This steel shot delivers superior cleaning efficiency while ensuring a uniform surface finish, making it ideal for foundries, fabrication units, automotive industries, and heavy engineering applications.",
+              },
+
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "High-quality steel granules for superior blasting performance",
+                  "Excellent wear resistance for extended service life",
+                  "Consistent particle size for uniform surface finishing",
+                  "High cleaning efficiency with reduced abrasive consumption",
+                  "Ideal for repeated use in blasting systems",
+                  "Improves surface preparation before painting and coating",
+                  "Suitable for automated and manual shot blasting machines",
+                  "Provides reliable performance in demanding industrial environments",
+                ],
+              },
+
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Shot blasting and surface preparation",
+                  "Rust and scale removal",
+                  "Metal cleaning before painting and coating",
+                  "Foundry cleaning operations",
+                  "Shot peening applications",
+                  "Automotive and heavy engineering industries",
+                  "Steel fabrication and structural cleaning",
+                ],
+              },
+
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Premium-quality abrasive blasting media",
+                  "Consistent particle size and reliable performance",
+                  "Manufactured to meet industrial quality standards",
+                  "Long-lasting and cost-effective blasting solution",
+                  "Trusted supplier with dependable technical support",
+                ],
+              },
+            ],
+
+            specs: [
+              { label: "Product", value: "Steel Shot" },
+              { label: "Material Grade", value: "Steel Granules" },
+              { label: "Size", value: "S 110" },
+              { label: "Color", value: "Brown / Black" },
+              { label: "Brand", value: "Vands" },
+              { label: "Packaging Size", value: "1 kg" },
+              { label: "Packaging Type", value: "Packet" },
+            ],
+
+            ytArray: {
+              title: "Steel Shot",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
+
+            image: [
+              {
+                src: "/prods/Steel-Shot.webp",
+                alt: "Steel Shot Blasting",
+              },
+            ],
+          },
+
+          {
+  id: "steel-grits",
+  name: "Steel Grits",
+
+  metaTitle:
+    "Steel Grits | Abrasive Blasting Media | Vands",
+
+  metaDescription:
+    "Buy Steel Grits from Vands Engineering Solution. High-hardness abrasive media for shot blasting, surface preparation, rust removal, and industrial cleaning applications.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The  Steel Grits from Vands Engineering Solution are premium-quality angular steel abrasives designed for efficient surface preparation, cleaning, and shot blasting applications. Manufactured with high hardness and excellent durability, these steel grits provide aggressive cutting action for removing rust, mill scale, old coatings, and surface contaminants. Their consistent particle size and long service life make them ideal for industrial blasting operations requiring superior surface profiles before painting or coating.",
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "High-hardness steel grit with 60 HRC for aggressive surface cleaning",
+        "Angular particles provide excellent cutting efficiency",
+        "High durability with long operational life",
+        "Consistent particle size for uniform blasting results",
+        "Ideal for repeated use in blasting machines",
+        "Produces an excellent surface profile for coating adhesion",
+        "Low dust generation and high blasting efficiency",
+        "Suitable for automatic and manual blasting systems",
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Shot blasting and surface preparation",
+        "Rust, scale, and paint removal",
+        "Steel fabrication and heavy engineering",
+        "Foundry cleaning operations",
+        "Bridge and structural steel maintenance",
+        "Surface preparation before painting and coating",
+        "Industrial metal cleaning and finishing",
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Premium-quality abrasive blasting media",
+        "Consistent particle size and superior hardness",
+        "Reliable performance for demanding industrial applications",
+        "Cost-effective with extended service life",
+        "Trusted supplier with dependable technical support",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Product", value: "Steel Grits" },
+    { label: "Size", value: "S110" },
+    { label: "Hardness", value: "60 HRC" },
+    { label: "Density", value: "7.0 g/cm³" },
+    { label: "Usage / Application", value: "Industrial" },
+    { label: "Brand", value: "Vands" },
+    { label: "Packaging Size", value: "25 kg" },
+    { label: "Packaging Type", value: "HDPE Bag" },
+  ],
+
+  ytArray: {
+    title: "Steel Grits",
+    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+  },
+
+  image: [
+    {
+      src: "/prods/Steel-Grits.webp",
+      alt: "S110 Steel Grits Abrasive Blasting Media",
+    },
+  ],
+},
+
+
+{
+  id: "copper-slag",
+  name: "Copper Slag",
+
+  metaTitle:
+    "Copper Slag | Abrasive Blasting Media | Vands",
+
+  metaDescription:
+    "Buy Copper Slag from Vands Engineering Solution. High-quality abrasive media for sand blasting, rust removal, surface preparation, and industrial cleaning applications.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The Copper Slag from Vands Engineering Solution is a premium-quality abrasive blasting media produced as a byproduct of copper smelting and refining. Known for its high hardness, durability, and chemical stability, it provides excellent cleaning efficiency for removing rust, mill scale, old coatings, and surface contaminants. Its low free silica content and superior abrasive performance make it an ideal choice for industrial sand blasting, surface preparation, and protective coating applications.",
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "High-performance abrasive for fast and efficient surface cleaning",
+        "Excellent hardness for effective rust and paint removal",
+        "Low free silica content for safer blasting operations",
+        "Produces a uniform surface profile for improved coating adhesion",
+        "Chemically stable and environmentally reliable",
+        "Low dust generation with high blasting efficiency",
+        "Suitable for manual and automated blasting systems",
+        "Cost-effective abrasive with consistent performance",
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Industrial sand blasting",
+        "Rust and corrosion removal",
+        "Surface preparation before painting",
+        "Shipyards and marine maintenance",
+        "Steel fabrication and structural cleaning",
+        "Oil and gas pipeline maintenance",
+        "Tank and bridge surface preparation",
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Premium-quality abrasive blasting materials",
+        "Reliable and consistent industrial performance",
+        "High cleaning efficiency with reduced blasting time",
+        "Cost-effective solutions for surface preparation",
+        "Trusted supplier with professional technical support",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Product", value: "Blasting Copper Slag" },
+    { label: "Form", value: "Powder" },
+    { label: "Usage / Application", value: "Sand Blasting" },
+    { label: "Color", value: "Black" },
+    { label: "Brand", value: "Vands" },
+    { label: "Packaging Size", value: "50 kg" },
+    { label: "Packaging Type", value: "HDPE Bag" },
+  ],
+
+  ytArray: {
+    title: "Copper Slag",
+    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+  },
+
+  image: [
+    {
+      src: "/prods/Copper-Slag.webp",
+      alt: "Copper Slag Abrasive",
+    },
+  ],
+},
+
+
+{
+  id: "glass-beads",
+  name: "Glass Beads",
+
+  metaTitle:
+    "Glass Beads Abrasive | Blasting Glass Beads | Vands",
+
+  metaDescription:
+    "Buy Glass Beads Abrasive from Vands Engineering Solution. Premium-quality glass blasting media for cleaning, polishing, deburring, and surface finishing applications.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The Glass Beads Abrasive from Vands Engineering Solution is a high-quality blasting media manufactured from premium-grade glass. Featuring a uniform round shape and consistent particle size, these glass beads provide gentle yet effective cleaning, polishing, and surface finishing without damaging the base material. They are ideal for producing smooth, satin-like finishes on metals while removing rust, paint, scale, and other surface contaminants. Their durability and reusability make them a cost-effective solution for a wide range of industrial blasting applications.",
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "Premium-quality round glass beads for consistent blasting performance",
+        "Produces a smooth, bright, and satin-like surface finish",
+        "Removes rust, paint, and contaminants without damaging the substrate",
+        "Highly durable and reusable for multiple blasting cycles",
+        "Low dust generation for a cleaner working environment",
+        "Chemically inert and environmentally friendly",
+        "Suitable for both manual and automated blasting systems",
+        "Provides uniform surface preparation before coating or painting",
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Metal cleaning and surface preparation",
+        "Polishing stainless steel and aluminum components",
+        "Rust and paint removal",
+        "Deburring precision-machined parts",
+        "Automotive and aerospace component finishing",
+        "Mold and die cleaning",
+        "Decorative metal surface finishing",
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Premium-quality abrasive blasting media",
+        "Consistent particle size for uniform finishing results",
+        "Long-lasting and reusable for reduced operating costs",
+        "Reliable performance across industrial applications",
+        "Trusted supplier with professional technical support",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Product", value: "Glass Beads" },
+    { label: "Material", value: "Glass" },
+    { label: "Color", value: "White" },
+    { label: "Shape", value: "Round" },
+    { label: "Size", value: "300 Micron" },
+    { label: "Brand", value: "Vands" },
+    { label: "Packaging Size", value: "25 kg" },
+    { label: "Packaging Type", value: "HDPE Bag" },
+  ],
+
+  ytArray: {
+    title: "Glass Beads Abrasive",
+    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+  },
+
+  image: [
+    {
+      src: "/prods/glass-bead.webp",
+      alt: "Glass Beads Abrasive Blasting",
+    },
+  ],
+},
+
+
+        ],
       },
     ],
   },

@@ -66,10 +66,10 @@ const Footer = () => {
           </a>
 
           <a
-            href="mailto:vandsengg@gmail.com"
+            href="mailto:sales.vands5@gmail.com"
             className="flex items-center gap-2 text-sm mb-4 hover:text-red-400 transition"
           >
-            <FaEnvelope className="text-red-400" /> vandsengg@gmail.com
+            <FaEnvelope className="text-red-400" /> sales.vands5@gmail.com
           </a>
 
           {/* Social */}
