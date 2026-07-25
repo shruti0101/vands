@@ -593,6 +593,90 @@ export const categories = [
               },
             ],
           },
+
+          {
+  id: "v9-model",
+  name: "V9 Model",
+
+  metaTitle:
+    "V9 Mortar Spray Machine | Cement Plaster Spray Machine | Vands",
+
+  metaDescription:
+    "Buy V9 Mortar Spray Machine from Vands Engineering Solution. Features a 1000W motor, 1380W air compressor, 20L hopper, and 15m hose for efficient plastering and mortar spraying.",
+
+  description: [
+    { type: "h2", text: "Overview" },
+    {
+      type: "p",
+      text: "The V9 Model Mortar Spray Machine from Vands Engineering Solution is a compact and high-performance spraying system designed for cement mortar, plaster, putty, and wall coating applications. Equipped with a powerful 1000W motor, integrated 1380W air compressor, and a 20-liter hopper, it delivers smooth and uniform material application while reducing labor and increasing productivity. Its lightweight yet durable construction makes it suitable for residential, commercial, and industrial construction projects.",
+    },
+
+    { type: "h2", text: "Features & Benefits" },
+    {
+      type: "ul",
+      items: [
+        "1000W high-performance motor for reliable operation",
+        "Built-in 1380W air compressor for consistent spraying",
+        "20-liter hopper for extended working time",
+        "Maximum hose length of 15 meters for greater working reach",
+        "Vertical output up to 5 meters and horizontal output up to 15 meters",
+        "Variable motor speed from 0–2500 RPM",
+        "Compact design with easy transportation and operation",
+        "Provides smooth and uniform plaster and mortar application",
+      ],
+    },
+
+    { type: "h2", text: "Applications" },
+    {
+      type: "ul",
+      items: [
+        "Cement mortar spraying",
+        "Wall plastering",
+        "Putty spraying",
+        "Interior and exterior wall coating",
+        "Construction and renovation projects",
+        "Commercial and residential buildings",
+      ],
+    },
+
+    { type: "h2", text: "Why Choose Vands Engineering Solution" },
+    {
+      type: "ul",
+      items: [
+        "Reliable construction spraying equipment",
+        "High productivity with reduced labor costs",
+        "Durable components for long service life",
+        "Easy operation and low maintenance",
+        "Professional technical support and after-sales service",
+      ],
+    },
+  ],
+
+  specs: [
+    { label: "Model", value: "V9" },
+    { label: "Motor Power", value: "1000W" },
+    { label: "Air Compressor Power", value: "1380W" },
+    { label: "Voltage / Frequency", value: "220V / 50Hz" },
+    { label: "Maximum Hose Length", value: "15 m" },
+    { label: "Vertical Output", value: "5 m" },
+    { label: "Horizontal Output", value: "15 m" },
+    { label: "Motor Speed", value: "0–2500 RPM" },
+    { label: "Hopper Capacity", value: "20 L" },
+    { label: "Weight", value: "61 kg" },
+  ],
+
+  ytArray: {
+    title: "V9 Mortar Spray Machine",
+    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+  },
+
+  image: [
+    {
+      src: "/prods/v9-model.webp",
+      alt: "V9 Mortar Spray Machine",
+    },
+  ],
+},
         ],
       },
 
