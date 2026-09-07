@@ -18,9 +18,9 @@ export default function AboutSection() {
         
         {/* LEFT CONTENT */}
         <div>
-          <h1 className="text-3xl  font-oswald font-bold text-gray-900 leading-tight mb-4">
+          <h3 className="text-3xl  font-oswald font-bold text-gray-900 leading-tight mb-4">
             Vands Engineering Solutions
-          </h1>
+          </h3>
 
           <h2 className="text-lg md:text-4xl font-semibold text-red-500 mb-6">
             Leading Airless Painting Machine Manufacturer & Wholesaler
