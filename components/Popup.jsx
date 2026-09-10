@@ -14,40 +14,40 @@ export default function ContactForm() {
   const [product, setProduct] = useState("");
   const [message, setMessage] = useState("");
 
-useEffect(() => {
-  // Don't show again during this browser session
-  if (sessionStorage.getItem("popupShown")) return;
+  useEffect(() => {
+    // Don't show again during this browser session
+    if (sessionStorage.getItem("popupShown")) return;
 
-  const handleScroll = () => {
-    const scrollableHeight =
-      document.documentElement.scrollHeight - window.innerHeight;
+    const handleScroll = () => {
+      const scrollableHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
 
-    // If page isn't scrollable enough
-    if (scrollableHeight <= 0) return;
+      // If page isn't scrollable enough
+      if (scrollableHeight <= 0) return;
 
-    const scrolled = window.scrollY;
+      const scrolled = window.scrollY;
 
-    // Show popup after 30% of total scrollable page
-    if (scrolled >= scrollableHeight * 0.3) {
-      setIsOpen(true);
+      // Show popup after 30% of total scrollable page
+      if (scrolled >= scrollableHeight * 0.3) {
+        setIsOpen(true);
 
-      sessionStorage.setItem("popupShown", "true");
+        sessionStorage.setItem("popupShown", "true");
 
+        window.removeEventListener("scroll", handleScroll);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, {
+      passive: true,
+    });
+
+    // Check once in case the page is already scrolled
+    handleScroll();
+
+    return () => {
       window.removeEventListener("scroll", handleScroll);
-    }
-  };
-
-  window.addEventListener("scroll", handleScroll, {
-    passive: true,
-  });
-
-  // Check once in case the page is already scrolled
-  handleScroll();
-
-  return () => {
-    window.removeEventListener("scroll", handleScroll);
-  };
-}, []);
+    };
+  }, []);
 
   if (!isOpen) return null;
 
@@ -60,6 +60,7 @@ useEffect(() => {
 
     try {
       const formData = {
+        supplierToken: "6a9bd96879bd32ac5164a486",
         platform: "Vands engineering Popup Form",
         platformEmail: "vandsengg@gmail.com",
         name,
@@ -115,10 +116,10 @@ Contact: ${phone}`;
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/40  z-50">
-      
+
       <div
         className="relative rounded-3xl shadow-[0_25px_80px_rgba(0,0,0,0.5)] p-10 max-w-sm md:max-w-2xl w-[95%] text-white overflow-hidden border border-white/20"
-      
+
       >
         {/* DARK OVERLAY */}
         <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
@@ -216,9 +217,8 @@ Contact: ${phone}`;
 
             {status && (
               <p
-                className={`text-center text-sm mt-2 font-medium ${
-                  status.startsWith("✅") ? "text-green-400" : "text-red-400"
-                }`}
+                className={`text-center text-sm mt-2 font-medium ${status.startsWith("✅") ? "text-green-400" : "text-red-400"
+                  }`}
               >
                 {status}
               </p>

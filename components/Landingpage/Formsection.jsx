@@ -15,7 +15,7 @@ const Cta = () => {
   const [message, setMessage] = useState("");
   const [requirement, setRequirement] = useState("");
 
-  const Allproducts = categories.flatMap((c)=>c.products)
+  const Allproducts = categories.flatMap((c) => c.products)
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,6 +24,7 @@ const Cta = () => {
 
     try {
       const formData = {
+        supplierToken: "6a9bd96879bd32ac5164a486",
         platform: "vands engineering Website enquiry form",
         platformEmail: "vandsengg@gmail.com",
         name,
@@ -114,124 +115,123 @@ ${message}`;
         </div>
 
         {/* FORM */}
-       <div className="bg-white rounded-3xl p-8 shadow-[0_25px_80px_rgba(0,0,0,0.08)] border border-gray-100">
+        <div className="bg-white rounded-3xl p-8 shadow-[0_25px_80px_rgba(0,0,0,0.08)] border border-gray-100">
 
-  
 
-  <form onSubmit={handleSubmit} className="space-y-5">
 
-    {/* Name + Phone */}
-    <div className="grid md:grid-cols-2 gap-5">
-      <div className="flex flex-col">
-        <label className="text-sm font-medium text-gray-700 mb-1">Name</label>
-        <input
-          type="text"
-          required
-          disabled={loading}
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
-        />
-      </div>
+          <form onSubmit={handleSubmit} className="space-y-5">
 
-      <div className="flex flex-col">
-        <label className="text-sm font-medium text-gray-700 mb-1">Phone Number</label>
-        <input
-          type="tel"
-          required
-          disabled={loading}
-          value={phone}
-          maxLength={10}
-          onChange={(e) => setPhone(e.target.value)}
-          className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
-        />
-      </div>
-    </div>
+            {/* Name + Phone */}
+            <div className="grid md:grid-cols-2 gap-5">
+              <div className="flex flex-col">
+                <label className="text-sm font-medium text-gray-700 mb-1">Name</label>
+                <input
+                  type="text"
+                  required
+                  disabled={loading}
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
+                />
+              </div>
 
-    {/* Location + Product */}
-    <div className="grid md:grid-cols-2 gap-5">
-      <div className="flex flex-col">
-        <label className="text-sm font-medium text-gray-700 mb-1">City / Location</label>
-        <input
-          type="text"
-          required
-          disabled={loading}
-          value={place}
-          onChange={(e) => setPlace(e.target.value)}
-          className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
-        />
-      </div>
+              <div className="flex flex-col">
+                <label className="text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                <input
+                  type="tel"
+                  required
+                  disabled={loading}
+                  value={phone}
+                  maxLength={10}
+                  onChange={(e) => setPhone(e.target.value)}
+                  className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
+                />
+              </div>
+            </div>
 
-      <div className="flex flex-col">
-        <label className="text-sm font-medium text-gray-700 mb-1">Select Product</label>
-        <select
-          value={requirement}
-          required
-          disabled={loading}
-          onChange={(e) => setRequirement(e.target.value)}
-          className="border border-gray-200 rounded-lg px-4 py-3 bg-white focus:ring-2 focus:ring-[#FAAC18] outline-none"
-        >
-          <option value="">Choose Product</option>
-          {Allproducts.map((cat) => (
-            <option key={cat.id} value={cat.name}>
-              {cat.name}
-            </option>
-          ))}
-        </select>
-      </div>
-    </div>
+            {/* Location + Product */}
+            <div className="grid md:grid-cols-2 gap-5">
+              <div className="flex flex-col">
+                <label className="text-sm font-medium text-gray-700 mb-1">City / Location</label>
+                <input
+                  type="text"
+                  required
+                  disabled={loading}
+                  value={place}
+                  onChange={(e) => setPlace(e.target.value)}
+                  className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
+                />
+              </div>
 
-    {/* Email */}
-    <div className="flex flex-col">
-      <label className="text-sm font-medium text-gray-700 mb-1">Email Address</label>
-      <input
-        type="email"
-        required
-        disabled={loading}
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
-      />
-    </div>
+              <div className="flex flex-col">
+                <label className="text-sm font-medium text-gray-700 mb-1">Select Product</label>
+                <select
+                  value={requirement}
+                  required
+                  disabled={loading}
+                  onChange={(e) => setRequirement(e.target.value)}
+                  className="border border-gray-200 rounded-lg px-4 py-3 bg-white focus:ring-2 focus:ring-[#FAAC18] outline-none"
+                >
+                  <option value="">Choose Product</option>
+                  {Allproducts.map((cat) => (
+                    <option key={cat.id} value={cat.name}>
+                      {cat.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
 
-    {/* Message */}
-    <div className="flex flex-col">
-      <label className="text-sm font-medium text-gray-700 mb-1">Message</label>
-      <textarea
-        rows={4}
-        required
-        disabled={loading}
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-        className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition resize-none"
-      />
-    </div>
+            {/* Email */}
+            <div className="flex flex-col">
+              <label className="text-sm font-medium text-gray-700 mb-1">Email Address</label>
+              <input
+                type="email"
+                required
+                disabled={loading}
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition"
+              />
+            </div>
 
-    {/* Button */}
-    <button
-      type="submit"
-      disabled={loading}
-      className="w-full bg-gradient-to-r from-[#FAAC18] to-[#f59e0b] text-white font-semibold py-3 rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all"
-    >
-      {loading ? "Submitting..." : "Get Free Consultation"}
-    </button>
+            {/* Message */}
+            <div className="flex flex-col">
+              <label className="text-sm font-medium text-gray-700 mb-1">Message</label>
+              <textarea
+                rows={4}
+                required
+                disabled={loading}
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                className="border border-gray-200 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#FAAC18] outline-none transition resize-none"
+              />
+            </div>
 
-    {/* Status */}
-    {status && (
-      <p
-        className={`text-center text-sm font-medium p-3 rounded ${
-          status.startsWith("✅")
-            ? "bg-green-50 text-green-700"
-            : status.startsWith("❌")
-            ? "bg-red-50 text-red-700"
-            : "bg-yellow-50 text-yellow-700"
-        }`}
-      >
-        {status}
-      </p>
-    )}
-  </form>
-</div>
+            {/* Button */}
+            <button
+              type="submit"
+              disabled={loading}
+              className="w-full bg-gradient-to-r from-[#FAAC18] to-[#f59e0b] text-white font-semibold py-3 rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all"
+            >
+              {loading ? "Submitting..." : "Get Free Consultation"}
+            </button>
+
+            {/* Status */}
+            {status && (
+              <p
+                className={`text-center text-sm font-medium p-3 rounded ${status.startsWith("✅")
+                  ? "bg-green-50 text-green-700"
+                  : status.startsWith("❌")
+                    ? "bg-red-50 text-red-700"
+                    : "bg-yellow-50 text-yellow-700"
+                  }`}
+              >
+                {status}
+              </p>
+            )}
+          </form>
+        </div>
       </div>
     </section>
   );

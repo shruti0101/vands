@@ -22,6 +22,7 @@ export default function Page() {
 
     try {
       const formData = {
+        supplierToken: "6a9bd96879bd32ac5164a486",
         platform: "Vands Engineering  Contact Form",
         platformEmail: "sales.vands5@gmail.com",
         name,
@@ -101,7 +102,7 @@ Contact: ${phone}`;
             <Phone className="mx-auto text-[#C8102E] mb-3" size={32} />
             <h3 className="font-semibold text-lg mb-2">Phone Number</h3>
             <p>+91-9990730939</p>
-           
+
           </div>
 
           <div className="bg-white p-6 rounded-2xl shadow-xl text-center hover:scale-105 transition">
@@ -114,8 +115,8 @@ Contact: ${phone}`;
             <MapPin className="mx-auto text-[#C8102E] mb-3" size={32} />
             <h3 className="font-semibold text-lg mb-2">Address</h3>
             <p className="text-sm text-gray-600">
-               KH No - 82/11/1 First Floor Near Mahindra Service Center Firni Road , Mundka  <br />
-              New Delhi - 110041 
+              KH No - 82/11/1 First Floor Near Mahindra Service Center Firni Road , Mundka  <br />
+              New Delhi - 110041
             </p>
           </div>
 
@@ -171,7 +172,7 @@ Contact: ${phone}`;
                   <option>Airless Painting Machine</option>
                   <option>Blasting Machine</option>
                   <option>Others</option>
-              
+
                 </select>
               </div>
 
@@ -213,8 +214,8 @@ Contact: ${phone}`;
 
           {/* MAP */}
           <div className="rounded-2xl overflow-hidden shadow-xl">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.358504221931!2d77.02360519999999!3d28.6789206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05a383a54ac1%3A0x57915af3caf410f0!2sVands%20engineering%20solutions!5e0!3m2!1sen!2sin!4v1776684171431!5m2!1sen!2sin"   allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"  className="w-full h-full min-h-[500px] border-0"
-             ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.358504221931!2d77.02360519999999!3d28.6789206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05a383a54ac1%3A0x57915af3caf410f0!2sVands%20engineering%20solutions!5e0!3m2!1sen!2sin!4v1776684171431!5m2!1sen!2sin" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="w-full h-full min-h-[500px] border-0"
+            ></iframe>
           </div>
 
         </div>

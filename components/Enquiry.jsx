@@ -9,54 +9,55 @@ export default function Enquiry({ isOpen, onClose }) {
   const [submitted, setSubmitted] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const [loading, setLoading] = useState(false);
-const [message, setMessage] = useState("");
+  const [message, setMessage] = useState("");
 
   if (!isOpen) return null;
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-  const formElement = e.currentTarget;
+    const formElement = e.currentTarget;
 
-  const payload = {
-    platform: "Vands Engineering Inquiry Form",
-    platformEmail: "vandsengg@gmail.com",
-    name: formElement.name.value.trim(),
-    phone: formElement.phone.value.trim(),
-    email: formElement.email.value.trim(),
-    place: "N/A",
-    product: formElement.products.value,
-    message: formElement.message.value.trim(),
-  };
+    const payload = {
+      supplierToken: "6a9bd96879bd32ac5164a486",
+      platform: "Vands Engineering Inquiry Form",
+      platformEmail: "vandsengg@gmail.com",
+      name: formElement.name.value.trim(),
+      phone: formElement.phone.value.trim(),
+      email: formElement.email.value.trim(),
+      place: "N/A",
+      product: formElement.products.value,
+      message: formElement.message.value.trim(),
+    };
 
-  try {
-    setLoading(true);
-    setMessage("");
+    try {
+      setLoading(true);
+      setMessage("");
 
-    const { data } = await axios.post(
-      "https://brandbnalo.com/api/form/add",
-      payload
-    );
+      const { data } = await axios.post(
+        "https://brandbnalo.com/api/form/add",
+        payload
+      );
 
-    if (data?.success) {
-      setMessage("✅ Thank you! Your enquiry has been submitted successfully.");
+      if (data?.success) {
+        setMessage("✅ Thank you! Your enquiry has been submitted successfully.");
 
-      formElement.reset();
+        formElement.reset();
 
-      setTimeout(() => {
-        setMessage("");
-        onClose();
-      }, 2500);
-    } else {
-      setMessage("❌ Failed to submit enquiry. Please try again.");
+        setTimeout(() => {
+          setMessage("");
+          onClose();
+        }, 2500);
+      } else {
+        setMessage("❌ Failed to submit enquiry. Please try again.");
+      }
+    } catch (error) {
+      console.error(error);
+      setMessage("❌ Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
     }
-  } catch (error) {
-    console.error(error);
-    setMessage("❌ Something went wrong. Please try again.");
-  } finally {
-    setLoading(false);
-  }
-};
+  };
 
 
   return (
