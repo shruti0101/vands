@@ -170,7 +170,7 @@ const Footer = () => {
           <ul className="space-y-3 text-sm text-white">
             <li>
               <Link
-                href="/categories/airless-painting-machine"
+                href="/categories/airless-painting-machine/electric-paint-machine"
                 className="hover:text-red-400 transition"
               >
                 Airless Painting Machines
@@ -178,7 +178,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/categories/airless-wall-putty-spray-machines"
+                href="/categories/airless-painting-machine/wall-putty-spray-machines"
                 className="hover:text-red-400 transition"
               >
                 Airless Wall Putty Spray Machines
@@ -186,7 +186,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/categories/pneumatic-airless-paint-machines"
+                href="/categories/pneumatic-machine/pneumaticmachine"
                 className="hover:text-red-400 transition"
               >
                 Pneumatic Airless Paint Machines
@@ -194,7 +194,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/categories/kerb-painting-machines"
+                href="/categories/road-marking-machines/kerb-painting-machine"
                 className="hover:text-red-400 transition"
               >
                 Kerb Painting Machines
@@ -202,7 +202,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/categories/polyurethane-spray-machines"
+                href="/categories/polyurethane-spray-machines/polyurethane-spray-machine"
                 className="hover:text-red-400 transition"
               >
                 Polyurethane Spray Machines
@@ -210,7 +210,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/categories/spare-parts-airless-painting-machines"
+                href="/categories/airless-painting-machine/spare-parts-of-airless-painting-machine"
                 className="hover:text-red-400 transition"
               >
                 {" "}
@@ -219,11 +219,11 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/categories/blasting-machine"
+                href="/categories/sand-blasting-machine/sand-blasting-trolley-type"
                 className="hover:text-red-400 transition"
               >
                 {" "}
-                Blasting Machines
+               Sand Blasting Machines
               </Link>
             </li>
             
