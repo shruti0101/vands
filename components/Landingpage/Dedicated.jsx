@@ -63,7 +63,7 @@ export default function ManufacturerSection() {
             <div className="mt-8 flex flex-wrap gap-4">
             
 
-              <Link href="/categories/airless-painting-machine" className="border border-gray-900 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition">
+              <Link href="/products" className="border border-gray-900 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition">
                 Explore Products
               </Link>
             </div>

@@ -595,88 +595,88 @@ export const categories = [
           },
 
           {
-  id: "v9-model",
-  name: "V9 Model",
+            id: "v9-model",
+            name: "V9 Model",
 
-  metaTitle:
-    "V9 Mortar Spray Machine | Cement Plaster Spray Machine | Vands",
+            metaTitle:
+              "V9 Mortar Spray Machine | Cement Plaster Spray Machine | Vands",
 
-  metaDescription:
-    "Buy V9 Mortar Spray Machine from Vands Engineering Solution. Features a 1000W motor, 1380W air compressor, 20L hopper, and 15m hose for efficient plastering and mortar spraying.",
+            metaDescription:
+              "Buy V9 Mortar Spray Machine from Vands Engineering Solution. Features a 1000W motor, 1380W air compressor, 20L hopper, and 15m hose for efficient plastering and mortar spraying.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The V9 Model Mortar Spray Machine from Vands Engineering Solution is a compact and high-performance spraying system designed for cement mortar, plaster, putty, and wall coating applications. Equipped with a powerful 1000W motor, integrated 1380W air compressor, and a 20-liter hopper, it delivers smooth and uniform material application while reducing labor and increasing productivity. Its lightweight yet durable construction makes it suitable for residential, commercial, and industrial construction projects.",
-    },
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The V9 Model Mortar Spray Machine from Vands Engineering Solution is a compact and high-performance spraying system designed for cement mortar, plaster, putty, and wall coating applications. Equipped with a powerful 1000W motor, integrated 1380W air compressor, and a 20-liter hopper, it delivers smooth and uniform material application while reducing labor and increasing productivity. Its lightweight yet durable construction makes it suitable for residential, commercial, and industrial construction projects.",
+              },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "1000W high-performance motor for reliable operation",
-        "Built-in 1380W air compressor for consistent spraying",
-        "20-liter hopper for extended working time",
-        "Maximum hose length of 15 meters for greater working reach",
-        "Vertical output up to 5 meters and horizontal output up to 15 meters",
-        "Variable motor speed from 0–2500 RPM",
-        "Compact design with easy transportation and operation",
-        "Provides smooth and uniform plaster and mortar application",
-      ],
-    },
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "1000W high-performance motor for reliable operation",
+                  "Built-in 1380W air compressor for consistent spraying",
+                  "20-liter hopper for extended working time",
+                  "Maximum hose length of 15 meters for greater working reach",
+                  "Vertical output up to 5 meters and horizontal output up to 15 meters",
+                  "Variable motor speed from 0–2500 RPM",
+                  "Compact design with easy transportation and operation",
+                  "Provides smooth and uniform plaster and mortar application",
+                ],
+              },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Cement mortar spraying",
-        "Wall plastering",
-        "Putty spraying",
-        "Interior and exterior wall coating",
-        "Construction and renovation projects",
-        "Commercial and residential buildings",
-      ],
-    },
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Cement mortar spraying",
+                  "Wall plastering",
+                  "Putty spraying",
+                  "Interior and exterior wall coating",
+                  "Construction and renovation projects",
+                  "Commercial and residential buildings",
+                ],
+              },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Reliable construction spraying equipment",
-        "High productivity with reduced labor costs",
-        "Durable components for long service life",
-        "Easy operation and low maintenance",
-        "Professional technical support and after-sales service",
-      ],
-    },
-  ],
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Reliable construction spraying equipment",
+                  "High productivity with reduced labor costs",
+                  "Durable components for long service life",
+                  "Easy operation and low maintenance",
+                  "Professional technical support and after-sales service",
+                ],
+              },
+            ],
 
-  specs: [
-    { label: "Model", value: "V9" },
-    { label: "Motor Power", value: "1000W" },
-    { label: "Air Compressor Power", value: "1380W" },
-    { label: "Voltage / Frequency", value: "220V / 50Hz" },
-    { label: "Maximum Hose Length", value: "15 m" },
-    { label: "Vertical Output", value: "5 m" },
-    { label: "Horizontal Output", value: "15 m" },
-    { label: "Motor Speed", value: "0–2500 RPM" },
-    { label: "Hopper Capacity", value: "20 L" },
-    { label: "Weight", value: "61 kg" },
-  ],
+            specs: [
+              { label: "Model", value: "V9" },
+              { label: "Motor Power", value: "1000W" },
+              { label: "Air Compressor Power", value: "1380W" },
+              { label: "Voltage / Frequency", value: "220V / 50Hz" },
+              { label: "Maximum Hose Length", value: "15 m" },
+              { label: "Vertical Output", value: "5 m" },
+              { label: "Horizontal Output", value: "15 m" },
+              { label: "Motor Speed", value: "0–2500 RPM" },
+              { label: "Hopper Capacity", value: "20 L" },
+              { label: "Weight", value: "61 kg" },
+            ],
 
-  ytArray: {
-    title: "V9 Mortar Spray Machine",
-    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
-  },
+            ytArray: {
+              title: "V9 Mortar Spray Machine",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
 
-  image: [
-    {
-      src: "/prods/v9-model.webp",
-      alt: "V9 Mortar Spray Machine",
-    },
-  ],
-},
+            image: [
+              {
+                src: "/prods/v9-model.webp",
+                alt: "V9 Mortar Spray Machine",
+              },
+            ],
+          },
         ],
       },
 
@@ -3953,85 +3953,88 @@ export const categories = [
         name: "Spare parts ",
         products: [
           {
-  id: "air-filter-regulator-lubricator",
-  name: "Air Filter Regulator Lubricator",
+            id: "air-filter-regulator-lubricator",
+            name: "Air Filter Regulator Lubricator",
 
-  metaTitle:
-    "Air Filter Regulator Lubricator for Flame Spray Gun | Vands",
+            metaTitle:
+              "Air Filter Regulator Lubricator for Flame Spray Gun | Vands",
 
-  metaDescription:
-    "Buy Air Filter Regulator Lubricator for Flame Spray Gun from Vands Engineering Solution. Ensures clean, regulated, and lubricated compressed air for reliable flame spray operations.",
+            metaDescription:
+              "Buy Air Filter Regulator Lubricator for Flame Spray Gun from Vands Engineering Solution. Ensures clean, regulated, and lubricated compressed air for reliable flame spray operations.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Air Filter Regulator Lubricator (FRL Unit) from Vands Engineering Solution is an essential spare part for flame spray gun systems. It combines air filtration, pressure regulation, and lubrication into a single compact unit to ensure a clean and stable compressed air supply. By removing moisture and contaminants, maintaining consistent air pressure, and supplying the required lubrication, the FRL unit improves spray quality, extends equipment life, and enhances the overall efficiency of flame spray coating operations.",
-    },
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Air Filter Regulator Lubricator (FRL Unit) from Vands Engineering Solution is an essential spare part for flame spray gun systems. It combines air filtration, pressure regulation, and lubrication into a single compact unit to ensure a clean and stable compressed air supply. By removing moisture and contaminants, maintaining consistent air pressure, and supplying the required lubrication, the FRL unit improves spray quality, extends equipment life, and enhances the overall efficiency of flame spray coating operations.",
+              },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "Three-in-one unit combining air filter, regulator, and lubricator",
-        "Removes dust, moisture, and impurities from compressed air",
-        "Maintains stable air pressure for consistent flame spray performance",
-        "Provides automatic lubrication to pneumatic components",
-        "Improves coating quality and spray consistency",
-        "Compact, durable, and easy to install",
-        "Reduces maintenance costs and extends equipment life",
-        "Suitable for continuous industrial operation",
-      ],
-    },
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "Three-in-one unit combining air filter, regulator, and lubricator",
+                  "Removes dust, moisture, and impurities from compressed air",
+                  "Maintains stable air pressure for consistent flame spray performance",
+                  "Provides automatic lubrication to pneumatic components",
+                  "Improves coating quality and spray consistency",
+                  "Compact, durable, and easy to install",
+                  "Reduces maintenance costs and extends equipment life",
+                  "Suitable for continuous industrial operation",
+                ],
+              },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Flame spray gun systems",
-        "Thermal spray coating equipment",
-        "Metalizing applications",
-        "Industrial pneumatic systems",
-        "Surface engineering and coating operations",
-        "General compressed air equipment",
-      ],
-    },
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Flame spray gun systems",
+                  "Thermal spray coating equipment",
+                  "Metalizing applications",
+                  "Industrial pneumatic systems",
+                  "Surface engineering and coating operations",
+                  "General compressed air equipment",
+                ],
+              },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "High-quality genuine flame spray spare parts",
-        "Reliable performance for industrial applications",
-        "Durable construction with long service life",
-        "Precision-engineered for maximum efficiency",
-        "Professional technical support and after-sales service",
-      ],
-    },
-  ],
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "High-quality genuine flame spray spare parts",
+                  "Reliable performance for industrial applications",
+                  "Durable construction with long service life",
+                  "Precision-engineered for maximum efficiency",
+                  "Professional technical support and after-sales service",
+                ],
+              },
+            ],
 
-  specs: [
-    { label: "Product", value: "Air Filter Regulator Lubricator" },
-    { label: "Type", value: "FRL Unit" },
-    { label: "Function", value: "Air Filtration, Pressure Regulation & Lubrication" },
-    { label: "Application", value: "Flame Spray Gun System" },
-    { label: "Air Supply", value: "Compressed Air" },
-    { label: "Installation", value: "Inline Pneumatic Connection" },
-    { label: "Brand", value: "Vands" },
-  ],
+            specs: [
+              { label: "Product", value: "Air Filter Regulator Lubricator" },
+              { label: "Type", value: "FRL Unit" },
+              {
+                label: "Function",
+                value: "Air Filtration, Pressure Regulation & Lubrication",
+              },
+              { label: "Application", value: "Flame Spray Gun System" },
+              { label: "Air Supply", value: "Compressed Air" },
+              { label: "Installation", value: "Inline Pneumatic Connection" },
+              { label: "Brand", value: "Vands" },
+            ],
 
-  ytArray: {
-    title: "Air Filter Regulator Lubricator",
-    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
-  },
+            ytArray: {
+              title: "Air Filter Regulator Lubricator",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
 
-  image: [
-    {
-      src: "/prods/Air-Filter-Regulator-Lubricator.webp",
-      alt: "Air Filter Regulator Lubricator for Flame Spray Gun",
-    },
-  ],
-},
+            image: [
+              {
+                src: "/prods/Air-Filter-Regulator-Lubricator.webp",
+                alt: "Air Filter Regulator Lubricator for Flame Spray Gun",
+              },
+            ],
+          },
         ],
       },
     ],
@@ -4503,256 +4506,249 @@ export const categories = [
           },
 
           {
-  id: "steel-grits",
-  name: "Steel Grits",
+            id: "steel-grits",
+            name: "Steel Grits",
 
-  metaTitle:
-    "Steel Grits | Abrasive Blasting Media | Vands",
+            metaTitle: "Steel Grits | Abrasive Blasting Media | Vands",
 
-  metaDescription:
-    "Buy Steel Grits from Vands Engineering Solution. High-hardness abrasive media for shot blasting, surface preparation, rust removal, and industrial cleaning applications.",
+            metaDescription:
+              "Buy Steel Grits from Vands Engineering Solution. High-hardness abrasive media for shot blasting, surface preparation, rust removal, and industrial cleaning applications.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The  Steel Grits from Vands Engineering Solution are premium-quality angular steel abrasives designed for efficient surface preparation, cleaning, and shot blasting applications. Manufactured with high hardness and excellent durability, these steel grits provide aggressive cutting action for removing rust, mill scale, old coatings, and surface contaminants. Their consistent particle size and long service life make them ideal for industrial blasting operations requiring superior surface profiles before painting or coating.",
-    },
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The  Steel Grits from Vands Engineering Solution are premium-quality angular steel abrasives designed for efficient surface preparation, cleaning, and shot blasting applications. Manufactured with high hardness and excellent durability, these steel grits provide aggressive cutting action for removing rust, mill scale, old coatings, and surface contaminants. Their consistent particle size and long service life make them ideal for industrial blasting operations requiring superior surface profiles before painting or coating.",
+              },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "High-hardness steel grit with 60 HRC for aggressive surface cleaning",
-        "Angular particles provide excellent cutting efficiency",
-        "High durability with long operational life",
-        "Consistent particle size for uniform blasting results",
-        "Ideal for repeated use in blasting machines",
-        "Produces an excellent surface profile for coating adhesion",
-        "Low dust generation and high blasting efficiency",
-        "Suitable for automatic and manual blasting systems",
-      ],
-    },
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "High-hardness steel grit with 60 HRC for aggressive surface cleaning",
+                  "Angular particles provide excellent cutting efficiency",
+                  "High durability with long operational life",
+                  "Consistent particle size for uniform blasting results",
+                  "Ideal for repeated use in blasting machines",
+                  "Produces an excellent surface profile for coating adhesion",
+                  "Low dust generation and high blasting efficiency",
+                  "Suitable for automatic and manual blasting systems",
+                ],
+              },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Shot blasting and surface preparation",
-        "Rust, scale, and paint removal",
-        "Steel fabrication and heavy engineering",
-        "Foundry cleaning operations",
-        "Bridge and structural steel maintenance",
-        "Surface preparation before painting and coating",
-        "Industrial metal cleaning and finishing",
-      ],
-    },
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Shot blasting and surface preparation",
+                  "Rust, scale, and paint removal",
+                  "Steel fabrication and heavy engineering",
+                  "Foundry cleaning operations",
+                  "Bridge and structural steel maintenance",
+                  "Surface preparation before painting and coating",
+                  "Industrial metal cleaning and finishing",
+                ],
+              },
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Premium-quality abrasive blasting media",
-        "Consistent particle size and superior hardness",
-        "Reliable performance for demanding industrial applications",
-        "Cost-effective with extended service life",
-        "Trusted supplier with dependable technical support",
-      ],
-    },
-  ],
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Premium-quality abrasive blasting media",
+                  "Consistent particle size and superior hardness",
+                  "Reliable performance for demanding industrial applications",
+                  "Cost-effective with extended service life",
+                  "Trusted supplier with dependable technical support",
+                ],
+              },
+            ],
 
-  specs: [
-    { label: "Product", value: "Steel Grits" },
-    { label: "Size", value: "S110" },
-    { label: "Hardness", value: "60 HRC" },
-    { label: "Density", value: "7.0 g/cm³" },
-    { label: "Usage / Application", value: "Industrial" },
-    { label: "Brand", value: "Vands" },
-    { label: "Packaging Size", value: "25 kg" },
-    { label: "Packaging Type", value: "HDPE Bag" },
-  ],
+            specs: [
+              { label: "Product", value: "Steel Grits" },
+              { label: "Size", value: "S110" },
+              { label: "Hardness", value: "60 HRC" },
+              { label: "Density", value: "7.0 g/cm³" },
+              { label: "Usage / Application", value: "Industrial" },
+              { label: "Brand", value: "Vands" },
+              { label: "Packaging Size", value: "25 kg" },
+              { label: "Packaging Type", value: "HDPE Bag" },
+            ],
 
-  ytArray: {
-    title: "Steel Grits",
-    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
-  },
+            ytArray: {
+              title: "Steel Grits",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
 
-  image: [
-    {
-      src: "/prods/Steel-Grits.webp",
-      alt: "S110 Steel Grits Abrasive Blasting Media",
-    },
-  ],
-},
+            image: [
+              {
+                src: "/prods/Steel-Grits.webp",
+                alt: "S110 Steel Grits Abrasive Blasting Media",
+              },
+            ],
+          },
 
+          {
+            id: "copper-slag",
+            name: "Copper Slag",
 
-{
-  id: "copper-slag",
-  name: "Copper Slag",
+            metaTitle: "Copper Slag | Abrasive Blasting Media | Vands",
 
-  metaTitle:
-    "Copper Slag | Abrasive Blasting Media | Vands",
+            metaDescription:
+              "Buy Copper Slag from Vands Engineering Solution. High-quality abrasive media for sand blasting, rust removal, surface preparation, and industrial cleaning applications.",
 
-  metaDescription:
-    "Buy Copper Slag from Vands Engineering Solution. High-quality abrasive media for sand blasting, rust removal, surface preparation, and industrial cleaning applications.",
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Copper Slag from Vands Engineering Solution is a premium-quality abrasive blasting media produced as a byproduct of copper smelting and refining. Known for its high hardness, durability, and chemical stability, it provides excellent cleaning efficiency for removing rust, mill scale, old coatings, and surface contaminants. Its low free silica content and superior abrasive performance make it an ideal choice for industrial sand blasting, surface preparation, and protective coating applications.",
+              },
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Copper Slag from Vands Engineering Solution is a premium-quality abrasive blasting media produced as a byproduct of copper smelting and refining. Known for its high hardness, durability, and chemical stability, it provides excellent cleaning efficiency for removing rust, mill scale, old coatings, and surface contaminants. Its low free silica content and superior abrasive performance make it an ideal choice for industrial sand blasting, surface preparation, and protective coating applications.",
-    },
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "High-performance abrasive for fast and efficient surface cleaning",
+                  "Excellent hardness for effective rust and paint removal",
+                  "Low free silica content for safer blasting operations",
+                  "Produces a uniform surface profile for improved coating adhesion",
+                  "Chemically stable and environmentally reliable",
+                  "Low dust generation with high blasting efficiency",
+                  "Suitable for manual and automated blasting systems",
+                  "Cost-effective abrasive with consistent performance",
+                ],
+              },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "High-performance abrasive for fast and efficient surface cleaning",
-        "Excellent hardness for effective rust and paint removal",
-        "Low free silica content for safer blasting operations",
-        "Produces a uniform surface profile for improved coating adhesion",
-        "Chemically stable and environmentally reliable",
-        "Low dust generation with high blasting efficiency",
-        "Suitable for manual and automated blasting systems",
-        "Cost-effective abrasive with consistent performance",
-      ],
-    },
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Industrial sand blasting",
+                  "Rust and corrosion removal",
+                  "Surface preparation before painting",
+                  "Shipyards and marine maintenance",
+                  "Steel fabrication and structural cleaning",
+                  "Oil and gas pipeline maintenance",
+                  "Tank and bridge surface preparation",
+                ],
+              },
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Industrial sand blasting",
-        "Rust and corrosion removal",
-        "Surface preparation before painting",
-        "Shipyards and marine maintenance",
-        "Steel fabrication and structural cleaning",
-        "Oil and gas pipeline maintenance",
-        "Tank and bridge surface preparation",
-      ],
-    },
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Premium-quality abrasive blasting materials",
+                  "Reliable and consistent industrial performance",
+                  "High cleaning efficiency with reduced blasting time",
+                  "Cost-effective solutions for surface preparation",
+                  "Trusted supplier with professional technical support",
+                ],
+              },
+            ],
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Premium-quality abrasive blasting materials",
-        "Reliable and consistent industrial performance",
-        "High cleaning efficiency with reduced blasting time",
-        "Cost-effective solutions for surface preparation",
-        "Trusted supplier with professional technical support",
-      ],
-    },
-  ],
+            specs: [
+              { label: "Product", value: "Blasting Copper Slag" },
+              { label: "Form", value: "Powder" },
+              { label: "Usage / Application", value: "Sand Blasting" },
+              { label: "Color", value: "Black" },
+              { label: "Brand", value: "Vands" },
+              { label: "Packaging Size", value: "50 kg" },
+              { label: "Packaging Type", value: "HDPE Bag" },
+            ],
 
-  specs: [
-    { label: "Product", value: "Blasting Copper Slag" },
-    { label: "Form", value: "Powder" },
-    { label: "Usage / Application", value: "Sand Blasting" },
-    { label: "Color", value: "Black" },
-    { label: "Brand", value: "Vands" },
-    { label: "Packaging Size", value: "50 kg" },
-    { label: "Packaging Type", value: "HDPE Bag" },
-  ],
+            ytArray: {
+              title: "Copper Slag",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
 
-  ytArray: {
-    title: "Copper Slag",
-    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
-  },
+            image: [
+              {
+                src: "/prods/Copper-Slag.webp",
+                alt: "Copper Slag Abrasive",
+              },
+            ],
+          },
 
-  image: [
-    {
-      src: "/prods/Copper-Slag.webp",
-      alt: "Copper Slag Abrasive",
-    },
-  ],
-},
+          {
+            id: "glass-beads",
+            name: "Glass Beads",
 
+            metaTitle: "Glass Beads Abrasive | Blasting Glass Beads | Vands",
 
-{
-  id: "glass-beads",
-  name: "Glass Beads",
+            metaDescription:
+              "Buy Glass Beads Abrasive from Vands Engineering Solution. Premium-quality glass blasting media for cleaning, polishing, deburring, and surface finishing applications.",
 
-  metaTitle:
-    "Glass Beads Abrasive | Blasting Glass Beads | Vands",
+            description: [
+              { type: "h2", text: "Overview" },
+              {
+                type: "p",
+                text: "The Glass Beads Abrasive from Vands Engineering Solution is a high-quality blasting media manufactured from premium-grade glass. Featuring a uniform round shape and consistent particle size, these glass beads provide gentle yet effective cleaning, polishing, and surface finishing without damaging the base material. They are ideal for producing smooth, satin-like finishes on metals while removing rust, paint, scale, and other surface contaminants. Their durability and reusability make them a cost-effective solution for a wide range of industrial blasting applications.",
+              },
 
-  metaDescription:
-    "Buy Glass Beads Abrasive from Vands Engineering Solution. Premium-quality glass blasting media for cleaning, polishing, deburring, and surface finishing applications.",
+              { type: "h2", text: "Features & Benefits" },
+              {
+                type: "ul",
+                items: [
+                  "Premium-quality round glass beads for consistent blasting performance",
+                  "Produces a smooth, bright, and satin-like surface finish",
+                  "Removes rust, paint, and contaminants without damaging the substrate",
+                  "Highly durable and reusable for multiple blasting cycles",
+                  "Low dust generation for a cleaner working environment",
+                  "Chemically inert and environmentally friendly",
+                  "Suitable for both manual and automated blasting systems",
+                  "Provides uniform surface preparation before coating or painting",
+                ],
+              },
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Glass Beads Abrasive from Vands Engineering Solution is a high-quality blasting media manufactured from premium-grade glass. Featuring a uniform round shape and consistent particle size, these glass beads provide gentle yet effective cleaning, polishing, and surface finishing without damaging the base material. They are ideal for producing smooth, satin-like finishes on metals while removing rust, paint, scale, and other surface contaminants. Their durability and reusability make them a cost-effective solution for a wide range of industrial blasting applications.",
-    },
+              { type: "h2", text: "Applications" },
+              {
+                type: "ul",
+                items: [
+                  "Metal cleaning and surface preparation",
+                  "Polishing stainless steel and aluminum components",
+                  "Rust and paint removal",
+                  "Deburring precision-machined parts",
+                  "Automotive and aerospace component finishing",
+                  "Mold and die cleaning",
+                  "Decorative metal surface finishing",
+                ],
+              },
 
-    { type: "h2", text: "Features & Benefits" },
-    {
-      type: "ul",
-      items: [
-        "Premium-quality round glass beads for consistent blasting performance",
-        "Produces a smooth, bright, and satin-like surface finish",
-        "Removes rust, paint, and contaminants without damaging the substrate",
-        "Highly durable and reusable for multiple blasting cycles",
-        "Low dust generation for a cleaner working environment",
-        "Chemically inert and environmentally friendly",
-        "Suitable for both manual and automated blasting systems",
-        "Provides uniform surface preparation before coating or painting",
-      ],
-    },
+              { type: "h2", text: "Why Choose Vands Engineering Solution" },
+              {
+                type: "ul",
+                items: [
+                  "Premium-quality abrasive blasting media",
+                  "Consistent particle size for uniform finishing results",
+                  "Long-lasting and reusable for reduced operating costs",
+                  "Reliable performance across industrial applications",
+                  "Trusted supplier with professional technical support",
+                ],
+              },
+            ],
 
-    { type: "h2", text: "Applications" },
-    {
-      type: "ul",
-      items: [
-        "Metal cleaning and surface preparation",
-        "Polishing stainless steel and aluminum components",
-        "Rust and paint removal",
-        "Deburring precision-machined parts",
-        "Automotive and aerospace component finishing",
-        "Mold and die cleaning",
-        "Decorative metal surface finishing",
-      ],
-    },
+            specs: [
+              { label: "Product", value: "Glass Beads" },
+              { label: "Material", value: "Glass" },
+              { label: "Color", value: "White" },
+              { label: "Shape", value: "Round" },
+              { label: "Size", value: "300 Micron" },
+              { label: "Brand", value: "Vands" },
+              { label: "Packaging Size", value: "25 kg" },
+              { label: "Packaging Type", value: "HDPE Bag" },
+            ],
 
-    { type: "h2", text: "Why Choose Vands Engineering Solution" },
-    {
-      type: "ul",
-      items: [
-        "Premium-quality abrasive blasting media",
-        "Consistent particle size for uniform finishing results",
-        "Long-lasting and reusable for reduced operating costs",
-        "Reliable performance across industrial applications",
-        "Trusted supplier with professional technical support",
-      ],
-    },
-  ],
+            ytArray: {
+              title: "Glass Beads Abrasive",
+              link: "https://www.youtube.com/embed/NMFgzaD8JH0",
+            },
 
-  specs: [
-    { label: "Product", value: "Glass Beads" },
-    { label: "Material", value: "Glass" },
-    { label: "Color", value: "White" },
-    { label: "Shape", value: "Round" },
-    { label: "Size", value: "300 Micron" },
-    { label: "Brand", value: "Vands" },
-    { label: "Packaging Size", value: "25 kg" },
-    { label: "Packaging Type", value: "HDPE Bag" },
-  ],
-
-  ytArray: {
-    title: "Glass Beads Abrasive",
-    link: "https://www.youtube.com/embed/NMFgzaD8JH0",
-  },
-
-  image: [
-    {
-      src: "/prods/glass-bead.webp",
-      alt: "Glass Beads Abrasive Blasting",
-    },
-  ],
-},
-
-
+            image: [
+              {
+                src: "/prods/glass-bead.webp",
+                alt: "Glass Beads Abrasive Blasting",
+              },
+            ],
+          },
         ],
       },
     ],

@@ -14,19 +14,19 @@ import "swiper/css/navigation";
 const categories = [
   {
     id: 1,
-    name: "Airless Painting Machine",
+    name: "Eco Pro Plus",
     products: 30,
     img: "/cat/airlesspainting.webp",
     hoverImg: "/cat/6.webp",
-    link: "/categories/airless-painting-machine",
+    link: "/products/eco-pro-plus",
   },
   {
     id: 2,
     name: "Airless Wall Putty Spray Machines",
     products: 24,
-    img: "/cat/wallputty-removebg-preview.webp",
+    img: "/Galaxy1.webp",
     hoverImg: "/cat/1.webp",
-    link: "/categories/airless-wall-putty-spray-machines",
+    link: "/products/galaxy",
   },
   {
     id: 3,
@@ -34,31 +34,31 @@ const categories = [
     products: 21,
     img: "/cat/airlessspray-removebg-preview.webp",
     hoverImg: "/bg remove.webp",
-    link: "/categories/pneumatic-airless-paint-machines",
+    link: "/products/pneumatic-airless-paint-sprayer-pneumatic-70-1",
   },
   {
     id: 4,
     name: "Kerb Painting Machine",
     products: 37,
     img: "/cat/kerb-removebg-preview.webp",
-    hoverImg: "/2.jpeg",
-    link: "/categories/kerb-painting-machines",
+    hoverImg: "/22.webp",
+    link: "/products/kerb-painting-machine",
   },
   {
     id: 5,
     name: "Polyurethane Machines",
     products: 26,
     img: "/cat/airlesspaintspray-removebg-preview.webp",
-    hoverImg: "/1.jpeg",
-    link: "/categories/polyurethane-spray-machines",
+    hoverImg: "/11.webp",
+    link: "/categories/polyurethane-spray-machines/polyurethane-spray-machine",
   },
   {
     id: 6,
-    name: "Airless Painting machine spares parts",
+    name: "Painting Hose Pipe",
     products: 17,
     img: "/cat/wallpainting-removebg-preview.webp",
     hoverImg: "/accesseres/PAINT HOSE.webp",
-    link: "/categories/spare-parts-airless-painting-machines",
+    link: "/products/painting-hose-pipe",
   },
 ];
 
@@ -86,7 +86,7 @@ const Productcategory = () => {
             </div>
 
             <Link
-              href="/categories/airless-painting-machine"
+              href="/products"
               className="w-fit rounded-lg bg-red-600 px-5 py-2.5 text-sm font-semibold text-white shadow-md transition hover:bg-red-700 md:px-6 md:py-3 md:text-base"
             >
               Explore All Products

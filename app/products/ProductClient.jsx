@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { categories } from "@/Data";
+import { categories } from "@/Data2";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,10 +8,15 @@ const Page = () => {
   const [visibleCount, setVisibleCount] = useState(9);
 
   // Flatten all products from all categories
-  const allProducts = categories.flatMap((cat) =>
-    cat.products.map((p) => ({ ...p, categoryId: cat.id }))
-  );
-
+const allProducts = categories.flatMap((cat) =>
+  cat.subcategory.flatMap((sub) =>
+    sub.products.map((p) => ({
+      ...p,
+      categoryId: cat.id,
+      subcategoryId: sub.id,
+    }))
+  )
+);
   return (
     <div>
       {/* Hero Section */}

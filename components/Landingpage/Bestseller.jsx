@@ -10,6 +10,7 @@ import Link from "next/link";
 const products = [
   {
     name: "Galaxy Plus Sprayer",
+     href:"/products/galaxy",
     price: "₹45,000",
     image: "/cat/1.webp",
     tagline: "High Performance for Large Scale Projects",
@@ -23,38 +24,11 @@ const products = [
       "Heavy Duty Build",
     ],
   },
+ 
+ 
   {
-    name: "Heavy Duty Petrol Sprayer",
-    price: "₹75,000",
-    image: "/cat/2.webp",
-    tagline: "Maximum Power for Industrial Applications",
-    description:
-      "Built for tough environments, this petrol-powered sprayer ensures uninterrupted performance, making it ideal for large industrial and infrastructure projects.",
-    specs: [
-      "Powerful Petrol Engine",
-      "Industrial Grade Performance",
-      "High Coverage Area",
-      "Long Operational Life",
-      "Rugged Construction",
-    ],
-  },
-  {
-    name: "Galaxy Compact Sprayer",
-    price: "₹38,000",
-    image: "/cat/3.webp",
-    tagline: "Compact Design with Powerful Output",
-    description:
-      "A perfect balance of portability and performance, ideal for medium-scale projects requiring precision and efficiency.",
-    specs: [
-      "Compact & Lightweight",
-      "Easy Operation",
-      "Consistent Spray Output",
-      "Energy Efficient",
-      "Quick Setup",
-    ],
-  },
-  {
-    name: "EcoPro Sprayer",
+    name: "EcoPro Plus",
+    href:"/products/eco-pro-plus",
     price: "₹32,000",
     image: "/cat/4.webp",
     tagline: "Affordable & Efficient Painting Solution",
@@ -69,9 +43,10 @@ const products = [
     ],
   },
   {
-    name: "ProFinish Wall Sprayer",
+    name: " Vands 930 ProFinish Wall Sprayer",
     price: "₹42,000",
     image: "/cat/5.webp",
+    href:"/products/vands-930",
     tagline: "Perfect for Wall & Interior Coating",
     description:
       "Engineered for precision wall coating and interior finishes, delivering consistent coverage with professional-grade results.",
@@ -148,7 +123,7 @@ export default function BestSellerSlider() {
                   </div> */}
 
 
-                  <Link href="/categories/airless-painting-machine    ">
+                  <Link href={product.href}>
                     <button className="mt-4 w-fit bg-orange-500 text-white px-5 py-2 rounded-md hover:bg-orange-600 transition">
                       View Product
                     </button>
