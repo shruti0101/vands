@@ -72,21 +72,26 @@ export default function AboutPage() {
             {
               name: "Airless Painting Machine",
               img: "/prods/ejunior.webp",
+              href:"/products/e-junior"
             },
             {
               name: "GALAXY PLUS Airless Painting Machine",
               img: "/prods/GALAXY PLUS.webp",
+              href:"/products/galaxy-plus"
             },
             {
               name: "Pnuematic Airless Painting Machine",
               img: "/pnumatic.jpeg",
+              href:"products/pneumatic-airless-paint-sprayer-pneumatic-70-1"
             },
             {
               name: "Airless Tumblast Shot Blasting Machine",
-              img: "/prods/Airless Tumblast Shot Blasting Machine.webp",
+              img: "/Plural Component Sprayer.webp",
+              href:"/products/plural-component-ratio-2k-airless-spray-painting-machine" 
             },
           ].map((item, i) => (
-            <div
+            <Link
+            href={item.href}
               key={i}
               className="border p-4 rounded-lg text-center hover:shadow-lg transition bg-white"
             >
@@ -99,7 +104,7 @@ export default function AboutPage() {
                 />
               </div>
               <p className="font-semibold">{item.name}</p>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
